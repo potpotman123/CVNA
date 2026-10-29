@@ -54,6 +54,8 @@ These mechanisms interact. Do not multiply inventory growth, conversion growth a
 
 Begin with the ADESA data-feasibility study below. Do not buy data, start bulk scraping or fit an extensive model before establishing that observations can answer the question.
 
+First execution update: [ADESA pilot feasibility findings](adesa-pilot-feasibility-2026-10-29.md) and [initial event register](adesa-event-register.json). Live buyer-ZIP availability fields were observed; historical access and reconditioning-site attribution remain unresolved.
+
 ## Existing evidence
 
 - [Sell-side extraction and cautions](../sellside/2026-10-28-extraction.md).

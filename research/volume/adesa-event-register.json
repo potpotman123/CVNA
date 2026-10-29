@@ -1,0 +1,34 @@
+{
+  "as_of": "2026-10-29",
+  "status": "initial_public_source_register_not_complete",
+  "events": [
+    {
+      "site": "ADESA Kansas City",
+      "city": "Belton",
+      "state": "MO",
+      "announcement_date": "2024-08-19",
+      "first_production_date": null,
+      "company_reported_service_active_by": "2024-09-30",
+      "service": "same-day delivery for select Kansas City area customers explicitly linked to new megasite",
+      "integration_type": "retail IRC added alongside digital and in-lane wholesale auctions",
+      "sources": [
+        "https://press.carvana.com/carvana-develops-first-auction-irc-megasite-in-kansas-city/",
+        "https://investors.carvana.com/news-releases/2024/09-30-2024-100009412"
+      ],
+      "confidence": "company announcements verified; production start and output unknown",
+      "treatment_note": "Use announcement and service-launch dates as sensitivity cases; do not claim an exact operating start."
+    },
+    {
+      "site": "ADESA Atlanta",
+      "city": "Fairburn",
+      "state": "GA",
+      "announcement_date": "2025-01-08",
+      "first_production_date": null,
+      "company_reported_service_active_by": null,
+      "integration_type": "planned retail IRC added alongside digital and in-lane wholesale auctions",
+      "sources": ["https://press.carvana.com/carvana-announces-auction-irc-megasite-integration-in-atlanta-area/"],
+      "confidence": "announcement verified; production start and output unknown",
+      "treatment_note": "Existing Carvana market and regional facilities complicate attribution; not yet selected as control or treated pilot."
+    }
+  ]
+}
