@@ -1,0 +1,185 @@
+{
+  "prime_pools": {
+    "source": "10.pdf PDF p3",
+    "status": "analyst-reported deal characteristics, not companywide realized returns",
+    "rows": [
+      {
+        "deal": "2025-P1",
+        "apr_pct": 14.06,
+        "note_coupon_pct": 4.62,
+        "average_principal_usd": 24146,
+        "fico": 702,
+        "term_months": 73,
+        "spread_pct": 9.440000000000001
+      },
+      {
+        "deal": "2025-P2",
+        "apr_pct": 12.8,
+        "note_coupon_pct": 4.66,
+        "average_principal_usd": 25042,
+        "fico": 701,
+        "term_months": 73,
+        "spread_pct": 8.14
+      },
+      {
+        "deal": "2025-P3",
+        "apr_pct": 12.11,
+        "note_coupon_pct": 4.18,
+        "average_principal_usd": 26426,
+        "fico": 702,
+        "term_months": 73,
+        "spread_pct": 7.93
+      },
+      {
+        "deal": "2025-P4",
+        "apr_pct": 11.24,
+        "note_coupon_pct": 4.26,
+        "average_principal_usd": 26188,
+        "fico": 702,
+        "term_months": 73,
+        "spread_pct": 6.98
+      },
+      {
+        "deal": "2026-P1",
+        "apr_pct": 10.67,
+        "note_coupon_pct": 4.29,
+        "average_principal_usd": 26589,
+        "fico": 713,
+        "term_months": 75,
+        "spread_pct": 6.38
+      },
+      {
+        "deal": "2026-P2",
+        "apr_pct": 10.54,
+        "note_coupon_pct": 4.69,
+        "average_principal_usd": 28441,
+        "fico": 708,
+        "term_months": 75,
+        "spread_pct": 5.849999999999999
+      },
+      {
+        "deal": "2026-P3",
+        "apr_pct": 10.77,
+        "note_coupon_pct": 4.75,
+        "average_principal_usd": 29620,
+        "fico": 702,
+        "term_months": 75,
+        "spread_pct": 6.02
+      }
+    ]
+  },
+  "july_delinquency_bridge": {
+    "source": "11.pdf PDF p2",
+    "unit": "percentage points unless marked bp",
+    "method": "equal-weight means reproduce reported rounded headline; original-pool hold-constant check, not age-adjusted underwriting test",
+    "original_pools": [
+      "2022-P3",
+      "2024-P2",
+      "2024-P3",
+      "2024-P4",
+      "2025-P1"
+    ],
+    "june_rates": [
+      2.82,
+      1.35,
+      1.63,
+      1.36,
+      1.26
+    ],
+    "july_original_rates": [
+      3.29,
+      1.47,
+      1.6,
+      1.46,
+      1.41
+    ],
+    "replacement_pool": "2025-P2",
+    "replacement_rate": 0.84,
+    "june_mean": 1.684,
+    "july_original_mean": 1.846,
+    "july_new_mean": 1.3559999999999999,
+    "within_original_bp": 16.200000000000014,
+    "replacement_bp": -49.00000000000002,
+    "headline_bp": -32.800000000000004
+  },
+  "prime_endpoint_change": {
+    "apr_bp": -329.0000000000001,
+    "spread_bp": -342.00000000000017,
+    "principal_pct": 22.670421601921653
+  },
+  "q3_actual": {
+    "source": "cvna-q3-2026-letter.pdf quarterly results and Adjusted EBITDA reconciliation",
+    "units_2025": 155941,
+    "units_2026": 217385,
+    "ebitda_m_2025": 637,
+    "ebitda_m_2026": 800,
+    "unit_growth_pct": 39.4020815564861,
+    "ebitda_growth_pct": 25.588697017268448,
+    "ebitda_per_unit_2025": 4084.878255237558,
+    "ebitda_per_unit_2026": 3680.1067230949698,
+    "per_unit_change_pct": -9.909023154450136,
+    "loan_gain_per_retail_unit_2025": 2122.597649110882,
+    "loan_gain_per_retail_unit_2026": 1752.6508268739794
+  },
+  "stephens_fy26_estimate_revision": {
+    "sources": [
+      "16.pdf front/model tables",
+      "10.pdf front/model tables"
+    ],
+    "dates": [
+      "2026-01-29",
+      "2026-08-24"
+    ],
+    "revenue_m": [
+      25750.4,
+      29070.0
+    ],
+    "ebitda_m": [
+      2951.0,
+      2906.2
+    ],
+    "revenue_revision_pct": 12.891450229899327,
+    "ebitda_revision_pct": -1.518129447644867,
+    "implied_margins_pct": [
+      11.460016155088852,
+      9.997248022015823
+    ],
+    "caveat": "analyst forecast snapshots, not outcomes; later revenue rounded to nearest $10m from front page"
+  },
+  "capacity_capex": {
+    "source": "31.pdf p3; analyst estimates",
+    "light_usd_per_annual_unit": [
+      153.84615384615384,
+      230.76923076923077
+    ],
+    "full_usd_per_annual_unit": [
+      750.0,
+      875.0
+    ],
+    "caveat": "incremental project spending / stated incremental annual capacity; excludes acquired property cost and working capital; not marginal cash cost per car"
+  },
+  "ms_irc_model": {
+    "source": "31.pdf p4; hypothetical analyst model",
+    "gpu_retail": 3300,
+    "gpu_other": 2800,
+    "operating_cost_per_unit": 1620,
+    "modeled_operating_profit_per_unit": 4480,
+    "other_share_of_modeled_operating_profit_pct": 62.5,
+    "year1_units": 21000,
+    "runrate_units": 51000,
+    "year1_op_m": 94.08,
+    "runrate_op_m": 228.48,
+    "sensitivity_500_less_gpu_year1_m": 10.5,
+    "sensitivity_500_less_gpu_runrate_m": 25.5
+  },
+  "servicing_denominator": {
+    "source": "36.pdf p3 rounded table inputs",
+    "annual_fee_m": 10,
+    "origination_denominator_m": 8888,
+    "average_receivable_denominator_m": 461,
+    "incorrect_flow_rate_pct": 0.11251125112511251,
+    "rounded_stock_rate_pct": 2.1691973969631237,
+    "analyst_printed_rate_pct": 2.3,
+    "caveat": "rounded inputs give 2.17%, not exactly printed 2.3%; average of year-end balances not verified time-weighted balance; different servicing populations remain incomparable without contracts"
+  }
+}

@@ -1,0 +1,264 @@
+Browser tab: 8, Title: "ADESA - Map", URL: "https://www.adesa.com/map/#".
+1 AXWebArea ADESA - Map, URL: adesa.com/map/#
+	2 container us
+		3 container my_container
+			4 container
+				5 link adesa.com/
+				6 content list main-menu
+					7 link Description: Buy, Value: adesa.com/map/#
+					8 link Description: Sell, Value: adesa.com/sell/
+					9 link Description: Services, Value: adesa.com/map/#
+					10 link Description: Get Started, Value: adesa.com/get-started/
+					11 link Description: Careers, Value: adesa.com/careers/
+					12 link Description: About Us, Value: adesa.com/about-us/
+					13 link Description: Locations, Value: adesa.com/map/#
+				14 container
+					15 link Description: CarValue, Value: adesa.com/carvalue/
+					16 link Description: Log In / Register, Value: adesaclear.com/browse?utm_campaign=header_login
+			89 container
+				90 heading AUCTION LOCATIONS, Value: 2
+					91 text AUCTION LOCATIONS
+				92 text ADESA connects used vehicle buyers and sellers at all levels—dealers, fleets, rental agencies, brokers, manufacturers and more—with the right inventory and support to ensure success.
+			93 container
+				94 heading Our locations, Value: 1
+					95 text Our locations
+				96 link Description: Reset Map, Value: adesa.com/map/#
+				97 container listings
+					98 container listing-0
+						99 link Description: ADESA Atlanta, Value: adesa.com/map/#
+						100 text Sale day: Wednesday
+					101 container listing-1
+						102 link Description: ADESA Austin, Value: adesa.com/map/#
+						103 text Sale day: Tuesday
+					104 container listing-2
+						105 link Description: ADESA Birmingham, Value: adesa.com/map/#
+						106 text Sale day: Wednesday
+					107 container listing-3
+						108 link Description: ADESA Boise, Value: adesa.com/map/#
+						109 text Sale day: Thursday
+					110 container listing-4
+						111 link Description: ADESA Boston, Value: adesa.com/map/#
+						112 text Sale day: Friday
+					113 container listing-5
+						114 link Description: ADESA Brasher's, Value: adesa.com/map/#
+						115 text Sale day: Wednesday
+					116 container listing-6
+						117 link Description: ADESA Buffalo, Value: adesa.com/map/#
+						118 text Sale day: Tuesday
+					119 container listing-7
+						120 link Description: ADESA Charlotte, Value: adesa.com/map/#
+						121 text Sale day: Thursday
+					122 container listing-8
+						123 link Description: ADESA Chicago, Value: adesa.com/map/#
+						124 text Sale day: Friday
+					125 container listing-9
+						126 link Description: ADESA Cincinnati/Dayton, Value: adesa.com/map/#
+						127 text Sale day: Tuesday
+					128 container listing-10
+						129 link Description: ADESA Cleveland, Value: adesa.com/map/#
+						130 text Sale day: Thursday
+					131 container listing-11
+						132 link Description: ADESA Colorado Springs, Value: adesa.com/map/#
+						133 text Sale day: Tuesday
+					134 container listing-12
+						135 link Description: ADESA Concord, Value: adesa.com/map/#
+						136 text Sale day: Tuesday
+					137 container listing-13
+						138 link Description: ADESA Dallas, Value: adesa.com/map/#
+						139 text Sale day: Thursday
+					140 container listing-14
+						141 link Description: ADESA Des Moines, Value: adesa.com/map/#
+						142 text Sale day: Tuesday
+					143 container listing-15
+						144 link Description: ADESA Fargo, Value: adesa.com/map/#
+						145 text Sale day: Thursday
+					146 container listing-16
+						147 link Description: ADESA Flint, Value: adesa.com/map/#
+						148 text Sale day: Wednesday
+					149 container listing-17
+						150 link Description: ADESA Golden Gate, Value: adesa.com/map/#
+						151 text Sale day: Tuesday
+					152 container listing-18
+						153 link Description: ADESA Houston, Value: adesa.com/map/#
+						154 text Sale day: Wednesday
+					155 container listing-19
+						156 link Description: ADESA Indianapolis, Value: adesa.com/map/#
+						157 text Sale day: Tuesday
+					158 container listing-20
+						159 link Description: ADESA Jacksonville, Value: adesa.com/map/#
+						160 text Sale day: Thursday
+					161 container listing-21
+						162 link Description: ADESA Kansas City, Value: adesa.com/map/#
+						163 text Sale day: Tuesday
+					164 container listing-22
+						165 link Description: ADESA Knoxville, Value: adesa.com/map/#
+						166 text Sale day: Friday
+					167 container listing-23
+						168 link Description: ADESA Lansing, Value: adesa.com/map/#
+						169 text Sale day: Tuesday
+					170 container listing-24
+						171 link Description: ADESA Las Vegas, Value: adesa.com/map/#
+						172 text Sale day: Thursday
+					173 container listing-25
+						174 link Description: ADESA Lexington, Value: adesa.com/map/#
+						175 text Sale day: Thursday
+					176 container listing-26
+						177 link Description: ADESA Little Rock, Value: adesa.com/map/#
+						178 text Sale day: Thursday
+					179 container listing-27
+						180 link Description: ADESA Long Island, Value: adesa.com/map/#
+						181 text Sale day: Friday
+					182 container listing-28
+						183 link Description: ADESA Los Angeles, Value: adesa.com/map/#
+						184 text Sale day: Friday
+					185 container listing-29
+						186 link Description: ADESA Memphis, Value: adesa.com/map/#
+						187 text Sale day: Tuesday
+					188 container listing-30
+						189 link Description: ADESA Mercer, Value: adesa.com/map/#
+						190 text Sale day: Friday
+					191 container listing-31
+						192 link Description: ADESA Minneapolis, Value: adesa.com/map/#
+						193 text Sale day: Tuesday
+					194 container listing-32
+						195 link Description: ADESA Nashville, Value: adesa.com/map/#
+						196 text Sale day: Thursday
+					197 container listing-33
+						198 link Description: ADESA New Jersey, Value: adesa.com/map/#
+						199 text Sale day: Thursday
+					200 container listing-34
+						201 link Description: ADESA Northwest, Value: adesa.com/map/#
+						202 text Sale day: Wednesday
+					203 container listing-35
+						204 link Description: ADESA Ocala, Value: adesa.com/map/#
+						205 text Sale day: Friday
+					206 container listing-36
+						207 link Description: ADESA Orlando, Value: adesa.com/map/#
+						208 text Sale day: Tuesday
+					209 container listing-37
+						210 link Description: ADESA PA, Value: adesa.com/map/#
+						211 text Sale day: Wednesday
+					212 container listing-38
+						213 link Description: ADESA Phoenix, Value: adesa.com/map/#
+						214 text Sale day: Wednesday
+					215 container listing-39
+						216 link Description: ADESA Pittsburgh, Value: adesa.com/map/#
+						217 text Sale day: Tuesday
+					218 container listing-40
+						219 link Description: ADESA Portland, Value: adesa.com/map/#
+						220 text Sale day: Thursday
+					221 container listing-41
+						222 link Description: ADESA Queen City, Value: adesa.com/map/#
+						223 text Sale day: Friday
+					224 container listing-42
+						225 link Description: ADESA Raleigh, Value: adesa.com/map/#
+						226 text Sale day: Friday
+					227 container listing-43
+						228 link Description: ADESA Reno, Value: adesa.com/map/#
+						229 text Sale day: Wednesday
+					230 container listing-44
+						231 link Description: ADESA Sacramento, Value: adesa.com/map/#
+						232 text Sale day: Thursday
+					233 container listing-45
+						234 link Description: ADESA Salt Lake, Value: adesa.com/map/#
+						235 text Sale day: Tuesday
+					236 container listing-46
+						237 link Description: ADESA San Antonio, Value: adesa.com/map/#
+						238 text Sale day: Thursday
+					239 container listing-47
+						240 link Description: ADESA San Diego, Value: adesa.com/map/#
+						241 text Sale day: Thursday
+					242 container listing-48
+						243 link Description: ADESA Sarasota, Value: adesa.com/map/#
+						244 text Sale day: Friday
+					245 container listing-49
+						246 link Description: ADESA Seattle, Value: adesa.com/map/#
+						247 text Sale day: Tuesday
+					248 container listing-50
+						249 link Description: ADESA Shreveport, Value: adesa.com/map/#
+						250 text Sale day: Wednesday
+					251 container listing-51
+						252 link Description: ADESA Sioux Falls, Value: adesa.com/map/#
+						253 text Sale day: Wednesday
+					254 container listing-52
+						255 link Description: ADESA St. Louis, Value: adesa.com/map/#
+						256 text Sale day: Wednesday
+					257 container listing-53
+						258 link Description: ADESA Syracuse, Value: adesa.com/map/#
+						259 text Sale day: Wednesday
+					260 container listing-54
+						261 link Description: ADESA Tampa, Value: adesa.com/map/#
+						262 text Sale day: Monday
+					263 container listing-55
+						264 link Description: ADESA Tulsa, Value: adesa.com/map/#
+						265 text Sale day: Friday
+					266 container listing-56
+						267 link Description: ADESA Washington D.C., Value: adesa.com/map/#
+						268 text Sale day: Wednesday
+			269 container map
+				270 container
+					271 image Map
+				272 container
+					273 link Description: Mapbox logo, Value: mapbox.com/
+					274 container
+						275 link Description: Mapbox, Value: mapbox.com/about/maps
+						276 link Description: OpenStreetMap, Value: openstreetmap.org/copyright/
+						277 link Description: Improve this map, Value: mapbox.com/map-feedback/#/-95.49199800000004/29.939204000000075/16
+				326 container
+					327 heading ADESA Houston, Value: 3
+						328 text ADESA Houston
+					329 heading 4526 N. Sam Houston Pkwy. Houston, TX 77086 (281) 580-1800, Value: 4
+						330 text 4526 N. Sam Houston Pkwy.
+						331 text Houston, TX 77086
+						332 text (281) 580-1800
+					333 link Description: More Info, Value: adesa.com/auction_location/adesa-houston
+			278 container
+				279 link Description: Register now, Value: buy.adesa.com/openauction/registration.htmsmh#/step1
+				280 text  to start buying and selling vehicles at our auctions
+			281 container footer
+				282 content list
+					283 container custom_html-3
+						284 heading ADESA, Value: 6
+							285 text ADESA
+						286 content list
+							287 link Description: Home, Value: adesa.com/
+							288 link Description: Auctions, Value: adesa.com/auctions/
+							289 link Description: Inventory, Value: adesa.com/inventory/
+							290 link Description: Sell, Value: adesa.com/sell/
+							291 link Description: Services, Value: adesa.com/pre-sale/
+							292 link Description: Getting Started, Value: adesa.com/get-started/
+				293 content list
+					294 container custom_html-5
+						295 heading About, Value: 6
+							296 text About
+						297 content list
+							298 link Description: About Us, Value: adesa.com/about-us/
+							299 link Description: Careers, Value: adesa.com/careers/
+							300 link Description: Press Releases, Value: adesa.com/press-releases/
+							301 link Description: Forms & Policies, Value: adesa.com/get-started/#forms-policies
+				302 content list
+					303 container custom_html-6
+						304 heading Help, Value: 6
+							305 text Help
+						306 content list
+							307 link Description: Help Resources, Value: help.adesa.com/
+							308 link Description: Contact Us, Value: adesa.com/support/
+							309 link Description: Login, Value: adesaclear.com/browse
+							310 link Description: Register, Value: adesaclear.com/browse
+				311 container box-copy
+					312 container
+						313 link Description: , Help: Facebook, Value: facebook.com/adesausauctions
+						314 link Description: , Help: Twitter, Value: twitter.com/ADESA_US
+						315 link Description: , Help: YouTube, Value: youtube.com/user/ADESAauction
+						316 link Description: , Help: LinkedIn, Value: linkedin.com/company/adesa-u-s/
+						317 link Description: , Help: Instagram, Value: instagram.com/adesa_u.s/
+					318 text Copyright © 2026 ADESA, All rights reserved.
+					319 container
+						320 link Description: Privacy Notice, Value: adesa.com/privacy_policy/
+						321 link Description: User Agreement, Value: adesa.com/legal/
+						322 link Description: Do Not Sell or Share My Personal Information, Value: adesa.com/map/#, ID: ot-sdk-btn
+				323 image
+		324 container embedded-messaging
+			325 pop up button Description: Hello, have a question? Let’s chat., ID: embeddedMessagingConversationButton
+
+The focused UI element is 153 link Description: ADESA Houston, URL: adesa.com/map/#

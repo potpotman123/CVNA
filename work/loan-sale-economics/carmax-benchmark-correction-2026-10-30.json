@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-30",
+  "decision": "Exclude 2.785% CarMax transaction ratio and 4.613pp raw gap from companywide peer benchmark and valuation calibration.",
+  "source": "https://www.sec.gov/Archives/edgar/data/1170010/000117001026000104/kmx-20260831.htm",
+  "observed": {
+    "h1_fy27_net_originations_m": 4710.7,
+    "h1_tier1_origination_share_pct": 90,
+    "aug31_held_for_investment_principal_m": 16198.7,
+    "h1_sale_amount_including_interest_m": 596,
+    "h1_gain_m": 16.6,
+    "h1_average_loans_outstanding_m": 16512.3,
+    "h1_interest_margin_m": 550.6,
+    "h1_provision_m": 209,
+    "h1_caf_income_m": 275.8
+  },
+  "interpretation": "Majority CAF economics are retained loans funded by secured borrowings, earning spread over time. No observed majority-loan gain-on-sale benchmark. Do not divide period CAF earnings by new originations to impute lifetime gain. Sale/origination quotient is not matched vintage coverage. All-public-pool APR comparison does not change gain data population."
+}

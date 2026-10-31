@@ -1,0 +1,54 @@
+{
+  "as_of": "2026-10-29",
+  "question": "Mechanisms behind declining gain/principal ratio",
+  "accounting_bridge_change_bps": {
+    "cash_proceeds_above_rounded_principal": -176.04882386225853,
+    "new_retained_value": -3.0151159970899677,
+    "unallocated_basis_rounding_timing": -27.596798965322122
+  },
+  "channel_share_change_percentage_points": {
+    "ally": 5.0521380648290375,
+    "securitization": -2.5947781100961906,
+    "fixed_pool": -2.457359954732846
+  },
+  "constant_channel_margin_mix_test": {
+    "required_old_ABS_and_fixed_weighted_gain_gap_over_Ally_percentage_points": 40.905599999999986,
+    "hypothetical_5pp_gap_mix_effect_bps": -25.260690324145187,
+    "hypothetical_10pp_gap_mix_effect_bps": -50.521380648290375,
+    "limits": "Assumes channel rates constant; rounded volumes. Does not bound risk mix changes within channels."
+  },
+  "new_management_claim": {
+    "source": "https://stockanalysis.com/stocks/cvna/transcripts/718716-q3-2026/",
+    "location": "RBC Brad Erickson question and Ernie Garcia answer, lines249-258",
+    "claims": [
+      "Consumer rate giveback disproportionately prime",
+      "More prime borrowers and larger transactions lower percentage premium but larger balance supports dollar economics"
+    ],
+    "status": "Primary management remarks reproduced by transcript provider; not independently verified cohort explanation. Do not conflate otherGPU with loan gain per financed loan."
+  },
+  "framework": [
+    "borrower coupon versus benchmark",
+    "required credit/liquidity/funding spreads",
+    "default recovery prepayment term servicing cash flows",
+    "borrower and loan-size mix within channel",
+    "channel execution mix",
+    "sale seasoning timing hedges carrying costs retained consideration"
+  ],
+  "next_tests": [
+    "Reconstruct quarterly loan gain per retail unit and principal per unit, then separate finance attach and loan size where disclosed",
+    "Compare contemporaneous prime ABS pools loan cashflow economics and benchmark-adjusted execution",
+    "Ally model changes or buyer loss/return evidence; cannot assign unsupported residual to subsidy"
+  ],
+  "verdict": "Rate giveback and market-rate timing directly supported as management explanation; prime/loan-size mix newly identified; channel mix alone quantitatively weak; credit repricing not established.",
+  "per_retail_unit_check": {
+    "gain_2025": 2027.1565089501962,
+    "gain_2026": 1800.356417423597,
+    "principal_2025": 20548.62520462044,
+    "principal_2026": 23085.75110902952,
+    "gain_change_pct": -11.188089845319949,
+    "principal_change_pct": 12.346937467323116,
+    "denominator_first_effect_bps": -108.41828162435411,
+    "remaining_gain_per_unit_effect_bps": -98.24245720031655,
+    "caveat": "Retail units are not loans sold; financing penetration and sale timing matter. Arithmetic bridge depends on ordering, not causal attribution."
+  }
+}

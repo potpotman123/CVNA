@@ -1,0 +1,139 @@
+{
+  "date": "2026-10-29",
+  "status": "Bounded pool and buyer comparison completed; causal allocation unresolved",
+  "observed": [
+    {
+      "deal": "2025-P2",
+      "apr": 12.8,
+      "balance": 25041.88,
+      "fico": 701,
+      "term": 73,
+      "remaining": 72,
+      "servicing": 0.67,
+      "amounts": [
+        73,
+        186,
+        229,
+        96.28,
+        27.31,
+        29.26,
+        9.43
+      ],
+      "coupons": [
+        4.495,
+        4.56,
+        4.55,
+        4.75,
+        5.11,
+        5.48,
+        5.99
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2037955/000110465925058770/tm2517006d8_424b5.htm",
+      "weighted_AD_coupon": 4.662544749953867,
+      "gross_coupon_gap": 8.137455250046134,
+      "xs_strip": 0.32999999999999996,
+      "balance_growth_vs_2025P2": 0.0
+    },
+    {
+      "deal": "2026-P2",
+      "apr": 10.54,
+      "balance": 28441.34,
+      "fico": 708,
+      "term": 75,
+      "remaining": 74,
+      "servicing": 0.45,
+      "amounts": [
+        122.28,
+        323.5,
+        323.5,
+        213.37,
+        45.11,
+        48.97,
+        23.66
+      ],
+      "coupons": [
+        3.915,
+        4.4,
+        4.77,
+        4.91,
+        5.19,
+        5.8,
+        6.18
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/1999855/000110465926065016/tm2612379d6_424b5.htm",
+      "weighted_AD_coupon": 4.686732522105798,
+      "gross_coupon_gap": 5.853267477894201,
+      "xs_strip": 0.55,
+      "balance_growth_vs_2025P2": 0.1357509899416498
+    },
+    {
+      "deal": "2026-P3",
+      "apr": 10.77,
+      "balance": 29620.53,
+      "fico": 702,
+      "term": 75,
+      "remaining": 74,
+      "servicing": 0.39,
+      "amounts": [
+        167.43,
+        457.59,
+        457.59,
+        301.82,
+        60.46,
+        72.09,
+        33.328
+      ],
+      "coupons": [
+        4.052,
+        4.53,
+        4.76,
+        5,
+        5.23,
+        5.7,
+        6.08
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/1770373/000110465926099131/tm2622456d6_424b5.htm",
+      "weighted_AD_coupon": 4.752791380809492,
+      "gross_coupon_gap": 6.017208619190508,
+      "xs_strip": 0.61,
+      "balance_growth_vs_2025P2": 0.18283970692296259
+    }
+  ],
+  "method": "Face-weighted A1-D contractual coupons, including retained portions, ignoring day-count conversion. APR minus this coupon is a gross initial carry proxy only. Excludes N, XS, residual required returns, fees, losses, prepayments, amortization, hedges and transaction costs. Not a gain-on-sale estimate. Uses final prospectus for P3 (10.77%), not preliminary 10.78%.",
+  "findings": [
+    "Lower coupons and larger loans corroborated in selected prime ABS pools. Selection does not establish companywide prime share.",
+    "Public A-D weighted coupons approximately flat/up versus2025P2; lower funding coupons did not offset borrower coupon decline in these executions.",
+    "FICO averages do not risk-match pools; no-score population, measurement timing, term, LTV and underlying distribution may differ.",
+    "Servicing fee declines .67/.45/.39 while total strip remains1%; difference goes to XS. Do not add savings both to residual and XS.",
+    "Ally section2.3 allows repricing but actual change notices and model not recovered.",
+    "No whole-loan purchase price or subsidy established."
+  ],
+  "buyer_observation": {
+    "fund": "Eagle Point Institutional Income Fund",
+    "as_of": "2026-06-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/1896036/000110465926103176/tm2624152d1_ncsrs.htm",
+    "location": "Schedule investments p13; footnotes p21",
+    "2026P2_R": {
+      "initial_purchase_date": "2026-05-19",
+      "reported_cost": 1431844,
+      "fair_value": 1424959,
+      "estimated_effective_yield_pct": 13.1
+    },
+    "other_reported_effective_yields": {
+      "2025P4": 20.14,
+      "2026P1": 14.54
+    },
+    "limits": "Investor own projected cash flows and amortized-cost effective yields, not realized returns or origination target returns. Different vintages and risks; cost not necessarily initial settlement. No whole-loan look-through price. Fund says nonaffiliated with listed issuers."
+  },
+  "access_limits": [
+    "Web full prospectuses oversized; retrieved two public final prospectuses locally and extracted HTML. Source hashes in sources/pool-comparison-fetch.json.",
+    "2026P2 benchmark spread sheet not recovered; cannot split benchmark changes from investor spreads.",
+    "No matched microcohort, channel gains, Ally repricing notices or fixed-pool purchase settlements recovered."
+  ],
+  "model_use": "Directional support for compression, observed pool inputs and sensitivity only. No quantified subsidy or exact attribution of207bps.",
+  "next_best_evidence": [
+    "Loan-level credit/term/LTV matched pricing with origination and sale dates",
+    "Ally pricing spreadsheet/change notices",
+    "XS ownership, initial monetization and residual sale consideration for selected deals"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "as_of": "2026-10-30",
+  "result": "No channel-level APR/FICO distributions or common selection frame recovered. Public pool mean cannot be extrapolated to all CVNA sales.",
+  "confirmed": [
+    "Ally randomizes only after eligibility and pool filters; numerical thresholds partly confidential.",
+    "2026P3 requires DealScore>=50. S&P2024P4 identifies >=50 as CVNA prime classification, historical corroboration not current share estimate.",
+    "Ally reports CVNA loans perform comparably to credit-matched indirect loans; no CVNA-specific averageAPR/FICO disclosed in examined buyer filings.",
+    "Pre2024 Ally FICO upperbound clauses must not be treated as current blanket best-loans rule; current clause has different treatment for76+monthterms."
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1690820/000169082026000055/ex10_9carvana-allyforwardf.htm",
+    "https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/13347731",
+    "https://www.sec.gov/Archives/edgar/data/40729/000004072926000005/ally-20251231.htm"
+  ],
+  "private_rate_sensitivity": [
+    {
+      "assumed_private_apr_pct": 10,
+      "implied_all_sales_apr_pct": 10.179206830919876
+    },
+    {
+      "assumed_private_apr_pct": 12,
+      "implied_all_sales_apr_pct": 11.646832730200453
+    },
+    {
+      "assumed_private_apr_pct": 14,
+      "implied_all_sales_apr_pct": 13.114458629481028
+    },
+    {
+      "assumed_private_apr_pct": 16,
+      "implied_all_sales_apr_pct": 14.582084528761603
+    }
+  ],
+  "sensitivity_limit": "Illustrative mixing of public cutoff pool APR and9Mchannelvolumes; not actual all-sales APR or original loan cohort match.",
+  "search_scope": "Existingcontracts and earningscall extracts; issuer/AllySEC/rating/distribution searches. Old2022interview allocation claims not carried forward. No newchanneldata recovered. Stop expansion; no synthetic companywidepointestimate."
+}

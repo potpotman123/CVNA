@@ -1,0 +1,161 @@
+{
+  "date": "2026-10-30",
+  "scope": "New public securitization pools in calendar2026 throughSeptember;notalloriginations or allprivate sales",
+  "columns": [
+    "company",
+    "pool",
+    "cutoff_principal",
+    "apr_pct",
+    "reported_fico",
+    "original_months",
+    "remaining_months",
+    "accounts"
+  ],
+  "rows": [
+    [
+      "CVNA",
+      "2026-P1",
+      1050701593.25,
+      10.67,
+      713,
+      75,
+      74,
+      39517
+    ],
+    [
+      "CVNA",
+      "2026-P2",
+      1100395400.2,
+      10.54,
+      708,
+      75,
+      74,
+      38690
+    ],
+    [
+      "CVNA",
+      "2026-P3",
+      1550309023.48,
+      10.77,
+      702,
+      75,
+      74,
+      52339
+    ],
+    [
+      "KMX",
+      "2026-1",
+      1306533362.66,
+      8.73,
+      760.3,
+      67.09,
+      58.22,
+      83338
+    ],
+    [
+      "KMX",
+      "2026-2",
+      1180905155.32,
+      8.65,
+      764.5,
+      67.07,
+      63.43,
+      52812
+    ],
+    [
+      "KMX",
+      "2026-3",
+      1353384019.62,
+      8.41,
+      765.3,
+      67.11,
+      59.12,
+      79198
+    ],
+    [
+      "KMX",
+      "2026-A",
+      769231898.52,
+      16.49,
+      612.4,
+      70.12,
+      60.33,
+      44496
+    ],
+    [
+      "KMX",
+      "2026-B",
+      621762247.08,
+      16.3,
+      612.6,
+      70.13,
+      63.26,
+      31874
+    ],
+    [
+      "KMX",
+      "2026-C",
+      618556951.15,
+      16.18,
+      608.8,
+      69.96,
+      63.35,
+      31389
+    ]
+  ],
+  "averages": {
+    "CVNA": {
+      "pools": 3,
+      "principal": 3701406016.93,
+      "apr": 10.673236472915212,
+      "reported_fico_proxy": 706.9062680083965,
+      "original_term": 75.0,
+      "remaining_term": 74.0,
+      "account_average_balance": 28353.270241370858
+    },
+    "KMX": {
+      "pools": 6,
+      "principal": 5850373634.349999,
+      "apr": 11.252347229864377,
+      "reported_fico_proxy": 711.142739967059,
+      "original_term": 68.11551363138568,
+      "remaining_term": 60.83530641010676,
+      "account_average_balance": 18106.61370490271
+    }
+  },
+  "kmx_prime": {
+    "pools": 3,
+    "principal": 3840822537.6,
+    "apr": 8.592645229364425,
+    "reported_fico_proxy": 763.353179790434,
+    "original_term": 67.09089813503546,
+    "remaining_term": 60.13900599538786,
+    "account_average_balance": 17835.422374946596
+  },
+  "kmx_nonprime": {
+    "pools": 3,
+    "principal": 2009551096.75,
+    "apr": 16.335792683598406,
+    "reported_fico_proxy": 611.3537700344498,
+    "original_term": 70.07384467214433,
+    "remaining_term": 62.166134140796345,
+    "account_average_balance": 18648.568534878756
+  },
+  "limitations": [
+    "CVNApublicpools26.6%of9Msoldprincipal;privateAlly/fixed10200mexcluded, APRunknown.",
+    "FICOproxyweightsreportednonzeroaveragesbytotalpoolbalance;exactscoredUPBnotadjusted. Co-borrowerdefinitionsCVNAhigher,KMXaverage. Notexactcommoncreditmetric.",
+    "CVNAP2historicalannex1108.3079m differsfromcontemporaneousfinal1100.3954m;usecontemporaneousfinal. AlternativeweightnegligibletoroundedAPR.",
+    "Notneworiginationcohorts;KMXpoolsseasonedmore.",
+    "KMXCAFcompanywideoriginationcontractrate11.8%quarterAug2026,11.6%H1,not16.3%. CVNAalloriginationsrateunavailable."
+  ],
+  "apr_gap_cvna_minus_kmx_pp": -0.5791107569491647,
+  "sources": {
+    "kmx_prime_historical_table": "https://www.sec.gov/Archives/edgar/data/2150706/000119312526416462/d177261d424h.htm AnnexI 2026-1/2/3 only;excludeproposed2026-4",
+    "kmx_a": "https://s27.q4cdn.com/743947716/files/doc_asset_backed/2026/03/2026-A-Final-Prospectus.pdf printed11",
+    "kmx_b": "https://s27.q4cdn.com/743947716/files/doc_asset_backed/2026/06/2026-B-Final-Prospectus.pdf printed59",
+    "kmx_c": "https://www.sec.gov/Archives/edgar/data/1259380/000119312526400855/d187449d424b5.htm summary",
+    "cvna_p1": "work/loan-sale-economics/sources/cvna-2026-p3-final.txt Annexhistoricaltablelines20683-20763",
+    "cvna_p2": "https://www.sec.gov/Archives/edgar/data/1999855/000110465926065016/tm2612379d6_424b5.htm",
+    "cvna_p3": "https://www.sec.gov/Archives/edgar/data/1770373/000110465926099131/tm2622456d6_424b5.htm"
+  }
+}

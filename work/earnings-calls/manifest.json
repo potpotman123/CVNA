@@ -1,0 +1,126 @@
+{
+  "retrieved": "2026-10-28",
+  "format": "Rendered CapIQ main-content text; contains full transcript plus provider disclaimer and possibly AI sidebar summary. Use transcript before Disclaimer for evidence; do not treat AI summary as source.",
+  "calls": [
+    {
+      "file": "ALLY-Q3-2026.txt",
+      "source": "https://www.capitaliq.spglobal.com/apisv3/spg-webplatform-core/docviewer?mid=267606496",
+      "characters": 66297,
+      "hasQA": true,
+      "hasDisclaimer": true,
+      "header": "Final Transcript\n10/20/2026Earnings CallNYSE:ALLY\nGive Us Feedback\nDownload\nIN-DOC SEARCH\nAlly "
+    },
+    {
+      "file": "AN-Q1-2026.txt",
+      "source": "https://www.capitaliq.spglobal.com/web/client#news/docviewer?mid=259505692&KeyProductLinkType=2",
+      "characters": 54460,
+      "hasQA": true,
+      "hasDisclaimer": true,
+      "header": "Final Transcript\n05/01/2026Earnings CallNYSE:AN\nGive Us Feedback\nDownload\nIN-DOC SEARCH\n\n \n\nAut"
+    },
+    {
+      "file": "AN-Q2-2026.txt",
+      "source": "https://www.capitaliq.spglobal.com/web/client#news/docviewer?mid=264402664&KeyProductLinkType=2",
+      "characters": 64323,
+      "hasQA": true,
+      "hasDisclaimer": true,
+      "header": "Final Transcript\n07/31/2026Earnings CallNYSE:AN\nGive Us Feedback\nDownload\nIN-DOC SEARCH\nAutoNat"
+    },
+    {
+      "file": "CVNA-Q1-2025.txt",
+      "source": "https://www.capitaliq.spglobal.com/web/client#news/docviewer?mid=240960351&KeyProductLinkType=2",
+      "characters": 68375,
+      "hasQA": true,
+      "hasDisclaimer": true,
+      "header": "Final Transcript\n05/07/2025Earnings CallNYSE:CVNA\nGive Us Feedback\nDownload\nIN-DOC SEARCH\nCarva"
+    },
+    {
+      "file": "CVNA-Q1-2026.txt",
+      "source": "https://www.capitaliq.spglobal.com/web/client#news/docviewer?mid=259383923&KeyProductLinkType=2",
+      "characters": 65636,
+      "hasQA": true,
+      "hasDisclaimer": true,
+      "header": "Final Transcript\n04/29/2026Earnings CallNYSE:CVNA\nGive Us Feedback\nDownload\nIN-DOC SEARCH\n\n \n\nC"
+    },
+    {
+      "file": "CVNA-Q2-2025.txt",
+      "source": "https://www.capitaliq.spglobal.com/web/client#news/docviewer?mid=245110836&KeyProductLinkType=2",
+      "characters": 68624,
+      "hasQA": true,
+      "hasDisclaimer": true,
+      "header": "Final Transcript\n07/30/2025Earnings CallNYSE:CVNA\nGive Us Feedback\nDownload\nIN-DOC SEARCH\nCarva"
+    },
+    {
+      "file": "CVNA-Q2-2026.txt",
+      "source": "https://www.capitaliq.spglobal.com/web/client#news/docviewer?mid=264278540&KeyProductLinkType=2",
+      "characters": 68595,
+      "hasQA": true,
+      "hasDisclaimer": true,
+      "header": "Final Transcript\n07/29/2026Earnings CallNYSE:CVNA\nGive Us Feedback\nDownload\nIN-DOC SEARCH\nCarva"
+    },
+    {
+      "file": "CVNA-Q3-2025.txt",
+      "source": "https://www.capitaliq.spglobal.com/web/client#news/docviewer?mid=250780383&KeyProductLinkType=2",
+      "characters": 66886,
+      "hasQA": true,
+      "hasDisclaimer": true,
+      "header": "Final Transcript\n10/29/2025Earnings CallNYSE:CVNA\nGive Us Feedback\nDownload\nIN-DOC SEARCH\nCarva"
+    },
+    {
+      "file": "CVNA-Q4-2024.txt",
+      "source": "https://www.capitaliq.spglobal.com/web/client#news/docviewer?mid=237146574&KeyProductLinkType=2",
+      "characters": 62509,
+      "hasQA": true,
+      "hasDisclaimer": true,
+      "header": "Final Transcript\n02/19/2025Earnings CallNYSE:CVNA\nGive Us Feedback\nDownload\nIN-DOC SEARCH\n\n \n\nC"
+    },
+    {
+      "file": "CVNA-Q4-2025.txt",
+      "source": "https://www.capitaliq.spglobal.com/web/client#news/docviewer?mid=255606223&KeyProductLinkType=2",
+      "characters": 65864,
+      "hasQA": true,
+      "hasDisclaimer": true,
+      "header": "Final Transcript\n02/18/2026Earnings CallNYSE:CVNA\nGive Us Feedback\nDownload\nIN-DOC SEARCH\n\n \n\nC"
+    },
+    {
+      "file": "KMX-Q1-FY2027.txt",
+      "source": "https://www.capitaliq.spglobal.com/web/client#news/docviewer?mid=262152518&KeyProductLinkType=2",
+      "characters": 63260,
+      "hasQA": true,
+      "hasDisclaimer": true,
+      "header": "Final Transcript\n06/17/2026Earnings CallNYSE:KMX\nGive Us Feedback\nDownload\nIN-DOC SEARCH\nCarMax"
+    },
+    {
+      "file": "KMX-Q2-FY2027.txt",
+      "source": "https://www.capitaliq.spglobal.com/web/client#news/docviewer?mid=266877996&KeyProductLinkType=2",
+      "characters": 60807,
+      "hasQA": true,
+      "hasDisclaimer": true,
+      "header": "Final Transcript\n09/29/2026Earnings CallNYSE:KMX\nGive Us Feedback\nDownload\nIN-DOC SEARCH\nCarMax"
+    },
+    {
+      "file": "KMX-Q4-FY2026.txt",
+      "source": "https://www.capitaliq.spglobal.com/web/client#news/docviewer?mid=258492263&KeyProductLinkType=2",
+      "characters": 65479,
+      "hasQA": true,
+      "hasDisclaimer": true,
+      "header": "Final Transcript\n04/14/2026Earnings CallNYSE:KMX\nGive Us Feedback\nDownload\nIN-DOC SEARCH\nCarMax"
+    },
+    {
+      "file": "LAD-Q1-2026.txt",
+      "source": "https://www.capitaliq.spglobal.com/web/client#news/docviewer?mid=259351710&KeyProductLinkType=2",
+      "characters": 65370,
+      "hasQA": true,
+      "hasDisclaimer": true,
+      "header": "Final Transcript\n04/29/2026Earnings CallNYSE:LAD\nGive Us Feedback\nDownload\nIN-DOC SEARCH\n\n \n\nLi"
+    },
+    {
+      "file": "LAD-Q2-2026.txt",
+      "source": "https://www.capitaliq.spglobal.com/web/client#news/docviewer?mid=264257469&KeyProductLinkType=2",
+      "characters": 60189,
+      "hasQA": true,
+      "hasDisclaimer": true,
+      "header": "Final Transcript\n07/29/2026Earnings CallNYSE:LAD\nGive Us Feedback\nDownload\nIN-DOC SEARCH\nLithia"
+    }
+  ]
+}

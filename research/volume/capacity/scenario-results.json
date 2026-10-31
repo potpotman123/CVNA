@@ -1,0 +1,160 @@
+{
+  "warning": "Hypothetical operating conditions, not forecasts or estimates of actual utilization; baseline 800k is deliberately a normalization below disclosed Q3 annualized output.",
+  "scenarios": [
+    {
+      "case": "Existing-footprint ramp",
+      "year": 2027,
+      "existing_site_output": 920000,
+      "new_project_output": 0,
+      "potential_production": 920000,
+      "hypothetical_absorbable_sales": 920000,
+      "unabsorbed_if_not_curtailed": 0,
+      "incremental_steady_state_inventory_dollars": 325479452
+    },
+    {
+      "case": "Existing-footprint ramp",
+      "year": 2028,
+      "existing_site_output": 1030400,
+      "new_project_output": 0,
+      "potential_production": 1030400,
+      "hypothetical_absorbable_sales": 1030400,
+      "unabsorbed_if_not_curtailed": 0,
+      "incremental_steady_state_inventory_dollars": 624920548
+    },
+    {
+      "case": "Existing-footprint ramp",
+      "year": 2029,
+      "existing_site_output": 1133440,
+      "new_project_output": 0,
+      "potential_production": 1133440,
+      "hypothetical_absorbable_sales": 1133440,
+      "unabsorbed_if_not_curtailed": 0,
+      "incremental_steady_state_inventory_dollars": 904398904
+    },
+    {
+      "case": "Expansion-supported",
+      "year": 2027,
+      "existing_site_output": 920000,
+      "new_project_output": 59400,
+      "potential_production": 979400,
+      "hypothetical_absorbable_sales": 979400,
+      "unabsorbed_if_not_curtailed": 0,
+      "incremental_steady_state_inventory_dollars": 486591781
+    },
+    {
+      "case": "Expansion-supported",
+      "year": 2028,
+      "existing_site_output": 1030400,
+      "new_project_output": 168300,
+      "potential_production": 1198700,
+      "hypothetical_absorbable_sales": 1198700,
+      "unabsorbed_if_not_curtailed": 0,
+      "incremental_steady_state_inventory_dollars": 1081405479
+    },
+    {
+      "case": "Expansion-supported",
+      "year": 2029,
+      "existing_site_output": 1133440,
+      "new_project_output": 188100,
+      "potential_production": 1321540,
+      "hypothetical_absorbable_sales": 1321540,
+      "unabsorbed_if_not_curtailed": 0,
+      "incremental_steady_state_inventory_dollars": 1414587945
+    },
+    {
+      "case": "Operational downside",
+      "year": 2027,
+      "existing_site_output": 785455,
+      "new_project_output": 12000,
+      "potential_production": 797455,
+      "hypothetical_absorbable_sales": 797455,
+      "unabsorbed_if_not_curtailed": 0,
+      "incremental_steady_state_inventory_dollars": -6904110
+    },
+    {
+      "case": "Operational downside",
+      "year": 2028,
+      "existing_site_output": 824727,
+      "new_project_output": 60000,
+      "potential_production": 884727,
+      "hypothetical_absorbable_sales": 884727,
+      "unabsorbed_if_not_curtailed": 0,
+      "incremental_steady_state_inventory_dollars": 229808219
+    },
+    {
+      "case": "Operational downside",
+      "year": 2029,
+      "existing_site_output": 865964,
+      "new_project_output": 84000,
+      "potential_production": 949964,
+      "hypothetical_absorbable_sales": 949964,
+      "unabsorbed_if_not_curtailed": 0,
+      "incremental_steady_state_inventory_dollars": 406750685
+    },
+    {
+      "case": "Demand/economic downside",
+      "year": 2027,
+      "existing_site_output": 920000,
+      "new_project_output": 59400,
+      "potential_production": 979400,
+      "hypothetical_absorbable_sales": 930430,
+      "unabsorbed_if_not_curtailed": 48970,
+      "incremental_steady_state_inventory_dollars": 353769041
+    },
+    {
+      "case": "Demand/economic downside",
+      "year": 2028,
+      "existing_site_output": 1030400,
+      "new_project_output": 168300,
+      "potential_production": 1198700,
+      "hypothetical_absorbable_sales": 1078830,
+      "unabsorbed_if_not_curtailed": 119870,
+      "incremental_steady_state_inventory_dollars": 756278630
+    },
+    {
+      "case": "Demand/economic downside",
+      "year": 2029,
+      "existing_site_output": 1133440,
+      "new_project_output": 188100,
+      "potential_production": 1321540,
+      "hypothetical_absorbable_sales": 1123309,
+      "unabsorbed_if_not_curtailed": 198231,
+      "incremental_steady_state_inventory_dollars": 876920301
+    }
+  ],
+  "arithmetic_checks": {
+    "annual_sales_2025_growth": 0.4330343846974165,
+    "q3_2026_sales_growth": 0.394020815564861,
+    "integration_capex_per_annual_capacity_unit_range": [
+      153.84615384615384,
+      230.76923076923077
+    ],
+    "buildout_capex_per_annual_capacity_unit_range": [
+      750.0,
+      875.0
+    ],
+    "three_buildouts_capacity": 120000,
+    "three_buildouts_capex_range": [
+      90000000,
+      105000000
+    ],
+    "six_integrations_capacity": 78000,
+    "six_integrations_capex_range": [
+      12000000,
+      18000000
+    ],
+    "inventory_per_100k_incremental_sales_45_days_22k": 271232876.71232873,
+    "inventory_per_100k_incremental_sales_60_days_22k": 361643835.6164383,
+    "extra_15_days_inventory_at_1m_sales_22k": 904109589.041096,
+    "q3_2026_operating_income_per_unit": 3284.4952503622603,
+    "q3_2025_operating_income_per_unit": 3539.800309091259,
+    "q3_2026_operating_income_growth": 0.2934782608695652,
+    "q3_2026_advertising_per_unit": 699.2202773880442,
+    "q3_2025_advertising_per_unit": 654.0935353755588,
+    "9m_2026_ocf_less_ppe": 734000000,
+    "9m_2025_ocf_less_ppe": 510000000,
+    "inventory_balance_change": 1048000000,
+    "hypothetical_10pct_more_repair_hours_throughput_loss": 0.09090909090909094,
+    "hypothetical_20pct_more_repair_hours_throughput_loss": 0.16666666666666663
+  }
+}

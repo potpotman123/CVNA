@@ -63,4 +63,4 @@ First execution update: [ADESA pilot feasibility findings](adesa-pilot-feasibili
 - [2025 annual report](https://investors.carvana.com/~/media/Files/C/Carvana-IR/documents/cvna-2025-annual-report.pdf).
 - [Q3 2026 shareholder letter](https://investors.carvana.com/~/media/Files/C/Carvana-IR/documents/cvna-shareholder-letter-q3-2026.pdf) and [release](https://press.carvana.com/carvana-announces-record-third-quarter-2026-results/).
 
-The discussion through 2026-10-29 supports testing selection, delivery, financing and marketing jointly. It does not establish their individual causal contributions. Detailed Q3 call Q&A remains to be incorporated.
+The discussion through 2026-10-29 supports testing selection, delivery, financing and marketing jointly. It does not establish their individual causal contributions. The [physical and operational capacity investigation](capacity/README.md) incorporates relevant Q3 call Q&A, a facility register, production timeline, bottleneck assessment and reproducible conditional scenarios. It does not identify an ADESA causal sales uplift or site-level return on investment.

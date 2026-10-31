@@ -1,0 +1,373 @@
+{
+  "as_of": "2026-10-29",
+  "question": "Are Carvana finance receivable sale gains supported by independent buyer acquisition economics?",
+  "status": "Research pass completed; private-price and buyer-return boundaries unresolved",
+  "verdict": "No quantified unsupported price or accounting misstatement established; aggregate cash evidence and independent Ally disclosure counter broad allegation; margin compression supported.",
+  "sources": [
+    {
+      "id": "C26",
+      "file": "/Users/kwu/Documents/ChatGPT/$CVNA/work/loan-sale-economics/sources/cvna-q3-2026.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/1690820/000169082026000067/cvna-20260930.htm",
+      "entity_period": "Carvana consolidated, 9M/Q3 2026",
+      "location": "Cash flow p6; Note6 p15-16; Note7 p16-17; Note8 p17-18; Note17 p36-37; Note18 p41; MD&A other revenue and adjusted EBITDA",
+      "retrieved": "2026-10-29",
+      "bytes": 2095775,
+      "sha256": "47811f390b7c325c2d37f68023fb274bb5f2a200e76fca0c57f99c525a6af0ff",
+      "kind": "primary public filing or issuer presentation"
+    },
+    {
+      "id": "A25",
+      "file": "/Users/kwu/Documents/ChatGPT/$CVNA/work/loan-sale-economics/sources/ally-2025.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/40729/000004072926000005/ally-20251231.htm",
+      "entity_period": "Ally, FY2025",
+      "location": "Carvana consumer automotive channel paragraph; significant policies on purchased premiums and effective yield",
+      "retrieved": "2026-10-29",
+      "bytes": 8801574,
+      "sha256": "3fa1e73db05cea4e8740ac1d6ddc15887c639908265c7bc7d788470e378ff279",
+      "kind": "primary public filing or issuer presentation"
+    },
+    {
+      "id": "A26",
+      "file": "/Users/kwu/Documents/ChatGPT/$CVNA/work/loan-sale-economics/sources/ally-q2-2026.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/40729/000004072926000017/ally-20260630.htm",
+      "entity_period": "Ally, H1/Q2 2026",
+      "location": "Carvana paragraph in consumer automotive financing; extract line3854",
+      "retrieved": "2026-10-29",
+      "bytes": 7567051,
+      "sha256": "83427ce2a731fa757d22295cdd887f052572250ec78afd57d23a811a7180d063",
+      "kind": "primary public filing or issuer presentation"
+    },
+    {
+      "id": "AM",
+      "file": "/Users/kwu/Documents/ChatGPT/$CVNA/work/loan-sale-economics/sources/ally-contract-2025.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/1690820/000169082026000055/ex10_9carvana-allyforwardf.htm",
+      "entity_period": "CAR2016-1 transferor and Ally; Dec29,2025 restatement filed July2026",
+      "location": "Sections2.3,2.4,2.6,4.1,8.2; Purchase Price/Flex/Pre-closing Interest definitions",
+      "retrieved": "2026-10-29",
+      "bytes": 673076,
+      "sha256": "e7347d6e464e4344b2b3ee311ceac10d9430cf413e8476e7bc8df80911a23f88",
+      "kind": "primary public filing or issuer presentation"
+    },
+    {
+      "id": "P2U",
+      "file": "/Users/kwu/Documents/ChatGPT/$CVNA/work/loan-sale-economics/sources/cvna-p2-underwriting.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/1770373/000177037326000026/crvna2026-p2xex11underwrit.htm",
+      "entity_period": "CRVNA2026-P2, May19,2026",
+      "location": "ScheduleI offered amounts and prices; ScheduleII closingMay27",
+      "retrieved": "2026-10-29",
+      "bytes": 216009,
+      "sha256": "16f08289caad2b677b4ed7b592905ea17f0c90fa13ba49009b2b7038af684ab1",
+      "kind": "primary public filing or issuer presentation"
+    },
+    {
+      "id": "P2",
+      "file": "/Users/kwu/Documents/ChatGPT/$CVNA/work/loan-sale-economics/sources/cvna-p2-prospectus.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/1999855/000110465926065016/tm2612379d6_424b5.htm",
+      "entity_period": "CRVNA2026-P2, May21,2026",
+      "location": "Cover; summary pool characteristics and servicing; capitalization p37; repurchase history p67; Use of Proceeds p83; Credit Risk Retention",
+      "retrieved": "2026-10-29",
+      "bytes": 18168993,
+      "sha256": "daaddda92f0259c7fe33198557d797ffa34e3e2c1961695a4a4baf30faaff108",
+      "kind": "primary public filing or issuer presentation"
+    },
+    {
+      "id": "B26",
+      "file": "/Users/kwu/Documents/ChatGPT/$CVNA/work/loan-sale-economics/sources/blast-2026-2-prospectus.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/1974820/000110465926045465/tm2611397d8_424b5.htm",
+      "entity_period": "BAC/BLAST2026-2; pool2026, enterprise2025",
+      "location": "Summary statistical information; Credit Risk Retention pp40-43; Origination p43; Servicer p47; Delinquencies and Net Losses population definition",
+      "retrieved": "2026-10-29",
+      "bytes": 4405709,
+      "sha256": "6f75a0ed1490d7a4e4c062a2936b7777d638f5c2d79e912842fb04bf677054c3",
+      "kind": "primary public filing or issuer presentation"
+    },
+    {
+      "id": "PX",
+      "file": "/Users/kwu/Documents/ChatGPT/$CVNA/work/loan-sale-economics/sources/cvna-proxy-2026.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/1690820/000169082026000024/cvna-20260325.htm",
+      "entity_period": "Carvana, FY2025 relationships",
+      "location": "Related Party Transactions pp24-25: MPSA/fixed-pool/transfer agreements; clean-up calls",
+      "retrieved": "2026-10-29",
+      "bytes": 1582570,
+      "sha256": "5a9725bdcdf29bce77232d3dd4339ae21819c0edc4384a4a02a522ab985c06c4",
+      "kind": "primary public filing or issuer presentation"
+    },
+    {
+      "id": "L26",
+      "file": "/Users/kwu/Documents/ChatGPT/$CVNA/work/loan-sale-economics/sources/cvna-q3-2026-letter.pdf",
+      "url": "https://investors.carvana.com/~/media/Files/C/Carvana-IR/documents/cvna-shareholder-letter-q3-2026.pdf",
+      "entity_period": "Carvana management Q3 2026",
+      "location": "Printed pp3-4, PDF pp4-5; voluntary rate reductions and rising benchmark explanation",
+      "retrieved": "2026-10-29",
+      "bytes": 12977215,
+      "sha256": "1affc3afc423c3de80caf6acba97ba9421a93295744509c67ca11367ace69f82",
+      "kind": "primary public filing or issuer presentation"
+    },
+    {
+      "id": "F101",
+      "file": "/Users/kwu/Documents/ChatGPT/$CVNA/work/loan-sale-economics/sources/finance101.pdf",
+      "url": "https://investors.carvana.com/~/media/Files/C/Carvana-IR/reports-and-presentations/carvana-101-finance-platform-and-loan-performance.pdf",
+      "entity_period": "Historical issuer explainer2019, notcurrent",
+      "location": "pp1-3 model description; p6 cautions about comparators; historical data throughDec2018",
+      "retrieved": "2026-10-29",
+      "bytes": 781124,
+      "sha256": "0163e7dbdd90f6722ad56cc3227368f98f5c05a1498cbb72ecfe837a8d347369",
+      "kind": "primary public filing or issuer presentation"
+    },
+    {
+      "id": "C25",
+      "file": "/Users/kwu/Downloads/Carvana Co._10-K_2025-12-31T00_00_00_English.pdf",
+      "location": "Notes2 pp66-71;7-8 pp79-81;17 pp104-105;18 p107; cash flow p63",
+      "sha256": "ac5aaacd5f3c676520ffe0e6889e1ce5ef3e6c691f5d229310e749eb75d4934e",
+      "kind": "user supplied report",
+      "retrieved": "prior investigation; rechecked selectively2026-10-29"
+    },
+    {
+      "id": "G24",
+      "file": "/Users/kwu/Downloads/GoFi 2024 Annual Report.pdf",
+      "location": "Notes1-3 pp9-12 and Note5 p13",
+      "sha256": "059efc9ad942ddb207d4b58de0addbe31c2a8df0ee8699acb25ab7bee9999350",
+      "kind": "user supplied report",
+      "retrieved": "prior investigation; rechecked selectively2026-10-29"
+    },
+    {
+      "id": "D24",
+      "file": "/Users/kwu/Downloads/DriveTime 2024.pdf",
+      "location": "Previously audited in work/gotham-claims-audit.json",
+      "sha256": "ca50229521b6dc6e75574b96fb9ea93b4754d13e81d4648ce2fd581713ce1476",
+      "kind": "user supplied report",
+      "retrieved": "prior investigation; rechecked selectively2026-10-29"
+    }
+  ],
+  "claims": [
+    {
+      "id": "cash_bridge",
+      "type": "derived",
+      "verdict": "supported",
+      "sources": [
+        "C25",
+        "C26"
+      ],
+      "period": "FY2024,FY2025,9M2025,9M2026",
+      "population": "all reported loan sales",
+      "units": "USD millions",
+      "denominator": "rounded principal by channel",
+      "method": "cash proceeds - rounded principal + new retained FV + balancing residual = gain",
+      "confidence": "high arithmetic; medium cash premium interpretation",
+      "limitation": "unallocated residual is rounding/basis/timing/other consideration, not evidence manipulation; total gains not net segment profitability",
+      "decision": "weakens predominantly paper gain claim"
+    },
+    {
+      "id": "margin_compression",
+      "type": "derived",
+      "verdict": "supported",
+      "sources": [
+        "C26",
+        "L26"
+      ],
+      "period": "9M2026 versus9M2025",
+      "population": "all reported loan sales",
+      "units": "percentage points and USD millions",
+      "method": "1084/13900 - 878/8900 = -2.0666pp; 13900 times difference = -287.26m ratio/mix effect",
+      "alternatives": [
+        "lower borrower pricing",
+        "market spreads/rates",
+        "channel and credit mix",
+        "timing/basis"
+      ],
+      "confidence": "high on aggregate, low causal attribution",
+      "decision": "use current gain ratios and explicit future stress; not a proven subsidy or pure buyer repricing"
+    },
+    {
+      "id": "direct_affiliate_route",
+      "type": "observed issuer disclosure",
+      "verdict": "unsubstantiated allegation",
+      "sources": [
+        "C26",
+        "PX",
+        "G24"
+      ],
+      "period": "9M2025,9M2026",
+      "population": "direct CVNA finance receivable sales",
+      "method": "Note6 explicitly says no sales to DriveTime or any affiliates; contrast with unverified VIN chains",
+      "confidence": "high on disclosure; no independent assignment tracing",
+      "limitation": "secondary ownership, servicing nominees, cleanup calls and other intermediaries are distinct; disclosure is not independent exoneration",
+      "decision": "no proven CVNA-to-GoFi/BAC gain/volume"
+    },
+    {
+      "id": "ally_counterevidence",
+      "type": "observed buyer statement",
+      "verdict": "partially supported",
+      "sources": [
+        "A25",
+        "A26",
+        "AM",
+        "C26"
+      ],
+      "period": "FY2025,H1/Q32026",
+      "population": "Ally-acquired CVNA loans",
+      "method": "buyer reports similar delinquency/loss by comparable credit characteristics, growing channel exposure; contract permits repricing",
+      "confidence": "high statement, unknown acquisition return",
+      "limitation": "no CVNA channel yield/premium/fully allocated profitability; cannot extrapolate to subprimeGoFi",
+      "decision": "weakens systematically bad underwriting narrative, not fair-price proof"
+    },
+    {
+      "id": "retained_mark_risk",
+      "type": "observed/derived",
+      "verdict": "supported risk, no misvaluation demonstrated",
+      "sources": [
+        "C25",
+        "C26"
+      ],
+      "period": "FY2025,9M2026",
+      "population": "CVNA retained securities, all vintages versus new transactions explicitly separated",
+      "units": "USD millions",
+      "method": "rollforward464+240-217+12-13=486;486+266-178+12-29=557",
+      "confidence": "high accounting; fair values unvalidated",
+      "limitation": "rated notes and residuals differ; payments include financed asset/debt reductions, not all free cash; end balances not annual gain",
+      "decision": "initial FV enters EBITDA gain; subsequent marks excluded, requiring separate monitoring"
+    },
+    {
+      "id": "public_abs_price",
+      "type": "observed executed contract/derived sum",
+      "verdict": "supported partial pricing",
+      "sources": [
+        "P2U",
+        "P2"
+      ],
+      "period": "May2026",
+      "population": "CRVNA2026-P2 publicly offered A-D notes",
+      "units": "USD and percentpool",
+      "method": "sum face times netprices agrees with disclosed1042661118 within$1;94.7533% pool principal",
+      "confidence": "high",
+      "limitation": "privateN/XS/certificate terms unknown; underwriting allocations not ultimateinvestorholdings; not wholeloan orGoFiprice",
+      "decision": "independent market distribution demonstrated for securities; total premium not identified"
+    },
+    {
+      "id": "gofi_aggregate",
+      "type": "observed/derived",
+      "verdict": "not identifiable for CVNA",
+      "sources": [
+        "G24"
+      ],
+      "period": "FY2024",
+      "population": "GoFi sales to affiliated BAC, all dealers",
+      "units": "USD",
+      "method": "167553902+7185702=174739604;gain/balance4.2886%",
+      "confidence": "high disclosed aggregate; unknown original dealer acquisition prices",
+      "limitation": "sold balance FV accounting not independently reconciled to UPB; no CVNA seller allocation; not annual2026volume",
+      "decision": "cannot enter CVNA model as subsidy estimate"
+    },
+    {
+      "id": "bac_buyer_returns",
+      "type": "observed issuer model and enterprise disclosures",
+      "verdict": "not identifiable for CVNA",
+      "sources": [
+        "B26",
+        "D24"
+      ],
+      "period": "FY2025enterprise/2026pool",
+      "population": "BAC-owned loans and consolidatedDriveTime; selectedBLASTpool",
+      "units": "USD and percentage",
+      "method": "read annualmark352.9m and pretax92m; model16%residualyield27.70%CNL;affiliatedslice759931706.70*7.97%",
+      "confidence": "high disclosure; no independentvalue/return",
+      "limitation": "cannot trace marks toGoFi/CVNA; targetyield notrealizedyield; ownedprincipalminusFV stockgap notflowloss",
+      "decision": "continuedcredit/valuationrisk;noCVNAsubsidyamount"
+    },
+    {
+      "id": "materiality",
+      "type": "assumed scenario on observed volume",
+      "verdict": "sensitivity only",
+      "sources": [
+        "C25",
+        "C26"
+      ],
+      "period": "FY2025 and9M2026 separately",
+      "units": "USD millions",
+      "method": "affectedprincipal*pricepoint;2025total1pt124;fixed42;9M26total139;fixed45",
+      "confidence": "high arithmetic; premium/affectedrouteunknown",
+      "limitation": "constantbasis,volume,costs,otherconsideration;EBITDA/FCFbridgerequired",
+      "decision": "modelrangesnotbasecaseforensicdeduction"
+    }
+  ],
+  "prior_state": [
+    "work/diligence-state.txt",
+    "work/gotham-claims-audit.json",
+    "work/servicing-checks.json",
+    "work/vin-pricing/evidence-ledger.json",
+    "work/vin-pricing/reopened/findings.json",
+    "work/vin-pricing/reopened/next-evidence-2026-10-29.json",
+    "work/vin-pricing/reopened/borrower-benchmarks-2026-10-29.json"
+  ],
+  "additional_public_sources": [
+    {
+      "url": "https://www.kbra.com/publications/FvbrSVsV",
+      "date": "2026-05-06",
+      "fact": "48affirmations/15upgrades and timely noteinterest; not residual returns"
+    },
+    {
+      "url": "https://www.kbra.com/publications/xMBwpnrd/carvana-auto-receivables-trust-comprehensive-surveillance-dashboard",
+      "result": "premium ABS subscription required; not retrieved"
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0000040729.json",
+      "result": "latest available10Q at retrievalJune30,2026"
+    }
+  ],
+  "search_log": [
+    {
+      "family": "AlphaSense",
+      "query": "Carvana AND (\"purchase premium\" OR \"purchase yield\" OR \"whole loan\" OR \"whole-loan\")",
+      "scope": "allavailable sources,2Y",
+      "result": "24hits, mainlymoney-market holdings andissuer prospectuses;no matchedpurchaseprice"
+    },
+    {
+      "family": "AlphaSense interview",
+      "document": "EC-1000000-242970",
+      "result": "humanverification/accessdenied;notread;notbypassed"
+    },
+    {
+      "family": "buyeridentitypublic",
+      "query": "Carvana fixed pool buyer / whole loan purchases, plus Apollo,Citi,BlackRock",
+      "result": "no validatedidentity beyondAlly;underwriterrolesandstockholdings excluded"
+    },
+    {
+      "family": "buyerfinancials",
+      "query": "GoFi2025financial statements;DriveTime2025annualreport",
+      "result": "no newGoFiaudit;BLAST2026-2prospectus supplied2025enterprise andpoolriskretention disclosures"
+    },
+    {
+      "family": "publicmarketexecution",
+      "result": "actualCRVNA2026-P2underwritingprices recovered;privateclassesremainunpriced"
+    },
+    {
+      "family": "independentcredit",
+      "result": "Ally2026Q2samecreditperformance;KBRApressreleaseaffirmationsupgrades;detailedKBRApaywall;S&Ppresalebodyunavailable"
+    }
+  ],
+  "next_evidence": [
+    "Buyer identities and channel proceeds/gains/retained breakdown",
+    "Executed whole-loan settlement plus side letters, origination/assignment chain and accurate UPB/carrying basis",
+    "Independent competing bids or buyer original target-return and loss/prepay model",
+    "Acquired cohort realized cashflows, losses, recoveries, servicing/funding, retained marks"
+  ],
+  "calculations": "calculate.py -> calculations.json",
+  "state": "research-state.txt",
+  "continuations": [
+    {
+      "date": "2026-10-30",
+      "kind": "buyer-return investigation",
+      "report": "buyer-returns/report.html",
+      "new_evidence": [
+        "Filed P2 FWP has N near-par pricing and R entire-class value49.272m at18.5% Case2 modeled yield. Earlier claim residual pricing wholly unavailable superseded in part. XS/Case2 and settlement still missing.",
+        "September P2 actual report confirms .45%base/.55%XS and1.225306m Rdistribution; contractual N reserve belongs to depositor, not R.",
+        "67-cohort scenario with3%netloss and1.3%totalABS valuesR45.477m at18.5%; prospective IRR14.87% at49.272m. Not an actual buyer forecast.",
+        "Historical2022P3 CNL3.46% at43periods and2023P3 3.72% at32periods;3%notconservativebydefault."
+      ],
+      "verdict": "Meaningful premium economically plausible in selected public deal; full companywide gain sustainability and subsidy claim remain unidentified.",
+      "model_use": "Observed terms base-case inputs; scenario values/returns sensitivity only.",
+      "source_provenance": "buyer-returns/provenance.json",
+      "validation": "buyer-returns/checks.json"
+    }
+  ]
+}

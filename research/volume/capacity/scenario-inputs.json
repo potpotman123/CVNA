@@ -1,0 +1,13 @@
+{
+  "status": "Hypothetical sensitivities; none of the operational growth, mix, absorption, days or cost assumptions below are measured company inputs.",
+  "annualized_normalization_units": 800000,
+  "baseline_note": "Q3 2026 output >200,000; multiplying the threshold by four gives a deliberately conservative normalization, not exact output or a seasonally adjusted forecast. Formula can be rerun with a verified baseline.",
+  "inventory_cost_per_unit": 22000,
+  "inventory_days": 45,
+  "cases": [
+    {"name":"Existing-footprint ramp","existing_resource_growth":[0.15,0.12,0.10],"repair_hours_multiplier":[1,1,1],"three_buildouts_realization":[0,0,0],"six_integrations_realization":[0,0,0],"demand_absorption":[1,1,1],"capital":"No incremental building capex assumed; hiring, training, maintenance, technology and logistics still require spending.","interpretation":"Net staffing/process gains at Q3 footprint, stable repair intensity; additional planned projects deliberately excluded to isolate this route."},
+    {"name":"Expansion-supported","existing_resource_growth":[0.15,0.12,0.10],"repair_hours_multiplier":[1,1,1],"three_buildouts_realization":[0.30,0.85,0.95],"six_integrations_realization":[0.30,0.85,0.95],"demand_absorption":[1,1,1],"capital":"Three buildouts $90–105m plus six hypothetical integrations $12–18m; gross full-project budgets, not remaining capex or annual company capex guidance.","interpretation":"2027 first-year realization=half year open x60% productive rate. Higher 2028–29 ramp is assumed; constant vehicle mix."},
+    {"name":"Operational downside","existing_resource_growth":[0.08,0.05,0.05],"repair_hours_multiplier":[1.10,1.10,1.10],"three_buildouts_realization":[0.10,0.50,0.70],"six_integrations_realization":[0,0,0],"demand_absorption":[1,1,1],"capital":"Three buildouts still require $90–105m gross project budgets; integrations deferred. Hiring and rework costs could be higher, unquantified.","interpretation":"Productive resources improve slowly; average repair labor requirement is 10% above baseline. Assumes labor/repair is bottleneck; not universally applicable."},
+    {"name":"Demand/economic downside","existing_resource_growth":[0.15,0.12,0.10],"repair_hours_multiplier":[1,1,1],"three_buildouts_realization":[0.30,0.85,0.95],"six_integrations_realization":[0.30,0.85,0.95],"demand_absorption":[0.95,0.90,0.85],"capital":"Same potential project commitments as expansion case; economics worsen through idle capacity or discounting. Rational production curtailment needed.","interpretation":"Absorbable sales fall progressively below feasible production at acceptable economics. Unabsorbed production is an alert, not a forecast of intentional multi-year accumulation."}
+  ]
+}

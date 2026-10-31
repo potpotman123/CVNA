@@ -1,0 +1,22 @@
+{
+  "cohort_count": 67,
+  "cohort_principal_sum_dollars": 1100395400.2000005,
+  "analytic_par_check": 99.99999999999986,
+  "observed_september_rollforward_error_dollars": 0.0,
+  "observed_september_recomputed_N_principal_dollars": 2275568.7725062147,
+  "observed_september_recomputed_residual_dollars": 1225306.262118731,
+  "loan_record_count": 38690,
+  "original_amount_weighted_contract_rate_pct": 10.53901665891684,
+  "original_amount_total_dollars": 1108307912.4299316,
+  "loan_data_limitation": "Original principal differs from final cutoff balance; does not establish loan-level APR equals contractual interest on every loan. Weighted contract rate rounds to 10.54%, supporting use as proxy. Final prospectus 67 cohorts reconcile exactly to final cutoff pool.",
+  "scenario_monotonicity": "pass",
+  "waterfall_reserve_ownership_check": "Class N reserve released to depositor, not R; main reserve belongs to R following liabilities. Model tracks separately.",
+  "known_model_limits": [
+    "Regular monthly timing; no actual closing stub or day count",
+    "No optional clean-up call or exact legal acceleration; no modeled note shortfalls in scenarios shown",
+    "CNL/default timing calibrated assumptions, not forecast or observed buyer Case 2",
+    "First-period cash and APR/rate basis affect exact residual value",
+    "No taxes, investor fund leverage, deal hedges, unexpected indemnity or transition costs",
+    "No independent corroboration of reported servicer collections"
+  ]
+}

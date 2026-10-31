@@ -1,0 +1,26 @@
+{
+  "observed_date": "2026-10-30",
+  "source_query": "https://web.archive.org/cdx/search/cdx?url=carvana.com/vehicle/*&from=2024&to=2026&output=json&fl=timestamp,original,statuscode,mimetype&filter=statuscode:200&limit=50000",
+  "scope": "Capped, URL-ordered metadata sample; not an exhaustive or representative archive census",
+  "returned_rows": 50000,
+  "numeric_listing_capture_rows": 41044,
+  "distinct_vehicle_ids": 32130,
+  "single_capture_ids": 25354,
+  "multiple_capture_ids": 6776,
+  "multiple_distinct_day_ids": 6058,
+  "adjacent_distinct_day_gaps": 7205,
+  "median_gap_days": 46,
+  "gaps_over_30_days": 4497,
+  "inspection_url_rows": 46,
+  "monthly_capture_rows_in_sample": {
+    "202401":16,"202402":250,"202403":95,"202404":2315,"202405":1614,"202406":894,"202407":812,"202408":18,"202409":424,"202410":25,"202411":642,"202412":790,
+    "202501":1247,"202502":2676,"202503":2502,"202504":4107,"202505":326,"202506":325,"202507":1825,"202508":2644,"202509":1899,"202510":1095,"202511":2240,"202512":946,
+    "202601":736,"202602":2227,"202603":1466,"202604":313,"202605":1139,"202606":1602,"202607":1207,"202608":417,"202609":825,"202610":1385
+  },
+  "common_crawl_tests": {
+    "pattern":"www.carvana.com/vehicle/*",
+    "collections":["CC-MAIN-2024-42","CC-MAIN-2025-43","CC-MAIN-2026-43"],
+    "results":"No captures found in each tested collection; not a claim about every collection"
+  },
+  "limitations":["URL ID is not VIN","HTTP 200 is not proof of available inventory","missing captures are not sales","archive queries for completeness failed intermittently","raw metadata not saved; query and summary preserved","content replay sample purposive, not representative"]
+}

@@ -1,0 +1,156 @@
+{
+  "source_url": "https://dor.mo.gov/public-reports/dealers_mv_report.txt",
+  "report_date": "2026-10-06",
+  "retrieved": "2026-10-29",
+  "sha256_rendered_text": "ca50e3834f673e0b68b0c561f97073c21a91c9e274b118f5056b47ad6ae5bc19",
+  "limitations": [
+    "2026 partial year; reporting cutoff not established",
+    "Dealer license counts, not buyer geography or reconditioning output",
+    "Historical dealer ownership/license continuity unverified",
+    "Underlying monthly reports include retail and wholesale; no documented retail-only filter verified for public annual counts"
+  ],
+  "records": [
+    {
+      "dealer_id": "D2160",
+      "name": "ADESA KANSAS CITY/CARVANA, LLC",
+      "used_units": {
+        "2026": 2105,
+        "2025": 742,
+        "2024": 225,
+        "2023": 198,
+        "2022": 128,
+        "2021": 136,
+        "2020": 151,
+        "2019": 210,
+        "2018": 196,
+        "2006": 1625
+      }
+    },
+    {
+      "dealer_id": "D6038",
+      "name": "CARMAX/CARMAX AUTO SUPERSTORE, INC",
+      "used_units": {
+        "2026": 2384,
+        "2025": 3480,
+        "2024": 3822,
+        "2023": 3540,
+        "2022": 3605,
+        "2021": 4303,
+        "2020": 3418,
+        "2019": 3748,
+        "2018": 3390,
+        "2006": 34305
+      }
+    },
+    {
+      "dealer_id": "D8124",
+      "name": "CARMAX/CARMAX AUTO SUPERSTORES, INC.",
+      "used_units": {
+        "2026": 923,
+        "2025": 883,
+        "2024": 917,
+        "2023": 891,
+        "2022": 929,
+        "2021": 52,
+        "2010": 3,
+        "2009": 7,
+        "2008": 14,
+        "2007": 3
+      }
+    },
+    {
+      "dealer_id": "D2986",
+      "name": "CARMAX, CARMAX THE AUTO SUPERSTORE/CARMAX AUT",
+      "used_units": {
+        "2026": 1682,
+        "2025": 2175,
+        "2024": 2144,
+        "2023": 2185,
+        "2022": 2217,
+        "2021": 2335,
+        "2020": 1872,
+        "2019": 2157,
+        "2018": 2059,
+        "2006": 7163
+      }
+    },
+    {
+      "dealer_id": "D3084",
+      "name": "CARMAX, CARMAX THE AUTO SUPERSTORE/CARMAX AUT",
+      "used_units": {
+        "2026": 6243,
+        "2025": 6839,
+        "2024": 6968,
+        "2023": 7248,
+        "2022": 5531,
+        "2021": 2603,
+        "2020": 1767,
+        "2019": 1873,
+        "2018": 2077,
+        "2006": 6532
+      }
+    },
+    {
+      "dealer_id": "D4620",
+      "name": "CARVANA/CARVANA LLC",
+      "used_units": {
+        "2026": 1065,
+        "2025": 2664,
+        "2024": 3397,
+        "2023": 6070,
+        "2022": 11040,
+        "2021": 10239,
+        "2020": 3838,
+        "2019": 16,
+        "2012": 44,
+        "2009": 146
+      }
+    },
+    {
+      "dealer_id": "D9582",
+      "name": "CARVANA/CARVANA LLC",
+      "used_units": {
+        "2026": 1330,
+        "2025": 829,
+        "2024": 581,
+        "2023": 56
+      }
+    },
+    {
+      "dealer_id": "D9584",
+      "name": "CARVANA/CARVANA LLC",
+      "used_units": {
+        "2026": 4397,
+        "2025": 5860,
+        "2024": 4299,
+        "2023": 391,
+        "2007": 7,
+        "2006": 13
+      }
+    },
+    {
+      "dealer_id": "D9015",
+      "name": "CARVANA/CARVANA, LLC",
+      "used_units": {
+        "2026": 1492,
+        "2025": 1593,
+        "2024": 1051,
+        "2023": 644,
+        "2022": 0,
+        "2011": 0
+      }
+    }
+  ],
+  "validation": {
+    "date": "2026-10-29",
+    "decision": "Not suitable for local retail-demand or causal ADESA estimation",
+    "manual_url": "https://dor.mo.gov/forms/Dealer-Operating-Manual.pdf",
+    "manual_sections": [
+      "PDF page 31: wholesale and retail reporting, separate dealer numbers",
+      "11-1: address/name changes",
+      "11-2: buyer may retain seller license number"
+    ],
+    "continuity": "Specific ownership/license history unverified; D4620 has rows predating 2019 vending-machine opening",
+    "opening_source": "https://www.carvana.com/press/carvana-unveils-kansas-city-car-vending-machine/"
+  }
+}

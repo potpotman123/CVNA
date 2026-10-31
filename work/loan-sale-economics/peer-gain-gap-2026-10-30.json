@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-30",
+  "cvna_q3": {
+    "gain_m": 381,
+    "sold_principal_m": 5150,
+    "ratio_pct": 7.398058252427185
+  },
+  "kmx_q2fy27": {
+    "gain_m": 16.6,
+    "sold_amount_including_interest_m": 596,
+    "ratio_pct": 2.7852348993288594
+  },
+  "gap_percentage_points": 4.612823353098325,
+  "cvna_9m_cash_bridge": {
+    "cash_m": 14722,
+    "rounded_principal_m": 13900,
+    "new_retained_fv_m": 266,
+    "gain_m": 1084,
+    "cash_above_rounded_principal_pct": 5.913669064748201,
+    "retained_pct": 1.9136690647482013,
+    "basis_timing_cost_rounding_residual_m": -4
+  },
+  "fixed_pool_identification_scenarios": [
+    {
+      "assumed_ally_and_abs_gain_pct": 2.7852348993288594,
+      "implied_fixed_pool_gain_pct": 17.63276006711409
+    },
+    {
+      "assumed_ally_and_abs_gain_pct": 6.0,
+      "implied_fixed_pool_gain_pct": 10.5
+    },
+    {
+      "assumed_ally_and_abs_gain_pct": 8.0,
+      "implied_fixed_pool_gain_pct": 6.0625
+    }
+  ],
+  "servicing_sensitivities": [
+    {
+      "assumed_discounted_balance_years": 2,
+      "kmx_gross_2_25pct_fee_pv_pct": 4.5,
+      "net_margin_needed_to_bridge_entire_raw_gap_pct_per_year": 2.3064116765491627
+    },
+    {
+      "assumed_discounted_balance_years": 2.5,
+      "kmx_gross_2_25pct_fee_pv_pct": 5.625,
+      "net_margin_needed_to_bridge_entire_raw_gap_pct_per_year": 1.8451293412393301
+    },
+    {
+      "assumed_discounted_balance_years": 3,
+      "kmx_gross_2_25pct_fee_pv_pct": 6.75,
+      "net_margin_needed_to_bridge_entire_raw_gap_pct_per_year": 1.5376077843661085
+    }
+  ],
+  "limits": [
+    "Scenarios are not estimates or normalized peer gains.",
+    "Servicing future NET profit, not gross fee revenue, belongs in total economics; avoid adding already recognized servicing asset value.",
+    "CVNA channel gains unknown; one aggregate equation cannot solve three channel rates.",
+    "CarMax allowance releases cannot be added to sale gains without tracing same loans and earlier provisions."
+  ],
+  "comparison_status": "WITHDRAWN as companywide peer benchmark. Single selected CarMax nonprime sale is not representative of majority CAF loan economics. Raw arithmetic retained only for transaction-specific provenance; no inference of CVNA abnormal premium."
+}

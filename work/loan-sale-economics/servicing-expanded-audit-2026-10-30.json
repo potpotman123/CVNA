@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-30",
+  "question": "Gotham servicing subsidy calculation; contract benchmarks; whether loan gain premium is economically justified",
+  "conclusion": "Gotham numerical inference fails. Low published CVNA ABS base fees are real, but external backup-servicer contracts substantially weaken an inference that only a related party could supply such pricing. Private fixed-pool and Ally numerical servicing terms remain unresolved. Elevated blended gain ratios are not independently validated by this finding.",
+  "gotham": {
+    "source": "/Users/kwu/Downloads/2026 01 28 - Carvana.pdf",
+    "locator": "printed pp31-34,64-65; extracted work/gotham.txt lines1480-1610,2750-2795",
+    "fees_m": {"other_third_party":10.4,"ally":87.1,"trusts":84.5},
+    "invalid_denominators_m": {"other_third_party":8888,"ally_annual_sales":3000,"trusts_annual_sales":3800},
+    "errors": ["Annual servicing revenue spans existing vintages; annual sales are not average serviced balances.","8888 residual subtracts annual sales and point-in-time held balances from year-end third-party serviced stock.","Five-year flat original balance ignores amortization, prepayment, defaults and discounting; compares all-vintage portfolio to one year new-sale gains.","Narrative invokes 2.224%-2.903% benchmarks but 666.6-888.8m table uses 1.5%-2%; those are gross assumed fees, not net shortfall after actual fees.","Gain on sale is not by definition price minus fair value; usual basis bridge includes carrying value, consideration, retained interests and expenses."]
+  },
+  "new_contract_evidence": [
+    {"url":"https://www.sec.gov/Archives/edgar/data/1770373/000177037326000048/crvna2026-p3xex104servicin.htm","locator":"definitions p2; sections2.7,5.1","base_pct":0.39,"backup_successor_pct":0.45,"finding":"Signed contract differs from prospectus summary suggesting same successor fee. Use signed agreement. Vervent successor exempt from predecessor obligations and specified Actual Loss Amount indemnification; supplements and liquidation reimbursements additional."},
+    {"url":"https://www.sec.gov/Archives/edgar/data/1770373/000177037326000048/crvna2026-p3xex105backupse.htm","locator":"section1(b),exhibitB","standby_fee_monthly":2750,"finding":"Vervent agrees to assume during appointment period; transition/boarding expenses and indemnities reimbursable. Standby fee ceases on assumption. Not a clean all-in standalone market quote."},
+    {"url":"https://www.sec.gov/Archives/edgar/data/1999854/000177037324000022/crvna2024-p4xex104servicin.htm","locator":"definitions p2","base_pct":0.58,"backup_successor_pct":0.58},
+    {"url":"https://www.sec.gov/Archives/edgar/data/1477336/000119312524062012/d745265dex994.htm","locator":"AppendixA Basic Servicing Fee Rate","deal":"Ally Auto Receivables Trust 2024-1","base_pct":1.0,"limit":"Ally servicing own ABS, NOT Bridgecrest fee on Ally-owned CVNA loans"},
+    {"url":"https://www.sec.gov/Archives/edgar/data/1259380/000119312525007659/d850867d424b5.htm","locator":"Transaction Fees and Expenses","deal":"CarMax prime 2025 prospectus","base_pct":1.0},
+    {"url":"https://www.sec.gov/Archives/edgar/data/1259380/000119312526400855/d187449d424b5.htm","locator":"Transaction Fees and Expenses pp83, Servicing Compensation p96","deal":"CarMax Select 2026-C","base_pct":2.25,"limit":"Riskier pool; supplemental fees and liquidation costs matter"},
+    {"url":"https://s22.q4cdn.com/451161776/files/doc_downloads/prospectus/SDART-2025-2/SDART-2025-2-Final-Prospectus-As-Printed.pdf","deal":"Santander Drive 2025-2","base_pct":3.0,"status":"primary issuer prospectus indexed excerpt"},
+    {"url":"https://www.sec.gov/Archives/edgar/data/2114382/000092963826001035/eart2026-2_424h.htm","locator":"Servicing Fee summary and Transaction Fees","deal":"Exeter 2026-2","base_pct":3.0,"status":"preliminary prospectus","limit":"Subprime, not CVNA prime comparable"}
+  ],
+  "economic_interpretation": {
+    "abs_2026_p3": "1% strip = .39% base plus .61% XS cash flow, before supplemental fees and expenses. XS may be privately sold or retained. Trace ownership and sale consideration before attributing full value to CVNA; ordinary note coupons do not capture whole financing economics.",
+    "illustrative_fee_pv_only": {"assumed_discounted_balance_years":2.5,"annual_fee_differences_bps":[6,50,100],"upfront_value_pct_original_principal":[0.15,1.25,2.5],"limit":"Not measured duration, fair fee, subsidy or amount captured by CVNA. Not all channels have same terms."},
+    "gain_peer": "CarMax FY26 sale 930m including accrued interest, gain26.9m net transaction expense =2.8925%; recent596m/16.6m =2.7852%. CVNAQ3 blended7.3981%. Not normalized for risk, age, retained servicing, basis, capital and sale structure.",
+    "peer_source":"https://www.sec.gov/Archives/edgar/data/1170010/000117001026000021/kmx-20260228.htm"
+  },
+  "search_limits": "Broader SEC, issuer prospectus, rating and contract-mirror discovery. Full Ally Master Servicing Agreement numerical rate and fixed-pool fee schedules not recovered. Nicholas-Westlake portfolio disposal rejected as fresh-originations gain comparator; generic Santander search not a valid normalized gain benchmark. No paid data or outreach.",
+  "decision_use": "Exclude Gotham 667-889m estimate as unsupported. Use signed servicing rates for identified pools and scenario sensitivities. Do not extrapolate private-buyer subsidy=0 or justify return to 9-10% blended gains without buyer economics and matched realized loss/prepayment data."
+}

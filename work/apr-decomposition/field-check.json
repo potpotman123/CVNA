@@ -1,0 +1,120 @@
+{
+  "2025-p2": {
+    "count": 25968,
+    "stats": {
+      "originalLoanAmount": {
+        "n": 25968,
+        "min": 1086.65,
+        "max": 109578.4,
+        "sum": 658557444.7599723
+      },
+      "reportingPeriodBeginningLoanBalanceAmount": {
+        "n": 25968,
+        "min": 1086.65,
+        "max": 109578.4,
+        "sum": 656172575.0899764
+      },
+      "reportingPeriodActualEndBalanceAmount": {
+        "n": 25968,
+        "min": 1001.39,
+        "max": 108494.38,
+        "sum": 650458079.1299819
+      },
+      "originalInterestRatePercentage": {
+        "n": 25968,
+        "min": 0.06,
+        "max": 0.2799,
+        "sum": 3421.184979999982
+      },
+      "reportingPeriodInterestRatePercentage": {
+        "n": 25968,
+        "min": 0.06,
+        "max": 0.2799,
+        "sum": 3421.379749999982
+      },
+      "obligorCreditScore": {
+        "n": 25012,
+        "min": 401.0,
+        "max": 890.0,
+        "sum": 17505720.0
+      },
+      "originalLoanTerm": {
+        "n": 25968,
+        "min": 12.0,
+        "max": 84.0,
+        "sum": 1865896.0
+      },
+      "vehicleValueAmount": {
+        "n": 25968,
+        "min": 8654.4,
+        "max": 117131.0,
+        "sum": 717901072.0899584
+      },
+      "paymentToIncomePercentage": {
+        "n": 25963,
+        "min": 0.0006,
+        "max": 0.2361,
+        "sum": 1944.1230999999898
+      }
+    }
+  },
+  "2026-p2": {
+    "count": 38690,
+    "stats": {
+      "originalLoanAmount": {
+        "n": 38690,
+        "min": 1052.35,
+        "max": 136095.29,
+        "sum": 1108307912.4299316
+      },
+      "reportingPeriodBeginningLoanBalanceAmount": {
+        "n": 38679,
+        "min": 0.0,
+        "max": 136095.29,
+        "sum": 1107375751.6199317
+      },
+      "reportingPeriodActualEndBalanceAmount": {
+        "n": 38679,
+        "min": 1015.07,
+        "max": 136095.29,
+        "sum": 1102770904.069941
+      },
+      "originalInterestRatePercentage": {
+        "n": 38690,
+        "min": 0.0399,
+        "max": 0.2799,
+        "sum": 4183.29014999983
+      },
+      "reportingPeriodInterestRatePercentage": {
+        "n": 38679,
+        "min": 0.0399,
+        "max": 0.2799,
+        "sum": 4182.271699999829
+      },
+      "obligorCreditScore": {
+        "n": 0,
+        "min": null,
+        "max": null,
+        "sum": 0
+      },
+      "originalLoanTerm": {
+        "n": 38690,
+        "min": 12.0,
+        "max": 84.0,
+        "sum": 2854881.0
+      },
+      "vehicleValueAmount": {
+        "n": 38690,
+        "min": 8850.67,
+        "max": 154667.6,
+        "sum": 1180285247.1999314
+      },
+      "paymentToIncomePercentage": {
+        "n": 38690,
+        "min": 0.0018,
+        "max": 0.315,
+        "sum": 2745.702799999995
+      }
+    }
+  }
+}

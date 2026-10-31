@@ -1,0 +1,27 @@
+{
+  "q2": {
+    "gain_m": 349,
+    "principal_m": 4700,
+    "ratio_pct": 7.425531914893617,
+    "gain_per_retail": 1768.6557709362726
+  },
+  "q3": {
+    "gain_m": 381,
+    "principal_m": 5150,
+    "ratio_pct": 7.398058252427185,
+    "gain_per_retail": 1752.6508268739794
+  },
+  "qoq_bps": -2.747366246643179,
+  "relative_change_pct": -0.36998915069407223,
+  "gain_growth_pct": 9.169054441260748,
+  "principal_growth_pct": 9.57446808510638,
+  "at_constant_ratio_gain_m": 382.4148936170213,
+  "ratio_effect_m": -1.4148936170212778,
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1690820/000169082026000055/cvna-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/1690820/000169082026000067/cvna-20260930.htm",
+    "https://stockanalysis.com/stocks/cvna/transcripts/718716-q3-2026/"
+  ],
+  "transcript_findings": "CFO BTIG Q&A165-170: separates late2025 strategic rate giveback from2026 risingbenchmarks;pass-through delayedQ2,begunQ3; otherGPU littlechangedQoQ. RBC254-258 prime/balance mix. Noquantifiedcausalbridge ofloan-onlyratio.",
+  "caveats": "Principal disclosures rounded;~2.75bps not meaningfulpreciseeconomicchange. PastlargecomparisonwasYoY263bps,notQoQ."
+}

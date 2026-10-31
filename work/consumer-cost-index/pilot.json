@@ -1,0 +1,102 @@
+{
+  "as_of": "2026-10-29",
+  "status": "Feasibility pilot, not a constant-quality company pricing index",
+  "assumptions": {
+    "downpayment_fraction": 0.1,
+    "term_months": 60,
+    "taxes_fees_addons_tradein": "excluded because comparable historical inputs unavailable",
+    "amortization": "APR treated as nominal interest rate with monthly compounding; no separately financed fees; scheduled full repayment; no prepayment"
+  },
+  "carmax": [
+    {
+      "period_end": "2025-11-30",
+      "price_prior": 26153,
+      "price_current": 26383,
+      "apr_prior": 0.112,
+      "apr_current": 0.11,
+      "synthetic_monthly_prior": 514.117450813384,
+      "synthetic_monthly_current": 516.2673131329893,
+      "payment_yoy": 0.004181655993594546,
+      "outlay_prior": 33462.34704880304,
+      "outlay_current": 33614.33878797936,
+      "outlay_yoy": 0.004542172100320485,
+      "index_vs_same_quarter_prior": 100.45421721003204,
+      "synthetic_series_base_Nov2025_100": 100.0
+    },
+    {
+      "period_end": "2026-02-28",
+      "price_prior": 26133,
+      "price_current": 26019,
+      "apr_prior": 0.111,
+      "apr_current": 0.111,
+      "synthetic_monthly_prior": 512.5489976011796,
+      "synthetic_monthly_current": 510.31310483239946,
+      "payment_yoy": -0.004362300539547559,
+      "outlay_prior": 33366.23985607078,
+      "outlay_current": 33220.686289943966,
+      "outlay_yoy": -0.00436230053954767,
+      "index_vs_same_quarter_prior": 99.56376994604523,
+      "synthetic_series_base_Nov2025_100": 98.82891494454692
+    },
+    {
+      "period_end": "2026-05-31",
+      "price_prior": 26120,
+      "price_current": 27288,
+      "apr_prior": 0.113,
+      "apr_current": 0.113,
+      "synthetic_monthly_prior": 514.6450021399385,
+      "synthetic_monthly_current": 537.6582242876968,
+      "payment_yoy": 0.04471669218989294,
+      "outlay_prior": 33490.7001283963,
+      "outlay_current": 34988.29345726181,
+      "outlay_yoy": 0.04471669218989294,
+      "index_vs_same_quarter_prior": 104.47166921898929,
+      "synthetic_series_base_Nov2025_100": 104.08740650217335
+    },
+    {
+      "period_end": "2026-08-31",
+      "price_prior": 25993,
+      "price_current": 27623,
+      "apr_prior": 0.112,
+      "apr_current": 0.118,
+      "synthetic_monthly_prior": 510.97215994311506,
+      "synthetic_monthly_current": 550.5032387543495,
+      "payment_yoy": 0.07736444744002346,
+      "outlay_prior": 33257.62959658691,
+      "outlay_current": 35792.494325260974,
+      "outlay_yoy": 0.07621904385314981,
+      "index_vs_same_quarter_prior": 107.62190438531496,
+      "synthetic_series_base_Nov2025_100": 106.47984049610558
+    }
+  ],
+  "cvna_selected_pools": [
+    {
+      "pool": "2025-p2",
+      "count": 25968,
+      "vehicle_sales_price_proxy_count_average": 27645.605055837954,
+      "apr_count_average": 0.1317461868453481,
+      "synthetic_monthly_average": 563.3430213267985,
+      "synthetic_outlay_average": 36565.14178519171
+    },
+    {
+      "pool": "2026-p2",
+      "count": 38690,
+      "vehicle_sales_price_proxy_count_average": 30506.209542517445,
+      "apr_count_average": 0.10812329154820367,
+      "synthetic_monthly_average": 590.8306008617011,
+      "synthetic_outlay_average": 38500.45700595381
+    }
+  ],
+  "cvna_unadjusted_pool_change": {
+    "price": 0.103474113910754,
+    "payment": 0.04879368074918755,
+    "outlay": 0.05292787409745192
+  },
+  "limits": [
+    "CarMax averages combine total used-vehicle ASP with CAF subset principal-weighted origination rate; not actual customer mean payment.",
+    "CVNA per-loan paired price proxy and APR; selected ABS population only, not all retail; count weights for average household transaction unlike APR decomposition principal weights.",
+    "Neither series controls vehicle/borrower composition; no valid cross-company price-level comparison.",
+    "CarMax yearlycomparisons are not sequential base100history; each prior-yearquarterrebased100.",
+    "CVNA corporate retail revenue perunit confounded by marketplace net revenue and partnerunits; do not treat as ASP."
+  ]
+}

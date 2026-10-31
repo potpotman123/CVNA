@@ -1,0 +1,67 @@
+{
+  "as_of": "2026-10-30",
+  "links": {
+    "prospectus": "https://www.sec.gov/Archives/edgar/data/1999855/000110465926065016/tm2612379d6_424b5.htm",
+    "pricing": "https://www.sec.gov/Archives/edgar/data/1999855/000110465926064016/tm2612379d9_fwp.htm",
+    "performance": "https://www.sec.gov/Archives/edgar/data/1999855/000199985526000021/crvna2026-p2servicerrepo.htm",
+    "investor": "https://www.sec.gov/Archives/edgar/data/1896036/000110465926103176/tm2624152d1_ncsrs.htm",
+    "company": "https://www.sec.gov/Archives/edgar/data/1690820/000169082026000067/cvna-20260930.htm",
+    "ally": "https://www.sec.gov/Archives/edgar/data/1690820/000169082026000055/ex10_9carvana-allyforwardf.htm"
+  },
+  "files": [
+    {
+      "file": "sources/investor.html",
+      "bytes": 1945885,
+      "sha256": "b6d50ea4615dd0cd05889af961a2aa243a834b64fb4cf4084d8094639e08b624"
+    },
+    {
+      "file": "sources/pricing.html",
+      "bytes": 19198,
+      "sha256": "6ba0112df64ffc373ea02377547b1517afbeca7c88ab63b237c7289a487b740a"
+    },
+    {
+      "file": "sources/prospectus-tables.json",
+      "bytes": 531828,
+      "sha256": "38d5544e4a1ebef40a0d8f6ff564366c783e06e515240d1b532ebe3e484b5c66"
+    },
+    {
+      "file": "sources/urls.json",
+      "bytes": 326,
+      "sha256": "944fe69c05e8440cef3301746cb9203fede631c770baa59abeff3c28dd946cc9"
+    },
+    {
+      "file": "sources/sep-report.html",
+      "bytes": 15661,
+      "sha256": "4e3a9eb4c518ea9a62db53128081e102cfc03db9fcd0344386d4b4d5551024df"
+    },
+    {
+      "file": "sources/table-cells.json",
+      "bytes": 1172584,
+      "sha256": "7f3bfc44ce0253e03b156c6e26aa598001fc329ad065a888743d93505087d795"
+    }
+  ],
+  "source_locator_notes": {
+    "prospectus": "67 hypothetical subpools pp68\u201370; waterfall pp89\u201390; reserve ownership p105; Annex I historical prime pools. Hypothetical coupon assumptions in amortization illustration are stale relative to final cover and actual report; model uses final cover/FWP coupons.",
+    "pricing": "A\u2013D/N/R pricing table and Case 2 footnotes; expected settlement May27; primary pricing communication, not settlement statement.",
+    "performance": "Rows9,104\u2013110, waterfall steps1,14\u201318; separately verified cash reconciliation.",
+    "investor": "Schedule p13; footnote6 effective-yield estimate."
+  },
+  "search_stopping_rule": "Bounded source families: SEC transaction pricing/contracts/performance; investor filings; ratings; existing peer evidence. Exact Case 2/XS terms not recovered; stop rather than fit to price.",
+  "existing_input_files": [
+    {
+      "path": "/Users/kwu/Documents/ChatGPT/$CVNA/work/loan-sale-economics/sources/cvna-p2-prospectus.html",
+      "bytes": 18168993,
+      "sha256": "daaddda92f0259c7fe33198557d797ffa34e3e2c1961695a4a4baf30faaff108"
+    },
+    {
+      "path": "/Users/kwu/Documents/ChatGPT/$CVNA/work/loan-sale-economics/sources/cvna-p2-underwriting.html",
+      "bytes": 216009,
+      "sha256": "16f08289caad2b677b4ed7b592905ea17f0c90fa13ba49009b2b7038af684ab1"
+    },
+    {
+      "path": "/Users/kwu/Documents/ChatGPT/$CVNA/work/apr-decomposition/2026-p2-rows.json.gz",
+      "bytes": 3419868,
+      "sha256": "7edd920730b22db1ba960d7f6ffad5516c34a193e06632f1e2cda69b73e1332f"
+    }
+  ]
+}

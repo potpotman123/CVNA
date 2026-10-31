@@ -1,0 +1,62 @@
+{
+  "as_of": "2026-10-30",
+  "case": "CRVNA2026-P2",
+  "observed": {
+    "cutoff": "2026-05-08",
+    "expected_settlement": "2026-05-27",
+    "pool_principal": 1100395400.2,
+    "borrower_apr_pct": 10.54,
+    "base_servicing_pct": 0.45,
+    "excess_servicing_pct": 0.55,
+    "OC_pct_initial_balance": 0.9,
+    "main_reserve_pct": 0.5,
+    "N_reserve_pct": 0.25,
+    "N_principal_share_of_remaining_cash_pct": 65,
+    "filed_R_value_m": 49.272,
+    "filed_R_Case2_yield_pct": 18.5,
+    "investor_effective_yield_pct_june30": 13.1
+  },
+  "assumed": {
+    "lifetime_cnl_pct": [
+      2,
+      2.75,
+      3,
+      4,
+      6
+    ],
+    "whole_loan_required_yields_pct": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "recovery_pct": [
+      20,
+      35,
+      50
+    ],
+    "recovery_lag_months": [
+      3,
+      6
+    ],
+    "default_hazard_peak_months": [
+      9,
+      18,
+      30
+    ],
+    "XS_discount_pct": 10
+  },
+  "proxy": {
+    "borrower_coupon": "67 APR subpools used as coupon proxies; loan-record original-amount-weighted contractual interest rate rounds to same10.54%",
+    "total_ABS_runoff": "1.3% pricing convention, 0.8/1.8 sensitivity. Includes defaults, not annual CPR"
+  },
+  "unknown": [
+    "private Case2 assumptions",
+    "XS final ownership and consideration",
+    "final N/R settlement adjustments",
+    "deal-specific carrying basis and reported gain",
+    "Ally and fixed-pool matched loan characteristics and prices"
+  ],
+  "decision_use": "All modeled prices/returns sensitivity only; no subsidy base-case adjustment; CarMax normalized gain comparator remains withdrawn"
+}

@@ -1,0 +1,79 @@
+{
+  "audit_date": "2026-10-28",
+  "scope": "Gotham January 28, 2026 report, major non-servicing claims; historical 2023–2024 figures. Not an exhaustive audit of later reports or 2026 DriveTime.",
+  "sources": {
+    "gotham": {
+      "path": "/Users/kwu/Downloads/2026 01 28 - Carvana.pdf",
+      "provenance": "User supplied"
+    },
+    "drivetime": {
+      "path": "/Users/kwu/Downloads/DriveTime 2024.pdf",
+      "provenance": "Complete audited statements downloaded from Gotham's published FOIA-copy link; not separately authenticated through FOIA",
+      "pages": "26,35,F7-F11,F20,F25,F29-F31,F35,F37-F38"
+    },
+    "gofi": {
+      "path": "/Users/kwu/Downloads/GoFi 2024 Annual Report.pdf",
+      "provenance": "Complete audited statements downloaded from Gotham's published link",
+      "pages": "6-13"
+    },
+    "cvna2024": {
+      "path": "/Users/kwu/Documents/ChatGPT/$CVNA/work/carvana2024.pdf",
+      "provenance": "Downloaded official annual report; Note 7 printed pages 75–76 visually inspected"
+    },
+    "blast2025_2": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1974820/000110465925050444/tm2513360d9_424b5.htm",
+      "locator": "p88 origination/acquisition representations"
+    },
+    "cvna2025": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1690820/000169082026000009/cvna-20251231.htm",
+      "locator": "pp58-59 auditor unqualified FS/ICFR reports, dated Feb18 2026"
+    }
+  },
+  "calculations_millions": {
+    "dt_cfo_2023": -324.386,
+    "dt_cfo_2024": -707.629,
+    "gotham_two_year_subsidy_proxy": 1032.015,
+    "net_loan_cash_use_2023": 310.50599999999986,
+    "net_loan_cash_use_2024": 539.0040000000004,
+    "loan_fv_bridge_2024": 4969.941,
+    "annual_fv_mark_2024": 276.764,
+    "credit_risk_mark_2024": 394.885,
+    "favorable_discount_effect_2024": 118.12099999999998,
+    "dt_interest_coverage_2024": 0.9647658903290637,
+    "dt_interest_coverage_2023": 0.5364958926443846,
+    "adjusted_ebitda_after_portfolio_interest_2024": -5.866000000000014,
+    "adjusted_ebitda_after_portfolio_interest_2023": -71.08699999999999,
+    "shareholder_net_outflow_2022": 218.91899999999998,
+    "shareholder_net_outflow_2023": 122.07100000000003,
+    "shareholder_net_outflow_2024": 10.909999999999997,
+    "shareholder_net_outflow_three_years": 351.9,
+    "gofi_sold_balance_2024": 167.553902,
+    "gofi_gain_2024": 7.185702,
+    "gofi_implied_proceeds_2024": 174.73960399999999,
+    "gofi_gain_percent_of_balance": 4.288591261813766,
+    "cvna_2024_related_other_revenue_bridge": 200,
+    "cvna_2023_related_other_revenue_bridge": 145,
+    "dt_consolidated_servicing_revenue": 196.66199999999998,
+    "dt_consolidated_dac_other_assets": 540.2270000000001
+  },
+  "verdicts": {
+    "cash_burn_subsidy": "CFO amounts verified. Attribution dollar-for-dollar to CVNA earnings unsupported; financing cash use does not trace subsidy. Collections include principal and interest, so no normalized CFO add-back claimed.",
+    "leverage": "20–40x arithmetic broadly reproducible on Gotham definitions but compares asset-backed finance debt with industrial EBITDA. Thin earnings after funding costs are real; securitization recourse limited, not risk-free.",
+    "instant_900m_loss": "Incorrect stock-to-flow inference. Principal-FV gap is not annual loss; FV population also includes recoveries on previously charged-off accounts. Actual 2024 annual mark276.764m; adverse credit394.885m offset discount118.121m.",
+    "distributions": "351.9m net shareholder withdrawals2022–24 verified, despite500m gross contributions; most net outflow2022. Does not trace subsidy to CVNA.",
+    "vin_and_origination": "Lead worth pursuing; not independently rechecked all34 VINs. Listing history does not necessarily prove ultimate seller; ABS documents allow dealer/BAC originations and acquired loans. No demonstrated mispricing or material total CVNA transfers.",
+    "gofi": "Related-party gains, losses and funding dependence verified. Member contributions not equal DT earnings subsidy. Purchase premium to carryingFV is a real question; market mispricing unproven. Report explicitly describes ML origination system and software expenditures.",
+    "commissions": "2024/2023 internal7m gaps reconcile to RH/PPM profit-sharing revenue. Cross-company cash-paid versus recognized net commissions and amortization not same measure; full12.3m bridge remains unavailable.",
+    "silverrock_margin": "Margin arithmetic verified; comparison includes different product/entity scope and consolidation entries; does not establish overpayment.",
+    "consolidation": "Negative columns explicitly include consolidating entries; not standalone negative revenues/assets. Detailed BAC-to-group reconciliation unavailable.",
+    "wholesale_recon": "CVNA Note7 wholesale marketplace includes auction and recon; two opposing reconditioning agreements described. Exact residual intercompany reconciliation not complete.",
+    "auditor": "2025 report signedFeb18 2026 with GrantThornton unqualified FS and ICFR opinions contradicts predicted immediate breakdown; not assurance against all undiscovered misconduct."
+  },
+  "unresolved": [
+    "DT F7 related-party purchases footnote123.500m differs from Note11 GoFi purchases174.7m and GoFi sale proceeds174.7m. Requires explanation; not quantified earnings misstatement.",
+    "GoFi shared services9.3m breakdown includes0.9m customer remittances, while DT9.3m disclosed as SG&A reduction. Underlying entries unavailable.",
+    "Exact counterparty, price and performance of any CVNA-to-GoFi/Bridgecrest transferred loans.",
+    "Matched-market servicing/commission benchmarks and full cash-accrual/cancellation/consolidation bridges.",
+    "No current DriveTime2025/2026 assessment or comprehensive later-report audit completed."
+  ]
+}

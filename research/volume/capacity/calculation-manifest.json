@@ -1,0 +1,18 @@
+{
+  "as_of": "2026-10-29",
+  "run_command": "python3 research/volume/capacity/reproduce.py",
+  "input_sha256": {
+    "original-irc-inputs.json": "00f8933459b4379d62c424ef5a9dfe409e831ef5fc898d5b8a7d5a5e1387a2aa",
+    "scenario-inputs.json": "0a44b8910e34e9ad6bb4048d261182531f5fdcd7367c79db17811b818b83cf2a",
+    "adesa-site-cards.json": "d7e4a2a56fe417565685594a3521bef03f8550f82148b5a6c0a3efec02dd156f",
+    "../adesa-21-site-candidate-roster.json": "e64abf7a07450170429483db5dc5eaf4c3e532b7520346606254c40ef887dea0"
+  },
+  "verification": [
+    "75 unique facility records; 21 candidate Q3 integrations",
+    "All JSON parses; relative Markdown links resolve",
+    "Scenario production and absorption arithmetic checked",
+    "Quarterly 2025 and nine-month 2026 retail units reconcile",
+    "Financial GPU table checked against Q3 letter",
+    "No estimated facility utilization or causal sales attribution"
+  ]
+}

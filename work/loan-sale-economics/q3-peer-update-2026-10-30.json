@@ -1,0 +1,74 @@
+{
+  "as_of": "2026-10-30",
+  "question": "Q3 update; are APR and loan sale gains outliers; test long thesis and temporary dip hypothesis",
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1170010/000117001026000104/kmx-20260831.htm",
+      "location": "Note3 lines472-478",
+      "fact": "596m sold inclusive accrued interest for cash/beneficial interests;16.6m gain net transaction expense",
+      "derived_gain_ratio": 2.7852348993288594,
+      "limit": "not same denominator as CVNA UPB; nonprime single transaction versus blended three channels; not validated equivalent basis or seasoning"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/2150706/000119312526416462/d177261d424h.htm",
+      "location": "summary upsize pool lines670-678",
+      "status": "PRELIMINARY October7, both base/upsize same APR",
+      "apr": 9.01,
+      "fico": 765.8,
+      "term": 67.27,
+      "remaining": 61.47
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1259380/000119312526400855/d187449d424b5.htm",
+      "location": "pool summary/table",
+      "status": "final CMXS2026C",
+      "apr": 16.18,
+      "fico": 608.8,
+      "term": 69.96,
+      "remaining": 63.35
+    },
+    {
+      "url": "https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/101675261",
+      "fact": "EART2026-2 APR21.65; excludes bureau>=640 since2025-2. Broader subprime context,not matchedCVNAprime."
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/cvna/transcripts/718716-q3-2026/",
+      "location": "actual transcript254-258,423-427",
+      "fact": "prime-directed rate reductions; higherbalances lowerpercentagepremiums; management pointsotherGPUdollarstability; notloanonly nor guarantee recovery"
+    }
+  ],
+  "derived": {
+    "Q3_gain_per_retail_2025": 2122.597649110882,
+    "Q3_gain_per_retail_2026": 1752.6508268739794,
+    "Q3_gain_ratio_2026": 7.398058252427185,
+    "Q3_gain_ratio_2025": 10.03030303030303,
+    "Q3_principal_growth_pct": 56.060606060606055,
+    "Q3_gain_per_retail_change_pct": -17.428965983820177
+  },
+  "toy": {
+    "status": "Illustrative ONLY. Not calibration or validation.",
+    "principal": 100,
+    "apr": 0.1077,
+    "months": 75,
+    "payments": "level monthly, full contractual payments, no fees/service/default/prepay",
+    "discount_scenarios": [
+      {
+        "discount": 0.07,
+        "pv": 111.38058982396649
+      },
+      {
+        "discount": 0.08,
+        "pv": 108.19038793716541
+      },
+      {
+        "discount": 0.09,
+        "pv": 105.12741618848166
+      },
+      {
+        "discount": 0.1,
+        "pv": 102.18582245600301
+      }
+    ]
+  },
+  "verdict": "APR not obvious raw outlier but no fully risk-matchedmarketfairrate. Gain7.4 plausible mechanism yet above recentKMX2.8 comparator and notindependentlyvalidated fairprice. Do not assume everyGothamclaimfalse, automaticreturn9-10%gain, or temporaryratecut. Model observedQ3margin and downside/upside sensitivities withoutdoublecount."
+}

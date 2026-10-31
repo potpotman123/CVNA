@@ -1,0 +1,30 @@
+[
+  [
+    {
+      "file": "work/apr-decomposition/2025-p2-ex103.xml.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1770373/000177037325000026/crvna25p2ex103.xml",
+      "bytes": 16623,
+      "sha256": "dbf3547ec668ce1a30474de822d6c1d505fbe706982a9c803ab2e94454258169"
+    },
+    {
+      "file": "work/apr-decomposition/2025-p2-ex102.xml.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1770373/000177037325000026/crvna25p2ex102.xml",
+      "bytes": 94667227,
+      "sha256": "987c5443e9da258f18ecfa0c4b7acf118eaf25a1ec6c93e700b570c18103e28a"
+    }
+  ],
+  [
+    {
+      "file": "work/apr-decomposition/2026-p2-ex103.xml.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1770373/000177037326000023/crvna26p2ex103.xml",
+      "bytes": 22852,
+      "sha256": "0f5d9a96368f84c52ae0f8ed35b3ef8ec042a84522cedd651dd483e742098710"
+    },
+    {
+      "file": "work/apr-decomposition/2026-p2-ex102.xml.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1770373/000177037326000023/crvna26p2ex102.xml",
+      "bytes": 140614352,
+      "sha256": "2002d5d8b8d1a5465b078910efd96c39fb2a00a9fadc0165d200facd8e665c15"
+    }
+  ]
+]

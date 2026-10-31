@@ -1,0 +1,159 @@
+CARVANA — EXPANDED SELLSIDE EVIDENCE SYNTHESIS
+Prepared 31 October 2026 from the two supplied archives and existing Q3 2026 primary materials.
+
+CONCLUSION
+The new reports strengthen the case that Carvana has physical headroom and that organizing production—not merely building more sites—can unlock additional output. They do not establish that hiring alone explains past growth, that every unused bay is economically usable, or that more output will maintain current profit per vehicle. The best evidence is about specific mechanisms: shift expansion, skill allocation, paint bottlenecks, parts sequencing, manager development, and software deployment. A contemporaneous site-output benchmark now exists for Elyria. A matched site staffing/output time series still does not.
+
+The financial evidence makes the story more conditional. Financing spreads have compressed while average loan balances increased. Headline delinquency improvements can be driven by changing the pools in the sample. Some bullish factory-return calculations allocate financing and ancillary profit to the factory while excluding important capital and corporate costs. Growth and financing cannot be modeled as independent pillars.
+
+SCOPE AND PROVENANCE
+37 PDFs, unique by SHA256 within this delivery, were extracted. 35 contain substantive CVNA or relevant industry material; one Signet report contains a tangential CVNA investor-sentiment analogy; one Pharvaris report is unrelated. All were screened, relevant narrative sections read, and selected critical tables visually checked. This is an evidence synthesis, not an audit of every appendix cell. The reports run from January 2025 through September 2026; the local Q3 2026 filing and shareholder letter provide a later actual-results check. Older research may overlap in subject matter; uniqueness here refers to this batch, not the entire repository.
+
+Source IDs below map to work/sellside-expanded-2026-10-31/NN.pdf and its page-delimited NN.txt. manifest.json retains original archive, filename, hash and page count. Dates cited are printed report dates where verified, which sometimes differ from filename dates. Calculations: calculate.py and calculations.json in that folder. Pages are PDF page numbers. Reports from the same company-hosted tour are corroborating descriptions of one event, not independent samples.
+
+1. WHAT WE LEARNED ABOUT OPERATING CAPACITY
+
+Elyria provides a production observation, with a definition caveat.
+Citizens' June 4, 2026 tour note reports approximately 1,280 vehicles produced per week, four physical lines and two shifts (described as eight production lines). JPMorgan's June 5 account describes approximately 1,300 weekly capacity rather than actual production. Both describe the same Ohio site and event. The Citizens figure is a reported run rate, not independently audited weekly records; multiplying by 52 would create a hypothetical annual run rate, not actual annual output. Sources 28 p2 and 29 p2.
+
+This improves the evidence base: we previously lacked a usable site-output observation. It does not allow a before/after staffing elasticity. Existing OSHA employee counts are annual and may have different populations; 2025 employment cannot be divided into a June 2026 production observation and called contemporaneous productivity.
+
+Haines City shows tangible ramp steps, but report definitions are inconsistent.
+DA Davidson's November 16, 2025 note says the site moved from four lines in March toward a fifth and was ramping a second shift. JPMorgan describes eight lines across two shifts. Physical lines and line-shifts must be kept separate before reconciling those counts. The DA Davidson page prints weekly capacity of 12,800; visually confirmed, but inconsistent with the rest of the evidence and excluded as a suspected error. Do not silently change it to 1,280. Sources 20 p1 and 37 pp1–2.
+
+The popular 40% Haines utilization number is parking occupancy.
+Morgan Stanley's November 18 note gives roughly 6,000 cars occupying 15,000 parking spaces, up from about 5,500. That is 40% versus 36.7% parking occupancy. It is not measured factory output divided by feasible staffed throughput. Vehicle stock includes different processing states and cannot identify idle technicians or unused paint capacity. Source 34 pp1–2.
+
+There is a genuine management claim of spare production capacity, but it remains a claim.
+JPMorgan's June 2026 tour note reports no site at 100% utilization and approximately 50% average utilization, varying by location. The denominator and facility-level distribution are not supplied. Crucially, management would prefer two geographically distributed sites at 50% to one at 100% because proximity, labor pools and customer service matter. Spare capacity can therefore be economically deliberate, not merely an execution failure waiting to be fixed. Source 29 p5.
+
+The bottleneck is more precise than 'not enough workers.'
+The June tours describe paint as a particularly complex and capacity-intensive stage. Alternative cosmetic techniques can bypass full paint work; mechanical work is tiered by complexity so less experienced technicians start on simpler repairs. Parts ordering after inspection and cosmetic work before mechanical repair create time for parts to arrive. These mechanisms alter output even with unchanged physical square footage or total employee count. JPMorgan reports some quickest parts deliveries around 15 minutes; Citizens describes AutoZone deliveries within two hours. Those are different service observations, not interchangeable average lead times. Sources 28 p2, 29 pp2–4, 33 tour discussion.
+
+ROLLCALL makes staffing needs visible and allocates available skills; LEADERHUB supports operating oversight. JPMorgan describes allocation visibility within about 15 minutes of shift start versus a manual 60–90 minutes. This is time to allocate labor, not saved repair hours on every vehicle. Citizens says the new tools were in three of 36 sites and had been tested for roughly six months. The 39-minute inspection example and 6.5-minute station target are stage metrics, not end-to-end car preparation time. Sources 28 pp1–2, 29 p3, 33.
+
+Most importantly, JPMorgan explicitly attributes the initial cost recovery to execution focus rather than the newly developed software. Software remains potential incremental improvement, not a demonstrated explanation for the entire earlier rebound. Manager depth, training, workload mix and scheduling can bind even when entry-level hiring is available. Source 29 pp4–6.
+
+2. THE TIME SERIES CHANGES THE INTERPRETATION
+
+Early 2025: supportive macro and a staffing-led expansion narrative.
+BofA's January report highlights broad industry strength. Its June report identifies staffing as management's principal bottleneck and cites 651 job postings versus roughly 310 average in 2024 and 450 in Q1. These are vacancies/postings, not employee additions. Tariff commentary in spring also anticipated demand shifting toward cheaper used cars. Sources 03, 24, 27.
+
+Mid/late 2025: accelerating growth and margin confidence.
+Morgan Stanley's July report emphasizes another margin beat. November Haines City tours convey confidence in approximately 40% growth and operational scalability. Those statements preceded the reconditioning cost problems subsequently discussed. They should be treated as forecasts that encountered an execution test, not as permanent evidence that 40% is operationally easy. Sources 23, 34, 37.
+
+Late 2025/early 2026: reinvestment and financing tradeoffs become more important.
+BNP's October 2025 Neutral note emphasizes reinvestment and prospective financing giveback. JPMorgan's November note anticipates lower prime APRs pressuring gain per unit. By the June 2026 tours, analysts describe a recovery from late-2025 inefficiencies and investment in better labor visibility. Sources 21, 37, 29.
+
+Mid-2026: growth relies partly on easier vehicles and stronger borrowers.
+Stephens' August management discussion says higher-priced cars require less reconditioning and larger loan balances can partly offset lower APRs. UBS likewise discusses the tradeoff between newer vehicles' operating ease and returning to older vehicles with different gross-profit and processing requirements. The reported 60% growth among customers earning over $100,000 comes from management's Q2 discussion, not an independently measured customer panel. Sources 07 p2 and 30.
+
+This is a joint mix effect: easier cars increase units per labor hour and reduce repair complexity, while different borrowers and financing concessions change loan profitability. A rise in units per employee cannot automatically be labeled permanent process productivity. Model output as available stage-hours divided by mix-adjusted stage-hours per vehicle, constrained by the slowest stage. More older vehicles could increase demand reach but also increase work content and queues.
+
+The forecasts show more sales dollars without proportionate earnings.
+Stephens' January 29 versus August 24 FY2026 estimates:
+- Revenue: $25.7504bn to approximately $29.07bn, +12.9%.
+- Adjusted EBITDA: $2.951bn to $2.9062bn, -1.5%.
+- Implied EBITDA margin: 11.46% to approximately 10.00%.
+These are analyst forecast snapshots, not reported results, and changing mix, accounting presentation and forecast assumptions can contribute. They nevertheless show why a bullish volume call need not be an improving margin call. Sources 16 front/model tables and 10 front/model tables; calculations.json.
+
+UBS' July 30 note maintains Buy while reducing FY2026 EBITDA from about $3.0bn to $2.9bn, FY2027 from $3.8bn to $3.6bn, and target from $104 to $83. This is continued long-run conviction with less near-term earnings/multiple support, not a wholesale abandonment of the thesis. Source 30. BofA's January target increase partly reflects discount-rate and terminal-multiple assumptions; target-price changes are not pure operating revisions. Source 13. Normalize stock splits before comparing per-share figures across dates.
+
+The supplied collection is selected research, not an unbiased census of Street sentiment. Several bullish notes repeat management access or the same tour. Do not count repeated descriptions as independent confirmation.
+
+3. PHYSICAL EXPANSION ECONOMICS: USEFUL COSTS, INCOMPLETE RETURNS
+
+Morgan Stanley's June 10 estimates distinguish light ADESA integrations from larger buildouts:
+- Light: approximately $2–3m per site for 13,000 additional annual units of capacity.
+- Full: approximately $30–35m for 40,000 additional annual units, with initial full projects expected to produce in 2027.
+Derived project cost per unit of annual stated capacity: approximately $154–231 light and $750–875 full. These are analyst project assumptions, not audited realized costs. They exclude acquired property cost, inventory funding and operating ramp costs; dollars per annual capacity unit are not dollars of cash cost per vehicle sold. Source 31 p3.
+
+The same report's factory ROI model is not standalone reconditioning economics.
+It assumes $3,300 retail GPU + $2,800 other GPU - $1,620 operations cost = $4,480 operating profit per retail unit, applied to 21,000 first-year units and 51,000 mature units. That yields $94.08m and $228.48m operating profit. Other GPU, including financing and ancillary products, represents 62.5% of the modeled $4,480 contribution. Corporate/customer-acquisition costs and working capital are not comprehensively reconciled in the illustration. These profits are analyst assumptions, not observed site accounts. Source 31 p4.
+
+A $500 reduction in total GPU would cut this illustration's contribution by $10.5m at 21,000 units or $25.5m at 51,000 units, before changing costs, taxes or absorption. This sensitivity is arithmetic, not a forecast. A more defensible expansion model must include capital already committed, remaining buildout spend, hiring/training, inventory days, financing economics and demand acquisition costs.
+
+The primary Q3 2026 letter still supports considerable physical optionality: 21 integrated ADESA sites, approximately 1.5m capacity at full buildout, real estate supporting approximately 3m, and three larger projects producing in 2027. Those are different readiness states. None is a near-term sales commitment.
+
+4. LOAN ECONOMICS: THE CLEAREST QUANTITATIVE TREND
+
+Stephens' August 24 prime ABS table (source 10 p3) reports:
+Deal       Borrower APR  Note coupon  Difference  Average principal  FICO  Original term
+2025-P1       14.06%        4.62%        9.44%       $24,146           702      73 months
+2025-P2       12.80%        4.66%        8.14%       $25,042           701      73
+2025-P3       12.11%        4.18%        7.93%       $26,426           702      73
+2025-P4       11.24%        4.26%        6.98%       $26,188           702      73
+2026-P1       10.67%        4.29%        6.38%       $26,589           713      75
+2026-P2       10.54%        4.69%        5.85%       $28,441           708      75
+2026-P3       10.77%        4.75%        6.02%       $29,620           702      75
+
+Across endpoints, borrower APR falls 329 basis points, the simple APR-minus-note-coupon difference falls 342 basis points, and average principal rises 22.7%. A larger principal generates more dollar economics at a given percentage, partly offsetting a lower percentage margin. The equal endpoint FICO does not make the pools identical: term, loan-to-value, income, vehicle age and borrower selection still matter. This is prime ABS only, not all originations or all loan-sale channels.
+
+The difference is NOT a loan-sale gain or equity return. It excludes losses, servicing, prepayments, timing, capital structure, retained interests and discounting. Do not multiply it mechanically by term. Stephens' own gain model uses a calibrated multiplier that changes substantially across periods and contains differing gain-per-unit figures between narrative and table. Preserve it as an analyst forecast, not a structural pricing model.
+
+BTIG's August 18 note observes an approximately 50bp increase in quoted prime customer APRs in early August. That is a different series from the weighted APR of loans already assembled in an ABS pool. Origination, sale and securitization lags mean the impact need not appear in the same quarter or equally across channels. This is a useful mechanism to monitor, not proof of a permanent pricing recovery. Source 12.
+
+5. CREDIT: A COMPOSITION CHECK CHANGES THE HEADLINE
+
+Stephens' August 21 note reports July 61+ day delinquency of 1.36%, down from 1.68% in June. Its rolling prime-pool sample changes. From its rounded p2 table:
+Original five pools: 2022-P3, 2024-P2, 2024-P3, 2024-P4, 2025-P1.
+June rates: 2.82%, 1.35%, 1.63%, 1.36%, 1.26%; equal mean 1.684%.
+July SAME pools: 3.29%, 1.47%, 1.60%, 1.46%, 1.41%; mean 1.846%.
+July replaces 2022-P3 with 2025-P2 at 0.84%; new mean 1.356%.
+
+Bridge: +16.2bp within the original basket, -49.0bp from replacing a pool, net -32.8bp. These means reproduce the published rounded headline. The reported improvement is entirely attributable to sample composition in this arithmetic; the old basket worsened sequentially.
+
+This does not establish worsening underwriting: loans age and seasonality changes. It establishes that the rolling headline is not evidence of within-vintage improvement. The four pools present in both published baskets also rise, from 1.400% to 1.485%, avoiding dependence on the departing old pool. Source 11 p2; reproducible calculations included.
+
+Historical series also change across publications: the December 2025 Stephens note reports November delinquency of 2.86%, while the later August 2026 table gives 2.14% for November. Do not splice those into a single series without reconstructing population and weighting. Sources 18 and 11.
+
+JPMorgan's December ABS tracker offers a better approach: compare losses and delinquency at equal months since issuance. But Carvana pools have less seasoning than CarMax pools, and broader prime indices differ in FICO and new-car share. Equal-age comparisons still require risk/mix controls. Source 14 pp2 onward. BTIG's October 2025 warning about some subprime vintages exceeding initial loss expectations and weak early 2025-N1 performance prevents a blanket 'all recent credit is better' conclusion. Senior-note protection is not protection of residual economics. Source 22.
+
+6. RELATED-PARTY/SERVICING CONTROVERSY: BETTER COUNTEREVIDENCE, NOT EXONERATION
+
+JPMorgan's January 29 servicing table identifies a stock/flow denominator issue. Approximately $10m annual fees divided by $8,888m originations produces 0.11%. Dividing by approximately $461m average held receivables produces 2.17% using rounded inputs; the report prints 2.3%, presumably reflecting input precision or details not recoverable from the rounded table. The appropriate annual servicing base is time-weighted outstanding serviced balances, not all loans originated over the year. That is a substantive challenge to an unusually-low-fee inference. Source 36 p3.
+
+However, the loan population behind each fee must still match its denominator. Short-held receivables, Ally-owned loans and securitized pools have different holding periods and contractual scopes. A two-year-end average is not a verified monthly average, and a corrected ratio does not establish fair market pricing or rule out economic support elsewhere. Obtain actual contracts, fee inclusions, balances and comparable third-party terms before concluding subsidy or no subsidy.
+
+JPMorgan's February 1 VIN rebuttal reports many alleged mismatches resolving through other state records or direct checks. This undermines confidence in a narrow title-record matching exercise, but does not independently validate private whole-loan prices or servicing economics. Source 35. Stephens' January rebuttal separates cash absorbed by receivable growth from losses, correctly a distinction to test rather than equating negative operating cash flow with fraud. Source 16.
+
+Some rebuttal statements are themselves too broad. Carvana's Q3 filing explicitly says securitization trusts are not consolidated, and retained beneficial interests carry credit and prepayment risk. At September 30 these interests are $557m, versus $486m at year-end 2025. Do not import contrary generalizations from broker commentary. Primary Q3 2026 10-Q, Notes 7–8, governs accounting treatment.
+
+7. LATEST RESULTS TEST THE COMBINED THESIS
+
+Q3 2026 primary results versus Q3 2025:
+- Retail units: 217,385 versus 155,941, +39.4%.
+- Adjusted EBITDA: $800m versus $637m, +25.6%.
+- Adjusted EBITDA / retail unit: $3,680 versus $4,085, -9.9%.
+- Loan-sale gains: $381m versus $331m.
+- Loan-sale gains / ALL retail units: $1,753 versus $2,123, approximately $370 lower.
+- Retail vehicle GPU increased $100 year over year, even as total economics faced other pressures.
+
+These per-retail-unit calculations allocate companywide EBITDA or gains across retail units; they are not isolated factory contribution, not net income, and not gains per financed car. Wholesale activity and other operations are included in companywide EBITDA. Nonetheless, the direction is clear: strong volume growth coexists with weaker aggregate profit per retail unit. It would be wrong to infer that retail reconditioning alone deteriorated from the companywide decline.
+
+Primary sources: work/loan-sale-economics/sources/cvna-q3-2026-letter.pdf and cvna-q3-2026.txt. This subsequent outcome is more useful than treating every earlier analyst projection as current.
+
+8. WHAT ENTERS THE RESEARCH MODEL NOW
+
+Admit with labels:
+- Elyria June 2026 reported production run rate, separate from capacity wording and annual output.
+- Physical lines versus shifts; Haines ramp observations with unresolved count definitions.
+- Light/full integration cost and capacity ranges as analyst scenario assumptions.
+- Stage-specific bottlenecks, training/manager depth, and measured tool-allocation time as mechanisms, not network output elasticities.
+- Prime ABS loan terms and financing spread series as deal characteristics.
+- Same-pool credit bridge and a requirement to compare vintage age and borrower mix.
+- Analyst forecast snapshots and the later Q3 actual result, clearly separated.
+
+Do not admit as calibrated parameters:
+- Parking occupancy as production utilization.
+- 12,800 Haines weekly output.
+- Network 50% management utilization as a verified site distribution.
+- Annual job postings as employee additions.
+- A site-output/headcount elasticity from mismatched dates.
+- Entire other GPU as standalone manufacturing profit.
+- Rolling credit averages as underwriting improvement.
+- A short-seller rebuttal as proof that every private sale is arm's length.
+
+The highest-value remaining missing observation is still a same-site, same-period series of completed cars, paid productive hours/skill mix, shifts, repair workload and cost. This batch provides mechanisms and one run-rate benchmark, not the panel. For profit runway, monitor whether newer-car mix can normalize without rebuilding queues; whether software spreads beyond pilot sites and yields comparable-mix cost improvements; whether the 2027 buildouts produce on schedule; and whether additional units require lower financing margins, pricing concessions or longer inventory holding periods.
+
+The refined thesis is: geographic infrastructure gives Carvana options; trained teams, scheduling and suitable vehicle mix determine executable output; customer acquisition and financing economics determine whether that output earns attractive incremental returns. The evidence supports those options more strongly than it supports a simple 'double staffing, double profitable sales' forecast.

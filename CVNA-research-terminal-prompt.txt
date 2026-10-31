@@ -1,0 +1,210 @@
+CARVANA RESEARCH COLLECTION AND THESIS TESTING PROMPT
+Prepared October 30, 2026
+For use with authorized HBS access to LSEG research, Bloomberg, and available research databases
+
+MISSION
+
+Investigate two linked investment questions:
+
+A. How much of Carvana's retail-volume growth has been enabled by restoring or expanding operational capacity within its physical footprint? How much additional production can it economically deliver, and will customers absorb it at acceptable margins?
+
+B. Why are Carvana's loan-sale gains large, how much represents cash economics versus retained-asset valuation, and how sustainable are the gains under realistic financing, credit and servicing assumptions?
+
+Do not presume the bullish capacity argument or the bearish related-party subsidy argument is correct. Seek evidence that distinguishes competing explanations. The output should help forecast retail units, incremental operating profit, financing income and cash flow, rather than merely assemble favorable or unfavorable commentary.
+
+ACCESS AND WORKING RULES
+
+Use existing authorized access. No additional subscriptions, purchases, vendor outreach, expert calls or bulk downloads. Respect institutional download and redistribution rules. Do not bypass access controls. If a report cannot be retrieved, retain its exact title, author, broker, date and identifier.
+
+First inventory available reports and prioritize the most informative exhibits. Read targeted passages and adjacent definitions, not every generic earnings update. Distinguish original observations, issuer-provided tour data, analyst estimates, retrospective practitioner testimony and repeated claims. Several analysts attending the same company tour are not several independent production measurements.
+
+Use 2024 through the latest available quarter, starting from Q3 2026, as the main analytical period. Retrieve 2019–2023 baselines selectively where needed to understand pre-expansion staffing, the 2022 contraction and subsequent recovery. Verify all dates and latest releases. Fiscal quarters differ across companies.
+
+The existing local project, if accessible, is /Users/kwu/Documents/ChatGPT/$CVNA. Read relevant existing notes before duplicating work. If this machine cannot access it, use the working context below and explicitly state that the project was unavailable. Do not claim to have read inaccessible materials.
+
+PART A — PHYSICAL CAPACITY, OPERATIONAL CAPACITY AND PROFITABLE VOLUME
+
+1. HYPOTHESES TO TEST
+
+Bullish mechanism: substantial installed infrastructure was underused after the contraction; staffing, shifts, management capability and processes subsequently improved, increasing desirable sale-ready inventory and profitable sales without proportional construction spending.
+
+Alternatives and qualifications:
+- Growth required substantial new equipment or buildings rather than simply reactivating existing capacity.
+- Newer, easier-to-recondition vehicles increased measured throughput without comparable within-category productivity gains.
+- Demand, financing concessions, sourcing changes or price reductions drove sales, with production following demand.
+- Historical staffing was inefficient; restoring old headcount would not produce attractive incremental returns.
+- Available physical space exists in the wrong markets or lacks the skilled labor and logistics required to use it.
+- Network complexity, training and quality rework constrain ramp speed even where land and buildings are abundant.
+- Much of the old slack has already been consumed by late 2026.
+
+2. PRIORITY REPORT RETRIEVAL
+
+Two specifically identified Morgan Stanley leads; verify title/date and retrieve full reports if available:
+- Carvana's Flywheel: Haines City Tour + Investor Feedback — November 18, 2025.
+- Bridging Beyond 3 Million: Measuring the ROI on an IRC — June 10, 2026.
+
+Additional high-priority lead:
+- DA Davidson Haines City visit research around November 17, 2025. Public coverage says the analyst also visited in March 2025 and about two years earlier. Find those earlier reports and compare identical facility metrics. Do not invent exact titles for them.
+
+Search all brokers for IRC tours, facility visits, ADESA integration studies, reconditioning economics, management meetings, inventory trackers and operational deep dives. Include late-2025/early-2026 production difficulties and Q2/Q3 2026 recovery. Look for appendices and spreadsheets. A report's site-level table may be more valuable than its stock recommendation.
+
+Search strings, separately and in combinations supported by the terminal:
+Carvana / CVNA + Haines City; Blue Mound; Hutchins; Winder; Chesterfield; Heath; Tolleson; Rocklin; Trenton; ADESA
+IRC; inspection and reconditioning; site visit; factory tour; production ramp; throughput; labor hours; hours per unit; technician productivity; second shift; utilization; paint; rework; bottleneck; inventory tracker; inventory aging
+
+3. REQUIRED FACILITY-LEVEL EVIDENCE
+
+For each useful observation record: facility name, actual address, operating scope, observation date, reporting period, exact metric definition, value, source page and whether reported/estimated/targeted.
+
+Prioritize:
+- Completed retail-ready vehicles per day/week/month, with operating days and whether throughput is sustained or a peak.
+- Installed production lines versus operating lines; shifts per line; hours per shift; overtime; downtime.
+- Actual employees by technicians, paint/bodywork, inspection, detail, logistics, supervisors and administrative roles.
+- Annual-average employees versus year-end headcount versus FTEs; contractors and outsourced services.
+- Paid hours, productive hours and standard repair hours; do not equate them.
+- Labor hours and cost per completed vehicle, parts cost, vendor expense and transport cost.
+- Inspection-to-release elapsed time, queues by stage, rework rate and quality/return outcomes.
+- Vehicle age, mileage, price and repair severity; share bypassing paint or major mechanical work.
+- Site expansion budgets, equipment installation, hiring and training milestones, production start and maturity dates.
+
+Most valuable exhibit: the SAME facility at TWO OR MORE dates with actual completions, labor/shift inputs and comparable vehicle mix. Second-best: a mature/ramping facility comparison with explicit differences in process, equipment and mix. A single advertised maximum does not establish utilization.
+
+4. EXISTING STAFFING CONTEXT TO VERIFY, NOT RECREATE UNNECESSARILY
+
+Our existing official OSHA panel reports annual-average employees, not technicians or year-end staffing:
+Site                  2022    2023    2024    2025
+Haines City            716     296     350     486
+Winder                 665     371     407     465
+Chesterfield           291     306     389     616
+Blue Mound             756     400     398     523
+14-site total        7,212   4,356   5,048   6,806
+
+Some establishment address/scope changes require reconciliation. The 2022 annual average spans the layoffs; it is not a peak or post-layoff observation. A gap below 2022 employment is not measured spare production capacity.
+
+An August 2023 former-operator interview describes Blue Mound as having three physical lines operating across two shifts at peak, versus reportedly two operating line-shifts in 2023. It estimates about 120 days to restart a line-shift and a longer period to mature efficiency. Treat this as unverified retrospective testimony, not a current utilization estimate. Seek later active-shift/output evidence and independent corroboration.
+
+Winder reporting gives approximately 130 inspections/day in January 2025. Chesterfield launch reporting gives a 160-vehicle/week/line target and room for eight lines. Neither is a comparable before/after completed-production series. Haines City repeat-tour coverage describes improvement but our accessible excerpts lack output numbers.
+
+5. PHYSICAL FOOTPRINT AND GEOGRAPHIC OVERLAP
+
+Separate original IRCs, integrated ADESA facilities, auction-only sites, logistics hubs and vending machines. Distinguish land ownership, buildings, installed equipment, staffing and actual production.
+
+For each relevant integration determine whether it is:
+- The first nearby reconditioning facility.
+- Extra production in an already-served metro.
+- A logistics improvement or relocation of existing work.
+- A full construction buildout rather than a light conversion.
+
+Aggregate ALL relevant IRCs within a metro where testing local production, including Blue Mound and Hutchins in DFW and University Park when evaluating Hoffman Estates/Chicago. Identify reallocation and cannibalization; a declining original site's output could coexist with growing metro output.
+
+Verify what approximately 1.5 million annual units at full buildout and property supporting approximately 3 million units actually include. Identify additional equipment, construction, labor and working capital needed. Do not treat either as presently staffed capacity or sales guidance.
+
+6. SUPPLY CONSTRAINT VERSUS DEMAND AND MIX
+
+Seek direct evidence of missed production targets, binding stages, customer wait times, availability-driven lost orders, or improved conversion after a discrete supply change. Find contrary evidence: aged inventory, price cuts, cancellations, rising days-to-sale, or production curtailed because demand was weak.
+
+Trace whether production improved before sales, after sales, or alongside them. Timing and regional correlation alone do not establish causation. Avoid repeating the national sales-versus-website-visitors comparison.
+
+Find analyst inventory panels separating ready-to-deliver vehicles from reservations, pending preparation and partner listings. Seek price reductions, days listed, age/mileage composition and geography with clear definitions. Listing disappearance is not confirmed sale; delivery destination is not processing location.
+
+Investigate whether newer/prime-customer mix persisted through Q3 2026. Compare productivity within comparable vehicle categories where possible. Identify the throughput and cost implications of returning to older, cheaper vehicles.
+
+7. PEERS AND ECONOMIC VALIDATION
+
+Search CarMax off-site reconditioning-center tours and operational presentations for actual throughput, staffed shifts, ramp duration, labor intensity and mature cost. Use relevant auction/reconditioning suppliers and repair operators for stage-specific evidence. Avoid importing collision-repair labor requirements into Carvana without adjusting for damage severity and work scope.
+
+Estimate incremental economics only where supported: additional production and sales, retail margin, recon and delivery costs, hiring/training, advertising, financing concessions, construction and inventory cash. Keep acquisition cost, integration CapEx, maintenance, technology and working capital separate. Higher aggregate EBITDA does not establish attractive returns on the incremental facility investment.
+
+PART B — LOAN-SALE GAINS, BUYER RETURNS AND SERVICING ECONOMICS
+
+8. COMPETING EXPLANATIONS
+
+Test sustainable origination economics and efficient distribution; favorable funding or credit-market conditions; unusually optimistic independent buyer assumptions; related-party servicing or other support; retained-interest valuation; accounting/presentation differences; and channel/borrower mix changes.
+
+Do not assert improper payments, fraud, subsidy or fair pricing without transaction-level evidence. Separate what is alleged, disclosed, independently verified and still unknown.
+
+9. PRIORITY REPORTS AND SEARCH TERMS
+
+Seek specialist CVNA finance deep dives, Ally auto-finance research, auto ABS strategy, credit surveillance, servicing economics, and analyst responses to Gotham allegations. Retrieve the original allegation and detailed rebuttals, including their calculation denominators and cited documents.
+
+Search separately:
+CVNA / Carvana + gain on sale; loan monetization; finance receivables; finance GPU; forward flow; whole loan; purchase premium; purchase yield; fixed pool; retained interest; residual valuation
+Carvana / Bridgecrest / DriveTime / GoFi / BAC + servicing fee; excess servicing; subsidy; related party; loan purchase; transfer price
+CRVNA / Carvana Auto Receivables Trust + pricing; presale; investor presentation; residual; Class R; N notes; XS; monthly distribution; surveillance
+CarMax Select + gain on sale; residual sale; retained servicing; servicing asset
+Ally + Carvana agreement; repricing; credit performance; purchase yield
+
+Use Bloomberg ABS/security analytics and available LSEG credit research where entitled. Record actual executed pricing separately from indicative dealer marks, model prices, coupon rates and current secondary prices. ABS bond yields are not whole-loan buyer yields.
+
+10. COMPANY ACCOUNTING AND CASH BRIDGE
+
+Build a consistent quarterly series for originations, principal sold by channel, cash sale proceeds, loan carrying basis, capitalized origination costs, new retained securities, gain recognized, principal collections and ending held-for-sale receivables. Distinguish income statement, cash-flow statement and balance-sheet quantities.
+
+Verify against filings. Existing research reports Q3 2026 gains of $381m and approximately $5.15bn principal sold; the nine-month totals are $1.084bn gains and approximately $13.9bn principal sold. These are working reference values, not substitutes for verification. Gain divided by rounded principal is a blended accounting ratio, not an observed cash purchase premium.
+
+Reconcile cash proceeds + newly retained fair value - carrying basis - relevant costs to gain, preserving residual differences for rounding, interest and timing. Ending retained assets are not new issuance gains. Subsequent retained-asset marks may appear outside the initial gain line and receive different adjusted-EBITDA treatment.
+
+Separate retail-financing penetration, loan balance per financed buyer and gain per dollar sold. Gain per total retail vehicle includes outside-financed and cash purchases. Do not use originations as a substitute for sales when sale timing differs.
+
+11. CHANNEL PRICING AND BUYER IDENTITY
+
+For Ally forward flow, securitizations and fixed pools seek channel-level volume, cash proceeds, gain, retained interests, transaction costs and repricing terms. A commitment is neither actual sales nor a guaranteed premium.
+
+Identify purchasers only with documentary support. An underwriter, shareholder, trustee, servicer or securities investor is not automatically a whole-loan buyer. Trace any alleged CVNA-to-intermediary-to-related-party route with dates, legal entities and sale economics; VIN overlap or later ownership alone does not prove an unsupported original price.
+
+Best evidence: one completed settlement with unpaid principal, carrying amount, accrued interest, cash price, retained interests, side agreements, warranties and allocation of fees. Next-best: credible channel-level disclosure or comparable executed bids. Confidential contracts may not be obtainable; state that gap rather than substitute assumptions.
+
+12. BUYER RETURN AND CREDIT PERFORMANCE
+
+For selected cohorts/pools collect origination and sale dates, loan APR, balance, original/remaining term, seasoning, FICO/VantageScore definitions, LTV, down payment, vehicle age/mileage, borrower income where disclosed and geographic concentration.
+
+Then collect purchase basis, borrower collections, delinquency transitions, defaults, recoveries, recovery lags, prepayments, extensions, repurchases, servicing costs, financing costs, reserves and terminal value. Compare vintages at the same months-on-book. Explain selection into sale channels and pooling; do not generalize a prime ABS pool to all Carvana originations.
+
+Distinguish realized return, prospective modeled IRR, market-implied return and coupon. Ratings stability and timely senior-note interest do not establish attractive residual returns. Public note proceeds cannot by themselves reveal the total whole-loan sale price.
+
+Existing work has recovered partial Carvana 2026-P2 residual pricing and monthly distributions. Do not restart from the obsolete assumption that all residual pricing is unavailable. Seek the missing assumptions, XS ownership, full settlement economics and realized cohort development.
+
+13. SERVICING AND RELATED-PARTY CLAIMS
+
+Trace who performs servicing, who pays, who receives each fee/strip and who bears operating costs. Collect base servicing, supplemental/late fees, liquidation reimbursements, excess servicing, minimum fees, advances and termination/backup-servicing terms.
+
+Compare like-risk, like-scope contracts, including servicing effort and collections intensity. A low stated base fee may coexist with other compensation. Trace whether excess strips are retained, sold or assigned before interpreting them as a subsidy.
+
+Correct denominator discipline is essential: annual servicing revenue relates to serviced balances over time and legacy vintages, not simply current-year loan originations or principal sold. Use average outstanding serviced principal or monthly balances by cohort where available. Clearly separate contractual fee rate, observed revenue yield and net servicing margin.
+
+Estimate servicing net economics only after costs and supplemental income. If alleged below-market servicing raises the investor's upfront bid, quantify its present value under an explicit amortization/prepayment path. Label the counterfactual market fee and discount rate. An illustrative subsidy calculation is not evidence that a subsidy exists.
+
+14. CARMAX AND OTHER PEER NORMALIZATION
+
+Do not directly compare Carvana's blended gain ratio with one CarMax nonprime transaction. Align borrower risk, APR, maturity, seasoning, losses, sale structure, retained interests, transaction expenses, accrued interest and accounting basis.
+
+CarMax may retain servicing economics; quantify costs before capitalizing gross fees, and avoid double counting a recognized servicing asset. Investigate allowance releases on held-for-sale transfers separately from sale gains; do not assign all period releases to one deal.
+
+Existing research identifies CarMax Select 2026-B as a relevant residual-sale comparator. Its pool cutoff balance differs from the reported transaction denominator. Resolve dates and populations rather than silently choosing the denominator that produces a preferred conclusion.
+
+15. SENSITIVITIES AND CONNECTION TO VOLUME
+
+Build transparent scenarios for sale premiums, borrower APR, buyer required returns, loss/recovery assumptions, prepayments, servicing costs and holding periods. Base ranges on observed historical changes or comparable transactions where possible; otherwise label them hypothetical.
+
+Translate sale-price changes into gains using the applicable principal sold. Separate cash consideration from retained valuation and initial recognition from subsequent marks. Do not double count gain compression already in the latest results or consensus forecasts.
+
+Model interactions: lower customer APR may support retail volume while reducing loan value; raising APR may recover financing margin while reducing affordability. More expensive vehicles can require larger loans and less recon work. Extra production needs inventory funding, and extra loan originations require temporary financing and willing buyers. Neither retail growth nor loan gain per vehicle should be forecast independently of these interactions.
+
+DELIVERABLES AND STOPPING RULE
+
+Return:
+1. A ranked bibliography with exact titles, broker/author, dates, identifiers, access status and useful pages/exhibits.
+2. A compact evidence table: claim, measurement, period, population, source, reported/derived/assumed status, limitations and model use.
+3. Facility staffing/shift/output timelines with missing cells left missing; no fabricated utilization percentages.
+4. A loan accounting/cash bridge and channel/peer comparison with denominator reconciliation.
+5. The strongest evidence FOR and AGAINST each thesis, what changed from prior work, and what remains unidentified.
+6. Conditional forecasts/sensitivities only for quantities supported by evidence or clearly labeled assumptions.
+7. A prioritized list of remaining documents that could change the decision, not a generic request for more data.
+
+Preserve permitted full reports and spreadsheets with broker/date/title filenames. Save provenance and page references. Avoid duplicating the same claim across long reports. Do not modify unrelated project files.
+
+Stop collection when additional reports repeat existing claims or the remaining answer requires proprietary settlements, nonpublic facility output, paid access or extensive data construction. Explain the consequence for confidence. Do not fill missing evidence with precision from an assumption-heavy model.
+
+CORE DECISION
+
+How much more desirable inventory can Carvana acquire, prepare, finance and deliver economically, and how much sustainable profit and cash will it retain after paying for the operational capacity and transferring the loans?

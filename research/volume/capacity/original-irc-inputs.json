@@ -1,0 +1,163 @@
+[
+  {
+    "name": "Carvana Bessemer",
+    "address": "1951 Morgan Road, Bessemer, AL 35022",
+    "announcement_date": "2019-11-05",
+    "sources": [
+      "https://governor.alabama.gov/newsroom/2019/11/gov-ivey-carvana-plans-to-open-alabama-distribution-hub-creating-more-than-450-jobs/",
+      "https://startup.jobs/carvana-hiring-event-bessemer-al-carvana-1945097"
+    ],
+    "quality": "State announcement confirms project/function; address from archived employer hiring-event copy, weaker current-address confirmation. Planned jobs are not actual employment."
+  },
+  {
+    "name": "Carvana Tolleson",
+    "address": "600 S 94th Avenue, Tolleson, AZ 85353",
+    "sources": [
+      "https://startup.jobs/carvana-hiring-event-tolleson-az-carvana-2040533",
+      "https://www.linkedin.com/jobs/view/entry-level-auto-technician-2nd-shift-at-carvana-4446240538"
+    ],
+    "quality": "Employer job/event copies corroborate IRC location only; no inference about headcount, actual shifts or production."
+  },
+  {
+    "name": "Carvana West Memphis",
+    "address": "1100 Family Dollar Drive, West Memphis, AR 72301",
+    "first_production_date": "By 2021-01-05 opening ceremony; exact production start unknown",
+    "infrastructure": "2021 state announcement: completed $40m inspection/distribution project, photography capability; no current capacity measure.",
+    "sources": [
+      "https://www.arkansasedc.com/news-events/newsroom/detail/2021/01/05/carvana-completes-new-inspection-distribution-center-in-west-memphis",
+      "https://www.osha.gov/ords/imis/establishment.inspection_detail?id=1630641.015"
+    ],
+    "quality": "State opening announcement and federal establishment address; historical evidence, not current staffing."
+  },
+  {
+    "name": "Carvana Rocklin",
+    "address": "3500 Cincinnati Avenue, Rocklin, CA 95765",
+    "sources": [
+      "https://www.adesa.com/auction_location/adesa-offsite-carvana-rocklin/"
+    ],
+    "quality": "Official wholesale pickup location plus ADESA PSI policy corroboration; not site throughput."
+  },
+  {
+    "name": "Carvana Haines City",
+    "address": "3700 Bannon Island Road, Haines City, FL 33844",
+    "sources": [
+      "https://www.adesa.com/auction_location/adesa-offsite-carvana-haines-city/"
+    ],
+    "quality": "Official wholesale pickup location plus ADESA PSI policy corroboration; not site throughput."
+  },
+  {
+    "name": "Carvana Winder",
+    "address": "356 Atlanta Highway NW, Winder, GA 30680",
+    "sources": [
+      "https://www.adesa.com/auction_location/adesa-offsite-carvana-winder/"
+    ],
+    "quality": "Official wholesale pickup location plus ADESA PSI policy corroboration; not site throughput."
+  },
+  {
+    "name": "Carvana University Park",
+    "address": "23619 S Cicero Avenue, University Park, IL 60484",
+    "sources": [
+      "https://www.adesa.com/auction_location/adesa-offsite-carvana-university-park/",
+      "https://witechcompany.com/project/carvana-inspection-facility-project-description/"
+    ],
+    "quality": "Official location address; original IRC in south Chicago area, distinct from Hoffman Estates ADESA.",
+    "construction_milestone": "Site-development contractor completed its scope in November 2021; not a production-start date.",
+    "infrastructure": "Witech describes a 145-acre site-development job; current building/line capacity unverified. Acreage is contractor job scope, not necessarily parcel area."
+  },
+  {
+    "name": "Carvana Indianapolis",
+    "address": "6508 West F W Marks Drive N, Greenfield, IN 46140",
+    "sources": [
+      "https://www.adesa.com/auction_location/adesa-offsite-carvana-indianapolis/"
+    ],
+    "quality": "Official location; marketed Indianapolis, physically Greenfield, distinct from ADESA Plainfield."
+  },
+  {
+    "name": "Carvana Concord",
+    "address": "3035 New Town Way SW, Concord, NC 28027",
+    "sources": [
+      "https://www.adesa.com/auction_location/adesa-offsite-carvana-concord/"
+    ],
+    "quality": "Official location; do not confuse with ADESA Concord in Acton Massachusetts."
+  },
+  {
+    "name": "Carvana Delanco",
+    "address": null,
+    "sources": [
+      "https://www.adesa.com/wp-content/uploads/2019/02/AD-0624-PSI-Updates-TC-Policy-5.pdf"
+    ],
+    "quality": "Name in primary ADESA policy; exact street address not verified in bounded pass. Delanco NJ distinct from ADESA Manville."
+  },
+  {
+    "name": "Carvana Elyria",
+    "address": "6161 Middle Ridge Road, Lorain, OH 44053",
+    "sources": [
+      "https://www.adesa.com/auction_location/adesa-offsite-carvana-elyria/"
+    ],
+    "quality": "Official address uses Lorain although facility name is Elyria; municipality not independently adjudicated."
+  },
+  {
+    "name": "Carvana Heath",
+    "address": "2183 Hebron Road, Heath, OH 43056",
+    "sources": [
+      "https://www.adesa.com/auction_location/adesa-offsite-carvana-heath/"
+    ],
+    "quality": "Official location and PSI policy corroboration."
+  },
+  {
+    "name": "Carvana Trenton",
+    "address": "5506 Kennel Road, Trenton, OH 45067",
+    "sources": [
+      "https://www.adesa.com/auction_location/adesa-offsite-carvana-trenton/"
+    ],
+    "quality": "Official location and PSI policy corroboration."
+  },
+  {
+    "name": "Carvana Oklahoma City",
+    "address": "5500 S Rockwell Avenue, Oklahoma City, OK 73179",
+    "sources": [
+      "https://www.adesa.com/auction_location/adesa-offsite-carvana-oklahoma-city/",
+      "https://www.greateroklahomacity.com/news/2022/03/30/automotive/carvana-celebrates-opening-of-brand-new-oklahoma-city-inspection-center/",
+      "https://www.greateroklahomacity.com/news/2021/09/17/coming-soon/carvana-plans-to-build-inspection-and-reconditioning-center-in-oklahoma-city/"
+    ],
+    "quality": "Official location and PSI policy corroboration.",
+    "announcement_date": "2021-09-17",
+    "construction_milestone": "Opening celebration reported 2022-03-30; article also places official opening in following weeks. Exact production start unknown.",
+    "infrastructure": "Chamber reports >$40m project, >150 people hired at March 2022 celebration, >350 eventual jobs, ~10,000 vehicle storage. Neither employment target nor storage is annual output."
+  },
+  {
+    "name": "Carvana Blue Mound",
+    "address": "1123 Cantrell Sansom Road, Building G, Blue Mound, TX 76131",
+    "sources": [
+      "https://www.adesa.com/auction_location/adesa-offsite-carvana-blue-mound/"
+    ],
+    "quality": "Official location near Fort Worth, distinct from ADESA Dallas in Hutchins."
+  },
+  {
+    "name": "Carvana San Antonio",
+    "address": "11245 Old Corpus Christi Highway, San Antonio, TX 78223",
+    "sources": [
+      "https://www.carvana.com/careers/apply/?gh_jid=8144768",
+      "https://www.adesa.com/wp-content/uploads/2019/02/AD-0624-PSI-Updates-TC-Policy-5.pdf"
+    ],
+    "quality": "Primary employer posting corroborates address/IRC function only; no staffing/output inference. Distinct from ADESA Callaghan Road."
+  },
+  {
+    "name": "Carvana Tooele",
+    "address": "299 North Lodestone Way, Tooele, UT 84074",
+    "sources": [
+      "https://www.osha.gov/ords/imis/establishment.inspection_detail?id=1738098.015",
+      "https://business.tooelechamber.com/list/member/carvana-1158",
+      "https://www.adesa.com/wp-content/uploads/2019/02/AD-0624-PSI-Updates-TC-Policy-5.pdf"
+    ],
+    "quality": "Regulatory address and chamber listing plus primary policy name; inspection record not production evidence."
+  },
+  {
+    "name": "Carvana Chesterfield",
+    "address": "15100 Woods Edge Road, Chesterfield, VA 23834",
+    "sources": [
+      "https://www.adesa.com/auction_location/adesa-offsite-carvana-chesterfield/"
+    ],
+    "quality": "Official location and PSI policy corroboration; retain official address wording rather than inferring municipality from ZIP."
+  }
+]

@@ -1,0 +1,19 @@
+QUESTION: Is CVNA gain/disclosed sold amount premium versus KMX anomalous after normalization?
+RESULT: Raw Q3CVNA7.398% versus KMXQ2FY27 2.785%, gap4.613pp. No valid normalized fair-value premium yet. New exact comparator deal recovered: CarMax Select2026-B, not2026-C. Earnings call identifies residual sale. Originalcutoffpool621.762m differs from596m disclosedsale inclinterest; do not silently replace denominator, dates/basisneedreconciliation.
+
+PRIMARY SOURCES:
+https://s27.q4cdn.com/743947716/files/doc_asset_backed/2026/06/2026-B-Final-Prospectus.pdf
+Printed59/PDF62: pool621762247.08;31874accounts;averagebalance19506.88;APR16.30%;originalterm70.13months;remaining63.26;FICO612.6 (8.01%balancewithoutscore). Printed12/PDF15 and85/PDF88:servicing2.25%annualbeginningUPB, supplementsandliquidationreimbursementsadditional. CoverJune9prospectus,June16closing; offerednotesnet544883400 before900000estimatedexpenses, privateE andcertsnotincluded. Noteproceedsnotwholeloanprice. SECHTMLtoo large; issuerPDFsuccessfultext, screenshotcachemiss.
+https://www.sec.gov/Archives/edgar/data/1170010/000117001026000104/kmx-20260831.htm
+Note3:596m inclaccruedinterest;16.6mgainnettransactionexpense;servicingretained. Note4:12.5mQ2 and37.6mH1allowancereleaseuponheldforsaletransfer. Cannotassignwhollyto596mtransaction oraddtogain:earlierprovisionsandunsoldtransfersmatter. Note5:retainedresidualinitialFV2.838mH1;remainingresidual18%discountrate;latestdealFVbasedonsellingprice. KMXretainedtotalbalance64.601mnotnewissuancevalue.
+work/earnings-calls/KMX-Q2-FY2027.txt lines96,148-150:actualmanagementidentifies2026-Bresidualsale;twooffbalance-sheettransactions. https://www.roic.ai/quote/KMX/transcripts/2027-year/2-quarter corroborates.
+https://www.sec.gov/Archives/edgar/data/1690820/000169082026000067/cvna-20260930.htm
+Q3gain381m/channelprincipal2000+1550+1600m. 9Mnetcash14722m,newretained266m,principal13900m,gain1084m. Seepriorresearch-stateforfullaccountingbasislimitations.
+
+INTERPRETATION:
+KMXsoldpoolnonprime612.6FICO vsselectedCVNAprimeP3 702; CVNAall-channelblendhasnocomparableweightedriskdisclosure. CannotclaimriskadjustedgapexplainedbyFICO. Six-to-seven-month originalminusremainingtermgap showsseasoningproxy, notexactelapsedloantagewhenextensionspresent.
+2.25%grossretainedservicingcouldbevaluablebutcostsunknown. Atassumed2.5discountedbalanceyears,grossPV5.625%principal;toexplain4.613ppgaprequires1.845%annualNETservicingmargin,leavingonly0.405%basecostbeforeextras. Thisisbreak-evendiagnostic,NOTevidenceactualmarginoradjustedgain. Mustavoiddoublecountrecognizedservicingasset.
+CVNAcashbridge:cashaboveprincipal5.914% +newretained1.914% -bridge0.0288%=7.799%. Notcashprofit;basis,timing,interest,costs/roundingunallocated. Retainedsecurityfairvalueincludesriskretentioninvestment,notpureprofit.
+ChannelidentificationscenarioQ3:ifAlly+ABS2.785%,fixedmust17.633%;if6%,fixed10.5%;if8%,fixed6.063%. Allareassumptions,notestimatedchannelgains. Totaldoesnotidentifywhosupposedlyoverpays.
+
+MODELDECISION: Do notreplaceCVNAwithKMX2.8%basecaseorcapitalizegrossKMXservicingasprofit. Useobserved7.4%blendedcurrentratioandtransparentdeclinesensitivity. Needchannelcash/basis/gainbreakdownandmatchedriskcashflows,plusKMXservicingcostandresidualsale/accountingbridge. Noevidenceoffraudorproperlypricedprivatepoolsestablished.

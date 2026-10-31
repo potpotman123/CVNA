@@ -1,0 +1,183 @@
+{
+  "as_of": "2026-10-29",
+  "population_cutoff": "2026-09-30",
+  "status": "Reconstructed candidate roster, not company-certified named list; announcement dates are not operating dates",
+  "count": 21,
+  "excluded_after_cutoff": [
+    {
+      "site": "Orlando",
+      "announcement_date": "2026-10-06",
+      "note": "Do not assume inclusion/exclusion from operating date based on announcement alone; excluded from candidate reconstruction pending operating-date evidence."
+    }
+  ],
+  "sites": [
+    {
+      "site": "ADESA Buffalo",
+      "state": "NY",
+      "evidence_date": "2024-04",
+      "date_meaning": "operating month explicitly reported",
+      "source": "https://press.carvana.com/carvana-marks-second-anniversary-of-adesa-acquisition-with-new-integration-and-performance-milestones/",
+      "first_production_date": null
+    },
+    {
+      "site": "ADESA Portland",
+      "state": "OR",
+      "evidence_date": "2024-05-09",
+      "date_meaning": "conversion underway; completed by Q3 2024 letter",
+      "source": "https://press.carvana.com/carvana-marks-second-anniversary-of-adesa-acquisition-with-new-integration-and-performance-milestones/",
+      "first_production_date": null
+    },
+    {
+      "site": "ADESA Kansas City",
+      "state": "MO",
+      "evidence_date": "2024-08-19",
+      "date_meaning": "announcement; same-day service linked by September 30",
+      "source": "https://press.carvana.com/carvana-develops-first-auction-irc-megasite-in-kansas-city/",
+      "first_production_date": null
+    },
+    {
+      "site": "ADESA Houston",
+      "state": "TX",
+      "evidence_date": "2024-09-09",
+      "date_meaning": "announcement",
+      "source": "https://press.carvana.com/carvana-announces-auction-irc-megasite-integration-in-houston/",
+      "first_production_date": null
+    },
+    {
+      "site": "ADESA Las Vegas",
+      "state": "NV",
+      "evidence_date": "2024-10-07",
+      "date_meaning": "announcement",
+      "source": "https://press.carvana.com/carvana-announces-auction-irc-megasite-integration-in-las-vegas/",
+      "first_production_date": null
+    },
+    {
+      "site": "ADESA Boston",
+      "state": "MA",
+      "evidence_date": "2024-11-20",
+      "date_meaning": "announcement",
+      "source": "https://press.carvana.com/carvana-announces-auction-irc-megasite-integration-in-boston-area/",
+      "first_production_date": null
+    },
+    {
+      "site": "ADESA Atlanta",
+      "state": "GA",
+      "evidence_date": "2025-01-08",
+      "date_meaning": "announcement",
+      "source": "https://press.carvana.com/carvana-announces-auction-irc-megasite-integration-in-atlanta-area/",
+      "first_production_date": null
+    },
+    {
+      "site": "ADESA Indianapolis",
+      "state": "IN",
+      "evidence_date": "2025-02-11",
+      "date_meaning": "announcement",
+      "source": "https://press.carvana.com/carvana-announces-auction-irc-megasite-integration-in-indianapolis/",
+      "first_production_date": null
+    },
+    {
+      "site": "ADESA New Jersey",
+      "state": "NJ",
+      "evidence_date": "2025-04-02",
+      "date_meaning": "announcement",
+      "source": "https://press.carvana.com/carvana-announces-auction-irc-megasite-integration-in-new-jersey/",
+      "first_production_date": null
+    },
+    {
+      "site": "ADESA Phoenix",
+      "state": "AZ",
+      "evidence_date": "2025-04-08",
+      "date_meaning": "announcement",
+      "source": "https://press.carvana.com/carvana-announces-auction-irc-megasite-integration-in-phoenix-area/",
+      "first_production_date": null
+    },
+    {
+      "site": "ADESA Colorado Springs",
+      "state": "CO",
+      "evidence_date": "2025-04-23",
+      "date_meaning": "announcement",
+      "source": "https://press.carvana.com/carvana-announces-auction-irc-megasite-integration-in-colorado-springs/",
+      "first_production_date": null
+    },
+    {
+      "site": "ADESA Nashville",
+      "state": "TN",
+      "evidence_date": "2025-05-22",
+      "date_meaning": "announcement; release also states same-day service supported",
+      "source": "https://press.carvana.com/carvana-brings-inspection-and-reconditioning-center-capabilities-to-adesa-nashville/",
+      "first_production_date": null
+    },
+    {
+      "site": "ADESA Seattle",
+      "state": "WA",
+      "evidence_date": "2025-07-28",
+      "date_meaning": "announcement",
+      "source": "https://press.carvana.com/carvana-brings-inspection-and-reconditioning-center-capabilities-to-adesa-seattle/",
+      "first_production_date": null
+    },
+    {
+      "site": "ADESA Dallas",
+      "state": "TX",
+      "evidence_date": "2025-08-26",
+      "date_meaning": "announcement",
+      "source": "https://press.carvana.com/carvana-brings-inspection-and-reconditioning-center-capabilities-to-adesa-dallas/",
+      "first_production_date": null
+    },
+    {
+      "site": "ADESA Golden Gate",
+      "state": "CA",
+      "evidence_date": "2025-09-09",
+      "date_meaning": "announcement",
+      "source": "https://press.carvana.com/carvana-brings-inspection-and-reconditioning-center-capabilities-to-adesa-golden-gate/",
+      "first_production_date": null
+    },
+    {
+      "site": "ADESA Long Island",
+      "state": "NY",
+      "evidence_date": "2025-10-07",
+      "date_meaning": "announcement",
+      "source": "https://press.carvana.com/carvana-brings-inspection-and-reconditioning-center-capabilities-to-adesa-long-island/",
+      "first_production_date": null
+    },
+    {
+      "site": "ADESA Syracuse",
+      "state": "NY",
+      "evidence_date": "2026-04-28",
+      "date_meaning": "announcement",
+      "source": "https://press.carvana.com/carvana-brings-inspection-and-reconditioning-center-capabilities-to-adesa-syracuse/",
+      "first_production_date": null
+    },
+    {
+      "site": "ADESA Chicago",
+      "state": "IL",
+      "evidence_date": "2026-05-06",
+      "date_meaning": "announcement",
+      "source": "https://press.carvana.com/carvana-brings-inspection-and-reconditioning-center-capabilities-to-adesa-chicago/",
+      "first_production_date": null
+    },
+    {
+      "site": "ADESA Sarasota",
+      "state": "FL",
+      "evidence_date": "2026-06-24",
+      "date_meaning": "announcement",
+      "source": "https://press.carvana.com/carvana-brings-inspection-and-reconditioning-center-capabilities-to-adesa-sarasota/",
+      "first_production_date": null
+    },
+    {
+      "site": "ADESA Brasher’s / Sacramento",
+      "state": "CA",
+      "evidence_date": "2026-09-01",
+      "date_meaning": "announcement",
+      "source": "https://press.carvana.com/carvana-brings-inspection-and-reconditioning-center-capabilities-to-adesa-brashers/",
+      "first_production_date": null
+    },
+    {
+      "site": "ADESA Charlotte",
+      "state": "NC",
+      "evidence_date": "2026-09-15",
+      "date_meaning": "announcement",
+      "source": "https://press.carvana.com/carvana-brings-inspection-and-reconditioning-center-capabilities-to-adesa-charlotte/",
+      "first_production_date": null
+    }
+  ]
+}

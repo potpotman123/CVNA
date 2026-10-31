@@ -1,0 +1,28 @@
+{
+  "as_of":"2026-10-29",
+  "definitions":{"retail_sales":"Vehicles sold during quarter, net of returns; includes retail marketplace partner vehicles.","website_units":"Vehicles listed on last day of quarter, including available, reserved/in-purchase, and reservable vehicles not yet through inspection/reconditioning. NOT a count of immediately sale-ready owned inventory."},
+  "series":[
+    {"quarter":"Q1 2024","sales":91878,"website_units":30694,"source":"Q1 2025 10-Q prior-year comparison; sales also reconcile to six-month 2024 sales less Q2"},
+    {"quarter":"Q2 2024","sales":101440,"website_units":37299,"source":"Q2 2025 10-Q prior-year comparison"},
+    {"quarter":"Q3 2024","sales":108651,"website_units":45974,"source":"Q3 2024 shareholder letter sales; Q3 2025 10-Q prior-year website units"},
+    {"quarter":"Q4 2024","sales":114379,"website_units":53360,"source":"Q4 2024 call; 2025 10-K prior-year website units"},
+    {"quarter":"Q1 2025","sales":133898,"website_units":53707,"source":"Q1 2025 10-Q"},
+    {"quarter":"Q2 2025","sales":143280,"website_units":56394,"source":"Q2 2025 10-Q"},
+    {"quarter":"Q3 2025","sales":155941,"website_units":67236,"source":"Q3 2026 10-Q prior-year comparison"},
+    {"quarter":"Q4 2025","sales":163522,"website_units":75683,"source":"2025 10-K website units; sales = FY 596641 less nine-month 433119"},
+    {"quarter":"Q1 2026","sales":187393,"website_units":70600,"source":"Q1 2026 call and indexed 10-Q reproduction"},
+    {"quarter":"Q2 2026","sales":197325,"website_units":77971,"source":"Q2 2026 call and indexed 10-Q reproduction"},
+    {"quarter":"Q3 2026","sales":217385,"website_units":87370,"source":"Local Q3 2026 10-Q"}
+  ],
+  "production_disclosures":[{"period":"FY2025","disclosure":"Production grew more than 40% YoY; absolute count unavailable"},{"period":"Q2 2026","disclosure":"Written chart reports production growth 36% YoY; call uses different inventory terminology"},{"period":"Q3 2026","disclosure":"Production >200000 and management says slightly above retail sales; no exact count"}],
+  "source_urls":[
+    "https://www.sec.gov/Archives/edgar/data/1690820/000169082025000161/cvna-20250331.htm",
+    "https://www.sec.gov/Archives/edgar/data/1690820/000169082025000312/cvna-20250630.htm",
+    "https://www.secinfo.com/d1Jj6b.IBe.htm",
+    "https://www.sec.gov/Archives/edgar/data/1690820/000169082026000009/cvna-20251231.htm",
+    "https://www.streetinsider.com/dr/news.php?id=26394889",
+    "https://companiesmarketcap.com/inr/carvana/sec-reports-10q/0001690820-26-000055/",
+    "https://investors.carvana.com/~/media/Files/C/Carvana-IR/documents/cvna-shareholder-letter-q3-2026.pdf"
+  ],
+  "provenance_note":"Q1/Q2 2026 and Q3 2024 website counts retrieved from indexed reproductions of company filings; full mirror retrieval unavailable. Other counts checked in primary filings/local materials. No interpolated inventory or production observations. Lines connect quarterly snapshots only."
+}
