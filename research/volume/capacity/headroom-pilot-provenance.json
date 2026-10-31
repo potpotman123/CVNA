@@ -1,0 +1,51 @@
+{
+  "research_date": "2026-10-31",
+  "sample": "purposive pilot, not nationally representative",
+  "local_primary_pdf": {
+    "path": "work/capacity-pilot-2026-10-31/dayton-packet.pdf",
+    "sha256": "45008b5dd9da7a9d74454670810aa6e665ba93e603e220fb9bb1ebdf6c8e8790",
+    "pages_reviewed": [
+      128,
+      129,
+      130,
+      131,
+      132,
+      145,
+      152,
+      154
+    ]
+  },
+  "sites": [
+    {
+      "site": "Elyria",
+      "verified_current_output_per_week": null,
+      "verified_current_operating_capacity_per_week": null
+    },
+    {
+      "site": "Haines City",
+      "verified_current_output_per_week": null,
+      "verified_current_operating_capacity_per_week": null
+    },
+    {
+      "site": "Tolleson",
+      "verified_current_output_per_week": null,
+      "verified_current_operating_capacity_per_week": null
+    },
+    {
+      "site": "Dayton",
+      "verified_current_output_per_week": null,
+      "verified_current_operating_capacity_per_week": null
+    },
+    {
+      "site": "Belton",
+      "verified_current_output_per_week": null,
+      "verified_current_operating_capacity_per_week": null
+    },
+    {
+      "site": "Boston",
+      "verified_current_output_per_week": null,
+      "verified_current_operating_capacity_per_week": null
+    }
+  ],
+  "note": "Elyria reported tour run-rate ~1280/week is retained as attributed evidence in report, not independently verified output. URLs and source locators in companion report."
+}

@@ -2,6 +2,8 @@
 
 **Research date: October 29, 2026. Financial endpoint: Q3 2026.** Free public evidence and existing project materials. [Sources and limitations](sources.md) · [Facility register](facility-register.md) · [Operational timeline](operating-timeline.md) · [Conditional scenarios](scenarios.md)
 
+October 31 follow-up: [Physical and operational headroom pilot](headroom-pilot-2026-10-31.md) verifies a Dayton parking-to-reconditioning construction option; current stage-level utilization remains unresolved.
+
 ## Conclusion
 
 Expanded October 30 source test: [Municipal staffing, Buffalo reporting, peer operations and training](source-test-2026-10-30.md). Adds an actual historical Trenton headcount and a missed employment commitment; preserves the distinction between staffing plans and measurable factory utilization.

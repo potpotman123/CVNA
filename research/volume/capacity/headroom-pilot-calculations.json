@@ -1,0 +1,20 @@
+{
+  "classification": "hypothetical sensitivity",
+  "target_completed_vehicles_per_week": 1280,
+  "paint_jobs_per_affected_vehicle_assumed": 1,
+  "paint_incidence_cases": [
+    {
+      "incidence": 0.3,
+      "required_jobs_per_week": 384.0
+    },
+    {
+      "incidence": 0.5,
+      "required_jobs_per_week": 640.0
+    },
+    {
+      "incidence": 0.7,
+      "required_jobs_per_week": 896.0
+    }
+  ],
+  "supported_output_gain_if_incidence_falls_70_to_50_percent": 0.3999999999999999
+}

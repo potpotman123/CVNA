@@ -452,3 +452,8 @@ Many `work/` and research files are local/untracked. A fresh remote checkout may
 6. Integrate operating scenarios with financing contribution, inventory funding and demand absorption. A supply-only capacity forecast is not the investment conclusion.
 
 **Success means a credible range for economically executable headroom, with identifiable constraints and falsification tests. It does not require proving that every facility can double, or forcing all recent volume growth into one explanation.**
+
+
+## 19. October 31 municipal/headroom pilot update
+
+See [headroom pilot](research/volume/capacity/headroom-pilot-2026-10-31.md). Dayton plans and watershed approval support roughly 68k sq ft of proposed repair/detail construction replacing ~350 parking spaces; they do not establish commissioning or throughput. Elyria June/August 2026 air-permit records were identified, but document bodies remain inaccessible. Belton and Boston remain leads, not model inputs. No current facility-utilization percentages were established; no national aerial census was completed. Targeted permit/equipment follow-up is preferable to more parking or job-posting proxies. Reproducible paint-workload sensitivity is illustrative only.
