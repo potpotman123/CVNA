@@ -17,6 +17,8 @@ The new findings refine the model:
 
 **Follow-up:** the [matched-observation search](matched-observation-search-2026-10-31.md) found historical staffing-sensitive inspection cadence and a cosmetic-labor estimate, but no site-period combination sufficient to estimate current paint headroom. These partial measurements do not change model inputs.
 
+**Mix/resource test:** [evidence and conditional calculations](mix-and-resource-test-2026-10-31.md) independently cross-check the age/mileage mechanism against CarMax, distinguish skill allocation from hiring, and calculate how much assumed vehicle-mix changes could explain. The additional [calculation](mix-and-resource-test.py) is not calibrated to Carvana and leaves the existing production forecast unchanged.
+
 ![Conditional requirements, not a Carvana forecast](headroom-requirements.png)
 
 ## Evidence quality and site register

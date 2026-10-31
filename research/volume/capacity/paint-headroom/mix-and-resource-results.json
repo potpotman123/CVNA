@@ -1,0 +1,48 @@
+{
+  "classification": "hypothetical conditional sensitivity; no empirical calibration",
+  "assumptions": {
+    "initial_easy_share": 0.5,
+    "shifted_easy_share": 0.6,
+    "easy_workload_normalized": 1,
+    "target_output_growth_pct": 20,
+    "other_constraints": "assumed nonbinding; fixed quality and within-category workload",
+    "paint_specific_warning": "neither shares nor ratios are measured at CVNA; use a separate ratio for each resource"
+  },
+  "rows": [
+    {
+      "assumed_harder_to_easy_work_ratio": 1.5,
+      "initial_workload": 1.25,
+      "shifted_workload": 1.2000000000000002,
+      "mix_only_output_growth_pct": 4.166666666666652,
+      "additional_productive_hours_for_20pct_growth_pct": 15.200000000000014,
+      "easy_share_required_for_20pct_mix_only_growth": 0.9166666666666665,
+      "required_share_change_percentage_points": 41.66666666666665,
+      "hours_growth_to_restore_initial_mix_at_unchanged_output_pct": 4.166666666666652,
+      "output_decline_on_restoring_initial_mix_at_fixed_hours_pct": 3.9999999999999813
+    },
+    {
+      "assumed_harder_to_easy_work_ratio": 2.0,
+      "initial_workload": 1.5,
+      "shifted_workload": 1.4,
+      "mix_only_output_growth_pct": 7.14285714285714,
+      "additional_productive_hours_for_20pct_growth_pct": 11.99999999999999,
+      "easy_share_required_for_20pct_mix_only_growth": 0.75,
+      "required_share_change_percentage_points": 25.0,
+      "hours_growth_to_restore_initial_mix_at_unchanged_output_pct": 7.14285714285714,
+      "output_decline_on_restoring_initial_mix_at_fixed_hours_pct": 6.666666666666677
+    },
+    {
+      "assumed_harder_to_easy_work_ratio": 3.0,
+      "initial_workload": 2.0,
+      "shifted_workload": 1.8000000000000003,
+      "mix_only_output_growth_pct": 11.111111111111093,
+      "additional_productive_hours_for_20pct_growth_pct": 8.000000000000007,
+      "easy_share_required_for_20pct_mix_only_growth": 0.6666666666666666,
+      "required_share_change_percentage_points": 16.666666666666664,
+      "hours_growth_to_restore_initial_mix_at_unchanged_output_pct": 11.111111111111093,
+      "output_decline_on_restoring_initial_mix_at_fixed_hours_pct": 9.999999999999986
+    }
+  ],
+  "formula": "Q1/Q0 = (H1/H0) * h0/h1; h=f+(1-f)*r",
+  "validation": "arithmetic identities and boundary checks only; no independent validation"
+}
