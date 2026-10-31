@@ -1,0 +1,251 @@
+{
+  "retrieved": "2026-10-31",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Rely-On/Garmat Tolleson project",
+      "url": "https://relyonusa.com/carvana-silicon-valley-meets-collision-repair/",
+      "classification": "supplier-reported historical design/installation",
+      "period": "2018 project; article undated",
+      "locator": "project and installation-phase paragraphs",
+      "finding": "Vehicles traverse four-booth side-load lines. Phase one eight booths; later twelve-booth configuration not confirmed. Historical claim 30 painted vehicles per line-day, hours unspecified.",
+      "model_use": "topology warning and historical anchor only"
+    },
+    {
+      "id": "S2",
+      "title": "Carvana/Accenture Oracle CloudWorld presentation",
+      "url": "https://static.rainfocus.com/oracle/ocw24/sess/1715608388306001FX5q/finalsessionfile/THR2045%20-%20Carvana%20Streamlines%20Operations%20with%20Technician%20Productivity%20Application%20on%20OCI_1726002021102001fm7p.pdf",
+      "classification": "company/vendor-reported",
+      "period": "2024-09-10",
+      "locator": "PDF pp9\u201310 routing; p24 metric arrows visually verified",
+      "finding": "Historical cycle-time and first-pass-QC improvements, unclear baselines and QC units. Not residual paint headroom.",
+      "model_use": "qualitative only",
+      "local_path": "work/paint-headroom-2026-10-31/oracle-2024.pdf",
+      "sha256": "ed838258afddeb22fc17ac996a49046f397bd6b03cf83141583904384baa553a"
+    },
+    {
+      "id": "S3",
+      "title": "3M: Streamline paint booth process and workflow",
+      "url": "https://www.3m.com/3M/en_US/collision-repair-us/resources/collision-articles/streamline-paint-booth-process-workflow/",
+      "classification": "external manufacturer technical guidance",
+      "period": "undated, accessed 2026-10-31",
+      "finding": "Parts-off batching, preparation and booth scheduling; refinish work-content hours cannot be used as clock-hour occupancy.",
+      "model_use": "process alternatives; no Carvana benchmark imported"
+    },
+    {
+      "id": "S4",
+      "title": "Global Finishing Solutions: Driving Paint Booth Efficiencies",
+      "url": "https://img.fenderbender.com/files/base/ebm/fenderbender/document/2024/05/6656f6b8cf508e2a74da4491-845_gfs_ate_july_rv1_1.pdf?dl=6656f6b8cf508e2a74da4491-845_gfs_ate_july_rv1_1.pdf",
+      "classification": "manufacturer technical author in sponsored publication",
+      "period": "undated; 2024 upload path",
+      "locator": "pp1\u20133",
+      "finding": "Typical downdraft cycles four/day versus five/six for better performers; not cars/day and not matched to Carvana.",
+      "model_use": "unit/transferability check only",
+      "related_url": "https://globalfinishing.com/products/application/side-load-finishing-systems/"
+    },
+    {
+      "id": "S5",
+      "title": "PPG D8131 UHS clearcoat technical data",
+      "url": "https://buyat.ppg.com/Refinish_SSA/Common/ShowPdf.aspx?AppId=2&BrandId=3&IntDialCode=125&LanguageId=en-EMEA&PdfId=25714&ProductCode='D8131'",
+      "classification": "manufacturer product specification",
+      "period": "2017-10",
+      "locator": "pp3\u20134",
+      "finding": "Flash, target-metal-temperature bake, heat-up and cooling are distinct; product specification does not measure whole-car time.",
+      "model_use": "cycle decomposition only"
+    },
+    {
+      "id": "S6",
+      "title": "PPG D8178 rapid low-energy clearcoat launch",
+      "url": "https://investor.ppg.com/news/news-details/2026/PPG-introduces-fast-drying-clearcoat-to-PPG-DELTRON-automotive-refinish-line/default.aspx",
+      "classification": "manufacturer product claim",
+      "period": "2026-03-09, EMEA",
+      "finding": "Rapid drying options; no evidence Carvana uses this product.",
+      "model_use": "potential technical mechanism, not incremental CVNA adoption"
+    },
+    {
+      "id": "S7",
+      "title": "Ohio issued-air-permit retrieval instructions and portal",
+      "url": "https://epa.ohio.gov/divisions-and-offices/air-pollution-control/permitting/issued-air-permits",
+      "classification": "official government instructions and observed public UI metadata",
+      "period": "accessed 2026-10-31",
+      "portal": "https://edocpub.epa.ohio.gov/publicportal/edochome.aspx",
+      "documents": [
+        4140973,
+        4236308,
+        4236309
+      ],
+      "finding": "Portal metadata visible; ZIP and document controls yielded no accessible contents. Earlier direct HTTP responses were challenge HTML.",
+      "model_use": "retrieval gap; no equipment inference"
+    },
+    {
+      "id": "S8",
+      "title": "Elyria June 2026 supplied tour reports",
+      "classification": "third-party analyst reporting of same company tour, not independent site samples",
+      "period": "2026-06-04/05",
+      "local_sources": [
+        {
+          "path": "work/sellside-expanded-2026-10-31/28.pdf",
+          "locator": "p2",
+          "id": "28"
+        },
+        {
+          "path": "work/sellside-expanded-2026-10-31/29.pdf",
+          "locator": "pp2\u20136",
+          "id": "29"
+        },
+        {
+          "path": "work/sellside-expanded-2026-10-31/33.pdf",
+          "locator": "pp2\u20134",
+          "id": "33"
+        }
+      ],
+      "manifest": "work/sellside-expanded-2026-10-31/report-catalog.json",
+      "finding": "Reported whole-site output, cosmetic routing, side-load movement, role allocation and software; no numerical paint workload or utilization.",
+      "model_use": "1280/week reference target arithmetic only; qualitative route map"
+    },
+    {
+      "id": "S9",
+      "title": "BLS automotive body and related repairers wage context",
+      "url": "https://www.bls.gov/ooh/installation-maintenance-and-repair/automotive-body-and-glass-repairers.htm",
+      "related_url": "https://www.onetonline.org/link/details/49-3021.00",
+      "classification": "external occupational wage benchmark",
+      "period": "May 2025, accessed 2026-10-31",
+      "median_hourly": 26.39,
+      "median_annual": 54890,
+      "finding": "Broader body-repair occupation, national base wage; not Carvana skilled painter compensation or loaded labor cost.",
+      "model_use": "context only; scenario loaded wages explicitly assumed"
+    },
+    {
+      "id": "S10",
+      "title": "Garcia Morgan Stanley conference transcript",
+      "url": "https://stockanalysis.com/stocks/cvna/transcripts/577918-morgan-stanley-technology-media-telecom-conference-2026/",
+      "classification": "company statement transcribed by third-party host",
+      "period": "2026-03-02",
+      "locator": "reconditioning discussion before financing",
+      "finding": "Named Tolleson constraint and allocation/queue/rework mechanism.",
+      "model_use": "qualitative mechanism, not estimate of current spare resources"
+    },
+    {
+      "id": "S11",
+      "title": "James Babcock Indianapolis project",
+      "url": "https://www.jamesbabcockinc.com/carvana-indianapolis-facility/",
+      "classification": "contractor-reported installed equipment",
+      "period": "completed 2019-04",
+      "finding": "Eight booths, 35 prep positions and eight paint-building lifts. Current configuration unverified.",
+      "model_use": "historical equipment"
+    },
+    {
+      "id": "S12",
+      "title": "Trenton council minutes",
+      "url": "https://trentonoh.gov/AgendaCenter/ViewFile/Minutes/_02172022-203",
+      "classification": "municipal account of opening visit",
+      "period": "2022-02-17",
+      "locator": "p5",
+      "finding": "12 booths, 91 lifts, three photo domes; not a current engineering audit.",
+      "model_use": "historical equipment"
+    }
+  ],
+  "site_register": [
+    {
+      "site": "Tolleson",
+      "sources": [
+        "S1",
+        "S10"
+      ],
+      "reported_whole_site_weekly_output": null,
+      "reported_output_date": null,
+      "independently_verified_output": null,
+      "current_installed_booth_count": null,
+      "current_operational_booth_count": null,
+      "qualified_paid_hours_by_stage": null,
+      "productive_hours_by_stage": null,
+      "paint_category_shares": null,
+      "booth_hours_by_repair_category": null,
+      "labor_hours_by_repair_category": null,
+      "repeat_work_hours": null,
+      "post_recon_wholesale_removal_share": null,
+      "current_headroom_estimate": null
+    },
+    {
+      "site": "Elyria",
+      "sources": [
+        "S7",
+        "S8"
+      ],
+      "reported_whole_site_weekly_output": 1280,
+      "reported_output_date": "2026-06-04",
+      "independently_verified_output": null,
+      "current_installed_booth_count": null,
+      "current_operational_booth_count": null,
+      "qualified_paid_hours_by_stage": null,
+      "productive_hours_by_stage": null,
+      "paint_category_shares": null,
+      "booth_hours_by_repair_category": null,
+      "labor_hours_by_repair_category": null,
+      "repeat_work_hours": null,
+      "post_recon_wholesale_removal_share": null,
+      "current_headroom_estimate": null
+    },
+    {
+      "site": "Greenfield",
+      "sources": [
+        "S11"
+      ],
+      "reported_whole_site_weekly_output": null,
+      "reported_output_date": null,
+      "independently_verified_output": null,
+      "current_installed_booth_count": null,
+      "current_operational_booth_count": null,
+      "qualified_paid_hours_by_stage": null,
+      "productive_hours_by_stage": null,
+      "paint_category_shares": null,
+      "booth_hours_by_repair_category": null,
+      "labor_hours_by_repair_category": null,
+      "repeat_work_hours": null,
+      "post_recon_wholesale_removal_share": null,
+      "current_headroom_estimate": null
+    },
+    {
+      "site": "Trenton",
+      "sources": [
+        "S12"
+      ],
+      "reported_whole_site_weekly_output": null,
+      "reported_output_date": null,
+      "independently_verified_output": null,
+      "current_installed_booth_count": null,
+      "current_operational_booth_count": null,
+      "qualified_paid_hours_by_stage": null,
+      "productive_hours_by_stage": null,
+      "paint_category_shares": null,
+      "booth_hours_by_repair_category": null,
+      "labor_hours_by_repair_category": null,
+      "repeat_work_hours": null,
+      "post_recon_wholesale_removal_share": null,
+      "current_headroom_estimate": null
+    },
+    {
+      "site": "Haines City",
+      "sources": [],
+      "reported_whole_site_weekly_output": null,
+      "reported_output_date": null,
+      "independently_verified_output": null,
+      "current_installed_booth_count": null,
+      "current_operational_booth_count": null,
+      "qualified_paid_hours_by_stage": null,
+      "productive_hours_by_stage": null,
+      "paint_category_shares": null,
+      "booth_hours_by_repair_category": null,
+      "labor_hours_by_repair_category": null,
+      "repeat_work_hours": null,
+      "post_recon_wholesale_removal_share": null,
+      "current_headroom_estimate": null
+    }
+  ],
+  "omitted_unusable_sources": [
+    "anonymous employee throughput and quality anecdotes without location/period verification",
+    "job counts",
+    "unmatched enforcement equipment descriptions"
+  ],
+  "missing_local_starting_files": []
+}

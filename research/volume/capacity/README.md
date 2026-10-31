@@ -6,6 +6,8 @@ October 31 follow-up: [Physical and operational headroom pilot](headroom-pilot-2
 
 October 31 equipment follow-up: [Tolleson bottleneck testimony and historical installed equipment](equipment-followup-2026-10-31.md); Greenfield labor hours show why headcount recovery alone is misleading.
 
+October 31 paint study: [Evidence, process map and executable requirements model](paint-headroom/README.md). Adds line-topology and technical evidence, 10–30% growth thresholds, rework/mix/cost sensitivities and bottleneck migration. No current site or national headroom estimate is identified.
+
 ## Conclusion
 
 Expanded October 30 source test: [Municipal staffing, Buffalo reporting, peer operations and training](source-test-2026-10-30.md). Adds an actual historical Trenton headcount and a missed employment commitment; preserves the distinction between staffing plans and measurable factory utilization.

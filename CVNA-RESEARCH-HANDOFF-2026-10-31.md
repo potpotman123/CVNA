@@ -462,3 +462,8 @@ See [headroom pilot](research/volume/capacity/headroom-pilot-2026-10-31.md). Day
 ## 20. Equipment follow-up
 
 [Follow-up note](research/volume/capacity/equipment-followup-2026-10-31.md) adds Tolleson-specific paint bottleneck testimony (March 2026 conference), Greenfield contractor equipment baseline (2019: eight paint booths), and Trenton opening-era equipment (2022: 12 booths, 91 lifts). Greenfield reported hours grew faster than headcount in 2025, with reporting-scope caveats. These strengthen mechanism evidence but do not establish current utilization or justify changing the production forecast. Elyria permit bodies remain unavailable.
+
+
+## 21. Paint bottleneck model completed
+
+[Paint study](research/volume/capacity/paint-headroom/README.md) provides the evidence register, process map, ranked mechanisms, executable model, requirements, costs and monitoring gaps. Current site estimates remain null. Tolleson historical booths are organized into serial side-load lines; do not pool them as independent parallel booths. Visual review resolved Oracle 2024 slide 24: cycle time down 60%, first-time QC pass up 13%, but baseline/scope/units remain insufficient for calibration. New 3M/GFS/PPG technical guidance helps distinguish cycles, refinish work content and curing; none is imported as a CVNA rate. At fixed productive hours, +20% output needs 16.7% less binding workload; eliminating a small rework burden cannot create arbitrarily large gains. Constructed plant scenarios demonstrate bottleneck migration and mix sensitivity, not a company growth range. `model.py` reproduces outputs and eight arithmetic checks; no empirical validation claimed. Elyria portal controls still did not yield permit bodies.

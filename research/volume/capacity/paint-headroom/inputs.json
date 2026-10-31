@@ -1,0 +1,36 @@
+{
+  "classification": "All numerical plant inputs below are ASSUMED, not Carvana estimates or fitted values. Observed evidence is in evidence.json.",
+  "target_growth_rates": [0.1, 0.2, 0.3],
+  "illustration": {
+    "scope": "Generic constructed resource network, not Tolleson's serial four-booth system. No hourly repair times below are claimed as benchmarks. Resource pooling ignores variability, blocking and simultaneous labor/equipment scheduling; results are upper bounds.",
+    "first_pass_resource_hours_per_vehicle_by_category": {
+      "no_paint": {"prep_body_labor": 0, "paint_labor": 0, "booth_occupancy": 0, "finish_qc_labor": 0.2, "other_release": 1},
+      "small": {"prep_body_labor": 0.5, "paint_labor": 0.25, "booth_occupancy": 0.5, "finish_qc_labor": 0.25, "other_release": 1},
+      "single_panel": {"prep_body_labor": 1, "paint_labor": 0.5, "booth_occupancy": 1, "finish_qc_labor": 0.4, "other_release": 1},
+      "multiple_panel": {"prep_body_labor": 2, "paint_labor": 1, "booth_occupancy": 1.5, "finish_qc_labor": 0.6, "other_release": 1},
+      "extensive": {"prep_body_labor": 4, "paint_labor": 2, "booth_occupancy": 2.5, "finish_qc_labor": 1, "other_release": 1}
+    },
+    "base_category_shares": {"no_paint": 0.5, "small": 0.2, "single_panel": 0.2, "multiple_panel": 0.08, "extensive": 0.02},
+    "base_extra_rework_hours_fraction": {"prep_body_labor": 0.1, "paint_labor": 0.1, "booth_occupancy": 0.1, "finish_qc_labor": 0, "other_release": 0},
+    "constructed_base_resource_output_bounds": {"prep_body_labor": 500, "paint_labor": 440, "booth_occupancy": 400, "finish_qc_labor": 480, "other_release": 460},
+    "productive_share_of_paid_incremental_hours": 0.8,
+    "loaded_wages_per_paid_hour": {"prep_body_labor": 35, "paint_labor": 45, "finish_qc_labor": 35},
+    "scenarios": [
+      {"id":"reference","description":"Constructed 400-unit/week reference; no observed CVNA plant is fitted.","excluded_costs":"All costs not modeled in reference.","timing":"Not applicable","falsification":"Illustrative only."},
+      {"id":"A_allocation_quality","description":"Booth productive availability 75% to 85%; extra rework hours 10% to 5% of first-pass work in prep, paint and booth.","resource_hours_multipliers":{"booth_occupancy":1.1333333333333333},"extra_rework_hours_fraction":{"prep_body_labor":0.05,"paint_labor":0.05,"booth_occupancy":0.05},"excluded_costs":"Training, supervision and software implementation unknown; materials savings unknown.","timing":"Actual implementation and rollout duration unknown; no construction assumed.","falsification":"No recoverable lost booth time or repeat-work burden; other release does not have assumed slack."},
+      {"id":"B_shift_extension","description":"All paint-related resources +25% hours; other release unchanged.","resource_hours_multipliers":{"prep_body_labor":1.25,"paint_labor":1.25,"booth_occupancy":1.25,"finish_qc_labor":1.25},"excluded_costs":"Booth energy, maintenance, overtime premium, hiring/training and materials unknown.","timing":"Recruiting/training duration unknown; staffing/shift extension assumed feasible.","falsification":"Cannot obtain qualified staff, run equipment longer, or maintain quality."},
+      {"id":"C_older_mix","description":"Paint incidence 50% to 60% by shifting 10pp from no paint to multiple-panel repairs; no resource gain.","category_shares":{"no_paint":0.4,"small":0.2,"single_panel":0.2,"multiple_panel":0.18,"extensive":0.02},"excluded_costs":"Acquisition prices, demand and higher GPU may offset costs; none estimated.","timing":"Mix changes with acquisition and work-in-process lag, unmeasured.","falsification":"Older vehicles do not increase this repair workload or sourcing selects better-condition vehicles."},
+      {"id":"D_equipment_only","description":"Booth capacity +25%; labor and other stages unchanged.","resource_hours_multipliers":{"booth_occupancy":1.25},"excluded_costs":"Installed capex, commissioning and operating costs unknown; see capital hurdle screen.","timing":"Permitting, utility and commissioning durations unknown.","falsification":"Booths are not the initial constraint or cannot be independently expanded."},
+      {"id":"E_coordinated_expansion","description":"All stage resources including other release +30%, showing what broad coordination would require.","resource_hours_multipliers":{"prep_body_labor":1.3,"paint_labor":1.3,"booth_occupancy":1.3,"finish_qc_labor":1.3,"other_release":1.3},"excluded_costs":"Additional nonpaint labor, logistics, capex, materials, training, inventory and demand costs excluded.","timing":"No validated ramp time; all added resources must be available together.","falsification":"Any stage fails to expand or additional output does not sell economically."}
+    ]
+  },
+  "economics": {
+    "classification":"ASSUMED screening inputs, not CVNA economics",
+    "extra_weekly_sales_assumed":100,
+    "operating_weeks_assumed":50,
+    "incremental_inventory_days_assumed":10,
+    "vehicle_carrying_cost_assumed":22000,
+    "cash_return_hurdle_assumed":0.2,
+    "incremental_contribution_after_all_incremental_operating_costs_assumed":[100,250,500]
+  }
+}
