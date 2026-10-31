@@ -15,6 +15,8 @@ The new findings refine the model:
 
 **No new numerical sales or production forecast is justified.** The useful result is a conditional requirements model, historical equipment anchors and explicit evidence gaps. The illustrative plant is not calibrated to Carvana or presented as a plausible confidence interval.
 
+**Follow-up:** the [matched-observation search](matched-observation-search-2026-10-31.md) found historical staffing-sensitive inspection cadence and a cosmetic-labor estimate, but no site-period combination sufficient to estimate current paint headroom. These partial measurements do not change model inputs.
+
 ![Conditional requirements, not a Carvana forecast](headroom-requirements.png)
 
 ## Evidence quality and site register
