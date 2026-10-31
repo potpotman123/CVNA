@@ -1,0 +1,30 @@
+{
+  "source": "staffing-panel-data.json, establishment 1010981",
+  "observations": [
+    {
+      "year": 2022,
+      "employees": 735,
+      "hours": 1293836
+    },
+    {
+      "year": 2023,
+      "employees": 467,
+      "hours": 843912
+    },
+    {
+      "year": 2024,
+      "employees": 481,
+      "hours": 734132
+    },
+    {
+      "year": 2025,
+      "employees": 565,
+      "hours": 1110342
+    }
+  ],
+  "employees_change_2024_2025": 0.17463617463617465,
+  "hours_change_2024_2025": 0.5124555257092729,
+  "employees_2025_vs_2022": -0.23129251700680276,
+  "hours_2025_vs_2022": -0.1418216837373516,
+  "caution": "2025 address adds 6369 W 300 N; NAICS and ZIP change. No clean same-scope productivity or utilization inference."
+}

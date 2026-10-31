@@ -457,3 +457,8 @@ Many `work/` and research files are local/untracked. A fresh remote checkout may
 ## 19. October 31 municipal/headroom pilot update
 
 See [headroom pilot](research/volume/capacity/headroom-pilot-2026-10-31.md). Dayton plans and watershed approval support roughly 68k sq ft of proposed repair/detail construction replacing ~350 parking spaces; they do not establish commissioning or throughput. Elyria June/August 2026 air-permit records were identified, but document bodies remain inaccessible. Belton and Boston remain leads, not model inputs. No current facility-utilization percentages were established; no national aerial census was completed. Targeted permit/equipment follow-up is preferable to more parking or job-posting proxies. Reproducible paint-workload sensitivity is illustrative only.
+
+
+## 20. Equipment follow-up
+
+[Follow-up note](research/volume/capacity/equipment-followup-2026-10-31.md) adds Tolleson-specific paint bottleneck testimony (March 2026 conference), Greenfield contractor equipment baseline (2019: eight paint booths), and Trenton opening-era equipment (2022: 12 booths, 91 lifts). Greenfield reported hours grew faster than headcount in 2025, with reporting-scope caveats. These strengthen mechanism evidence but do not establish current utilization or justify changing the production forecast. Elyria permit bodies remain unavailable.
