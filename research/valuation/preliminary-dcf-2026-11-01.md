@@ -64,3 +64,6 @@ Ready to build: transparent conditional volume case and sensitivity framework. N
 ## Reproduction
 
 Run `python3 research/valuation/preliminary-dcf-2026-11-01.py`. [JSON output](preliminary-dcf-2026-11-01.json) preserves annual cash flows and valuation sensitivities. Tests reconcile the nine-year horizon, 2035 volume and the previously discussed $96.20 result. These are arithmetic checks, not independent forecast validation. No licensed raw reports are committed.
+
+
+Cost-model follow-up: [Growth cost model](cost-layer-2026-11-01.md) provides a separate project-timed capex and category SG&A scenario. This preliminary DCF remains unchanged for reproducibility; its cost shortcuts are not the latest cost schedule.

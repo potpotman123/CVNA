@@ -1,0 +1,6867 @@
+{
+  "status": "Working cost scenario; not a validated forecast or revised valuation",
+  "sources": {
+    "accounting_and_anchor": "https://www.sec.gov/Archives/edgar/data/1690820/000169082026000067/cvna-20260930.htm",
+    "project_budgets": "https://investors.carvana.com/~/media/Files/C/Carvana-IR/reports-and-presentations/jp-morgan-auto-conf-aug-2026.pdf"
+  },
+  "assumed_inputs": {
+    "standard_lead_months": 6,
+    "major_lead_months": 12,
+    "incremental_nonlabor_COGS_per_unit": 0.0,
+    "wage_per_paid_hour": 35,
+    "benefit_payroll_burden": 0.3,
+    "paid_direct_hours_per_vehicle": 8,
+    "annual_paid_hours_per_FTE": 2000,
+    "wage_inflation": 0.03,
+    "extra_labor_during_ramp_fraction": 0.5,
+    "preopening_months": 2,
+    "preopening_staff_fraction": 0.25,
+    "fixed_sga_inflation": 0.03,
+    "variable_sga_inflation": 0.0,
+    "nonproject_capex_anchor_m": 160,
+    "nonproject_capex_volume_share": 0.5,
+    "nonproject_capex_inflation": 0.03,
+    "incremental_net_working_capital_per_annual_unit": 4200
+  },
+  "assumed_variable_sga_shares": {
+    "compensation": 0.8,
+    "advertising": 0.9,
+    "occupancy": 0.4,
+    "logistics": 0.9,
+    "other": 0.6
+  },
+  "quarter_GAAP_sga_m": {
+    "compensation": 255,
+    "advertising": 152,
+    "occupancy": 18,
+    "logistics": 68,
+    "other": 312
+  },
+  "quarter_adjusted_sga_allocated_m": {
+    "compensation": 231.0,
+    "advertising": 152.0,
+    "occupancy": 16.236180904522612,
+    "logistics": 61.336683417085425,
+    "other": 281.42713567839195
+  },
+  "allocation_note": "24m SBC removed from compensation; 39m D&A allocated proportionally across occupancy, logistics, other, an assumption. Category forecast is calibrated to 742m total.",
+  "labor_note": "Normal direct labor is a memorandum component already embedded in baseline GPU, never subtracted again. Only inflation and incremental ramp/preopening premium are subtracted. Hours, pay and ramp penalties are unverified; FTE equivalents are not actual technician counts or gross hires. Existing baseline ramp penalty is not identified, so incremental penalties are conservative overlays, not a clean historical normalization.",
+  "capex_note": "Linear spending before production; 2026 allocations are modeled, not actual spend. Nominal budgets held flat. Nonproject capex excludes modeled project construction, but public aggregate capex does not validate that separation. No post-2035 projects are scheduled; 2035 spending drops mechanically and is not terminal normalized capex.",
+  "working_capital_note": "Retains preliminary $4200 net working capital per incremental annual unit; separate from capex, unvalidated. Vehicle inventory, receivables, payable offsets and financing need separate calibration.",
+  "annual": [
+    {
+      "year": 2027,
+      "retail_units": 981992.3781345233,
+      "adjusted_sga_by_category_m": {
+        "compensation": 1025.1402898970025,
+        "advertising": 680.5900847289499,
+        "occupancy": 69.47329283492371,
+        "logistics": 274.6390694988615,
+        "other": 1226.5657142105288
+      },
+      "adjusted_sga_m": 3276.4084511702663,
+      "adjusted_sga_per_unit": 3336.4907143112578,
+      "normal_direct_labor_memo_m": 368.1685824101955,
+      "normal_direct_FTE_equivalents": 3927.969512538093,
+      "extra_ramp_and_preopening_FTE_equivalents": 101.3718594733522,
+      "ramp_units": 33102.596403342766,
+      "incremental_labor_cost_vs_flat_GPU_m": 20.224941157666308,
+      "adjusted_gross_profit_m": 6945.445399866025,
+      "adjusted_ebitda_m": 3669.0369486957584,
+      "ebitda_change_vs_preliminary_m": -33.23788057196316,
+      "standard_project_capex_m": 17.5,
+      "major_project_capex_m": 97.5,
+      "nonproject_capex_m": 175.4562963846226,
+      "total_capex_m": 290.4562963846226,
+      "project_capex_low_m": 104.0,
+      "project_capex_high_m": 126.0,
+      "incremental_net_working_capital_m": 472.29998816499784
+    },
+    {
+      "year": 2028,
+      "retail_units": 1171840.074785496,
+      "adjusted_sga_by_category_m": {
+        "compensation": 1192.24102018796,
+        "advertising": 801.939627931347,
+        "occupancy": 76.34915133924274,
+        "logistics": 323.6073491976336,
+        "other": 1387.945838337899
+      },
+      "adjusted_sga_m": 3782.0829869940826,
+      "adjusted_sga_per_unit": 3227.4736701476845,
+      "normal_direct_labor_memo_m": 452.5266692637355,
+      "normal_direct_FTE_equivalents": 4687.360299141985,
+      "extra_ramp_and_preopening_FTE_equivalents": 265.0833333333333,
+      "ramp_units": 114958.33333333333,
+      "incremental_labor_cost_vs_flat_GPU_m": 51.56853070014828,
+      "adjusted_gross_profit_m": 8260.768545543544,
+      "adjusted_ebitda_m": 4478.685558549461,
+      "ebitda_change_vs_preliminary_m": -89.13778065079819,
+      "standard_project_capex_m": 17.5,
+      "major_project_capex_m": 97.5,
+      "nonproject_capex_m": 199.25018941876695,
+      "total_capex_m": 314.2501894187669,
+      "project_capex_low_m": 104.0,
+      "project_capex_high_m": 126.0,
+      "incremental_net_working_capital_m": 797.3603259340858
+    },
+    {
+      "year": 2029,
+      "retail_units": 1382006.7414521629,
+      "adjusted_sga_by_category_m": {
+        "compensation": 1376.7863110341364,
+        "advertising": 936.1322249992958,
+        "occupancy": 83.86817025320644,
+        "logistics": 377.75819685074725,
+        "other": 1565.5263672064832
+      },
+      "adjusted_sga_m": 4340.0712703438685,
+      "adjusted_sga_per_unit": 3140.4125176578214,
+      "normal_direct_labor_memo_m": 549.6968133263143,
+      "normal_direct_FTE_equivalents": 5528.026965808652,
+      "extra_ramp_and_preopening_FTE_equivalents": 283.41666666666663,
+      "ramp_units": 124124.99999999999,
+      "incremental_labor_cost_vs_flat_GPU_m": 74.8287904341437,
+      "adjusted_gross_profit_m": 9728.305718935111,
+      "adjusted_ebitda_m": 5388.234448591243,
+      "ebitda_change_vs_preliminary_m": -139.89439382600858,
+      "standard_project_capex_m": 17.5,
+      "major_project_capex_m": 97.5,
+      "nonproject_capex_m": 226.35654862541557,
+      "total_capex_m": 341.3565486254156,
+      "project_capex_low_m": 104.0,
+      "project_capex_high_m": 126.0,
+      "incremental_net_working_capital_m": 882.7000000000004
+    },
+    {
+      "year": 2030,
+      "retail_units": 1593006.7414521629,
+      "adjusted_sga_by_category_m": {
+        "compensation": 1562.2164713125082,
+        "advertising": 1070.9072897232852,
+        "occupancy": 91.44929128948154,
+        "logistics": 432.1440881500403,
+        "other": 1744.1841323683288
+      },
+      "adjusted_sga_m": 4900.901272843645,
+      "adjusted_sga_per_unit": 3076.510064468435,
+      "normal_direct_labor_memo_m": 652.6312963693438,
+      "normal_direct_FTE_equivalents": 6372.026965808652,
+      "extra_ramp_and_preopening_FTE_equivalents": 283.41666666666663,
+      "ramp_units": 124124.99999999999,
+      "incremental_labor_cost_vs_flat_GPU_m": 101.8047464070657,
+      "adjusted_gross_profit_m": 11198.03836751172,
+      "adjusted_ebitda_m": 6297.1370946680745,
+      "ebitda_change_vs_preliminary_m": -194.36716849116118,
+      "standard_project_capex_m": 17.5,
+      "major_project_capex_m": 97.5,
+      "nonproject_capex_m": 254.99625572520657,
+      "total_capex_m": 369.99625572520654,
+      "project_capex_low_m": 104.0,
+      "project_capex_high_m": 126.0,
+      "incremental_net_working_capital_m": 886.2
+    },
+    {
+      "year": 2031,
+      "retail_units": 1803962.523765088,
+      "adjusted_sga_by_category_m": {
+        "compensation": 1747.7907842839913,
+        "advertising": 1205.7143223556352,
+        "occupancy": 99.06741340355528,
+        "logistics": 486.54287948535057,
+        "other": 1923.2503840995005
+      },
+      "adjusted_sga_m": 5462.365783628033,
+      "adjusted_sga_per_unit": 3027.981851988485,
+      "normal_direct_labor_memo_m": 761.2284624707178,
+      "normal_direct_FTE_equivalents": 7215.850095060352,
+      "extra_ramp_and_preopening_FTE_equivalents": 279.92346938775376,
+      "ramp_units": 124080.78231292532,
+      "incremental_labor_cost_vs_flat_GPU_m": 134.11633371751503,
+      "adjusted_gross_profit_m": 12662.121730756879,
+      "adjusted_ebitda_m": 7199.755947128846,
+      "ebitda_change_vs_preliminary_m": -254.04006480024253,
+      "standard_project_capex_m": 10.714285714284415,
+      "major_project_capex_m": 97.5,
+      "nonproject_capex_m": 285.14590826197633,
+      "total_capex_m": 393.36019397626075,
+      "project_capex_low_m": 98.57142857142753,
+      "project_capex_high_m": 117.8571428571413,
+      "incremental_net_working_capital_m": 886.0142857142858
+    },
+    {
+      "year": 2032,
+      "retail_units": 1986165.755057604,
+      "adjusted_sga_by_category_m": {
+        "compensation": 1909.1096144716794,
+        "advertising": 1322.489012799974,
+        "occupancy": 105.86601218991842,
+        "logistics": 533.6650651360911,
+        "other": 2080.438881613154
+      },
+      "adjusted_sga_m": 5951.568586210817,
+      "adjusted_sga_per_unit": 2996.5115303471766,
+      "normal_direct_labor_memo_m": 863.2572243254187,
+      "normal_direct_FTE_equivalents": 7944.663020230416,
+      "extra_ramp_and_preopening_FTE_equivalents": 224.49659863945598,
+      "ramp_units": 102248.29931972799,
+      "incremental_labor_cost_vs_flat_GPU_m": 164.68641128877448,
+      "adjusted_gross_profit_m": 13923.99309419148,
+      "adjusted_ebitda_m": 7972.424507980664,
+      "ebitda_change_vs_preliminary_m": -307.50654269193024,
+      "standard_project_capex_m": 0.0,
+      "major_project_capex_m": 97.5,
+      "nonproject_capex_m": 313.71640315915215,
+      "total_capex_m": 411.21640315915215,
+      "project_capex_low_m": 90.0,
+      "project_capex_high_m": 105.0,
+      "incremental_net_working_capital_m": 765.2535714285672
+    },
+    {
+      "year": 2033,
+      "retail_units": 2110631.741452163,
+      "adjusted_sga_by_category_m": {
+        "compensation": 2021.5385545822342,
+        "advertising": 1402.9931915678053,
+        "occupancy": 110.980341340302,
+        "logistics": 566.150981760005,
+        "other": 2193.2491164633852
+      },
+      "adjusted_sga_m": 6294.9121857137325,
+      "adjusted_sga_per_unit": 2982.47773976084,
+      "normal_direct_labor_memo_m": 944.8751378787438,
+      "normal_direct_FTE_equivalents": 8442.526965808653,
+      "extra_ramp_and_preopening_FTE_equivalents": 199.99999999999997,
+      "ramp_units": 89999.99999999999,
+      "incremental_labor_cost_vs_flat_GPU_m": 198.98888834088902,
+      "adjusted_gross_profit_m": 14772.578355577669,
+      "adjusted_ebitda_m": 8477.666169863936,
+      "ebitda_change_vs_preliminary_m": -355.8693567243514,
+      "standard_project_capex_m": 0.0,
+      "major_project_capex_m": 97.5,
+      "nonproject_capex_m": 337.211430346136,
+      "total_capex_m": 434.711430346136,
+      "project_capex_low_m": 90.0,
+      "project_capex_high_m": 105.0,
+      "incremental_net_working_capital_m": 522.757142857148
+    },
+    {
+      "year": 2034,
+      "retail_units": 2230631.741452163,
+      "adjusted_sga_by_category_m": {
+        "compensation": 2130.369533656342,
+        "advertising": 1480.752271456249,
+        "occupancy": 116.00312277950152,
+        "logistics": 597.5291664042243,
+        "other": 2303.0742411310393
+      },
+      "adjusted_sga_m": 6627.728335427356,
+      "adjusted_sga_per_unit": 2971.233759595226,
+      "normal_direct_labor_memo_m": 1028.553909170117,
+      "normal_direct_FTE_equivalents": 8922.526965808653,
+      "extra_ramp_and_preopening_FTE_equivalents": 199.99999999999997,
+      "ramp_units": 89999.99999999999,
+      "incremental_labor_cost_vs_flat_GPU_m": 239.6591707627844,
+      "adjusted_gross_profit_m": 15583.116758207638,
+      "adjusted_ebitda_m": 8955.388422780281,
+      "ebitda_change_vs_preliminary_m": -409.78628337031245,
+      "standard_project_capex_m": 0.0,
+      "major_project_capex_m": 97.5,
+      "nonproject_capex_m": 361.31332053591046,
+      "total_capex_m": 458.81332053591046,
+      "project_capex_low_m": 90.0,
+      "project_capex_high_m": 105.0,
+      "incremental_net_working_capital_m": 504.0
+    },
+    {
+      "year": 2035,
+      "retail_units": 2350631.741452163,
+      "adjusted_sga_by_category_m": {
+        "compensation": 2239.4050653517475,
+        "advertising": 1558.5786500426088,
+        "occupancy": 121.06903608056966,
+        "logistics": 628.9345081466571,
+        "other": 2413.3977784247304
+      },
+      "adjusted_sga_m": 6961.385038046314,
+      "adjusted_sga_per_unit": 2961.495378151296,
+      "normal_direct_labor_memo_m": 1116.4030191148822,
+      "normal_direct_FTE_equivalents": 9402.526965808653,
+      "extra_ramp_and_preopening_FTE_equivalents": 199.99999999999997,
+      "ramp_units": 89999.99999999999,
+      "incremental_labor_cost_vs_flat_GPU_m": 284.519937171987,
+      "adjusted_gross_profit_m": 16389.464676850304,
+      "adjusted_ebitda_m": 9428.07963880399,
+      "ebitda_change_vs_preliminary_m": -467.7486751881176,
+      "standard_project_capex_m": 0.0,
+      "major_project_capex_m": 48.75,
+      "nonproject_capex_m": 386.5578338497599,
+      "total_capex_m": 435.3078338497599,
+      "project_capex_low_m": 45.0,
+      "project_capex_high_m": 52.5,
+      "incremental_net_working_capital_m": 504.0
+    }
+  ],
+  "projects": [
+    {
+      "id": "ADESA Orlando",
+      "kind": "standard",
+      "start": 24321.16129032258,
+      "capacity": 13000,
+      "ramp": 9,
+      "lead": 6,
+      "low": 2,
+      "mid": 2.5,
+      "high": 3,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 2.0,
+          "mid": 2.5,
+          "high": 3.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "Unassigned future slot 1",
+      "kind": "standard",
+      "start": 24324.85714285714,
+      "capacity": 13000,
+      "ramp": 9,
+      "lead": 6,
+      "low": 2,
+      "mid": 2.5,
+      "high": 3,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 1.714285714286234,
+          "mid": 2.1428571428577925,
+          "high": 2.571428571429351
+        },
+        "2027": {
+          "low": 0.285714285713766,
+          "mid": 0.3571428571422075,
+          "high": 0.428571428570649
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "Unassigned future slot 2",
+      "kind": "standard",
+      "start": 24326.571428571428,
+      "capacity": 13000,
+      "ramp": 9,
+      "lead": 6,
+      "low": 2,
+      "mid": 2.5,
+      "high": 3,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 1.1428571428574894,
+          "mid": 1.4285714285718616,
+          "high": 1.714285714286234
+        },
+        "2027": {
+          "low": 0.8571428571425107,
+          "mid": 1.0714285714281384,
+          "high": 1.285714285713766
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "Unassigned future slot 3",
+      "kind": "standard",
+      "start": 24328.285714285714,
+      "capacity": 13000,
+      "ramp": 9,
+      "lead": 6,
+      "low": 2,
+      "mid": 2.5,
+      "high": 3,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.5714285714287447,
+          "mid": 0.7142857142859308,
+          "high": 0.857142857143117
+        },
+        "2027": {
+          "low": 1.4285714285712554,
+          "mid": 1.785714285714069,
+          "high": 2.142857142856883
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "Unassigned future slot 4",
+      "kind": "standard",
+      "start": 24330.0,
+      "capacity": 13000,
+      "ramp": 9,
+      "lead": 6,
+      "low": 2,
+      "mid": 2.5,
+      "high": 3,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 2.0,
+          "mid": 2.5,
+          "high": 3.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "Unassigned future slot 5",
+      "kind": "standard",
+      "start": 24331.714285714286,
+      "capacity": 13000,
+      "ramp": 9,
+      "lead": 6,
+      "low": 2,
+      "mid": 2.5,
+      "high": 3,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 2.0,
+          "mid": 2.5,
+          "high": 3.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "Unassigned future slot 6",
+      "kind": "standard",
+      "start": 24333.428571428572,
+      "capacity": 13000,
+      "ramp": 9,
+      "lead": 6,
+      "low": 2,
+      "mid": 2.5,
+      "high": 3,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 2.0,
+          "mid": 2.5,
+          "high": 3.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "Unassigned future slot 7",
+      "kind": "standard",
+      "start": 24335.14285714286,
+      "capacity": 13000,
+      "ramp": 9,
+      "lead": 6,
+      "low": 2,
+      "mid": 2.5,
+      "high": 3,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 2.0,
+          "mid": 2.5,
+          "high": 3.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "Unassigned future slot 8",
+      "kind": "standard",
+      "start": 24336.85714285714,
+      "capacity": 13000,
+      "ramp": 9,
+      "lead": 6,
+      "low": 2,
+      "mid": 2.5,
+      "high": 3,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 1.714285714286234,
+          "mid": 2.1428571428577925,
+          "high": 2.571428571429351
+        },
+        "2028": {
+          "low": 0.285714285713766,
+          "mid": 0.3571428571422075,
+          "high": 0.428571428570649
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "Unassigned future slot 9",
+      "kind": "standard",
+      "start": 24338.571428571428,
+      "capacity": 13000,
+      "ramp": 9,
+      "lead": 6,
+      "low": 2,
+      "mid": 2.5,
+      "high": 3,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 1.1428571428574894,
+          "mid": 1.4285714285718616,
+          "high": 1.714285714286234
+        },
+        "2028": {
+          "low": 0.8571428571425107,
+          "mid": 1.0714285714281384,
+          "high": 1.285714285713766
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "Unassigned future slot 10",
+      "kind": "standard",
+      "start": 24340.285714285714,
+      "capacity": 13000,
+      "ramp": 9,
+      "lead": 6,
+      "low": 2,
+      "mid": 2.5,
+      "high": 3,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.5714285714287447,
+          "mid": 0.7142857142859308,
+          "high": 0.857142857143117
+        },
+        "2028": {
+          "low": 1.4285714285712554,
+          "mid": 1.785714285714069,
+          "high": 2.142857142856883
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "Unassigned future slot 11",
+      "kind": "standard",
+      "start": 24342.0,
+      "capacity": 13000,
+      "ramp": 9,
+      "lead": 6,
+      "low": 2,
+      "mid": 2.5,
+      "high": 3,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 2.0,
+          "mid": 2.5,
+          "high": 3.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "Unassigned future slot 12",
+      "kind": "standard",
+      "start": 24343.714285714286,
+      "capacity": 13000,
+      "ramp": 9,
+      "lead": 6,
+      "low": 2,
+      "mid": 2.5,
+      "high": 3,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 2.0,
+          "mid": 2.5,
+          "high": 3.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "Unassigned future slot 13",
+      "kind": "standard",
+      "start": 24345.428571428572,
+      "capacity": 13000,
+      "ramp": 9,
+      "lead": 6,
+      "low": 2,
+      "mid": 2.5,
+      "high": 3,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 2.0,
+          "mid": 2.5,
+          "high": 3.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "Unassigned future slot 14",
+      "kind": "standard",
+      "start": 24347.14285714286,
+      "capacity": 13000,
+      "ramp": 9,
+      "lead": 6,
+      "low": 2,
+      "mid": 2.5,
+      "high": 3,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 2.0,
+          "mid": 2.5,
+          "high": 3.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "Unassigned future slot 15",
+      "kind": "standard",
+      "start": 24348.85714285714,
+      "capacity": 13000,
+      "ramp": 9,
+      "lead": 6,
+      "low": 2,
+      "mid": 2.5,
+      "high": 3,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 1.714285714286234,
+          "mid": 2.1428571428577925,
+          "high": 2.571428571429351
+        },
+        "2029": {
+          "low": 0.285714285713766,
+          "mid": 0.3571428571422075,
+          "high": 0.428571428570649
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "Unassigned future slot 16",
+      "kind": "standard",
+      "start": 24350.571428571428,
+      "capacity": 13000,
+      "ramp": 9,
+      "lead": 6,
+      "low": 2,
+      "mid": 2.5,
+      "high": 3,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 1.1428571428574894,
+          "mid": 1.4285714285718616,
+          "high": 1.714285714286234
+        },
+        "2029": {
+          "low": 0.8571428571425107,
+          "mid": 1.0714285714281384,
+          "high": 1.285714285713766
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "Unassigned future slot 17",
+      "kind": "standard",
+      "start": 24352.285714285714,
+      "capacity": 13000,
+      "ramp": 9,
+      "lead": 6,
+      "low": 2,
+      "mid": 2.5,
+      "high": 3,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 0.5714285714287447,
+          "mid": 0.7142857142859308,
+          "high": 0.857142857143117
+        },
+        "2029": {
+          "low": 1.4285714285712554,
+          "mid": 1.785714285714069,
+          "high": 2.142857142856883
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "Unassigned future slot 18",
+      "kind": "standard",
+      "start": 24354.0,
+      "capacity": 13000,
+      "ramp": 9,
+      "lead": 6,
+      "low": 2,
+      "mid": 2.5,
+      "high": 3,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 2.0,
+          "mid": 2.5,
+          "high": 3.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "Unassigned future slot 19",
+      "kind": "standard",
+      "start": 24355.714285714286,
+      "capacity": 13000,
+      "ramp": 9,
+      "lead": 6,
+      "low": 2,
+      "mid": 2.5,
+      "high": 3,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 2.0,
+          "mid": 2.5,
+          "high": 3.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "Unassigned future slot 20",
+      "kind": "standard",
+      "start": 24357.428571428572,
+      "capacity": 13000,
+      "ramp": 9,
+      "lead": 6,
+      "low": 2,
+      "mid": 2.5,
+      "high": 3,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 2.0,
+          "mid": 2.5,
+          "high": 3.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "Unassigned future slot 21",
+      "kind": "standard",
+      "start": 24359.14285714286,
+      "capacity": 13000,
+      "ramp": 9,
+      "lead": 6,
+      "low": 2,
+      "mid": 2.5,
+      "high": 3,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 2.0,
+          "mid": 2.5,
+          "high": 3.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "Unassigned future slot 22",
+      "kind": "standard",
+      "start": 24360.85714285714,
+      "capacity": 13000,
+      "ramp": 9,
+      "lead": 6,
+      "low": 2,
+      "mid": 2.5,
+      "high": 3,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 1.714285714286234,
+          "mid": 2.1428571428577925,
+          "high": 2.571428571429351
+        },
+        "2030": {
+          "low": 0.285714285713766,
+          "mid": 0.3571428571422075,
+          "high": 0.428571428570649
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "Unassigned future slot 23",
+      "kind": "standard",
+      "start": 24362.571428571428,
+      "capacity": 13000,
+      "ramp": 9,
+      "lead": 6,
+      "low": 2,
+      "mid": 2.5,
+      "high": 3,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 1.1428571428574894,
+          "mid": 1.4285714285718616,
+          "high": 1.714285714286234
+        },
+        "2030": {
+          "low": 0.8571428571425107,
+          "mid": 1.0714285714281384,
+          "high": 1.285714285713766
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "Unassigned future slot 24",
+      "kind": "standard",
+      "start": 24364.285714285714,
+      "capacity": 13000,
+      "ramp": 9,
+      "lead": 6,
+      "low": 2,
+      "mid": 2.5,
+      "high": 3,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 0.5714285714287447,
+          "mid": 0.7142857142859308,
+          "high": 0.857142857143117
+        },
+        "2030": {
+          "low": 1.4285714285712554,
+          "mid": 1.785714285714069,
+          "high": 2.142857142856883
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "Unassigned future slot 25",
+      "kind": "standard",
+      "start": 24366.0,
+      "capacity": 13000,
+      "ramp": 9,
+      "lead": 6,
+      "low": 2,
+      "mid": 2.5,
+      "high": 3,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 2.0,
+          "mid": 2.5,
+          "high": 3.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "Unassigned future slot 26",
+      "kind": "standard",
+      "start": 24367.714285714286,
+      "capacity": 13000,
+      "ramp": 9,
+      "lead": 6,
+      "low": 2,
+      "mid": 2.5,
+      "high": 3,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 2.0,
+          "mid": 2.5,
+          "high": 3.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "Unassigned future slot 27",
+      "kind": "standard",
+      "start": 24369.428571428572,
+      "capacity": 13000,
+      "ramp": 9,
+      "lead": 6,
+      "low": 2,
+      "mid": 2.5,
+      "high": 3,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 2.0,
+          "mid": 2.5,
+          "high": 3.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "Unassigned future slot 28",
+      "kind": "standard",
+      "start": 24371.14285714286,
+      "capacity": 13000,
+      "ramp": 9,
+      "lead": 6,
+      "low": 2,
+      "mid": 2.5,
+      "high": 3,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 2.0,
+          "mid": 2.5,
+          "high": 3.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "Unassigned future slot 29",
+      "kind": "standard",
+      "start": 24372.85714285714,
+      "capacity": 13000,
+      "ramp": 9,
+      "lead": 6,
+      "low": 2,
+      "mid": 2.5,
+      "high": 3,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 1.714285714286234,
+          "mid": 2.1428571428577925,
+          "high": 2.571428571429351
+        },
+        "2031": {
+          "low": 0.285714285713766,
+          "mid": 0.3571428571422075,
+          "high": 0.428571428570649
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "Unassigned future slot 30",
+      "kind": "standard",
+      "start": 24374.571428571428,
+      "capacity": 13000,
+      "ramp": 9,
+      "lead": 6,
+      "low": 2,
+      "mid": 2.5,
+      "high": 3,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 1.1428571428574894,
+          "mid": 1.4285714285718616,
+          "high": 1.714285714286234
+        },
+        "2031": {
+          "low": 0.8571428571425107,
+          "mid": 1.0714285714281384,
+          "high": 1.285714285713766
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "Unassigned future slot 31",
+      "kind": "standard",
+      "start": 24376.285714285714,
+      "capacity": 13000,
+      "ramp": 9,
+      "lead": 6,
+      "low": 2,
+      "mid": 2.5,
+      "high": 3,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 0.5714285714287447,
+          "mid": 0.7142857142859308,
+          "high": 0.857142857143117
+        },
+        "2031": {
+          "low": 1.4285714285712554,
+          "mid": 1.785714285714069,
+          "high": 2.142857142856883
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "Unassigned future slot 32",
+      "kind": "standard",
+      "start": 24378.0,
+      "capacity": 13000,
+      "ramp": 9,
+      "lead": 6,
+      "low": 2,
+      "mid": 2.5,
+      "high": 3,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 2.0,
+          "mid": 2.5,
+          "high": 3.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "Unassigned future slot 33",
+      "kind": "standard",
+      "start": 24379.714285714286,
+      "capacity": 13000,
+      "ramp": 9,
+      "lead": 6,
+      "low": 2,
+      "mid": 2.5,
+      "high": 3,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 2.0,
+          "mid": 2.5,
+          "high": 3.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "Unassigned future slot 34",
+      "kind": "standard",
+      "start": 24381.428571428572,
+      "capacity": 13000,
+      "ramp": 9,
+      "lead": 6,
+      "low": 2,
+      "mid": 2.5,
+      "high": 3,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 2.0,
+          "mid": 2.5,
+          "high": 3.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "buildout-2027-1",
+      "kind": "major",
+      "start": 24327,
+      "capacity": 40000,
+      "ramp": 18,
+      "lead": 12,
+      "low": 30,
+      "mid": 32.5,
+      "high": 35,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 22.5,
+          "mid": 24.375,
+          "high": 26.25
+        },
+        "2027": {
+          "low": 7.5,
+          "mid": 8.125,
+          "high": 8.75
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "buildout-2027-2",
+      "kind": "major",
+      "start": 24330,
+      "capacity": 40000,
+      "ramp": 18,
+      "lead": 12,
+      "low": 30,
+      "mid": 32.5,
+      "high": 35,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 15.0,
+          "mid": 16.25,
+          "high": 17.5
+        },
+        "2027": {
+          "low": 15.0,
+          "mid": 16.25,
+          "high": 17.5
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "buildout-2027-3",
+      "kind": "major",
+      "start": 24333,
+      "capacity": 40000,
+      "ramp": 18,
+      "lead": 12,
+      "low": 30,
+      "mid": 32.5,
+      "high": 35,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 7.5,
+          "mid": 8.125,
+          "high": 8.75
+        },
+        "2027": {
+          "low": 22.5,
+          "mid": 24.375,
+          "high": 26.25
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "buildout-2028-1",
+      "kind": "major",
+      "start": 24339,
+      "capacity": 40000,
+      "ramp": 18,
+      "lead": 12,
+      "low": 30,
+      "mid": 32.5,
+      "high": 35,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 22.5,
+          "mid": 24.375,
+          "high": 26.25
+        },
+        "2028": {
+          "low": 7.5,
+          "mid": 8.125,
+          "high": 8.75
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "buildout-2028-2",
+      "kind": "major",
+      "start": 24342,
+      "capacity": 40000,
+      "ramp": 18,
+      "lead": 12,
+      "low": 30,
+      "mid": 32.5,
+      "high": 35,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 15.0,
+          "mid": 16.25,
+          "high": 17.5
+        },
+        "2028": {
+          "low": 15.0,
+          "mid": 16.25,
+          "high": 17.5
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "buildout-2028-3",
+      "kind": "major",
+      "start": 24345,
+      "capacity": 40000,
+      "ramp": 18,
+      "lead": 12,
+      "low": 30,
+      "mid": 32.5,
+      "high": 35,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 7.5,
+          "mid": 8.125,
+          "high": 8.75
+        },
+        "2028": {
+          "low": 22.5,
+          "mid": 24.375,
+          "high": 26.25
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "buildout-2029-1",
+      "kind": "major",
+      "start": 24351,
+      "capacity": 40000,
+      "ramp": 18,
+      "lead": 12,
+      "low": 30,
+      "mid": 32.5,
+      "high": 35,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 22.5,
+          "mid": 24.375,
+          "high": 26.25
+        },
+        "2029": {
+          "low": 7.5,
+          "mid": 8.125,
+          "high": 8.75
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "buildout-2029-2",
+      "kind": "major",
+      "start": 24354,
+      "capacity": 40000,
+      "ramp": 18,
+      "lead": 12,
+      "low": 30,
+      "mid": 32.5,
+      "high": 35,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 15.0,
+          "mid": 16.25,
+          "high": 17.5
+        },
+        "2029": {
+          "low": 15.0,
+          "mid": 16.25,
+          "high": 17.5
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "buildout-2029-3",
+      "kind": "major",
+      "start": 24357,
+      "capacity": 40000,
+      "ramp": 18,
+      "lead": 12,
+      "low": 30,
+      "mid": 32.5,
+      "high": 35,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 7.5,
+          "mid": 8.125,
+          "high": 8.75
+        },
+        "2029": {
+          "low": 22.5,
+          "mid": 24.375,
+          "high": 26.25
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "buildout-2030-1",
+      "kind": "major",
+      "start": 24363,
+      "capacity": 40000,
+      "ramp": 18,
+      "lead": 12,
+      "low": 30,
+      "mid": 32.5,
+      "high": 35,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 22.5,
+          "mid": 24.375,
+          "high": 26.25
+        },
+        "2030": {
+          "low": 7.5,
+          "mid": 8.125,
+          "high": 8.75
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "buildout-2030-2",
+      "kind": "major",
+      "start": 24366,
+      "capacity": 40000,
+      "ramp": 18,
+      "lead": 12,
+      "low": 30,
+      "mid": 32.5,
+      "high": 35,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 15.0,
+          "mid": 16.25,
+          "high": 17.5
+        },
+        "2030": {
+          "low": 15.0,
+          "mid": 16.25,
+          "high": 17.5
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "buildout-2030-3",
+      "kind": "major",
+      "start": 24369,
+      "capacity": 40000,
+      "ramp": 18,
+      "lead": 12,
+      "low": 30,
+      "mid": 32.5,
+      "high": 35,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 7.5,
+          "mid": 8.125,
+          "high": 8.75
+        },
+        "2030": {
+          "low": 22.5,
+          "mid": 24.375,
+          "high": 26.25
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "buildout-2031-1",
+      "kind": "major",
+      "start": 24375,
+      "capacity": 40000,
+      "ramp": 18,
+      "lead": 12,
+      "low": 30,
+      "mid": 32.5,
+      "high": 35,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 22.5,
+          "mid": 24.375,
+          "high": 26.25
+        },
+        "2031": {
+          "low": 7.5,
+          "mid": 8.125,
+          "high": 8.75
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "buildout-2031-2",
+      "kind": "major",
+      "start": 24378,
+      "capacity": 40000,
+      "ramp": 18,
+      "lead": 12,
+      "low": 30,
+      "mid": 32.5,
+      "high": 35,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 15.0,
+          "mid": 16.25,
+          "high": 17.5
+        },
+        "2031": {
+          "low": 15.0,
+          "mid": 16.25,
+          "high": 17.5
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "buildout-2031-3",
+      "kind": "major",
+      "start": 24381,
+      "capacity": 40000,
+      "ramp": 18,
+      "lead": 12,
+      "low": 30,
+      "mid": 32.5,
+      "high": 35,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 7.5,
+          "mid": 8.125,
+          "high": 8.75
+        },
+        "2031": {
+          "low": 22.5,
+          "mid": 24.375,
+          "high": 26.25
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "buildout-2032-1",
+      "kind": "major",
+      "start": 24387,
+      "capacity": 40000,
+      "ramp": 18,
+      "lead": 12,
+      "low": 30,
+      "mid": 32.5,
+      "high": 35,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 22.5,
+          "mid": 24.375,
+          "high": 26.25
+        },
+        "2032": {
+          "low": 7.5,
+          "mid": 8.125,
+          "high": 8.75
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "buildout-2032-2",
+      "kind": "major",
+      "start": 24390,
+      "capacity": 40000,
+      "ramp": 18,
+      "lead": 12,
+      "low": 30,
+      "mid": 32.5,
+      "high": 35,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 15.0,
+          "mid": 16.25,
+          "high": 17.5
+        },
+        "2032": {
+          "low": 15.0,
+          "mid": 16.25,
+          "high": 17.5
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "buildout-2032-3",
+      "kind": "major",
+      "start": 24393,
+      "capacity": 40000,
+      "ramp": 18,
+      "lead": 12,
+      "low": 30,
+      "mid": 32.5,
+      "high": 35,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 7.5,
+          "mid": 8.125,
+          "high": 8.75
+        },
+        "2032": {
+          "low": 22.5,
+          "mid": 24.375,
+          "high": 26.25
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "buildout-2033-1",
+      "kind": "major",
+      "start": 24399,
+      "capacity": 40000,
+      "ramp": 18,
+      "lead": 12,
+      "low": 30,
+      "mid": 32.5,
+      "high": 35,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 22.5,
+          "mid": 24.375,
+          "high": 26.25
+        },
+        "2033": {
+          "low": 7.5,
+          "mid": 8.125,
+          "high": 8.75
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "buildout-2033-2",
+      "kind": "major",
+      "start": 24402,
+      "capacity": 40000,
+      "ramp": 18,
+      "lead": 12,
+      "low": 30,
+      "mid": 32.5,
+      "high": 35,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 15.0,
+          "mid": 16.25,
+          "high": 17.5
+        },
+        "2033": {
+          "low": 15.0,
+          "mid": 16.25,
+          "high": 17.5
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "buildout-2033-3",
+      "kind": "major",
+      "start": 24405,
+      "capacity": 40000,
+      "ramp": 18,
+      "lead": 12,
+      "low": 30,
+      "mid": 32.5,
+      "high": 35,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 7.5,
+          "mid": 8.125,
+          "high": 8.75
+        },
+        "2033": {
+          "low": 22.5,
+          "mid": 24.375,
+          "high": 26.25
+        },
+        "2034": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "buildout-2034-1",
+      "kind": "major",
+      "start": 24411,
+      "capacity": 40000,
+      "ramp": 18,
+      "lead": 12,
+      "low": 30,
+      "mid": 32.5,
+      "high": 35,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 22.5,
+          "mid": 24.375,
+          "high": 26.25
+        },
+        "2034": {
+          "low": 7.5,
+          "mid": 8.125,
+          "high": 8.75
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "buildout-2034-2",
+      "kind": "major",
+      "start": 24414,
+      "capacity": 40000,
+      "ramp": 18,
+      "lead": 12,
+      "low": 30,
+      "mid": 32.5,
+      "high": 35,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 15.0,
+          "mid": 16.25,
+          "high": 17.5
+        },
+        "2034": {
+          "low": 15.0,
+          "mid": 16.25,
+          "high": 17.5
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "buildout-2034-3",
+      "kind": "major",
+      "start": 24417,
+      "capacity": 40000,
+      "ramp": 18,
+      "lead": 12,
+      "low": 30,
+      "mid": 32.5,
+      "high": 35,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 7.5,
+          "mid": 8.125,
+          "high": 8.75
+        },
+        "2034": {
+          "low": 22.5,
+          "mid": 24.375,
+          "high": 26.25
+        },
+        "2035": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "buildout-2035-1",
+      "kind": "major",
+      "start": 24423,
+      "capacity": 40000,
+      "ramp": 18,
+      "lead": 12,
+      "low": 30,
+      "mid": 32.5,
+      "high": 35,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 22.5,
+          "mid": 24.375,
+          "high": 26.25
+        },
+        "2035": {
+          "low": 7.5,
+          "mid": 8.125,
+          "high": 8.75
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "buildout-2035-2",
+      "kind": "major",
+      "start": 24426,
+      "capacity": 40000,
+      "ramp": 18,
+      "lead": 12,
+      "low": 30,
+      "mid": 32.5,
+      "high": 35,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 15.0,
+          "mid": 16.25,
+          "high": 17.5
+        },
+        "2035": {
+          "low": 15.0,
+          "mid": 16.25,
+          "high": 17.5
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    {
+      "id": "buildout-2035-3",
+      "kind": "major",
+      "start": 24429,
+      "capacity": 40000,
+      "ramp": 18,
+      "lead": 12,
+      "low": 30,
+      "mid": 32.5,
+      "high": 35,
+      "cash_by_year_m": {
+        "2025": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2026": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2027": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2028": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2029": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2030": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2031": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2032": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2033": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        },
+        "2034": {
+          "low": 7.5,
+          "mid": 8.125,
+          "high": 8.75
+        },
+        "2035": {
+          "low": 22.5,
+          "mid": 24.375,
+          "high": 26.25
+        },
+        "2036": {
+          "low": 0.0,
+          "mid": 0.0,
+          "high": 0.0
+        }
+      }
+    }
+  ],
+  "sensitivities": {
+    "no_labor_inflation_or_ramp_penalty": [
+      {
+        "year": 2027,
+        "retail_units": 981992.3781345233,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1025.1402898970025,
+          "advertising": 680.5900847289499,
+          "occupancy": 69.47329283492371,
+          "logistics": 274.6390694988615,
+          "other": 1226.5657142105288
+        },
+        "adjusted_sga_m": 3276.4084511702663,
+        "adjusted_sga_per_unit": 3336.4907143112578,
+        "normal_direct_labor_memo_m": 357.4452256409665,
+        "normal_direct_FTE_equivalents": 3927.969512538093,
+        "extra_ramp_and_preopening_FTE_equivalents": 0.0,
+        "ramp_units": 33102.596403342766,
+        "incremental_labor_cost_vs_flat_GPU_m": 0.0,
+        "adjusted_gross_profit_m": 6965.6703410236905,
+        "adjusted_ebitda_m": 3689.2618898534242,
+        "ebitda_change_vs_preliminary_m": -13.012939414296852,
+        "standard_project_capex_m": 17.5,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 175.4562963846226,
+        "total_capex_m": 290.4562963846226,
+        "project_capex_low_m": 104.0,
+        "project_capex_high_m": 126.0,
+        "incremental_net_working_capital_m": 472.29998816499784
+      },
+      {
+        "year": 2028,
+        "retail_units": 1171840.074785496,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1192.24102018796,
+          "advertising": 801.939627931347,
+          "occupancy": 76.34915133924274,
+          "logistics": 323.6073491976336,
+          "other": 1387.945838337899
+        },
+        "adjusted_sga_m": 3782.0829869940826,
+        "adjusted_sga_per_unit": 3227.4736701476845,
+        "normal_direct_labor_memo_m": 426.5497872219206,
+        "normal_direct_FTE_equivalents": 4687.360299141985,
+        "extra_ramp_and_preopening_FTE_equivalents": 0.0,
+        "ramp_units": 114958.33333333333,
+        "incremental_labor_cost_vs_flat_GPU_m": 0.0,
+        "adjusted_gross_profit_m": 8312.337076243692,
+        "adjusted_ebitda_m": 4530.254089249609,
+        "ebitda_change_vs_preliminary_m": -37.56924995064992,
+        "standard_project_capex_m": 17.5,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 199.25018941876695,
+        "total_capex_m": 314.2501894187669,
+        "project_capex_low_m": 104.0,
+        "project_capex_high_m": 126.0,
+        "incremental_net_working_capital_m": 797.3603259340858
+      },
+      {
+        "year": 2029,
+        "retail_units": 1382006.7414521629,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1376.7863110341364,
+          "advertising": 936.1322249992958,
+          "occupancy": 83.86817025320644,
+          "logistics": 377.75819685074725,
+          "other": 1565.5263672064832
+        },
+        "adjusted_sga_m": 4340.0712703438685,
+        "adjusted_sga_per_unit": 3140.4125176578214,
+        "normal_direct_labor_memo_m": 503.0504538885873,
+        "normal_direct_FTE_equivalents": 5528.026965808652,
+        "extra_ramp_and_preopening_FTE_equivalents": 0.0,
+        "ramp_units": 124124.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 0.0,
+        "adjusted_gross_profit_m": 9803.134509369254,
+        "adjusted_ebitda_m": 5463.063239025386,
+        "ebitda_change_vs_preliminary_m": -65.0656033918649,
+        "standard_project_capex_m": 17.5,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 226.35654862541557,
+        "total_capex_m": 341.3565486254156,
+        "project_capex_low_m": 104.0,
+        "project_capex_high_m": 126.0,
+        "incremental_net_working_capital_m": 882.7000000000004
+      },
+      {
+        "year": 2030,
+        "retail_units": 1593006.7414521629,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1562.2164713125082,
+          "advertising": 1070.9072897232852,
+          "occupancy": 91.44929128948154,
+          "logistics": 432.1440881500403,
+          "other": 1744.1841323683288
+        },
+        "adjusted_sga_m": 4900.901272843645,
+        "adjusted_sga_per_unit": 3076.510064468435,
+        "normal_direct_labor_memo_m": 579.8544538885873,
+        "normal_direct_FTE_equivalents": 6372.026965808652,
+        "extra_ramp_and_preopening_FTE_equivalents": 0.0,
+        "ramp_units": 124124.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 0.0,
+        "adjusted_gross_profit_m": 11299.843113918785,
+        "adjusted_ebitda_m": 6398.9418410751405,
+        "ebitda_change_vs_preliminary_m": -92.56242208409549,
+        "standard_project_capex_m": 17.5,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 254.99625572520657,
+        "total_capex_m": 369.99625572520654,
+        "project_capex_low_m": 104.0,
+        "project_capex_high_m": 126.0,
+        "incremental_net_working_capital_m": 886.2
+      },
+      {
+        "year": 2031,
+        "retail_units": 1803962.523765088,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1747.7907842839913,
+          "advertising": 1205.7143223556352,
+          "occupancy": 99.06741340355528,
+          "logistics": 486.54287948535057,
+          "other": 1923.2503840995005
+        },
+        "adjusted_sga_m": 5462.365783628033,
+        "adjusted_sga_per_unit": 3027.981851988485,
+        "normal_direct_labor_memo_m": 656.642358650492,
+        "normal_direct_FTE_equivalents": 7215.850095060352,
+        "extra_ramp_and_preopening_FTE_equivalents": 0.0,
+        "ramp_units": 124080.78231292532,
+        "incremental_labor_cost_vs_flat_GPU_m": 0.0,
+        "adjusted_gross_profit_m": 12796.238064474393,
+        "adjusted_ebitda_m": 7333.872280846361,
+        "ebitda_change_vs_preliminary_m": -119.9237310827275,
+        "standard_project_capex_m": 10.714285714284415,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 285.14590826197633,
+        "total_capex_m": 393.36019397626075,
+        "project_capex_low_m": 98.57142857142753,
+        "project_capex_high_m": 117.8571428571413,
+        "incremental_net_working_capital_m": 886.0142857142858
+      },
+      {
+        "year": 2032,
+        "retail_units": 1986165.755057604,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1909.1096144716794,
+          "advertising": 1322.489012799974,
+          "occupancy": 105.86601218991842,
+          "logistics": 533.6650651360911,
+          "other": 2080.438881613154
+        },
+        "adjusted_sga_m": 5951.568586210817,
+        "adjusted_sga_per_unit": 2996.5115303471766,
+        "normal_direct_labor_memo_m": 722.9643348409679,
+        "normal_direct_FTE_equivalents": 7944.663020230416,
+        "extra_ramp_and_preopening_FTE_equivalents": 0.0,
+        "ramp_units": 102248.29931972799,
+        "incremental_labor_cost_vs_flat_GPU_m": 0.0,
+        "adjusted_gross_profit_m": 14088.679505480255,
+        "adjusted_ebitda_m": 8137.110919269438,
+        "ebitda_change_vs_preliminary_m": -142.82013140315576,
+        "standard_project_capex_m": 0.0,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 313.71640315915215,
+        "total_capex_m": 411.21640315915215,
+        "project_capex_low_m": 90.0,
+        "project_capex_high_m": 105.0,
+        "incremental_net_working_capital_m": 765.2535714285672
+      },
+      {
+        "year": 2033,
+        "retail_units": 2110631.741452163,
+        "adjusted_sga_by_category_m": {
+          "compensation": 2021.5385545822342,
+          "advertising": 1402.9931915678053,
+          "occupancy": 110.980341340302,
+          "logistics": 566.150981760005,
+          "other": 2193.2491164633852
+        },
+        "adjusted_sga_m": 6294.9121857137325,
+        "adjusted_sga_per_unit": 2982.47773976084,
+        "normal_direct_labor_memo_m": 768.2699538885873,
+        "normal_direct_FTE_equivalents": 8442.526965808653,
+        "extra_ramp_and_preopening_FTE_equivalents": 0.0,
+        "ramp_units": 89999.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 0.0,
+        "adjusted_gross_profit_m": 14971.567243918558,
+        "adjusted_ebitda_m": 8676.655058204826,
+        "ebitda_change_vs_preliminary_m": -156.88046838346236,
+        "standard_project_capex_m": 0.0,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 337.211430346136,
+        "total_capex_m": 434.711430346136,
+        "project_capex_low_m": 90.0,
+        "project_capex_high_m": 105.0,
+        "incremental_net_working_capital_m": 522.757142857148
+      },
+      {
+        "year": 2034,
+        "retail_units": 2230631.741452163,
+        "adjusted_sga_by_category_m": {
+          "compensation": 2130.369533656342,
+          "advertising": 1480.752271456249,
+          "occupancy": 116.00312277950152,
+          "logistics": 597.5291664042243,
+          "other": 2303.0742411310393
+        },
+        "adjusted_sga_m": 6627.728335427356,
+        "adjusted_sga_per_unit": 2971.233759595226,
+        "normal_direct_labor_memo_m": 811.9499538885874,
+        "normal_direct_FTE_equivalents": 8922.526965808653,
+        "extra_ramp_and_preopening_FTE_equivalents": 0.0,
+        "ramp_units": 89999.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 0.0,
+        "adjusted_gross_profit_m": 15822.775928970423,
+        "adjusted_ebitda_m": 9195.047593543066,
+        "ebitda_change_vs_preliminary_m": -170.12711260752803,
+        "standard_project_capex_m": 0.0,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 361.31332053591046,
+        "total_capex_m": 458.81332053591046,
+        "project_capex_low_m": 90.0,
+        "project_capex_high_m": 105.0,
+        "incremental_net_working_capital_m": 504.0
+      },
+      {
+        "year": 2035,
+        "retail_units": 2350631.741452163,
+        "adjusted_sga_by_category_m": {
+          "compensation": 2239.4050653517475,
+          "advertising": 1558.5786500426088,
+          "occupancy": 121.06903608056966,
+          "logistics": 628.9345081466571,
+          "other": 2413.3977784247304
+        },
+        "adjusted_sga_m": 6961.385038046314,
+        "adjusted_sga_per_unit": 2961.495378151296,
+        "normal_direct_labor_memo_m": 855.6299538885874,
+        "normal_direct_FTE_equivalents": 9402.526965808653,
+        "extra_ramp_and_preopening_FTE_equivalents": 0.0,
+        "ramp_units": 89999.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 0.0,
+        "adjusted_gross_profit_m": 16673.98461402229,
+        "adjusted_ebitda_m": 9712.599575975977,
+        "ebitda_change_vs_preliminary_m": -183.2287380161306,
+        "standard_project_capex_m": 0.0,
+        "major_project_capex_m": 48.75,
+        "nonproject_capex_m": 386.5578338497599,
+        "total_capex_m": 435.3078338497599,
+        "project_capex_low_m": 45.0,
+        "project_capex_high_m": 52.5,
+        "incremental_net_working_capital_m": 504.0
+      }
+    ],
+    "labor_hours_6": [
+      {
+        "year": 2027,
+        "retail_units": 981992.3781345233,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1025.1402898970025,
+          "advertising": 680.5900847289499,
+          "occupancy": 69.47329283492371,
+          "logistics": 274.6390694988615,
+          "other": 1226.5657142105288
+        },
+        "adjusted_sga_m": 3276.4084511702663,
+        "adjusted_sga_per_unit": 3336.4907143112578,
+        "normal_direct_labor_memo_m": 276.1264368076466,
+        "normal_direct_FTE_equivalents": 2945.97713440357,
+        "extra_ramp_and_preopening_FTE_equivalents": 76.02889460501416,
+        "ramp_units": 33102.596403342766,
+        "incremental_labor_cost_vs_flat_GPU_m": 15.168705868249729,
+        "adjusted_gross_profit_m": 6950.50163515544,
+        "adjusted_ebitda_m": 3674.093183985174,
+        "ebitda_change_vs_preliminary_m": -28.181645282546583,
+        "standard_project_capex_m": 17.5,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 175.4562963846226,
+        "total_capex_m": 290.4562963846226,
+        "project_capex_low_m": 104.0,
+        "project_capex_high_m": 126.0,
+        "incremental_net_working_capital_m": 472.29998816499784
+      },
+      {
+        "year": 2028,
+        "retail_units": 1171840.074785496,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1192.24102018796,
+          "advertising": 801.939627931347,
+          "occupancy": 76.34915133924274,
+          "logistics": 323.6073491976336,
+          "other": 1387.945838337899
+        },
+        "adjusted_sga_m": 3782.0829869940826,
+        "adjusted_sga_per_unit": 3227.4736701476845,
+        "normal_direct_labor_memo_m": 339.39500194780163,
+        "normal_direct_FTE_equivalents": 3515.520224356488,
+        "extra_ramp_and_preopening_FTE_equivalents": 198.8125,
+        "ramp_units": 114958.33333333333,
+        "incremental_labor_cost_vs_flat_GPU_m": 38.676398025111205,
+        "adjusted_gross_profit_m": 8273.66067821858,
+        "adjusted_ebitda_m": 4491.577691224498,
+        "ebitda_change_vs_preliminary_m": -76.24564797576113,
+        "standard_project_capex_m": 17.5,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 199.25018941876695,
+        "total_capex_m": 314.2501894187669,
+        "project_capex_low_m": 104.0,
+        "project_capex_high_m": 126.0,
+        "incremental_net_working_capital_m": 797.3603259340858
+      },
+      {
+        "year": 2029,
+        "retail_units": 1382006.7414521629,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1376.7863110341364,
+          "advertising": 936.1322249992958,
+          "occupancy": 83.86817025320644,
+          "logistics": 377.75819685074725,
+          "other": 1565.5263672064832
+        },
+        "adjusted_sga_m": 4340.0712703438685,
+        "adjusted_sga_per_unit": 3140.4125176578214,
+        "normal_direct_labor_memo_m": 412.2726099947357,
+        "normal_direct_FTE_equivalents": 4146.020224356488,
+        "extra_ramp_and_preopening_FTE_equivalents": 212.56249999999997,
+        "ramp_units": 124124.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 56.12159282560778,
+        "adjusted_gross_profit_m": 9747.012916543646,
+        "adjusted_ebitda_m": 5406.941646199778,
+        "ebitda_change_vs_preliminary_m": -121.18719621747267,
+        "standard_project_capex_m": 17.5,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 226.35654862541557,
+        "total_capex_m": 341.3565486254156,
+        "project_capex_low_m": 104.0,
+        "project_capex_high_m": 126.0,
+        "incremental_net_working_capital_m": 882.7000000000004
+      },
+      {
+        "year": 2030,
+        "retail_units": 1593006.7414521629,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1562.2164713125082,
+          "advertising": 1070.9072897232852,
+          "occupancy": 91.44929128948154,
+          "logistics": 432.1440881500403,
+          "other": 1744.1841323683288
+        },
+        "adjusted_sga_m": 4900.901272843645,
+        "adjusted_sga_per_unit": 3076.510064468435,
+        "normal_direct_labor_memo_m": 489.47347227700783,
+        "normal_direct_FTE_equivalents": 4779.020224356488,
+        "extra_ramp_and_preopening_FTE_equivalents": 212.56249999999997,
+        "ramp_units": 124124.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 76.35355980529928,
+        "adjusted_gross_profit_m": 11223.489554113487,
+        "adjusted_ebitda_m": 6322.588281269842,
+        "ebitda_change_vs_preliminary_m": -168.91598188939477,
+        "standard_project_capex_m": 17.5,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 254.99625572520657,
+        "total_capex_m": 369.99625572520654,
+        "project_capex_low_m": 104.0,
+        "project_capex_high_m": 126.0,
+        "incremental_net_working_capital_m": 886.2
+      },
+      {
+        "year": 2031,
+        "retail_units": 1803962.523765088,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1747.7907842839913,
+          "advertising": 1205.7143223556352,
+          "occupancy": 99.06741340355528,
+          "logistics": 486.54287948535057,
+          "other": 1923.2503840995005
+        },
+        "adjusted_sga_m": 5462.365783628033,
+        "adjusted_sga_per_unit": 3027.981851988485,
+        "normal_direct_labor_memo_m": 570.9213468530384,
+        "normal_direct_FTE_equivalents": 5411.887571295264,
+        "extra_ramp_and_preopening_FTE_equivalents": 209.94260204081527,
+        "ramp_units": 124080.78231292532,
+        "incremental_labor_cost_vs_flat_GPU_m": 100.58725028813627,
+        "adjusted_gross_profit_m": 12695.650814186258,
+        "adjusted_ebitda_m": 7233.285030558225,
+        "ebitda_change_vs_preliminary_m": -220.51098137086376,
+        "standard_project_capex_m": 10.714285714284415,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 285.14590826197633,
+        "total_capex_m": 393.36019397626075,
+        "project_capex_low_m": 98.57142857142753,
+        "project_capex_high_m": 117.8571428571413,
+        "incremental_net_working_capital_m": 886.0142857142858
+      },
+      {
+        "year": 2032,
+        "retail_units": 1986165.755057604,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1909.1096144716794,
+          "advertising": 1322.489012799974,
+          "occupancy": 105.86601218991842,
+          "logistics": 533.6650651360911,
+          "other": 2080.438881613154
+        },
+        "adjusted_sga_m": 5951.568586210817,
+        "adjusted_sga_per_unit": 2996.5115303471766,
+        "normal_direct_labor_memo_m": 647.442918244064,
+        "normal_direct_FTE_equivalents": 5958.497265172812,
+        "extra_ramp_and_preopening_FTE_equivalents": 168.37244897959198,
+        "ramp_units": 102248.29931972799,
+        "incremental_labor_cost_vs_flat_GPU_m": 123.51480846658086,
+        "adjusted_gross_profit_m": 13965.164697013674,
+        "adjusted_ebitda_m": 8013.596110802857,
+        "ebitda_change_vs_preliminary_m": -266.3349398697366,
+        "standard_project_capex_m": 0.0,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 313.71640315915215,
+        "total_capex_m": 411.21640315915215,
+        "project_capex_low_m": 90.0,
+        "project_capex_high_m": 105.0,
+        "incremental_net_working_capital_m": 765.2535714285672
+      },
+      {
+        "year": 2033,
+        "retail_units": 2110631.741452163,
+        "adjusted_sga_by_category_m": {
+          "compensation": 2021.5385545822342,
+          "advertising": 1402.9931915678053,
+          "occupancy": 110.980341340302,
+          "logistics": 566.150981760005,
+          "other": 2193.2491164633852
+        },
+        "adjusted_sga_m": 6294.9121857137325,
+        "adjusted_sga_per_unit": 2982.47773976084,
+        "normal_direct_labor_memo_m": 708.6563534090577,
+        "normal_direct_FTE_equivalents": 6331.895224356489,
+        "extra_ramp_and_preopening_FTE_equivalents": 149.99999999999997,
+        "ramp_units": 89999.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 149.24166625566673,
+        "adjusted_gross_profit_m": 14822.325577662892,
+        "adjusted_ebitda_m": 8527.41339194916,
+        "ebitda_change_vs_preliminary_m": -306.12213463912906,
+        "standard_project_capex_m": 0.0,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 337.211430346136,
+        "total_capex_m": 434.711430346136,
+        "project_capex_low_m": 90.0,
+        "project_capex_high_m": 105.0,
+        "incremental_net_working_capital_m": 522.757142857148
+      },
+      {
+        "year": 2034,
+        "retail_units": 2230631.741452163,
+        "adjusted_sga_by_category_m": {
+          "compensation": 2130.369533656342,
+          "advertising": 1480.752271456249,
+          "occupancy": 116.00312277950152,
+          "logistics": 597.5291664042243,
+          "other": 2303.0742411310393
+        },
+        "adjusted_sga_m": 6627.728335427356,
+        "adjusted_sga_per_unit": 2971.233759595226,
+        "normal_direct_labor_memo_m": 771.4154318775878,
+        "normal_direct_FTE_equivalents": 6691.895224356489,
+        "extra_ramp_and_preopening_FTE_equivalents": 149.99999999999997,
+        "ramp_units": 89999.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 179.7443780720883,
+        "adjusted_gross_profit_m": 15643.031550898335,
+        "adjusted_ebitda_m": 9015.30321547098,
+        "ebitda_change_vs_preliminary_m": -349.87149067961633,
+        "standard_project_capex_m": 0.0,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 361.31332053591046,
+        "total_capex_m": 458.81332053591046,
+        "project_capex_low_m": 90.0,
+        "project_capex_high_m": 105.0,
+        "incremental_net_working_capital_m": 504.0
+      },
+      {
+        "year": 2035,
+        "retail_units": 2350631.741452163,
+        "adjusted_sga_by_category_m": {
+          "compensation": 2239.4050653517475,
+          "advertising": 1558.5786500426088,
+          "occupancy": 121.06903608056966,
+          "logistics": 628.9345081466571,
+          "other": 2413.3977784247304
+        },
+        "adjusted_sga_m": 6961.385038046314,
+        "adjusted_sga_per_unit": 2961.495378151296,
+        "normal_direct_labor_memo_m": 837.3022643361617,
+        "normal_direct_FTE_equivalents": 7051.895224356489,
+        "extra_ramp_and_preopening_FTE_equivalents": 149.99999999999997,
+        "ramp_units": 89999.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 213.38995287899027,
+        "adjusted_gross_profit_m": 16460.5946611433,
+        "adjusted_ebitda_m": 9499.209623096986,
+        "ebitda_change_vs_preliminary_m": -396.61869089512084,
+        "standard_project_capex_m": 0.0,
+        "major_project_capex_m": 48.75,
+        "nonproject_capex_m": 386.5578338497599,
+        "total_capex_m": 435.3078338497599,
+        "project_capex_low_m": 45.0,
+        "project_capex_high_m": 52.5,
+        "incremental_net_working_capital_m": 504.0
+      }
+    ],
+    "labor_hours_12": [
+      {
+        "year": 2027,
+        "retail_units": 981992.3781345233,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1025.1402898970025,
+          "advertising": 680.5900847289499,
+          "occupancy": 69.47329283492371,
+          "logistics": 274.6390694988615,
+          "other": 1226.5657142105288
+        },
+        "adjusted_sga_m": 3276.4084511702663,
+        "adjusted_sga_per_unit": 3336.4907143112578,
+        "normal_direct_labor_memo_m": 552.2528736152932,
+        "normal_direct_FTE_equivalents": 5891.95426880714,
+        "extra_ramp_and_preopening_FTE_equivalents": 152.05778921002832,
+        "ramp_units": 33102.596403342766,
+        "incremental_labor_cost_vs_flat_GPU_m": 30.337411736499458,
+        "adjusted_gross_profit_m": 6935.332929287191,
+        "adjusted_ebitda_m": 3658.924478116925,
+        "ebitda_change_vs_preliminary_m": -43.350351150796314,
+        "standard_project_capex_m": 17.5,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 175.4562963846226,
+        "total_capex_m": 290.4562963846226,
+        "project_capex_low_m": 104.0,
+        "project_capex_high_m": 126.0,
+        "incremental_net_working_capital_m": 472.29998816499784
+      },
+      {
+        "year": 2028,
+        "retail_units": 1171840.074785496,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1192.24102018796,
+          "advertising": 801.939627931347,
+          "occupancy": 76.34915133924274,
+          "logistics": 323.6073491976336,
+          "other": 1387.945838337899
+        },
+        "adjusted_sga_m": 3782.0829869940826,
+        "adjusted_sga_per_unit": 3227.4736701476845,
+        "normal_direct_labor_memo_m": 678.7900038956033,
+        "normal_direct_FTE_equivalents": 7031.040448712976,
+        "extra_ramp_and_preopening_FTE_equivalents": 397.625,
+        "ramp_units": 114958.33333333333,
+        "incremental_labor_cost_vs_flat_GPU_m": 77.35279605022241,
+        "adjusted_gross_profit_m": 8234.98428019347,
+        "adjusted_ebitda_m": 4452.9012931993875,
+        "ebitda_change_vs_preliminary_m": -114.92204600087233,
+        "standard_project_capex_m": 17.5,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 199.25018941876695,
+        "total_capex_m": 314.2501894187669,
+        "project_capex_low_m": 104.0,
+        "project_capex_high_m": 126.0,
+        "incremental_net_working_capital_m": 797.3603259340858
+      },
+      {
+        "year": 2029,
+        "retail_units": 1382006.7414521629,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1376.7863110341364,
+          "advertising": 936.1322249992958,
+          "occupancy": 83.86817025320644,
+          "logistics": 377.75819685074725,
+          "other": 1565.5263672064832
+        },
+        "adjusted_sga_m": 4340.0712703438685,
+        "adjusted_sga_per_unit": 3140.4125176578214,
+        "normal_direct_labor_memo_m": 824.5452199894714,
+        "normal_direct_FTE_equivalents": 8292.040448712976,
+        "extra_ramp_and_preopening_FTE_equivalents": 425.12499999999994,
+        "ramp_units": 124124.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 112.24318565121555,
+        "adjusted_gross_profit_m": 9690.891323718039,
+        "adjusted_ebitda_m": 5350.82005337417,
+        "ebitda_change_vs_preliminary_m": -177.30878904308045,
+        "standard_project_capex_m": 17.5,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 226.35654862541557,
+        "total_capex_m": 341.3565486254156,
+        "project_capex_low_m": 104.0,
+        "project_capex_high_m": 126.0,
+        "incremental_net_working_capital_m": 882.7000000000004
+      },
+      {
+        "year": 2030,
+        "retail_units": 1593006.7414521629,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1562.2164713125082,
+          "advertising": 1070.9072897232852,
+          "occupancy": 91.44929128948154,
+          "logistics": 432.1440881500403,
+          "other": 1744.1841323683288
+        },
+        "adjusted_sga_m": 4900.901272843645,
+        "adjusted_sga_per_unit": 3076.510064468435,
+        "normal_direct_labor_memo_m": 978.9469445540157,
+        "normal_direct_FTE_equivalents": 9558.040448712976,
+        "extra_ramp_and_preopening_FTE_equivalents": 425.12499999999994,
+        "ramp_units": 124124.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 152.70711961059857,
+        "adjusted_gross_profit_m": 11147.135994308186,
+        "adjusted_ebitda_m": 6246.2347214645415,
+        "ebitda_change_vs_preliminary_m": -245.26954169469406,
+        "standard_project_capex_m": 17.5,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 254.99625572520657,
+        "total_capex_m": 369.99625572520654,
+        "project_capex_low_m": 104.0,
+        "project_capex_high_m": 126.0,
+        "incremental_net_working_capital_m": 886.2
+      },
+      {
+        "year": 2031,
+        "retail_units": 1803962.523765088,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1747.7907842839913,
+          "advertising": 1205.7143223556352,
+          "occupancy": 99.06741340355528,
+          "logistics": 486.54287948535057,
+          "other": 1923.2503840995005
+        },
+        "adjusted_sga_m": 5462.365783628033,
+        "adjusted_sga_per_unit": 3027.981851988485,
+        "normal_direct_labor_memo_m": 1141.8426937060767,
+        "normal_direct_FTE_equivalents": 10823.775142590528,
+        "extra_ramp_and_preopening_FTE_equivalents": 419.88520408163055,
+        "ramp_units": 124080.78231292532,
+        "incremental_labor_cost_vs_flat_GPU_m": 201.17450057627255,
+        "adjusted_gross_profit_m": 12595.06356389812,
+        "adjusted_ebitda_m": 7132.697780270088,
+        "ebitda_change_vs_preliminary_m": -321.098231659,
+        "standard_project_capex_m": 10.714285714284415,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 285.14590826197633,
+        "total_capex_m": 393.36019397626075,
+        "project_capex_low_m": 98.57142857142753,
+        "project_capex_high_m": 117.8571428571413,
+        "incremental_net_working_capital_m": 886.0142857142858
+      },
+      {
+        "year": 2032,
+        "retail_units": 1986165.755057604,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1909.1096144716794,
+          "advertising": 1322.489012799974,
+          "occupancy": 105.86601218991842,
+          "logistics": 533.6650651360911,
+          "other": 2080.438881613154
+        },
+        "adjusted_sga_m": 5951.568586210817,
+        "adjusted_sga_per_unit": 2996.5115303471766,
+        "normal_direct_labor_memo_m": 1294.885836488128,
+        "normal_direct_FTE_equivalents": 11916.994530345624,
+        "extra_ramp_and_preopening_FTE_equivalents": 336.74489795918396,
+        "ramp_units": 102248.29931972799,
+        "incremental_labor_cost_vs_flat_GPU_m": 247.02961693316172,
+        "adjusted_gross_profit_m": 13841.649888547094,
+        "adjusted_ebitda_m": 7890.081302336277,
+        "ebitda_change_vs_preliminary_m": -389.8497483363175,
+        "standard_project_capex_m": 0.0,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 313.71640315915215,
+        "total_capex_m": 411.21640315915215,
+        "project_capex_low_m": 90.0,
+        "project_capex_high_m": 105.0,
+        "incremental_net_working_capital_m": 765.2535714285672
+      },
+      {
+        "year": 2033,
+        "retail_units": 2110631.741452163,
+        "adjusted_sga_by_category_m": {
+          "compensation": 2021.5385545822342,
+          "advertising": 1402.9931915678053,
+          "occupancy": 110.980341340302,
+          "logistics": 566.150981760005,
+          "other": 2193.2491164633852
+        },
+        "adjusted_sga_m": 6294.9121857137325,
+        "adjusted_sga_per_unit": 2982.47773976084,
+        "normal_direct_labor_memo_m": 1417.3127068181154,
+        "normal_direct_FTE_equivalents": 12663.790448712978,
+        "extra_ramp_and_preopening_FTE_equivalents": 299.99999999999994,
+        "ramp_units": 89999.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 298.48333251133346,
+        "adjusted_gross_profit_m": 14673.083911407224,
+        "adjusted_ebitda_m": 8378.171725693492,
+        "ebitda_change_vs_preliminary_m": -455.3638008947958,
+        "standard_project_capex_m": 0.0,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 337.211430346136,
+        "total_capex_m": 434.711430346136,
+        "project_capex_low_m": 90.0,
+        "project_capex_high_m": 105.0,
+        "incremental_net_working_capital_m": 522.757142857148
+      },
+      {
+        "year": 2034,
+        "retail_units": 2230631.741452163,
+        "adjusted_sga_by_category_m": {
+          "compensation": 2130.369533656342,
+          "advertising": 1480.752271456249,
+          "occupancy": 116.00312277950152,
+          "logistics": 597.5291664042243,
+          "other": 2303.0742411310393
+        },
+        "adjusted_sga_m": 6627.728335427356,
+        "adjusted_sga_per_unit": 2971.233759595226,
+        "normal_direct_labor_memo_m": 1542.8308637551756,
+        "normal_direct_FTE_equivalents": 13383.790448712978,
+        "extra_ramp_and_preopening_FTE_equivalents": 299.99999999999994,
+        "ramp_units": 89999.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 359.4887561441766,
+        "adjusted_gross_profit_m": 15463.287172826245,
+        "adjusted_ebitda_m": 8835.55883739889,
+        "ebitda_change_vs_preliminary_m": -529.6158687517046,
+        "standard_project_capex_m": 0.0,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 361.31332053591046,
+        "total_capex_m": 458.81332053591046,
+        "project_capex_low_m": 90.0,
+        "project_capex_high_m": 105.0,
+        "incremental_net_working_capital_m": 504.0
+      },
+      {
+        "year": 2035,
+        "retail_units": 2350631.741452163,
+        "adjusted_sga_by_category_m": {
+          "compensation": 2239.4050653517475,
+          "advertising": 1558.5786500426088,
+          "occupancy": 121.06903608056966,
+          "logistics": 628.9345081466571,
+          "other": 2413.3977784247304
+        },
+        "adjusted_sga_m": 6961.385038046314,
+        "adjusted_sga_per_unit": 2961.495378151296,
+        "normal_direct_labor_memo_m": 1674.6045286723233,
+        "normal_direct_FTE_equivalents": 14103.790448712978,
+        "extra_ramp_and_preopening_FTE_equivalents": 299.99999999999994,
+        "ramp_units": 89999.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 426.77990575798054,
+        "adjusted_gross_profit_m": 16247.20470826431,
+        "adjusted_ebitda_m": 9285.819670217996,
+        "ebitda_change_vs_preliminary_m": -610.0086437741111,
+        "standard_project_capex_m": 0.0,
+        "major_project_capex_m": 48.75,
+        "nonproject_capex_m": 386.5578338497599,
+        "total_capex_m": 435.3078338497599,
+        "project_capex_low_m": 45.0,
+        "project_capex_high_m": 52.5,
+        "incremental_net_working_capital_m": 504.0
+      }
+    ],
+    "nonproject_capex_100m": [
+      {
+        "year": 2027,
+        "retail_units": 981992.3781345233,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1025.1402898970025,
+          "advertising": 680.5900847289499,
+          "occupancy": 69.47329283492371,
+          "logistics": 274.6390694988615,
+          "other": 1226.5657142105288
+        },
+        "adjusted_sga_m": 3276.4084511702663,
+        "adjusted_sga_per_unit": 3336.4907143112578,
+        "normal_direct_labor_memo_m": 368.1685824101955,
+        "normal_direct_FTE_equivalents": 3927.969512538093,
+        "extra_ramp_and_preopening_FTE_equivalents": 101.3718594733522,
+        "ramp_units": 33102.596403342766,
+        "incremental_labor_cost_vs_flat_GPU_m": 20.224941157666308,
+        "adjusted_gross_profit_m": 6945.445399866025,
+        "adjusted_ebitda_m": 3669.0369486957584,
+        "ebitda_change_vs_preliminary_m": -33.23788057196316,
+        "standard_project_capex_m": 17.5,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 109.66018524038913,
+        "total_capex_m": 224.66018524038913,
+        "project_capex_low_m": 104.0,
+        "project_capex_high_m": 126.0,
+        "incremental_net_working_capital_m": 472.29998816499784
+      },
+      {
+        "year": 2028,
+        "retail_units": 1171840.074785496,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1192.24102018796,
+          "advertising": 801.939627931347,
+          "occupancy": 76.34915133924274,
+          "logistics": 323.6073491976336,
+          "other": 1387.945838337899
+        },
+        "adjusted_sga_m": 3782.0829869940826,
+        "adjusted_sga_per_unit": 3227.4736701476845,
+        "normal_direct_labor_memo_m": 452.5266692637355,
+        "normal_direct_FTE_equivalents": 4687.360299141985,
+        "extra_ramp_and_preopening_FTE_equivalents": 265.0833333333333,
+        "ramp_units": 114958.33333333333,
+        "incremental_labor_cost_vs_flat_GPU_m": 51.56853070014828,
+        "adjusted_gross_profit_m": 8260.768545543544,
+        "adjusted_ebitda_m": 4478.685558549461,
+        "ebitda_change_vs_preliminary_m": -89.13778065079819,
+        "standard_project_capex_m": 17.5,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 124.53136838672933,
+        "total_capex_m": 239.53136838672933,
+        "project_capex_low_m": 104.0,
+        "project_capex_high_m": 126.0,
+        "incremental_net_working_capital_m": 797.3603259340858
+      },
+      {
+        "year": 2029,
+        "retail_units": 1382006.7414521629,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1376.7863110341364,
+          "advertising": 936.1322249992958,
+          "occupancy": 83.86817025320644,
+          "logistics": 377.75819685074725,
+          "other": 1565.5263672064832
+        },
+        "adjusted_sga_m": 4340.0712703438685,
+        "adjusted_sga_per_unit": 3140.4125176578214,
+        "normal_direct_labor_memo_m": 549.6968133263143,
+        "normal_direct_FTE_equivalents": 5528.026965808652,
+        "extra_ramp_and_preopening_FTE_equivalents": 283.41666666666663,
+        "ramp_units": 124124.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 74.8287904341437,
+        "adjusted_gross_profit_m": 9728.305718935111,
+        "adjusted_ebitda_m": 5388.234448591243,
+        "ebitda_change_vs_preliminary_m": -139.89439382600858,
+        "standard_project_capex_m": 17.5,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 141.4728428908847,
+        "total_capex_m": 256.4728428908847,
+        "project_capex_low_m": 104.0,
+        "project_capex_high_m": 126.0,
+        "incremental_net_working_capital_m": 882.7000000000004
+      },
+      {
+        "year": 2030,
+        "retail_units": 1593006.7414521629,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1562.2164713125082,
+          "advertising": 1070.9072897232852,
+          "occupancy": 91.44929128948154,
+          "logistics": 432.1440881500403,
+          "other": 1744.1841323683288
+        },
+        "adjusted_sga_m": 4900.901272843645,
+        "adjusted_sga_per_unit": 3076.510064468435,
+        "normal_direct_labor_memo_m": 652.6312963693438,
+        "normal_direct_FTE_equivalents": 6372.026965808652,
+        "extra_ramp_and_preopening_FTE_equivalents": 283.41666666666663,
+        "ramp_units": 124124.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 101.8047464070657,
+        "adjusted_gross_profit_m": 11198.03836751172,
+        "adjusted_ebitda_m": 6297.1370946680745,
+        "ebitda_change_vs_preliminary_m": -194.36716849116118,
+        "standard_project_capex_m": 17.5,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 159.37265982825411,
+        "total_capex_m": 274.3726598282541,
+        "project_capex_low_m": 104.0,
+        "project_capex_high_m": 126.0,
+        "incremental_net_working_capital_m": 886.2
+      },
+      {
+        "year": 2031,
+        "retail_units": 1803962.523765088,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1747.7907842839913,
+          "advertising": 1205.7143223556352,
+          "occupancy": 99.06741340355528,
+          "logistics": 486.54287948535057,
+          "other": 1923.2503840995005
+        },
+        "adjusted_sga_m": 5462.365783628033,
+        "adjusted_sga_per_unit": 3027.981851988485,
+        "normal_direct_labor_memo_m": 761.2284624707178,
+        "normal_direct_FTE_equivalents": 7215.850095060352,
+        "extra_ramp_and_preopening_FTE_equivalents": 279.92346938775376,
+        "ramp_units": 124080.78231292532,
+        "incremental_labor_cost_vs_flat_GPU_m": 134.11633371751503,
+        "adjusted_gross_profit_m": 12662.121730756879,
+        "adjusted_ebitda_m": 7199.755947128846,
+        "ebitda_change_vs_preliminary_m": -254.04006480024253,
+        "standard_project_capex_m": 10.714285714284415,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 178.21619266373523,
+        "total_capex_m": 286.43047837801964,
+        "project_capex_low_m": 98.57142857142753,
+        "project_capex_high_m": 117.8571428571413,
+        "incremental_net_working_capital_m": 886.0142857142858
+      },
+      {
+        "year": 2032,
+        "retail_units": 1986165.755057604,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1909.1096144716794,
+          "advertising": 1322.489012799974,
+          "occupancy": 105.86601218991842,
+          "logistics": 533.6650651360911,
+          "other": 2080.438881613154
+        },
+        "adjusted_sga_m": 5951.568586210817,
+        "adjusted_sga_per_unit": 2996.5115303471766,
+        "normal_direct_labor_memo_m": 863.2572243254187,
+        "normal_direct_FTE_equivalents": 7944.663020230416,
+        "extra_ramp_and_preopening_FTE_equivalents": 224.49659863945598,
+        "ramp_units": 102248.29931972799,
+        "incremental_labor_cost_vs_flat_GPU_m": 164.68641128877448,
+        "adjusted_gross_profit_m": 13923.99309419148,
+        "adjusted_ebitda_m": 7972.424507980664,
+        "ebitda_change_vs_preliminary_m": -307.50654269193024,
+        "standard_project_capex_m": 0.0,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 196.0727519744701,
+        "total_capex_m": 293.57275197447007,
+        "project_capex_low_m": 90.0,
+        "project_capex_high_m": 105.0,
+        "incremental_net_working_capital_m": 765.2535714285672
+      },
+      {
+        "year": 2033,
+        "retail_units": 2110631.741452163,
+        "adjusted_sga_by_category_m": {
+          "compensation": 2021.5385545822342,
+          "advertising": 1402.9931915678053,
+          "occupancy": 110.980341340302,
+          "logistics": 566.150981760005,
+          "other": 2193.2491164633852
+        },
+        "adjusted_sga_m": 6294.9121857137325,
+        "adjusted_sga_per_unit": 2982.47773976084,
+        "normal_direct_labor_memo_m": 944.8751378787438,
+        "normal_direct_FTE_equivalents": 8442.526965808653,
+        "extra_ramp_and_preopening_FTE_equivalents": 199.99999999999997,
+        "ramp_units": 89999.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 198.98888834088902,
+        "adjusted_gross_profit_m": 14772.578355577669,
+        "adjusted_ebitda_m": 8477.666169863936,
+        "ebitda_change_vs_preliminary_m": -355.8693567243514,
+        "standard_project_capex_m": 0.0,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 210.757143966335,
+        "total_capex_m": 308.257143966335,
+        "project_capex_low_m": 90.0,
+        "project_capex_high_m": 105.0,
+        "incremental_net_working_capital_m": 522.757142857148
+      },
+      {
+        "year": 2034,
+        "retail_units": 2230631.741452163,
+        "adjusted_sga_by_category_m": {
+          "compensation": 2130.369533656342,
+          "advertising": 1480.752271456249,
+          "occupancy": 116.00312277950152,
+          "logistics": 597.5291664042243,
+          "other": 2303.0742411310393
+        },
+        "adjusted_sga_m": 6627.728335427356,
+        "adjusted_sga_per_unit": 2971.233759595226,
+        "normal_direct_labor_memo_m": 1028.553909170117,
+        "normal_direct_FTE_equivalents": 8922.526965808653,
+        "extra_ramp_and_preopening_FTE_equivalents": 199.99999999999997,
+        "ramp_units": 89999.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 239.6591707627844,
+        "adjusted_gross_profit_m": 15583.116758207638,
+        "adjusted_ebitda_m": 8955.388422780281,
+        "ebitda_change_vs_preliminary_m": -409.78628337031245,
+        "standard_project_capex_m": 0.0,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 225.82082533494406,
+        "total_capex_m": 323.32082533494406,
+        "project_capex_low_m": 90.0,
+        "project_capex_high_m": 105.0,
+        "incremental_net_working_capital_m": 504.0
+      },
+      {
+        "year": 2035,
+        "retail_units": 2350631.741452163,
+        "adjusted_sga_by_category_m": {
+          "compensation": 2239.4050653517475,
+          "advertising": 1558.5786500426088,
+          "occupancy": 121.06903608056966,
+          "logistics": 628.9345081466571,
+          "other": 2413.3977784247304
+        },
+        "adjusted_sga_m": 6961.385038046314,
+        "adjusted_sga_per_unit": 2961.495378151296,
+        "normal_direct_labor_memo_m": 1116.4030191148822,
+        "normal_direct_FTE_equivalents": 9402.526965808653,
+        "extra_ramp_and_preopening_FTE_equivalents": 199.99999999999997,
+        "ramp_units": 89999.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 284.519937171987,
+        "adjusted_gross_profit_m": 16389.464676850304,
+        "adjusted_ebitda_m": 9428.07963880399,
+        "ebitda_change_vs_preliminary_m": -467.7486751881176,
+        "standard_project_capex_m": 0.0,
+        "major_project_capex_m": 48.75,
+        "nonproject_capex_m": 241.59864615609996,
+        "total_capex_m": 290.34864615609996,
+        "project_capex_low_m": 45.0,
+        "project_capex_high_m": 52.5,
+        "incremental_net_working_capital_m": 504.0
+      }
+    ],
+    "nonproject_capex_250m": [
+      {
+        "year": 2027,
+        "retail_units": 981992.3781345233,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1025.1402898970025,
+          "advertising": 680.5900847289499,
+          "occupancy": 69.47329283492371,
+          "logistics": 274.6390694988615,
+          "other": 1226.5657142105288
+        },
+        "adjusted_sga_m": 3276.4084511702663,
+        "adjusted_sga_per_unit": 3336.4907143112578,
+        "normal_direct_labor_memo_m": 368.1685824101955,
+        "normal_direct_FTE_equivalents": 3927.969512538093,
+        "extra_ramp_and_preopening_FTE_equivalents": 101.3718594733522,
+        "ramp_units": 33102.596403342766,
+        "incremental_labor_cost_vs_flat_GPU_m": 20.224941157666308,
+        "adjusted_gross_profit_m": 6945.445399866025,
+        "adjusted_ebitda_m": 3669.0369486957584,
+        "ebitda_change_vs_preliminary_m": -33.23788057196316,
+        "standard_project_capex_m": 17.5,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 274.15046310097284,
+        "total_capex_m": 389.15046310097284,
+        "project_capex_low_m": 104.0,
+        "project_capex_high_m": 126.0,
+        "incremental_net_working_capital_m": 472.29998816499784
+      },
+      {
+        "year": 2028,
+        "retail_units": 1171840.074785496,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1192.24102018796,
+          "advertising": 801.939627931347,
+          "occupancy": 76.34915133924274,
+          "logistics": 323.6073491976336,
+          "other": 1387.945838337899
+        },
+        "adjusted_sga_m": 3782.0829869940826,
+        "adjusted_sga_per_unit": 3227.4736701476845,
+        "normal_direct_labor_memo_m": 452.5266692637355,
+        "normal_direct_FTE_equivalents": 4687.360299141985,
+        "extra_ramp_and_preopening_FTE_equivalents": 265.0833333333333,
+        "ramp_units": 114958.33333333333,
+        "incremental_labor_cost_vs_flat_GPU_m": 51.56853070014828,
+        "adjusted_gross_profit_m": 8260.768545543544,
+        "adjusted_ebitda_m": 4478.685558549461,
+        "ebitda_change_vs_preliminary_m": -89.13778065079819,
+        "standard_project_capex_m": 17.5,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 311.3284209668233,
+        "total_capex_m": 426.3284209668233,
+        "project_capex_low_m": 104.0,
+        "project_capex_high_m": 126.0,
+        "incremental_net_working_capital_m": 797.3603259340858
+      },
+      {
+        "year": 2029,
+        "retail_units": 1382006.7414521629,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1376.7863110341364,
+          "advertising": 936.1322249992958,
+          "occupancy": 83.86817025320644,
+          "logistics": 377.75819685074725,
+          "other": 1565.5263672064832
+        },
+        "adjusted_sga_m": 4340.0712703438685,
+        "adjusted_sga_per_unit": 3140.4125176578214,
+        "normal_direct_labor_memo_m": 549.6968133263143,
+        "normal_direct_FTE_equivalents": 5528.026965808652,
+        "extra_ramp_and_preopening_FTE_equivalents": 283.41666666666663,
+        "ramp_units": 124124.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 74.8287904341437,
+        "adjusted_gross_profit_m": 9728.305718935111,
+        "adjusted_ebitda_m": 5388.234448591243,
+        "ebitda_change_vs_preliminary_m": -139.89439382600858,
+        "standard_project_capex_m": 17.5,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 353.68210722721176,
+        "total_capex_m": 468.68210722721176,
+        "project_capex_low_m": 104.0,
+        "project_capex_high_m": 126.0,
+        "incremental_net_working_capital_m": 882.7000000000004
+      },
+      {
+        "year": 2030,
+        "retail_units": 1593006.7414521629,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1562.2164713125082,
+          "advertising": 1070.9072897232852,
+          "occupancy": 91.44929128948154,
+          "logistics": 432.1440881500403,
+          "other": 1744.1841323683288
+        },
+        "adjusted_sga_m": 4900.901272843645,
+        "adjusted_sga_per_unit": 3076.510064468435,
+        "normal_direct_labor_memo_m": 652.6312963693438,
+        "normal_direct_FTE_equivalents": 6372.026965808652,
+        "extra_ramp_and_preopening_FTE_equivalents": 283.41666666666663,
+        "ramp_units": 124124.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 101.8047464070657,
+        "adjusted_gross_profit_m": 11198.03836751172,
+        "adjusted_ebitda_m": 6297.1370946680745,
+        "ebitda_change_vs_preliminary_m": -194.36716849116118,
+        "standard_project_capex_m": 17.5,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 398.4316495706353,
+        "total_capex_m": 513.4316495706353,
+        "project_capex_low_m": 104.0,
+        "project_capex_high_m": 126.0,
+        "incremental_net_working_capital_m": 886.2
+      },
+      {
+        "year": 2031,
+        "retail_units": 1803962.523765088,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1747.7907842839913,
+          "advertising": 1205.7143223556352,
+          "occupancy": 99.06741340355528,
+          "logistics": 486.54287948535057,
+          "other": 1923.2503840995005
+        },
+        "adjusted_sga_m": 5462.365783628033,
+        "adjusted_sga_per_unit": 3027.981851988485,
+        "normal_direct_labor_memo_m": 761.2284624707178,
+        "normal_direct_FTE_equivalents": 7215.850095060352,
+        "extra_ramp_and_preopening_FTE_equivalents": 279.92346938775376,
+        "ramp_units": 124080.78231292532,
+        "incremental_labor_cost_vs_flat_GPU_m": 134.11633371751503,
+        "adjusted_gross_profit_m": 12662.121730756879,
+        "adjusted_ebitda_m": 7199.755947128846,
+        "ebitda_change_vs_preliminary_m": -254.04006480024253,
+        "standard_project_capex_m": 10.714285714284415,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 445.54048165933807,
+        "total_capex_m": 553.7547673736225,
+        "project_capex_low_m": 98.57142857142753,
+        "project_capex_high_m": 117.8571428571413,
+        "incremental_net_working_capital_m": 886.0142857142858
+      },
+      {
+        "year": 2032,
+        "retail_units": 1986165.755057604,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1909.1096144716794,
+          "advertising": 1322.489012799974,
+          "occupancy": 105.86601218991842,
+          "logistics": 533.6650651360911,
+          "other": 2080.438881613154
+        },
+        "adjusted_sga_m": 5951.568586210817,
+        "adjusted_sga_per_unit": 2996.5115303471766,
+        "normal_direct_labor_memo_m": 863.2572243254187,
+        "normal_direct_FTE_equivalents": 7944.663020230416,
+        "extra_ramp_and_preopening_FTE_equivalents": 224.49659863945598,
+        "ramp_units": 102248.29931972799,
+        "incremental_labor_cost_vs_flat_GPU_m": 164.68641128877448,
+        "adjusted_gross_profit_m": 13923.99309419148,
+        "adjusted_ebitda_m": 7972.424507980664,
+        "ebitda_change_vs_preliminary_m": -307.50654269193024,
+        "standard_project_capex_m": 0.0,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 490.1818799361752,
+        "total_capex_m": 587.6818799361752,
+        "project_capex_low_m": 90.0,
+        "project_capex_high_m": 105.0,
+        "incremental_net_working_capital_m": 765.2535714285672
+      },
+      {
+        "year": 2033,
+        "retail_units": 2110631.741452163,
+        "adjusted_sga_by_category_m": {
+          "compensation": 2021.5385545822342,
+          "advertising": 1402.9931915678053,
+          "occupancy": 110.980341340302,
+          "logistics": 566.150981760005,
+          "other": 2193.2491164633852
+        },
+        "adjusted_sga_m": 6294.9121857137325,
+        "adjusted_sga_per_unit": 2982.47773976084,
+        "normal_direct_labor_memo_m": 944.8751378787438,
+        "normal_direct_FTE_equivalents": 8442.526965808653,
+        "extra_ramp_and_preopening_FTE_equivalents": 199.99999999999997,
+        "ramp_units": 89999.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 198.98888834088902,
+        "adjusted_gross_profit_m": 14772.578355577669,
+        "adjusted_ebitda_m": 8477.666169863936,
+        "ebitda_change_vs_preliminary_m": -355.8693567243514,
+        "standard_project_capex_m": 0.0,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 526.8928599158374,
+        "total_capex_m": 624.3928599158374,
+        "project_capex_low_m": 90.0,
+        "project_capex_high_m": 105.0,
+        "incremental_net_working_capital_m": 522.757142857148
+      },
+      {
+        "year": 2034,
+        "retail_units": 2230631.741452163,
+        "adjusted_sga_by_category_m": {
+          "compensation": 2130.369533656342,
+          "advertising": 1480.752271456249,
+          "occupancy": 116.00312277950152,
+          "logistics": 597.5291664042243,
+          "other": 2303.0742411310393
+        },
+        "adjusted_sga_m": 6627.728335427356,
+        "adjusted_sga_per_unit": 2971.233759595226,
+        "normal_direct_labor_memo_m": 1028.553909170117,
+        "normal_direct_FTE_equivalents": 8922.526965808653,
+        "extra_ramp_and_preopening_FTE_equivalents": 199.99999999999997,
+        "ramp_units": 89999.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 239.6591707627844,
+        "adjusted_gross_profit_m": 15583.116758207638,
+        "adjusted_ebitda_m": 8955.388422780281,
+        "ebitda_change_vs_preliminary_m": -409.78628337031245,
+        "standard_project_capex_m": 0.0,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 564.5520633373601,
+        "total_capex_m": 662.0520633373601,
+        "project_capex_low_m": 90.0,
+        "project_capex_high_m": 105.0,
+        "incremental_net_working_capital_m": 504.0
+      },
+      {
+        "year": 2035,
+        "retail_units": 2350631.741452163,
+        "adjusted_sga_by_category_m": {
+          "compensation": 2239.4050653517475,
+          "advertising": 1558.5786500426088,
+          "occupancy": 121.06903608056966,
+          "logistics": 628.9345081466571,
+          "other": 2413.3977784247304
+        },
+        "adjusted_sga_m": 6961.385038046314,
+        "adjusted_sga_per_unit": 2961.495378151296,
+        "normal_direct_labor_memo_m": 1116.4030191148822,
+        "normal_direct_FTE_equivalents": 9402.526965808653,
+        "extra_ramp_and_preopening_FTE_equivalents": 199.99999999999997,
+        "ramp_units": 89999.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 284.519937171987,
+        "adjusted_gross_profit_m": 16389.464676850304,
+        "adjusted_ebitda_m": 9428.07963880399,
+        "ebitda_change_vs_preliminary_m": -467.7486751881176,
+        "standard_project_capex_m": 0.0,
+        "major_project_capex_m": 48.75,
+        "nonproject_capex_m": 603.9966153902499,
+        "total_capex_m": 652.7466153902499,
+        "project_capex_low_m": 45.0,
+        "project_capex_high_m": 52.5,
+        "incremental_net_working_capital_m": 504.0
+      }
+    ],
+    "variable_sga_inflation_3pct": [
+      {
+        "year": 2027,
+        "retail_units": 981992.3781345233,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1050.1841785939127,
+          "advertising": 699.1290672708185,
+          "occupancy": 70.35341644409202,
+          "logistics": 282.12012017679217,
+          "other": 1249.4489280489051
+        },
+        "adjusted_sga_m": 3351.235710534521,
+        "adjusted_sga_per_unit": 3412.690144195228,
+        "normal_direct_labor_memo_m": 368.1685824101955,
+        "normal_direct_FTE_equivalents": 3927.969512538093,
+        "extra_ramp_and_preopening_FTE_equivalents": 101.3718594733522,
+        "ramp_units": 33102.596403342766,
+        "incremental_labor_cost_vs_flat_GPU_m": 20.224941157666308,
+        "adjusted_gross_profit_m": 6945.445399866025,
+        "adjusted_ebitda_m": 3594.209689331504,
+        "ebitda_change_vs_preliminary_m": -108.06513993621775,
+        "standard_project_capex_m": 17.5,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 175.4562963846226,
+        "total_capex_m": 290.4562963846226,
+        "project_capex_low_m": 104.0,
+        "project_capex_high_m": 126.0,
+        "incremental_net_working_capital_m": 472.29998816499784
+      },
+      {
+        "year": 2028,
+        "retail_units": 1171840.074785496,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1252.9087902294068,
+          "advertising": 846.8495356243659,
+          "occupancy": 78.48121387055639,
+          "logistics": 341.7298807137996,
+          "other": 1443.3794641520537
+        },
+        "adjusted_sga_m": 3963.348884590182,
+        "adjusted_sga_per_unit": 3382.158512812141,
+        "normal_direct_labor_memo_m": 452.5266692637355,
+        "normal_direct_FTE_equivalents": 4687.360299141985,
+        "extra_ramp_and_preopening_FTE_equivalents": 265.0833333333333,
+        "ramp_units": 114958.33333333333,
+        "incremental_labor_cost_vs_flat_GPU_m": 51.56853070014828,
+        "adjusted_gross_profit_m": 8260.768545543544,
+        "adjusted_ebitda_m": 4297.419660953362,
+        "ebitda_change_vs_preliminary_m": -270.40367824689764,
+        "standard_project_capex_m": 17.5,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 199.25018941876695,
+        "total_capex_m": 314.2501894187669,
+        "project_capex_low_m": 104.0,
+        "project_capex_high_m": 126.0,
+        "incremental_net_working_capital_m": 797.3603259340858
+      },
+      {
+        "year": 2029,
+        "retail_units": 1382006.7414521629,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1485.7266604988395,
+          "advertising": 1016.7763797978423,
+          "occupancy": 87.69668804911733,
+          "logistics": 410.3005981159899,
+          "other": 1665.0678299001665
+        },
+        "adjusted_sga_m": 4665.5681563619555,
+        "adjusted_sga_per_unit": 3375.9373354861823,
+        "normal_direct_labor_memo_m": 549.6968133263143,
+        "normal_direct_FTE_equivalents": 5528.026965808652,
+        "extra_ramp_and_preopening_FTE_equivalents": 283.41666666666663,
+        "ramp_units": 124124.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 74.8287904341437,
+        "adjusted_gross_profit_m": 9728.305718935111,
+        "adjusted_ebitda_m": 5062.737562573156,
+        "ebitda_change_vs_preliminary_m": -465.3912798440956,
+        "standard_project_capex_m": 17.5,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 226.35654862541557,
+        "total_capex_m": 341.3565486254156,
+        "project_capex_low_m": 104.0,
+        "project_capex_high_m": 126.0,
+        "incremental_net_working_capital_m": 882.7000000000004
+      },
+      {
+        "year": 2030,
+        "retail_units": 1593006.7414521629,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1732.183318636909,
+          "advertising": 1196.726903976413,
+          "occupancy": 97.42247847764246,
+          "logistics": 482.9161792494082,
+          "other": 1899.486999260513
+        },
+        "adjusted_sga_m": 5408.735879600886,
+        "adjusted_sga_per_unit": 3395.300056715615,
+        "normal_direct_labor_memo_m": 652.6312963693438,
+        "normal_direct_FTE_equivalents": 6372.026965808652,
+        "extra_ramp_and_preopening_FTE_equivalents": 283.41666666666663,
+        "ramp_units": 124124.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 101.8047464070657,
+        "adjusted_gross_profit_m": 11198.03836751172,
+        "adjusted_ebitda_m": 5789.302487910833,
+        "ebitda_change_vs_preliminary_m": -702.2017752484023,
+        "standard_project_capex_m": 17.5,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 254.99625572520657,
+        "total_capex_m": 369.99625572520654,
+        "project_capex_low_m": 104.0,
+        "project_capex_high_m": 126.0,
+        "incremental_net_working_capital_m": 886.2
+      },
+      {
+        "year": 2031,
+        "retail_units": 1803962.523765088,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1992.0466455487417,
+          "advertising": 1386.5271027723984,
+          "occupancy": 107.65135788512339,
+          "logistics": 559.5064075786794,
+          "other": 2146.432940620271
+        },
+        "adjusted_sga_m": 6192.164454405214,
+        "adjusted_sga_per_unit": 3432.5349738870505,
+        "normal_direct_labor_memo_m": 761.2284624707178,
+        "normal_direct_FTE_equivalents": 7215.850095060352,
+        "extra_ramp_and_preopening_FTE_equivalents": 279.92346938775376,
+        "ramp_units": 124080.78231292532,
+        "incremental_labor_cost_vs_flat_GPU_m": 134.11633371751503,
+        "adjusted_gross_profit_m": 12662.121730756879,
+        "adjusted_ebitda_m": 6469.957276351664,
+        "ebitda_change_vs_preliminary_m": -983.8387355774241,
+        "standard_project_capex_m": 10.714285714284415,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 285.14590826197633,
+        "total_capex_m": 393.36019397626075,
+        "project_capex_low_m": 98.57142857142753,
+        "project_capex_high_m": 117.8571428571413,
+        "incremental_net_working_capital_m": 886.0142857142858
+      },
+      {
+        "year": 2032,
+        "retail_units": 1986165.755057604,
+        "adjusted_sga_by_category_m": {
+          "compensation": 2236.756971994888,
+          "advertising": 1565.0331605768947,
+          "occupancy": 117.38060476488728,
+          "logistics": 631.5391020233264,
+          "other": 2379.8182885623446
+        },
+        "adjusted_sga_m": 6930.528127922341,
+        "adjusted_sga_per_unit": 3489.400675786668,
+        "normal_direct_labor_memo_m": 863.2572243254187,
+        "normal_direct_FTE_equivalents": 7944.663020230416,
+        "extra_ramp_and_preopening_FTE_equivalents": 224.49659863945598,
+        "ramp_units": 102248.29931972799,
+        "incremental_labor_cost_vs_flat_GPU_m": 164.68641128877448,
+        "adjusted_gross_profit_m": 13923.99309419148,
+        "adjusted_ebitda_m": 6993.46496626914,
+        "ebitda_change_vs_preliminary_m": -1286.4660844034545,
+        "standard_project_capex_m": 0.0,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 313.71640315915215,
+        "total_capex_m": 411.21640315915215,
+        "project_capex_low_m": 90.0,
+        "project_capex_high_m": 105.0,
+        "incremental_net_working_capital_m": 765.2535714285672
+      },
+      {
+        "year": 2033,
+        "retail_units": 2110631.741452163,
+        "adjusted_sga_by_category_m": {
+          "compensation": 2433.991545406749,
+          "advertising": 1708.3155354249134,
+          "occupancy": 125.47527937847997,
+          "logistics": 689.3579550845177,
+          "other": 2570.117505456012
+        },
+        "adjusted_sga_m": 7527.257820750672,
+        "adjusted_sga_per_unit": 3566.3529894474846,
+        "normal_direct_labor_memo_m": 944.8751378787438,
+        "normal_direct_FTE_equivalents": 8442.526965808653,
+        "extra_ramp_and_preopening_FTE_equivalents": 199.99999999999997,
+        "ramp_units": 89999.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 198.98888834088902,
+        "adjusted_gross_profit_m": 14772.578355577669,
+        "adjusted_ebitda_m": 7245.320534826997,
+        "ebitda_change_vs_preliminary_m": -1588.214991761291,
+        "standard_project_capex_m": 0.0,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 337.211430346136,
+        "total_capex_m": 434.711430346136,
+        "project_capex_low_m": 90.0,
+        "project_capex_high_m": 105.0,
+        "incremental_net_working_capital_m": 522.757142857148
+      },
+      {
+        "year": 2034,
+        "retail_units": 2230631.741452163,
+        "adjusted_sga_by_category_m": {
+          "compensation": 2636.237748630518,
+          "advertising": 1855.226144878691,
+          "occupancy": 133.7809752733731,
+          "logistics": 748.6409126021324,
+          "other": 2765.2984059716996
+        },
+        "adjusted_sga_m": 8139.1841873564135,
+        "adjusted_sga_per_unit": 3648.8246966564393,
+        "normal_direct_labor_memo_m": 1028.553909170117,
+        "normal_direct_FTE_equivalents": 8922.526965808653,
+        "extra_ramp_and_preopening_FTE_equivalents": 199.99999999999997,
+        "ramp_units": 89999.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 239.6591707627844,
+        "adjusted_gross_profit_m": 15583.116758207638,
+        "adjusted_ebitda_m": 7443.932570851224,
+        "ebitda_change_vs_preliminary_m": -1921.2421352993701,
+        "standard_project_capex_m": 0.0,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 361.31332053591046,
+        "total_capex_m": 458.81332053591046,
+        "project_capex_low_m": 90.0,
+        "project_capex_high_m": 105.0,
+        "incremental_net_working_capital_m": 504.0
+      },
+      {
+        "year": 2035,
+        "retail_units": 2350631.741452163,
+        "adjusted_sga_by_category_m": {
+          "compensation": 2848.428131656848,
+          "advertising": 2009.4139069178132,
+          "occupancy": 142.47208517051916,
+          "logistics": 810.860425411228,
+          "other": 2969.877054763418
+        },
+        "adjusted_sga_m": 8781.051603919826,
+        "adjusted_sga_per_unit": 3735.6134732083156,
+        "normal_direct_labor_memo_m": 1116.4030191148822,
+        "normal_direct_FTE_equivalents": 9402.526965808653,
+        "extra_ramp_and_preopening_FTE_equivalents": 199.99999999999997,
+        "ramp_units": 89999.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 284.519937171987,
+        "adjusted_gross_profit_m": 16389.464676850304,
+        "adjusted_ebitda_m": 7608.413072930478,
+        "ebitda_change_vs_preliminary_m": -2287.4152410616302,
+        "standard_project_capex_m": 0.0,
+        "major_project_capex_m": 48.75,
+        "nonproject_capex_m": 386.5578338497599,
+        "total_capex_m": 435.3078338497599,
+        "project_capex_low_m": 45.0,
+        "project_capex_high_m": 52.5,
+        "incremental_net_working_capital_m": 504.0
+      }
+    ],
+    "extra_nonlabor_COGS_100_per_unit": [
+      {
+        "year": 2027,
+        "retail_units": 981992.3781345233,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1025.1402898970025,
+          "advertising": 680.5900847289499,
+          "occupancy": 69.47329283492371,
+          "logistics": 274.6390694988615,
+          "other": 1226.5657142105288
+        },
+        "adjusted_sga_m": 3276.4084511702663,
+        "adjusted_sga_per_unit": 3336.4907143112578,
+        "normal_direct_labor_memo_m": 368.1685824101955,
+        "normal_direct_FTE_equivalents": 3927.969512538093,
+        "extra_ramp_and_preopening_FTE_equivalents": 101.3718594733522,
+        "ramp_units": 33102.596403342766,
+        "incremental_labor_cost_vs_flat_GPU_m": 20.224941157666308,
+        "adjusted_gross_profit_m": 6847.246162052572,
+        "adjusted_ebitda_m": 3570.8377108823056,
+        "ebitda_change_vs_preliminary_m": -131.4371183854155,
+        "standard_project_capex_m": 17.5,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 175.4562963846226,
+        "total_capex_m": 290.4562963846226,
+        "project_capex_low_m": 104.0,
+        "project_capex_high_m": 126.0,
+        "incremental_net_working_capital_m": 472.29998816499784
+      },
+      {
+        "year": 2028,
+        "retail_units": 1171840.074785496,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1192.24102018796,
+          "advertising": 801.939627931347,
+          "occupancy": 76.34915133924274,
+          "logistics": 323.6073491976336,
+          "other": 1387.945838337899
+        },
+        "adjusted_sga_m": 3782.0829869940826,
+        "adjusted_sga_per_unit": 3227.4736701476845,
+        "normal_direct_labor_memo_m": 452.5266692637355,
+        "normal_direct_FTE_equivalents": 4687.360299141985,
+        "extra_ramp_and_preopening_FTE_equivalents": 265.0833333333333,
+        "ramp_units": 114958.33333333333,
+        "incremental_labor_cost_vs_flat_GPU_m": 51.56853070014828,
+        "adjusted_gross_profit_m": 8143.584538064994,
+        "adjusted_ebitda_m": 4361.501551070912,
+        "ebitda_change_vs_preliminary_m": -206.3217881293478,
+        "standard_project_capex_m": 17.5,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 199.25018941876695,
+        "total_capex_m": 314.2501894187669,
+        "project_capex_low_m": 104.0,
+        "project_capex_high_m": 126.0,
+        "incremental_net_working_capital_m": 797.3603259340858
+      },
+      {
+        "year": 2029,
+        "retail_units": 1382006.7414521629,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1376.7863110341364,
+          "advertising": 936.1322249992958,
+          "occupancy": 83.86817025320644,
+          "logistics": 377.75819685074725,
+          "other": 1565.5263672064832
+        },
+        "adjusted_sga_m": 4340.0712703438685,
+        "adjusted_sga_per_unit": 3140.4125176578214,
+        "normal_direct_labor_memo_m": 549.6968133263143,
+        "normal_direct_FTE_equivalents": 5528.026965808652,
+        "extra_ramp_and_preopening_FTE_equivalents": 283.41666666666663,
+        "ramp_units": 124124.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 74.8287904341437,
+        "adjusted_gross_profit_m": 9590.105044789894,
+        "adjusted_ebitda_m": 5250.033774446026,
+        "ebitda_change_vs_preliminary_m": -278.09506797122486,
+        "standard_project_capex_m": 17.5,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 226.35654862541557,
+        "total_capex_m": 341.3565486254156,
+        "project_capex_low_m": 104.0,
+        "project_capex_high_m": 126.0,
+        "incremental_net_working_capital_m": 882.7000000000004
+      },
+      {
+        "year": 2030,
+        "retail_units": 1593006.7414521629,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1562.2164713125082,
+          "advertising": 1070.9072897232852,
+          "occupancy": 91.44929128948154,
+          "logistics": 432.1440881500403,
+          "other": 1744.1841323683288
+        },
+        "adjusted_sga_m": 4900.901272843645,
+        "adjusted_sga_per_unit": 3076.510064468435,
+        "normal_direct_labor_memo_m": 652.6312963693438,
+        "normal_direct_FTE_equivalents": 6372.026965808652,
+        "extra_ramp_and_preopening_FTE_equivalents": 283.41666666666663,
+        "ramp_units": 124124.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 101.8047464070657,
+        "adjusted_gross_profit_m": 11038.737693366504,
+        "adjusted_ebitda_m": 6137.836420522859,
+        "ebitda_change_vs_preliminary_m": -353.6678426363775,
+        "standard_project_capex_m": 17.5,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 254.99625572520657,
+        "total_capex_m": 369.99625572520654,
+        "project_capex_low_m": 104.0,
+        "project_capex_high_m": 126.0,
+        "incremental_net_working_capital_m": 886.2
+      },
+      {
+        "year": 2031,
+        "retail_units": 1803962.523765088,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1747.7907842839913,
+          "advertising": 1205.7143223556352,
+          "occupancy": 99.06741340355528,
+          "logistics": 486.54287948535057,
+          "other": 1923.2503840995005
+        },
+        "adjusted_sga_m": 5462.365783628033,
+        "adjusted_sga_per_unit": 3027.981851988485,
+        "normal_direct_labor_memo_m": 761.2284624707178,
+        "normal_direct_FTE_equivalents": 7215.850095060352,
+        "extra_ramp_and_preopening_FTE_equivalents": 279.92346938775376,
+        "ramp_units": 124080.78231292532,
+        "incremental_labor_cost_vs_flat_GPU_m": 134.11633371751503,
+        "adjusted_gross_profit_m": 12481.72547838037,
+        "adjusted_ebitda_m": 7019.3596947523365,
+        "ebitda_change_vs_preliminary_m": -434.43631717675134,
+        "standard_project_capex_m": 10.714285714284415,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 285.14590826197633,
+        "total_capex_m": 393.36019397626075,
+        "project_capex_low_m": 98.57142857142753,
+        "project_capex_high_m": 117.8571428571413,
+        "incremental_net_working_capital_m": 886.0142857142858
+      },
+      {
+        "year": 2032,
+        "retail_units": 1986165.755057604,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1909.1096144716794,
+          "advertising": 1322.489012799974,
+          "occupancy": 105.86601218991842,
+          "logistics": 533.6650651360911,
+          "other": 2080.438881613154
+        },
+        "adjusted_sga_m": 5951.568586210817,
+        "adjusted_sga_per_unit": 2996.5115303471766,
+        "normal_direct_labor_memo_m": 863.2572243254187,
+        "normal_direct_FTE_equivalents": 7944.663020230416,
+        "extra_ramp_and_preopening_FTE_equivalents": 224.49659863945598,
+        "ramp_units": 102248.29931972799,
+        "incremental_labor_cost_vs_flat_GPU_m": 164.68641128877448,
+        "adjusted_gross_profit_m": 13725.37651868572,
+        "adjusted_ebitda_m": 7773.807932474903,
+        "ebitda_change_vs_preliminary_m": -506.12311819769064,
+        "standard_project_capex_m": 0.0,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 313.71640315915215,
+        "total_capex_m": 411.21640315915215,
+        "project_capex_low_m": 90.0,
+        "project_capex_high_m": 105.0,
+        "incremental_net_working_capital_m": 765.2535714285672
+      },
+      {
+        "year": 2033,
+        "retail_units": 2110631.741452163,
+        "adjusted_sga_by_category_m": {
+          "compensation": 2021.5385545822342,
+          "advertising": 1402.9931915678053,
+          "occupancy": 110.980341340302,
+          "logistics": 566.150981760005,
+          "other": 2193.2491164633852
+        },
+        "adjusted_sga_m": 6294.9121857137325,
+        "adjusted_sga_per_unit": 2982.47773976084,
+        "normal_direct_labor_memo_m": 944.8751378787438,
+        "normal_direct_FTE_equivalents": 8442.526965808653,
+        "extra_ramp_and_preopening_FTE_equivalents": 199.99999999999997,
+        "ramp_units": 89999.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 198.98888834088902,
+        "adjusted_gross_profit_m": 14561.515181432453,
+        "adjusted_ebitda_m": 8266.60299571872,
+        "ebitda_change_vs_preliminary_m": -566.9325308695677,
+        "standard_project_capex_m": 0.0,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 337.211430346136,
+        "total_capex_m": 434.711430346136,
+        "project_capex_low_m": 90.0,
+        "project_capex_high_m": 105.0,
+        "incremental_net_working_capital_m": 522.757142857148
+      },
+      {
+        "year": 2034,
+        "retail_units": 2230631.741452163,
+        "adjusted_sga_by_category_m": {
+          "compensation": 2130.369533656342,
+          "advertising": 1480.752271456249,
+          "occupancy": 116.00312277950152,
+          "logistics": 597.5291664042243,
+          "other": 2303.0742411310393
+        },
+        "adjusted_sga_m": 6627.728335427356,
+        "adjusted_sga_per_unit": 2971.233759595226,
+        "normal_direct_labor_memo_m": 1028.553909170117,
+        "normal_direct_FTE_equivalents": 8922.526965808653,
+        "extra_ramp_and_preopening_FTE_equivalents": 199.99999999999997,
+        "ramp_units": 89999.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 239.6591707627844,
+        "adjusted_gross_profit_m": 15360.053584062422,
+        "adjusted_ebitda_m": 8732.325248635065,
+        "ebitda_change_vs_preliminary_m": -632.8494575155288,
+        "standard_project_capex_m": 0.0,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 361.31332053591046,
+        "total_capex_m": 458.81332053591046,
+        "project_capex_low_m": 90.0,
+        "project_capex_high_m": 105.0,
+        "incremental_net_working_capital_m": 504.0
+      },
+      {
+        "year": 2035,
+        "retail_units": 2350631.741452163,
+        "adjusted_sga_by_category_m": {
+          "compensation": 2239.4050653517475,
+          "advertising": 1558.5786500426088,
+          "occupancy": 121.06903608056966,
+          "logistics": 628.9345081466571,
+          "other": 2413.3977784247304
+        },
+        "adjusted_sga_m": 6961.385038046314,
+        "adjusted_sga_per_unit": 2961.495378151296,
+        "normal_direct_labor_memo_m": 1116.4030191148822,
+        "normal_direct_FTE_equivalents": 9402.526965808653,
+        "extra_ramp_and_preopening_FTE_equivalents": 199.99999999999997,
+        "ramp_units": 89999.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 284.519937171987,
+        "adjusted_gross_profit_m": 16154.401502705088,
+        "adjusted_ebitda_m": 9193.016464658775,
+        "ebitda_change_vs_preliminary_m": -702.811849333334,
+        "standard_project_capex_m": 0.0,
+        "major_project_capex_m": 48.75,
+        "nonproject_capex_m": 386.5578338497599,
+        "total_capex_m": 435.3078338497599,
+        "project_capex_low_m": 45.0,
+        "project_capex_high_m": 52.5,
+        "incremental_net_working_capital_m": 504.0
+      }
+    ],
+    "no_fixed_sga_leverage": [
+      {
+        "year": 2027,
+        "retail_units": 981992.3781345233,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1043.4953623712533,
+          "advertising": 686.6289830321666,
+          "occupancy": 73.34363409735951,
+          "logistics": 277.07595103446926,
+          "other": 1271.2896576875648
+        },
+        "adjusted_sga_m": 3351.833588222814,
+        "adjusted_sga_per_unit": 3413.2989856705854,
+        "normal_direct_labor_memo_m": 368.1685824101955,
+        "normal_direct_FTE_equivalents": 3927.969512538093,
+        "extra_ramp_and_preopening_FTE_equivalents": 101.3718594733522,
+        "ramp_units": 33102.596403342766,
+        "incremental_labor_cost_vs_flat_GPU_m": 20.224941157666308,
+        "adjusted_gross_profit_m": 6945.445399866025,
+        "adjusted_ebitda_m": 3593.611811643211,
+        "ebitda_change_vs_preliminary_m": -108.66301762451076,
+        "standard_project_capex_m": 17.5,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 175.4562963846226,
+        "total_capex_m": 290.4562963846226,
+        "project_capex_low_m": 104.0,
+        "project_capex_high_m": 126.0,
+        "incremental_net_working_capital_m": 472.29998816499784
+      },
+      {
+        "year": 2028,
+        "retail_units": 1171840.074785496,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1245.2333752349498,
+          "advertising": 819.374342145941,
+          "occupancy": 87.52309241845859,
+          "logistics": 330.64279358084354,
+          "other": 1517.0669352532823
+        },
+        "adjusted_sga_m": 3999.8405386334753,
+        "adjusted_sga_per_unit": 3413.298985670584,
+        "normal_direct_labor_memo_m": 452.5266692637355,
+        "normal_direct_FTE_equivalents": 4687.360299141985,
+        "extra_ramp_and_preopening_FTE_equivalents": 265.0833333333333,
+        "ramp_units": 114958.33333333333,
+        "incremental_labor_cost_vs_flat_GPU_m": 51.56853070014828,
+        "adjusted_gross_profit_m": 8260.768545543544,
+        "adjusted_ebitda_m": 4260.928006910069,
+        "ebitda_change_vs_preliminary_m": -306.8953322901909,
+        "standard_project_capex_m": 17.5,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 199.25018941876695,
+        "total_capex_m": 314.2501894187669,
+        "project_capex_low_m": 104.0,
+        "project_capex_high_m": 126.0,
+        "incremental_net_working_capital_m": 797.3603259340858
+      },
+      {
+        "year": 2029,
+        "retail_units": 1382006.7414521629,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1468.5629517926702,
+          "advertising": 966.3271371103285,
+          "occupancy": 103.22014612547842,
+          "logistics": 389.94277425180735,
+          "other": 1789.1491995082927
+        },
+        "adjusted_sga_m": 4717.202208788577,
+        "adjusted_sga_per_unit": 3413.2989856705844,
+        "normal_direct_labor_memo_m": 549.6968133263143,
+        "normal_direct_FTE_equivalents": 5528.026965808652,
+        "extra_ramp_and_preopening_FTE_equivalents": 283.41666666666663,
+        "ramp_units": 124124.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 74.8287904341437,
+        "adjusted_gross_profit_m": 9728.305718935111,
+        "adjusted_ebitda_m": 5011.103510146534,
+        "ebitda_change_vs_preliminary_m": -517.0253322707172,
+        "standard_project_capex_m": 17.5,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 226.35654862541557,
+        "total_capex_m": 341.3565486254156,
+        "project_capex_low_m": 104.0,
+        "project_capex_high_m": 126.0,
+        "incremental_net_working_capital_m": 882.7000000000004
+      },
+      {
+        "year": 2030,
+        "retail_units": 1593006.7414521629,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1692.778054030635,
+          "advertising": 1113.8626156392058,
+          "occupancy": 118.97944033094002,
+          "logistics": 449.4778856946623,
+          "other": 2062.310299069627
+        },
+        "adjusted_sga_m": 5437.40829476507,
+        "adjusted_sga_per_unit": 3413.298985670584,
+        "normal_direct_labor_memo_m": 652.6312963693438,
+        "normal_direct_FTE_equivalents": 6372.026965808652,
+        "extra_ramp_and_preopening_FTE_equivalents": 283.41666666666663,
+        "ramp_units": 124124.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 101.8047464070657,
+        "adjusted_gross_profit_m": 11198.03836751172,
+        "adjusted_ebitda_m": 5760.630072746649,
+        "ebitda_change_vs_preliminary_m": -730.874190412587,
+        "standard_project_capex_m": 17.5,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 254.99625572520657,
+        "total_capex_m": 369.99625572520654,
+        "project_capex_low_m": 104.0,
+        "project_capex_high_m": 126.0,
+        "incremental_net_working_capital_m": 886.2
+      },
+      {
+        "year": 2031,
+        "retail_units": 1803962.523765088,
+        "adjusted_sga_by_category_m": {
+          "compensation": 1916.9461691916893,
+          "advertising": 1261.3671762646613,
+          "occupancy": 134.73543197934146,
+          "logistics": 509.0005208108455,
+          "other": 2335.4141543085852
+        },
+        "adjusted_sga_m": 6157.463452555123,
+        "adjusted_sga_per_unit": 3413.2989856705844,
+        "normal_direct_labor_memo_m": 761.2284624707178,
+        "normal_direct_FTE_equivalents": 7215.850095060352,
+        "extra_ramp_and_preopening_FTE_equivalents": 279.92346938775376,
+        "ramp_units": 124080.78231292532,
+        "incremental_labor_cost_vs_flat_GPU_m": 134.11633371751503,
+        "adjusted_gross_profit_m": 12662.121730756879,
+        "adjusted_ebitda_m": 6504.658278201756,
+        "ebitda_change_vs_preliminary_m": -949.1377337273327,
+        "standard_project_capex_m": 10.714285714284415,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 285.14590826197633,
+        "total_capex_m": 393.36019397626075,
+        "project_capex_low_m": 98.57142857142753,
+        "project_capex_high_m": 117.8571428571413,
+        "incremental_net_working_capital_m": 886.0142857142858
+      },
+      {
+        "year": 2032,
+        "retail_units": 1986165.755057604,
+        "adjusted_sga_by_category_m": {
+          "compensation": 2110.5609375914,
+          "advertising": 1388.7673701900123,
+          "occupancy": 148.34393589936292,
+          "logistics": 560.4104245087043,
+          "other": 2571.2948889222907
+        },
+        "adjusted_sga_m": 6779.37755711177,
+        "adjusted_sga_per_unit": 3413.2989856705844,
+        "normal_direct_labor_memo_m": 863.2572243254187,
+        "normal_direct_FTE_equivalents": 7944.663020230416,
+        "extra_ramp_and_preopening_FTE_equivalents": 224.49659863945598,
+        "ramp_units": 102248.29931972799,
+        "incremental_labor_cost_vs_flat_GPU_m": 164.68641128877448,
+        "adjusted_gross_profit_m": 13923.99309419148,
+        "adjusted_ebitda_m": 7144.6155370797105,
+        "ebitda_change_vs_preliminary_m": -1135.315513592884,
+        "standard_project_capex_m": 0.0,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 313.71640315915215,
+        "total_capex_m": 411.21640315915215,
+        "project_capex_low_m": 90.0,
+        "project_capex_high_m": 105.0,
+        "incremental_net_working_capital_m": 765.2535714285672
+      },
+      {
+        "year": 2033,
+        "retail_units": 2110631.741452163,
+        "adjusted_sga_by_category_m": {
+          "compensation": 2242.822330314648,
+          "advertising": 1475.7965117221925,
+          "occupancy": 157.64012593805884,
+          "logistics": 595.5293646548889,
+          "other": 2732.42884959302
+        },
+        "adjusted_sga_m": 7204.217182222808,
+        "adjusted_sga_per_unit": 3413.2989856705844,
+        "normal_direct_labor_memo_m": 944.8751378787438,
+        "normal_direct_FTE_equivalents": 8442.526965808653,
+        "extra_ramp_and_preopening_FTE_equivalents": 199.99999999999997,
+        "ramp_units": 89999.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 198.98888834088902,
+        "adjusted_gross_profit_m": 14772.578355577669,
+        "adjusted_ebitda_m": 7568.3611733548605,
+        "ebitda_change_vs_preliminary_m": -1265.1743532334272,
+        "standard_project_capex_m": 0.0,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 337.211430346136,
+        "total_capex_m": 434.711430346136,
+        "project_capex_low_m": 90.0,
+        "project_capex_high_m": 105.0,
+        "incremental_net_working_capital_m": 522.757142857148
+      },
+      {
+        "year": 2034,
+        "retail_units": 2230631.741452163,
+        "adjusted_sga_by_category_m": {
+          "compensation": 2370.338028269888,
+          "advertising": 1559.7029450087575,
+          "occupancy": 166.6027577136768,
+          "logistics": 629.3881958072235,
+          "other": 2887.781133703731
+        },
+        "adjusted_sga_m": 7613.813060503277,
+        "adjusted_sga_per_unit": 3413.298985670584,
+        "normal_direct_labor_memo_m": 1028.553909170117,
+        "normal_direct_FTE_equivalents": 8922.526965808653,
+        "extra_ramp_and_preopening_FTE_equivalents": 199.99999999999997,
+        "ramp_units": 89999.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 239.6591707627844,
+        "adjusted_gross_profit_m": 15583.116758207638,
+        "adjusted_ebitda_m": 7969.303697704361,
+        "ebitda_change_vs_preliminary_m": -1395.8710084462332,
+        "standard_project_capex_m": 0.0,
+        "major_project_capex_m": 97.5,
+        "nonproject_capex_m": 361.31332053591046,
+        "total_capex_m": 458.81332053591046,
+        "project_capex_low_m": 90.0,
+        "project_capex_high_m": 105.0,
+        "incremental_net_working_capital_m": 504.0
+      },
+      {
+        "year": 2035,
+        "retail_units": 2350631.741452163,
+        "adjusted_sga_by_category_m": {
+          "compensation": 2497.8537262251293,
+          "advertising": 1643.609378295323,
+          "occupancy": 175.56538948929477,
+          "logistics": 663.2470269595581,
+          "other": 3043.133417814443
+        },
+        "adjusted_sga_m": 8023.408938783748,
+        "adjusted_sga_per_unit": 3413.298985670585,
+        "normal_direct_labor_memo_m": 1116.4030191148822,
+        "normal_direct_FTE_equivalents": 9402.526965808653,
+        "extra_ramp_and_preopening_FTE_equivalents": 199.99999999999997,
+        "ramp_units": 89999.99999999999,
+        "incremental_labor_cost_vs_flat_GPU_m": 284.519937171987,
+        "adjusted_gross_profit_m": 16389.464676850304,
+        "adjusted_ebitda_m": 8366.055738066556,
+        "ebitda_change_vs_preliminary_m": -1529.7725759255525,
+        "standard_project_capex_m": 0.0,
+        "major_project_capex_m": 48.75,
+        "nonproject_capex_m": 386.5578338497599,
+        "total_capex_m": 435.3078338497599,
+        "project_capex_low_m": 45.0,
+        "project_capex_high_m": 52.5,
+        "incremental_net_working_capital_m": 504.0
+      }
+    ]
+  }
+}
