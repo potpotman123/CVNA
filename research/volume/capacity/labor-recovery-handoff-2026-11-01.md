@@ -68,3 +68,7 @@ Available inputs already in Git:
 4. Keep production separate from sales absorption and inventory changes. This exercise does not establish profitability of incremental sales.
 
 No further data search or workbook construction is authorized by the stop instruction. Next action requires the user's direction; this handoff prevents repeated framework discussions and preserves the corrections.
+
+## November 1 continuation — user authorized ADESA cohort calculation
+
+The earlier stop on further calculation was superseded by the user's instruction to apply the accepted nine-month ramp and move to the next bin. [ADESA cohort bridge](adesa-cohort-build-2026-11-01.md) now supplies per-site proxy start dates and 2026–2028 output. The five Q3 ramping sites add approximately 49,407 modeled vehicles in 2027 over 2026; the 16 Q3 mature sites add 6,475 from calendar carryover. No new workbook has been created. Further mature-site expansion is kept separate from these standard integration ramps.

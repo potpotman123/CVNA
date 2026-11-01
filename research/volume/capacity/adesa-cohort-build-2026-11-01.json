@@ -1,0 +1,546 @@
+{
+  "method": "Equal calendar-month time; exact integration of linear 9-month ramp. Q3 exit at 2026-10-01. Proxy dates as labeled. Fixed Q3 bins.",
+  "scope": "21 candidate Q3 integrations; Orlando and future integrations excluded",
+  "assumptions": {
+    "annual_capacity": 13000,
+    "ramp_months": 9,
+    "mature_fraction": 1
+  },
+  "rows": [
+    {
+      "site": "ADESA Buffalo",
+      "source": "https://press.carvana.com/carvana-marks-second-anniversary-of-adesa-acquisition-with-new-integration-and-performance-milestones/",
+      "evidence_date": "2024-04",
+      "date_meaning": "operating month explicitly reported",
+      "start_proxy": "2024-04-15",
+      "start_status": "operating month; assumed midpoint",
+      "mature_date_proxy": "2025-01-15",
+      "bin_at_q3": "mature_ADESA",
+      "annual_capacity": 13000,
+      "q3_exit_annualized_rate": 13000,
+      "annual_production": {
+        "2025": 12986.893004115198,
+        "2026": 13000.0,
+        "2027": 12999.999999999996,
+        "2028": 13000.0
+      },
+      "growth_2027_vs_2026": -3.637978807091713e-12,
+      "growth_2028_vs_2027": 3.637978807091713e-12,
+      "q4_2026": 3250.0,
+      "extra_2027_vs_q3_exit_rate": -3.637978807091713e-12
+    },
+    {
+      "site": "ADESA Portland",
+      "source": "https://press.carvana.com/carvana-marks-second-anniversary-of-adesa-acquisition-with-new-integration-and-performance-milestones/",
+      "evidence_date": "2024-05-09",
+      "date_meaning": "conversion underway; completed by Q3 2024 letter",
+      "start_proxy": "2024-05-09",
+      "start_status": "announcement-date proxy, not verified first production",
+      "mature_date_proxy": "2025-02-09",
+      "bin_at_q3": "mature_ADESA",
+      "annual_capacity": 13000,
+      "q3_exit_annualized_rate": 13000,
+      "annual_production": {
+        "2025": 12904.74332292754,
+        "2026": 13000.0,
+        "2027": 13000.0,
+        "2028": 13000.0
+      },
+      "growth_2027_vs_2026": 0.0,
+      "growth_2028_vs_2027": 0.0,
+      "q4_2026": 3250.0,
+      "extra_2027_vs_q3_exit_rate": 0.0
+    },
+    {
+      "site": "ADESA Kansas City",
+      "source": "https://press.carvana.com/carvana-develops-first-auction-irc-megasite-in-kansas-city/",
+      "evidence_date": "2024-08-19",
+      "date_meaning": "announcement; same-day service linked by September 30",
+      "start_proxy": "2024-08-19",
+      "start_status": "announcement-date proxy, not verified first production",
+      "mature_date_proxy": "2025-05-19",
+      "bin_at_q3": "mature_ADESA",
+      "annual_capacity": 13000,
+      "q3_exit_annualized_rate": 13000,
+      "annual_production": {
+        "2025": 11737.175781399836,
+        "2026": 13000.0,
+        "2027": 13000.0,
+        "2028": 13000.0
+      },
+      "growth_2027_vs_2026": 0.0,
+      "growth_2028_vs_2027": 0.0,
+      "q4_2026": 3250.0,
+      "extra_2027_vs_q3_exit_rate": 0.0
+    },
+    {
+      "site": "ADESA Houston",
+      "source": "https://press.carvana.com/carvana-announces-auction-irc-megasite-integration-in-houston/",
+      "evidence_date": "2024-09-09",
+      "date_meaning": "announcement",
+      "start_proxy": "2024-09-09",
+      "start_status": "announcement-date proxy, not verified first production",
+      "mature_date_proxy": "2025-06-09",
+      "bin_at_q3": "mature_ADESA",
+      "annual_capacity": 13000,
+      "q3_exit_annualized_rate": 13000,
+      "annual_production": {
+        "2025": 11330.596707819084,
+        "2026": 13000.0,
+        "2027": 13000.0,
+        "2028": 13000.0
+      },
+      "growth_2027_vs_2026": 0.0,
+      "growth_2028_vs_2027": 0.0,
+      "q4_2026": 3250.0,
+      "extra_2027_vs_q3_exit_rate": 0.0
+    },
+    {
+      "site": "ADESA Las Vegas",
+      "source": "https://press.carvana.com/carvana-announces-auction-irc-megasite-integration-in-las-vegas/",
+      "evidence_date": "2024-10-07",
+      "date_meaning": "announcement",
+      "start_proxy": "2024-10-07",
+      "start_status": "announcement-date proxy, not verified first production",
+      "mature_date_proxy": "2025-07-07",
+      "bin_at_q3": "mature_ADESA",
+      "annual_capacity": 13000,
+      "q3_exit_annualized_rate": 13000,
+      "annual_production": {
+        "2025": 10691.293791188507,
+        "2026": 13000.0,
+        "2027": 12999.999999999996,
+        "2028": 13000.0
+      },
+      "growth_2027_vs_2026": -3.637978807091713e-12,
+      "growth_2028_vs_2027": 3.637978807091713e-12,
+      "q4_2026": 3250.0,
+      "extra_2027_vs_q3_exit_rate": -3.637978807091713e-12
+    },
+    {
+      "site": "ADESA Boston",
+      "source": "https://press.carvana.com/carvana-announces-auction-irc-megasite-integration-in-boston-area/",
+      "evidence_date": "2024-11-20",
+      "date_meaning": "announcement",
+      "start_proxy": "2024-11-20",
+      "start_status": "announcement-date proxy, not verified first production",
+      "mature_date_proxy": "2025-08-20",
+      "bin_at_q3": "mature_ADESA",
+      "annual_capacity": 13000,
+      "q3_exit_annualized_rate": 13000,
+      "annual_production": {
+        "2025": 9493.143004113666,
+        "2026": 12999.999999999998,
+        "2027": 13000.0,
+        "2028": 13000.0
+      },
+      "growth_2027_vs_2026": 1.8189894035458565e-12,
+      "growth_2028_vs_2027": 0.0,
+      "q4_2026": 3250.0,
+      "extra_2027_vs_q3_exit_rate": 0.0
+    },
+    {
+      "site": "ADESA Atlanta",
+      "source": "https://press.carvana.com/carvana-announces-auction-irc-megasite-integration-in-atlanta-area/",
+      "evidence_date": "2025-01-08",
+      "date_meaning": "announcement",
+      "start_proxy": "2025-01-08",
+      "start_status": "announcement-date proxy, not verified first production",
+      "mature_date_proxy": "2025-10-08",
+      "bin_at_q3": "mature_ADESA",
+      "annual_capacity": 13000,
+      "q3_exit_annualized_rate": 13000,
+      "annual_production": {
+        "2025": 7880.376344085258,
+        "2026": 12999.999999999998,
+        "2027": 13000.0,
+        "2028": 13000.0
+      },
+      "growth_2027_vs_2026": 1.8189894035458565e-12,
+      "growth_2028_vs_2027": 0.0,
+      "q4_2026": 3250.0,
+      "extra_2027_vs_q3_exit_rate": 0.0
+    },
+    {
+      "site": "ADESA Indianapolis",
+      "source": "https://press.carvana.com/carvana-announces-auction-irc-megasite-integration-in-indianapolis/",
+      "evidence_date": "2025-02-11",
+      "date_meaning": "announcement",
+      "start_proxy": "2025-02-11",
+      "start_status": "announcement-date proxy, not verified first production",
+      "mature_date_proxy": "2025-11-11",
+      "bin_at_q3": "mature_ADESA",
+      "annual_capacity": 13000,
+      "q3_exit_annualized_rate": 13000,
+      "annual_production": {
+        "2025": 6654.7619047635935,
+        "2026": 13000.0,
+        "2027": 13000.0,
+        "2028": 12999.999999999996
+      },
+      "growth_2027_vs_2026": 0.0,
+      "growth_2028_vs_2027": -3.637978807091713e-12,
+      "q4_2026": 3250.0,
+      "extra_2027_vs_q3_exit_rate": 0.0
+    },
+    {
+      "site": "ADESA New Jersey",
+      "source": "https://press.carvana.com/carvana-announces-auction-irc-megasite-integration-in-new-jersey/",
+      "evidence_date": "2025-04-02",
+      "date_meaning": "announcement",
+      "start_proxy": "2025-04-02",
+      "start_status": "announcement-date proxy, not verified first production",
+      "mature_date_proxy": "2026-01-02",
+      "bin_at_q3": "mature_ADESA",
+      "annual_capacity": 13000,
+      "q3_exit_annualized_rate": 13000,
+      "annual_production": {
+        "2025": 4838.955761317395,
+        "2026": 12999.93312757202,
+        "2027": 12999.999999999996,
+        "2028": 13000.000000000004
+      },
+      "growth_2027_vs_2026": 0.06687242797670478,
+      "growth_2028_vs_2027": 7.275957614183426e-12,
+      "q4_2026": 3250.000000000002,
+      "extra_2027_vs_q3_exit_rate": -3.637978807091713e-12
+    },
+    {
+      "site": "ADESA Phoenix",
+      "source": "https://press.carvana.com/carvana-announces-auction-irc-megasite-integration-in-phoenix-area/",
+      "evidence_date": "2025-04-08",
+      "date_meaning": "announcement",
+      "start_proxy": "2025-04-08",
+      "start_status": "announcement-date proxy, not verified first production",
+      "mature_date_proxy": "2026-01-08",
+      "bin_at_q3": "mature_ADESA",
+      "annual_capacity": 13000,
+      "q3_exit_annualized_rate": 13000,
+      "annual_production": {
+        "2025": 4625.498971193159,
+        "2026": 12996.723251028798,
+        "2027": 13000.0,
+        "2028": 13000.0
+      },
+      "growth_2027_vs_2026": 3.2767489712023234,
+      "growth_2028_vs_2027": 0.0,
+      "q4_2026": 3249.999999999998,
+      "extra_2027_vs_q3_exit_rate": 0.0
+    },
+    {
+      "site": "ADESA Colorado Springs",
+      "source": "https://press.carvana.com/carvana-announces-auction-irc-megasite-integration-in-colorado-springs/",
+      "evidence_date": "2025-04-23",
+      "date_meaning": "announcement",
+      "start_proxy": "2025-04-23",
+      "start_status": "announcement-date proxy, not verified first production",
+      "mature_date_proxy": "2026-01-23",
+      "bin_at_q3": "mature_ADESA",
+      "annual_capacity": 13000,
+      "q3_exit_annualized_rate": 13000,
+      "annual_production": {
+        "2025": 4112.921810699347,
+        "2026": 12967.633744855946,
+        "2027": 12999.999999999996,
+        "2028": 13000.000000000004
+      },
+      "growth_2027_vs_2026": 32.36625514405023,
+      "growth_2028_vs_2027": 7.275957614183426e-12,
+      "q4_2026": 3250.000000000002,
+      "extra_2027_vs_q3_exit_rate": -3.637978807091713e-12
+    },
+    {
+      "site": "ADESA Nashville",
+      "source": "https://press.carvana.com/carvana-brings-inspection-and-reconditioning-center-capabilities-to-adesa-nashville/",
+      "evidence_date": "2025-05-22",
+      "date_meaning": "announcement; release also states same-day service supported",
+      "start_proxy": "2025-05-22",
+      "start_status": "announcement-date proxy, not verified first production",
+      "mature_date_proxy": "2026-02-22",
+      "bin_at_q3": "mature_ADESA",
+      "annual_capacity": 13000,
+      "q3_exit_annualized_rate": 13000,
+      "annual_production": {
+        "2025": 3227.1409026105093,
+        "2026": 12830.654796315874,
+        "2027": 12999.999999999998,
+        "2028": 13000.000000000004
+      },
+      "growth_2027_vs_2026": 169.3452036841245,
+      "growth_2028_vs_2027": 5.4569682106375694e-12,
+      "q4_2026": 3249.999999999998,
+      "extra_2027_vs_q3_exit_rate": -1.8189894035458565e-12
+    },
+    {
+      "site": "ADESA Seattle",
+      "source": "https://press.carvana.com/carvana-brings-inspection-and-reconditioning-center-capabilities-to-adesa-seattle/",
+      "evidence_date": "2025-07-28",
+      "date_meaning": "announcement",
+      "start_proxy": "2025-07-28",
+      "start_status": "announcement-date proxy, not verified first production",
+      "mature_date_proxy": "2026-04-28",
+      "bin_at_q3": "mature_ADESA",
+      "annual_capacity": 13000,
+      "q3_exit_annualized_rate": 13000,
+      "annual_production": {
+        "2025": 1583.2899757196637,
+        "2026": 12098.161637183435,
+        "2027": 12999.999999999998,
+        "2028": 13000.0
+      },
+      "growth_2027_vs_2026": 901.838362816563,
+      "growth_2028_vs_2027": 1.8189894035458565e-12,
+      "q4_2026": 3250.0,
+      "extra_2027_vs_q3_exit_rate": -1.8189894035458565e-12
+    },
+    {
+      "site": "ADESA Dallas",
+      "source": "https://press.carvana.com/carvana-brings-inspection-and-reconditioning-center-capabilities-to-adesa-dallas/",
+      "evidence_date": "2025-08-26",
+      "date_meaning": "announcement",
+      "start_proxy": "2025-08-26",
+      "start_status": "announcement-date proxy, not verified first production",
+      "mature_date_proxy": "2026-05-26",
+      "bin_at_q3": "mature_ADESA",
+      "annual_capacity": 13000,
+      "q3_exit_annualized_rate": 13000,
+      "annual_production": {
+        "2025": 1058.4075230285396,
+        "2026": 11609.603229661412,
+        "2027": 13000.0,
+        "2028": 13000.0
+      },
+      "growth_2027_vs_2026": 1390.3967703385879,
+      "growth_2028_vs_2027": 0.0,
+      "q4_2026": 3250.0,
+      "extra_2027_vs_q3_exit_rate": 0.0
+    },
+    {
+      "site": "ADESA Golden Gate",
+      "source": "https://press.carvana.com/carvana-brings-inspection-and-reconditioning-center-capabilities-to-adesa-golden-gate/",
+      "evidence_date": "2025-09-09",
+      "date_meaning": "announcement",
+      "start_proxy": "2025-09-09",
+      "start_status": "announcement-date proxy, not verified first production",
+      "mature_date_proxy": "2026-06-09",
+      "bin_at_q3": "mature_ADESA",
+      "annual_capacity": 13000,
+      "q3_exit_annualized_rate": 13000,
+      "annual_production": {
+        "2025": 838.8477366256234,
+        "2026": 11330.596707819084,
+        "2027": 13000.0,
+        "2028": 13000.0
+      },
+      "growth_2027_vs_2026": 1669.4032921809157,
+      "growth_2028_vs_2027": 0.0,
+      "q4_2026": 3250.0,
+      "extra_2027_vs_q3_exit_rate": 0.0
+    },
+    {
+      "site": "ADESA Long Island",
+      "source": "https://press.carvana.com/carvana-brings-inspection-and-reconditioning-center-capabilities-to-adesa-long-island/",
+      "evidence_date": "2025-10-07",
+      "date_meaning": "announcement",
+      "start_proxy": "2025-10-07",
+      "start_status": "announcement-date proxy, not verified first production",
+      "mature_date_proxy": "2026-07-07",
+      "bin_at_q3": "mature_ADESA",
+      "annual_capacity": 13000,
+      "q3_exit_annualized_rate": 13000,
+      "annual_production": {
+        "2025": 474.02878945487333,
+        "2026": 10691.293791188507,
+        "2027": 13000.0,
+        "2028": 12999.999999999996
+      },
+      "growth_2027_vs_2026": 2308.7062088114926,
+      "growth_2028_vs_2027": -3.637978807091713e-12,
+      "q4_2026": 3249.999999999999,
+      "extra_2027_vs_q3_exit_rate": 0.0
+    },
+    {
+      "site": "ADESA Syracuse",
+      "source": "https://press.carvana.com/carvana-brings-inspection-and-reconditioning-center-capabilities-to-adesa-syracuse/",
+      "evidence_date": "2026-04-28",
+      "date_meaning": "announcement",
+      "start_proxy": "2026-04-28",
+      "start_status": "announcement-date proxy, not verified first production",
+      "mature_date_proxy": "2027-01-28",
+      "bin_at_q3": "ramping_ADESA",
+      "annual_capacity": 13000,
+      "q3_exit_annualized_rate": 7366.666666664565,
+      "annual_production": {
+        "2025": 0.0,
+        "2026": 3948.749999998581,
+        "2027": 12951.24999999984,
+        "2028": 13000.0
+      },
+      "growth_2027_vs_2026": 9002.500000001259,
+      "growth_2028_vs_2027": 48.75000000016007,
+      "q4_2026": 2383.3333333328083,
+      "extra_2027_vs_q3_exit_rate": 5584.583333335275
+    },
+    {
+      "site": "ADESA Chicago",
+      "source": "https://press.carvana.com/carvana-brings-inspection-and-reconditioning-center-capabilities-to-adesa-chicago/",
+      "evidence_date": "2026-05-06",
+      "date_meaning": "announcement",
+      "start_proxy": "2026-05-06",
+      "start_status": "announcement-date proxy, not verified first production",
+      "mature_date_proxy": "2027-02-06",
+      "bin_at_q3": "ramping_ADESA",
+      "annual_capacity": 13000,
+      "q3_exit_annualized_rate": 6989.247311829482,
+      "annual_production": {
+        "2025": 0.0,
+        "2026": 3698.10093652545,
+        "2027": 12918.834547346662,
+        "2028": 12999.999999999996
+      },
+      "growth_2027_vs_2026": 9220.733610821211,
+      "growth_2028_vs_2027": 81.1654526533348,
+      "q4_2026": 2288.978494624037,
+      "extra_2027_vs_q3_exit_rate": 5929.58723551718
+    },
+    {
+      "site": "ADESA Sarasota",
+      "source": "https://press.carvana.com/carvana-brings-inspection-and-reconditioning-center-capabilities-to-adesa-sarasota/",
+      "evidence_date": "2026-06-24",
+      "date_meaning": "announcement",
+      "start_proxy": "2026-06-24",
+      "start_status": "announcement-date proxy, not verified first production",
+      "mature_date_proxy": "2027-03-24",
+      "bin_at_q3": "ramping_ADESA",
+      "annual_capacity": 13000,
+      "q3_exit_annualized_rate": 4670.370370370721,
+      "annual_production": {
+        "2025": 0.0,
+        "2026": 2338.4619341565603,
+        "2027": 12539.31584362148,
+        "2028": 13000.0
+      },
+      "growth_2027_vs_2026": 10200.85390946492,
+      "growth_2028_vs_2027": 460.68415637852013,
+      "q4_2026": 1709.2592592593467,
+      "extra_2027_vs_q3_exit_rate": 7868.945473250759
+    },
+    {
+      "site": "ADESA Brasher\u2019s / Sacramento",
+      "source": "https://press.carvana.com/carvana-brings-inspection-and-reconditioning-center-capabilities-to-adesa-brashers/",
+      "evidence_date": "2026-09-01",
+      "date_meaning": "announcement",
+      "start_proxy": "2026-09-01",
+      "start_status": "announcement-date proxy, not verified first production",
+      "mature_date_proxy": "2027-06-01",
+      "bin_at_q3": "ramping_ADESA",
+      "annual_capacity": 13000,
+      "q3_exit_annualized_rate": 1444.4444444444443,
+      "annual_production": {
+        "2025": 0.0,
+        "2026": 962.9629629629628,
+        "2027": 11495.370370370369,
+        "2028": 13000.0
+      },
+      "growth_2027_vs_2026": 10532.407407407405,
+      "growth_2028_vs_2027": 1504.6296296296314,
+      "q4_2026": 902.7777777777776,
+      "extra_2027_vs_q3_exit_rate": 10050.925925925923
+    },
+    {
+      "site": "ADESA Charlotte",
+      "source": "https://press.carvana.com/carvana-brings-inspection-and-reconditioning-center-capabilities-to-adesa-charlotte/",
+      "evidence_date": "2026-09-15",
+      "date_meaning": "announcement",
+      "start_proxy": "2026-09-15",
+      "start_status": "announcement-date proxy, not verified first production",
+      "mature_date_proxy": "2027-06-15",
+      "bin_at_q3": "ramping_ADESA",
+      "annual_capacity": 13000,
+      "q3_exit_annualized_rate": 770.3703703696697,
+      "annual_production": {
+        "2025": 0.0,
+        "2026": 751.378600822839,
+        "2027": 11201.399176954412,
+        "2028": 12999.999999999998
+      },
+      "growth_2027_vs_2026": 10450.020576131574,
+      "growth_2028_vs_2027": 1798.6008230455864,
+      "q4_2026": 734.259259259084,
+      "extra_2027_vs_q3_exit_rate": 10431.028806584742
+    }
+  ],
+  "summaries": {
+    "mature_ADESA": {
+      "sites": 16,
+      "capacity": 208000,
+      "annual_production": {
+        "2025": 104438.07533106179,
+        "2026": 201524.60028562509,
+        "2027": 208000.0,
+        "2028": 208000.0
+      },
+      "growth_2027_vs_2026": 6475.399714374909,
+      "growth_2028_vs_2027": 2.1827872842550278e-11,
+      "q3_exit_annualized_rate": 208000,
+      "extra_2027_vs_q3_exit_rate": -1.8189894035458565e-11
+    },
+    "ramping_ADESA": {
+      "sites": 5,
+      "capacity": 65000,
+      "annual_production": {
+        "2025": 0.0,
+        "2026": 11699.654434466393,
+        "2027": 61106.16993829276,
+        "2028": 65000.0
+      },
+      "growth_2027_vs_2026": 49406.51550382637,
+      "growth_2028_vs_2027": 3893.8300617072327,
+      "q3_exit_annualized_rate": 21241.099163678882,
+      "extra_2027_vs_q3_exit_rate": 39865.07077461388
+    },
+    "all": {
+      "sites": 21,
+      "capacity": 273000,
+      "annual_production": {
+        "2025": 104438.07533106179,
+        "2026": 213224.25472009147,
+        "2027": 269106.16993829276,
+        "2028": 273000.0
+      },
+      "growth_2027_vs_2026": 55881.91521820128,
+      "growth_2028_vs_2027": 3893.8300617072546,
+      "q3_exit_annualized_rate": 229241.09916367885,
+      "extra_2027_vs_q3_exit_rate": 39865.070774613865
+    }
+  },
+  "ramping_start_date_sensitivity": [
+    {
+      "start_shift_months": -3,
+      "annual_production": {
+        "2026": 24662.7585291379,
+        "2027": 64393.065843621254,
+        "2028": 65000.0
+      },
+      "growth_2027_vs_2026": 39730.307314483354
+    },
+    {
+      "start_shift_months": 0,
+      "annual_production": {
+        "2026": 11699.654434466393,
+        "2027": 61106.16993829276,
+        "2028": 65000.0
+      },
+      "growth_2027_vs_2026": 49406.51550382637
+    },
+    {
+      "start_shift_months": 3,
+      "annual_production": {
+        "2026": 3681.0463102133394,
+        "2027": 52874.77806254582,
+        "2028": 65000.0
+      },
+      "growth_2027_vs_2026": 49193.73175233248
+    }
+  ]
+}
