@@ -115,3 +115,20 @@ Important counterevidence: Q3 2026 company operating income increased from $552m
 ## Geographic test added November 1
 
 [Facility proximity study and interactive map](geography/README.md): median straight-line distance to assigned city reference points is 12.5 miles for 21 integrated ADESA candidates versus 19.6 miles for 17 located original IRCs. Strict-coordinate results retain the difference. Atlanta supports a central-proximity advantage; Chicago and Phoenix do not. Dallas–Fort Worth reverses depending on the selected downtown, supporting complementary geographic coverage. Use this as evidence of location differences, not a measured delivery, labor or sales uplift. Two facilities remain unmatched; five coordinates are approximate; roster and city-reference limitations are documented.
+
+## Separate thesis lever: local production in additional metros
+
+The map reveals a second geographic mechanism beyond downtown proximity: ADESA can introduce local reconditioning and replenishment into metros previously supplied through more distant IRCs. Distinguish (1) first local reconditioning, (2) additional same-metro coverage, and (3) entering a new retail sales market. These are not interchangeable.
+
+**Houston case:** among the 17 located original IRCs in our reconstructed roster, San Antonio is nearest to Houston’s GeoNames reference point at 184.8 straight-line miles, followed by Blue Mound at 242.9. ADESA Houston is 14.3 miles from that same reference. Calculated from `geography/comparison.json` using its Haversine method; these are not road distances, actual shipment routes, or measured miles saved. The original roster is not a complete dated pre-opening logistics census; West Memphis remains unmatched.
+
+Primary-source chronology:
+- [April 13, 2022 Houston-area vending-machine announcement](https://www.carvana.com/press/carvana-returns-to-houston-area-with-brand-new-car-vending-machine/) establishes an existing Houston retail/pickup presence well before integration. Do not repeat its retrospective first-opening year without reconciliation; contemporary reporting differs.
+- [September 9, 2024 Houston integration announcement](https://www.carvana.com/press/carvana-announces-auction-irc-megasite-integration-in-houston/) describes bringing IRC capability into the existing auction property, creating local retail inventory, and planning about 200 new jobs over time. Announcement is not a precise production-start date.
+- [October 23, 2024 Houston same-day delivery announcement](https://www.carvana.com/press/carvana-expands-same-day-delivery-to-houston/) explicitly connects the new IRC to same-day availability for select local customers. This is company-reported service availability, not independently measured delivery performance or a causal sales estimate.
+
+**Mechanism to underwrite conditionally:** local recon → local replenishment of ready vehicles → broader fast-delivery selection and potentially less intercity movement → better customer conversion and/or lower delivery costs. Local sourcing may also avoid some out-and-back movements, but actual routing remains unobserved. A local IRC does not make the entire national catalog locally available.
+
+**Next comparison:** for each integration metro, measure change in distance to the nearest previously operating IRC (including earlier integrations), then distinguish first-local-production sites from added capacity in already-served metros. Include pre-existing delivery hubs when interpreting service changes. Compare customer/population coverage rather than only distance to downtown. No sales uplift or metro-coverage count is inferred from the current map alone.
+
+This strengthens the geography mechanism in the thesis; it does not yet quantify incremental sales or justify a volume-model coefficient. Sources checked November 1, 2026.
