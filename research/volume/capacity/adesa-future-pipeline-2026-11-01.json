@@ -1,0 +1,1200 @@
+{
+  "as_of": "2026-11-01",
+  "baseline": "Q3 2026 21 candidate integrations",
+  "assumptions": {
+    "standard_capacity": 13000,
+    "ramp_months": 9,
+    "endpoint": 1,
+    "all_35_suitable": true,
+    "orlando_announcement_proxy": "2026-10-06",
+    "no_other_unannounced_Q4_2026_openings": true
+  },
+  "properties": [
+    {
+      "name": "ADESA Austin",
+      "address": "2108 Ferguson Lane, Austin, TX 78754",
+      "standard_capacity": 13000,
+      "major_buildout_eligible_assumption": true,
+      "status": "unassigned future slot; suitability assumed"
+    },
+    {
+      "name": "ADESA Birmingham",
+      "address": "804 Sollie Drive, Moody, AL 35004",
+      "standard_capacity": 13000,
+      "major_buildout_eligible_assumption": true,
+      "status": "unassigned future slot; suitability assumed"
+    },
+    {
+      "name": "ADESA Boise",
+      "address": "7355 South Eisenman Rd, Boise, ID 83716",
+      "standard_capacity": 13000,
+      "major_buildout_eligible_assumption": true,
+      "status": "unassigned future slot; suitability assumed"
+    },
+    {
+      "name": "ADESA Cincinnati/Dayton",
+      "address": "4400 William C Good Blvd, Franklin, OH 45005",
+      "standard_capacity": 13000,
+      "major_buildout_eligible_assumption": true,
+      "status": "unassigned future slot; suitability assumed"
+    },
+    {
+      "name": "ADESA Cleveland",
+      "address": "210 East Twinsburg Road, Northfield, OH 44067",
+      "standard_capacity": 13000,
+      "major_buildout_eligible_assumption": true,
+      "status": "unassigned future slot; suitability assumed"
+    },
+    {
+      "name": "ADESA Concord",
+      "address": "77 Hosmer Street, Acton, MA 01720",
+      "standard_capacity": 13000,
+      "major_buildout_eligible_assumption": true,
+      "status": "unassigned future slot; suitability assumed"
+    },
+    {
+      "name": "ADESA Des Moines",
+      "address": "1800 SE Gateway Dr, Grimes, IA 50111",
+      "standard_capacity": 13000,
+      "major_buildout_eligible_assumption": true,
+      "status": "unassigned future slot; suitability assumed"
+    },
+    {
+      "name": "ADESA Fargo",
+      "address": "1650 E. Main Avenue, West Fargo, ND 58078",
+      "standard_capacity": 13000,
+      "major_buildout_eligible_assumption": true,
+      "status": "unassigned future slot; suitability assumed"
+    },
+    {
+      "name": "ADESA Flint",
+      "address": "3711 Western Rd., Flint, MI 48506",
+      "standard_capacity": 13000,
+      "major_buildout_eligible_assumption": true,
+      "status": "unassigned future slot; suitability assumed"
+    },
+    {
+      "name": "ADESA Jacksonville",
+      "address": "11700 New Kings Road, Jacksonville, FL 32219",
+      "standard_capacity": 13000,
+      "major_buildout_eligible_assumption": true,
+      "status": "unassigned future slot; suitability assumed"
+    },
+    {
+      "name": "ADESA Knoxville",
+      "address": "1011 Adesa Pkwy, Lenoir City, TN 37771",
+      "standard_capacity": 13000,
+      "major_buildout_eligible_assumption": true,
+      "status": "unassigned future slot; suitability assumed"
+    },
+    {
+      "name": "ADESA Lansing",
+      "address": "6956 Lansing Road, Dimondale, MI 48821",
+      "standard_capacity": 13000,
+      "major_buildout_eligible_assumption": true,
+      "status": "unassigned future slot; suitability assumed"
+    },
+    {
+      "name": "ADESA Lexington",
+      "address": "672 Blue Sky Parkway, Lexington, KY 40509",
+      "standard_capacity": 13000,
+      "major_buildout_eligible_assumption": true,
+      "status": "unassigned future slot; suitability assumed"
+    },
+    {
+      "name": "ADESA Little Rock",
+      "address": "8700 Highway 70, North Little Rock, AR 72117",
+      "standard_capacity": 13000,
+      "major_buildout_eligible_assumption": true,
+      "status": "unassigned future slot; suitability assumed"
+    },
+    {
+      "name": "ADESA Los Angeles",
+      "address": "11625 Nino Way, Mira Loma, CA 91752",
+      "standard_capacity": 13000,
+      "major_buildout_eligible_assumption": true,
+      "status": "unassigned future slot; suitability assumed"
+    },
+    {
+      "name": "ADESA Memphis",
+      "address": "5400 Getwell Rd., Memphis, TN 38118",
+      "standard_capacity": 13000,
+      "major_buildout_eligible_assumption": true,
+      "status": "unassigned future slot; suitability assumed"
+    },
+    {
+      "name": "ADESA Mercer",
+      "address": "758 Franklin Rd, Mercer, PA 16137",
+      "standard_capacity": 13000,
+      "major_buildout_eligible_assumption": true,
+      "status": "unassigned future slot; suitability assumed"
+    },
+    {
+      "name": "ADESA Minneapolis",
+      "address": "18270 Territorial Road, Dayton, MN 55327",
+      "standard_capacity": 13000,
+      "major_buildout_eligible_assumption": true,
+      "status": "unassigned future slot; suitability assumed"
+    },
+    {
+      "name": "ADESA Northwest",
+      "address": "90485 Auction Way, Eugene, OR 97402",
+      "standard_capacity": 13000,
+      "major_buildout_eligible_assumption": true,
+      "status": "unassigned future slot; suitability assumed"
+    },
+    {
+      "name": "ADESA Ocala",
+      "address": "540 S.W. 38th Avenue, Ocala, FL 34474",
+      "standard_capacity": 13000,
+      "major_buildout_eligible_assumption": true,
+      "status": "unassigned future slot; suitability assumed"
+    },
+    {
+      "name": "ADESA Orlando",
+      "address": "2851 St. Johns Parkway, Sanford, FL 32772",
+      "standard_capacity": 13000,
+      "major_buildout_eligible_assumption": true,
+      "status": "October announcement proxy"
+    },
+    {
+      "name": "ADESA PA",
+      "address": "30 Industrial Rd, York, PA 17406",
+      "standard_capacity": 13000,
+      "major_buildout_eligible_assumption": true,
+      "status": "unassigned future slot; suitability assumed"
+    },
+    {
+      "name": "ADESA Pittsburgh",
+      "address": "378 Hunker-Waltz Mill Road, New Stanton, PA 15672",
+      "standard_capacity": 13000,
+      "major_buildout_eligible_assumption": true,
+      "status": "unassigned future slot; suitability assumed"
+    },
+    {
+      "name": "ADESA Raleigh",
+      "address": "30 Sadisco Rd, Clayton, NC 27520",
+      "standard_capacity": 13000,
+      "major_buildout_eligible_assumption": true,
+      "status": "unassigned future slot; suitability assumed"
+    },
+    {
+      "name": "ADESA Reno",
+      "address": "6000 Echo Ave., Reno, NV 89506",
+      "standard_capacity": 13000,
+      "major_buildout_eligible_assumption": true,
+      "status": "unassigned future slot; suitability assumed"
+    },
+    {
+      "name": "ADESA Sacramento",
+      "address": "8649 Kiefer Blvd., Sacramento, CA 95826",
+      "standard_capacity": 13000,
+      "major_buildout_eligible_assumption": true,
+      "status": "unassigned future slot; suitability assumed"
+    },
+    {
+      "name": "ADESA Salt Lake",
+      "address": "780 South 5600 West, Salt Lake City, UT 84104-5300",
+      "standard_capacity": 13000,
+      "major_buildout_eligible_assumption": true,
+      "status": "unassigned future slot; suitability assumed"
+    },
+    {
+      "name": "ADESA San Antonio",
+      "address": "200 S. Callaghan Road, San Antonio, TX 78227",
+      "standard_capacity": 13000,
+      "major_buildout_eligible_assumption": true,
+      "status": "unassigned future slot; suitability assumed"
+    },
+    {
+      "name": "ADESA San Diego",
+      "address": "2175 Cactus Road, San Diego, CA 92154",
+      "standard_capacity": 13000,
+      "major_buildout_eligible_assumption": true,
+      "status": "unassigned future slot; suitability assumed"
+    },
+    {
+      "name": "ADESA Shreveport",
+      "address": "7666 Greenwood Road, Shreveport, LA 71119",
+      "standard_capacity": 13000,
+      "major_buildout_eligible_assumption": true,
+      "status": "unassigned future slot; suitability assumed"
+    },
+    {
+      "name": "ADESA Sioux Falls",
+      "address": "46893 271st Street, Tea, SD 57064",
+      "standard_capacity": 13000,
+      "major_buildout_eligible_assumption": true,
+      "status": "unassigned future slot; suitability assumed"
+    },
+    {
+      "name": "ADESA St. Louis",
+      "address": "7858 Highway 61-67, Barnhart, MO 63012",
+      "standard_capacity": 13000,
+      "major_buildout_eligible_assumption": true,
+      "status": "unassigned future slot; suitability assumed"
+    },
+    {
+      "name": "ADESA Tampa",
+      "address": "3225 North 50th Street, Tampa, FL 33619",
+      "standard_capacity": 13000,
+      "major_buildout_eligible_assumption": true,
+      "status": "unassigned future slot; suitability assumed"
+    },
+    {
+      "name": "ADESA Tulsa",
+      "address": "16015 E. Admiral Pl., Tulsa, OK 74116",
+      "standard_capacity": 13000,
+      "major_buildout_eligible_assumption": true,
+      "status": "unassigned future slot; suitability assumed"
+    },
+    {
+      "name": "ADESA Washington D.C.",
+      "address": "43375 Old Ox Road, Dulles, VA 20166",
+      "standard_capacity": 13000,
+      "major_buildout_eligible_assumption": true,
+      "status": "unassigned future slot; suitability assumed"
+    }
+  ],
+  "scenarios": {
+    "slow": {
+      "annual_pace": 6,
+      "slots": [
+        {
+          "id": "ADESA Orlando",
+          "start_month_index": 24321.16129032258,
+          "year": 2026,
+          "timing": "2026-10-06 announcement proxy"
+        },
+        {
+          "id": "Unassigned future slot 1",
+          "start_month_index": 24325.0,
+          "year": 2027,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 2",
+          "start_month_index": 24327.0,
+          "year": 2027,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 3",
+          "start_month_index": 24329.0,
+          "year": 2027,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 4",
+          "start_month_index": 24331.0,
+          "year": 2027,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 5",
+          "start_month_index": 24333.0,
+          "year": 2027,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 6",
+          "start_month_index": 24335.0,
+          "year": 2027,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 7",
+          "start_month_index": 24337.0,
+          "year": 2028,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 8",
+          "start_month_index": 24339.0,
+          "year": 2028,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 9",
+          "start_month_index": 24341.0,
+          "year": 2028,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 10",
+          "start_month_index": 24343.0,
+          "year": 2028,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 11",
+          "start_month_index": 24345.0,
+          "year": 2028,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 12",
+          "start_month_index": 24347.0,
+          "year": 2028,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 13",
+          "start_month_index": 24349.0,
+          "year": 2029,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 14",
+          "start_month_index": 24351.0,
+          "year": 2029,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 15",
+          "start_month_index": 24353.0,
+          "year": 2029,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 16",
+          "start_month_index": 24355.0,
+          "year": 2029,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 17",
+          "start_month_index": 24357.0,
+          "year": 2029,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 18",
+          "start_month_index": 24359.0,
+          "year": 2029,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 19",
+          "start_month_index": 24361.0,
+          "year": 2030,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 20",
+          "start_month_index": 24363.0,
+          "year": 2030,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 21",
+          "start_month_index": 24365.0,
+          "year": 2030,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 22",
+          "start_month_index": 24367.0,
+          "year": 2030,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 23",
+          "start_month_index": 24369.0,
+          "year": 2030,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 24",
+          "start_month_index": 24371.0,
+          "year": 2030,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 25",
+          "start_month_index": 24373.0,
+          "year": 2031,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 26",
+          "start_month_index": 24375.0,
+          "year": 2031,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 27",
+          "start_month_index": 24377.0,
+          "year": 2031,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 28",
+          "start_month_index": 24379.0,
+          "year": 2031,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 29",
+          "start_month_index": 24381.0,
+          "year": 2031,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 30",
+          "start_month_index": 24383.0,
+          "year": 2031,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 31",
+          "start_month_index": 24385.0,
+          "year": 2032,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 32",
+          "start_month_index": 24387.0,
+          "year": 2032,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 33",
+          "start_month_index": 24389.0,
+          "year": 2032,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 34",
+          "start_month_index": 24391.0,
+          "year": 2032,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        }
+      ],
+      "annual": [
+        {
+          "year": 2026,
+          "new_integrations": 1,
+          "future_pool_production": 484.98863067057323,
+          "growth_vs_prior_year": 484.98863067057323,
+          "existing_21_production": 213224.25472009147,
+          "all_56_standard_production": 213709.24335076203,
+          "integration_capex_low": 2000000.0,
+          "integration_capex_high": 3000000.0
+        },
+        {
+          "year": 2027,
+          "new_integrations": 6,
+          "future_pool_production": 27687.502408757093,
+          "growth_vs_prior_year": 27202.51377808652,
+          "existing_21_production": 269106.16993829276,
+          "all_56_standard_production": 296793.67234704987,
+          "integration_capex_low": 12000000.0,
+          "integration_capex_high": 18000000.0
+        },
+        {
+          "year": 2028,
+          "new_integrations": 6,
+          "future_pool_production": 100750.0,
+          "growth_vs_prior_year": 73062.4975912429,
+          "existing_21_production": 273000.0,
+          "all_56_standard_production": 373750.0,
+          "integration_capex_low": 12000000.0,
+          "integration_capex_high": 18000000.0
+        },
+        {
+          "year": 2029,
+          "new_integrations": 6,
+          "future_pool_production": 178750.0,
+          "growth_vs_prior_year": 78000.0,
+          "existing_21_production": 273000,
+          "all_56_standard_production": 451750.0,
+          "integration_capex_low": 12000000.0,
+          "integration_capex_high": 18000000.0
+        },
+        {
+          "year": 2030,
+          "new_integrations": 6,
+          "future_pool_production": 256750.0,
+          "growth_vs_prior_year": 78000.0,
+          "existing_21_production": 273000,
+          "all_56_standard_production": 529750.0,
+          "integration_capex_low": 12000000.0,
+          "integration_capex_high": 18000000.0
+        },
+        {
+          "year": 2031,
+          "new_integrations": 6,
+          "future_pool_production": 334750.0,
+          "growth_vs_prior_year": 78000.0,
+          "existing_21_production": 273000,
+          "all_56_standard_production": 607750.0,
+          "integration_capex_low": 12000000.0,
+          "integration_capex_high": 18000000.0
+        },
+        {
+          "year": 2032,
+          "new_integrations": 4,
+          "future_pool_production": 412148.1481481481,
+          "growth_vs_prior_year": 77398.14814814809,
+          "existing_21_production": 273000,
+          "all_56_standard_production": 685148.1481481481,
+          "integration_capex_low": 8000000.0,
+          "integration_capex_high": 12000000.0
+        },
+        {
+          "year": 2033,
+          "new_integrations": 0,
+          "future_pool_production": 453796.2962962963,
+          "growth_vs_prior_year": 41648.148148148204,
+          "existing_21_production": 273000,
+          "all_56_standard_production": 726796.2962962963,
+          "integration_capex_low": 0.0,
+          "integration_capex_high": 0.0
+        },
+        {
+          "year": 2034,
+          "new_integrations": 0,
+          "future_pool_production": 455000.0,
+          "growth_vs_prior_year": 1203.703703703708,
+          "existing_21_production": 273000,
+          "all_56_standard_production": 728000.0,
+          "integration_capex_low": 0.0,
+          "integration_capex_high": 0.0
+        }
+      ]
+    },
+    "base": {
+      "annual_pace": 7,
+      "slots": [
+        {
+          "id": "ADESA Orlando",
+          "start_month_index": 24321.16129032258,
+          "year": 2026,
+          "timing": "2026-10-06 announcement proxy"
+        },
+        {
+          "id": "Unassigned future slot 1",
+          "start_month_index": 24324.85714285714,
+          "year": 2027,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 2",
+          "start_month_index": 24326.571428571428,
+          "year": 2027,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 3",
+          "start_month_index": 24328.285714285714,
+          "year": 2027,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 4",
+          "start_month_index": 24330.0,
+          "year": 2027,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 5",
+          "start_month_index": 24331.714285714286,
+          "year": 2027,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 6",
+          "start_month_index": 24333.428571428572,
+          "year": 2027,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 7",
+          "start_month_index": 24335.14285714286,
+          "year": 2027,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 8",
+          "start_month_index": 24336.85714285714,
+          "year": 2028,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 9",
+          "start_month_index": 24338.571428571428,
+          "year": 2028,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 10",
+          "start_month_index": 24340.285714285714,
+          "year": 2028,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 11",
+          "start_month_index": 24342.0,
+          "year": 2028,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 12",
+          "start_month_index": 24343.714285714286,
+          "year": 2028,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 13",
+          "start_month_index": 24345.428571428572,
+          "year": 2028,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 14",
+          "start_month_index": 24347.14285714286,
+          "year": 2028,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 15",
+          "start_month_index": 24348.85714285714,
+          "year": 2029,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 16",
+          "start_month_index": 24350.571428571428,
+          "year": 2029,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 17",
+          "start_month_index": 24352.285714285714,
+          "year": 2029,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 18",
+          "start_month_index": 24354.0,
+          "year": 2029,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 19",
+          "start_month_index": 24355.714285714286,
+          "year": 2029,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 20",
+          "start_month_index": 24357.428571428572,
+          "year": 2029,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 21",
+          "start_month_index": 24359.14285714286,
+          "year": 2029,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 22",
+          "start_month_index": 24360.85714285714,
+          "year": 2030,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 23",
+          "start_month_index": 24362.571428571428,
+          "year": 2030,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 24",
+          "start_month_index": 24364.285714285714,
+          "year": 2030,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 25",
+          "start_month_index": 24366.0,
+          "year": 2030,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 26",
+          "start_month_index": 24367.714285714286,
+          "year": 2030,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 27",
+          "start_month_index": 24369.428571428572,
+          "year": 2030,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 28",
+          "start_month_index": 24371.14285714286,
+          "year": 2030,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 29",
+          "start_month_index": 24372.85714285714,
+          "year": 2031,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 30",
+          "start_month_index": 24374.571428571428,
+          "year": 2031,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 31",
+          "start_month_index": 24376.285714285714,
+          "year": 2031,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 32",
+          "start_month_index": 24378.0,
+          "year": 2031,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 33",
+          "start_month_index": 24379.714285714286,
+          "year": 2031,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 34",
+          "start_month_index": 24381.428571428572,
+          "year": 2031,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        }
+      ],
+      "annual": [
+        {
+          "year": 2026,
+          "new_integrations": 1,
+          "future_pool_production": 484.98863067057323,
+          "growth_vs_prior_year": 484.98863067057323,
+          "existing_21_production": 213224.25472009147,
+          "all_56_standard_production": 213709.24335076203,
+          "integration_capex_low": 2000000.0,
+          "integration_capex_high": 3000000.0
+        },
+        {
+          "year": 2027,
+          "new_integrations": 7,
+          "future_pool_production": 30546.912839598648,
+          "growth_vs_prior_year": 30061.924208928074,
+          "existing_21_production": 269106.16993829276,
+          "all_56_standard_production": 299653.0827778914,
+          "integration_capex_low": 14000000.0,
+          "integration_capex_high": 21000000.0
+        },
+        {
+          "year": 2028,
+          "new_integrations": 7,
+          "future_pool_production": 115374.99999999999,
+          "growth_vs_prior_year": 84828.08716040134,
+          "existing_21_production": 273000.0,
+          "all_56_standard_production": 388375.0,
+          "integration_capex_low": 14000000.0,
+          "integration_capex_high": 21000000.0
+        },
+        {
+          "year": 2029,
+          "new_integrations": 7,
+          "future_pool_production": 206375.00000000003,
+          "growth_vs_prior_year": 91000.00000000004,
+          "existing_21_production": 273000,
+          "all_56_standard_production": 479375.0,
+          "integration_capex_low": 14000000.0,
+          "integration_capex_high": 21000000.0
+        },
+        {
+          "year": 2030,
+          "new_integrations": 7,
+          "future_pool_production": 297375.0,
+          "growth_vs_prior_year": 90999.99999999997,
+          "existing_21_production": 273000,
+          "all_56_standard_production": 570375.0,
+          "integration_capex_low": 14000000.0,
+          "integration_capex_high": 21000000.0
+        },
+        {
+          "year": 2031,
+          "new_integrations": 6,
+          "future_pool_production": 388330.7823129253,
+          "growth_vs_prior_year": 90955.78231292532,
+          "existing_21_production": 273000,
+          "all_56_standard_production": 661330.7823129253,
+          "integration_capex_low": 12000000.0,
+          "integration_capex_high": 18000000.0
+        },
+        {
+          "year": 2032,
+          "new_integrations": 0,
+          "future_pool_production": 450534.01360544114,
+          "growth_vs_prior_year": 62203.23129251582,
+          "existing_21_production": 273000,
+          "all_56_standard_production": 723534.0136054412,
+          "integration_capex_low": 0.0,
+          "integration_capex_high": 0.0
+        },
+        {
+          "year": 2033,
+          "new_integrations": 0,
+          "future_pool_production": 455000.0,
+          "growth_vs_prior_year": 4465.986394558859,
+          "existing_21_production": 273000,
+          "all_56_standard_production": 728000.0,
+          "integration_capex_low": 0.0,
+          "integration_capex_high": 0.0
+        },
+        {
+          "year": 2034,
+          "new_integrations": 0,
+          "future_pool_production": 455000.0,
+          "growth_vs_prior_year": 0.0,
+          "existing_21_production": 273000,
+          "all_56_standard_production": 728000.0,
+          "integration_capex_low": 0.0,
+          "integration_capex_high": 0.0
+        }
+      ]
+    },
+    "fast": {
+      "annual_pace": 8,
+      "slots": [
+        {
+          "id": "ADESA Orlando",
+          "start_month_index": 24321.16129032258,
+          "year": 2026,
+          "timing": "2026-10-06 announcement proxy"
+        },
+        {
+          "id": "Unassigned future slot 1",
+          "start_month_index": 24324.75,
+          "year": 2027,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 2",
+          "start_month_index": 24326.25,
+          "year": 2027,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 3",
+          "start_month_index": 24327.75,
+          "year": 2027,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 4",
+          "start_month_index": 24329.25,
+          "year": 2027,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 5",
+          "start_month_index": 24330.75,
+          "year": 2027,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 6",
+          "start_month_index": 24332.25,
+          "year": 2027,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 7",
+          "start_month_index": 24333.75,
+          "year": 2027,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 8",
+          "start_month_index": 24335.25,
+          "year": 2027,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 9",
+          "start_month_index": 24336.75,
+          "year": 2028,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 10",
+          "start_month_index": 24338.25,
+          "year": 2028,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 11",
+          "start_month_index": 24339.75,
+          "year": 2028,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 12",
+          "start_month_index": 24341.25,
+          "year": 2028,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 13",
+          "start_month_index": 24342.75,
+          "year": 2028,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 14",
+          "start_month_index": 24344.25,
+          "year": 2028,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 15",
+          "start_month_index": 24345.75,
+          "year": 2028,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 16",
+          "start_month_index": 24347.25,
+          "year": 2028,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 17",
+          "start_month_index": 24348.75,
+          "year": 2029,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 18",
+          "start_month_index": 24350.25,
+          "year": 2029,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 19",
+          "start_month_index": 24351.75,
+          "year": 2029,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 20",
+          "start_month_index": 24353.25,
+          "year": 2029,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 21",
+          "start_month_index": 24354.75,
+          "year": 2029,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 22",
+          "start_month_index": 24356.25,
+          "year": 2029,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 23",
+          "start_month_index": 24357.75,
+          "year": 2029,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 24",
+          "start_month_index": 24359.25,
+          "year": 2029,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 25",
+          "start_month_index": 24360.75,
+          "year": 2030,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 26",
+          "start_month_index": 24362.25,
+          "year": 2030,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 27",
+          "start_month_index": 24363.75,
+          "year": 2030,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 28",
+          "start_month_index": 24365.25,
+          "year": 2030,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 29",
+          "start_month_index": 24366.75,
+          "year": 2030,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 30",
+          "start_month_index": 24368.25,
+          "year": 2030,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 31",
+          "start_month_index": 24369.75,
+          "year": 2030,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 32",
+          "start_month_index": 24371.25,
+          "year": 2030,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 33",
+          "start_month_index": 24372.75,
+          "year": 2031,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        },
+        {
+          "id": "Unassigned future slot 34",
+          "start_month_index": 24374.25,
+          "year": 2031,
+          "timing": "assumed evenly spaced; not a named site forecast"
+        }
+      ],
+      "annual": [
+        {
+          "year": 2026,
+          "new_integrations": 1,
+          "future_pool_production": 484.98863067057323,
+          "growth_vs_prior_year": 484.98863067057323,
+          "existing_21_production": 213224.25472009147,
+          "all_56_standard_production": 213709.24335076203,
+          "integration_capex_low": 2000000.0,
+          "integration_capex_high": 3000000.0
+        },
+        {
+          "year": 2027,
+          "new_integrations": 8,
+          "future_pool_production": 33397.57185320154,
+          "growth_vs_prior_year": 32912.583222530964,
+          "existing_21_production": 269106.16993829276,
+          "all_56_standard_production": 302503.7417914943,
+          "integration_capex_low": 16000000.0,
+          "integration_capex_high": 24000000.0
+        },
+        {
+          "year": 2028,
+          "new_integrations": 8,
+          "future_pool_production": 130000.00000000001,
+          "growth_vs_prior_year": 96602.42814679848,
+          "existing_21_production": 273000.0,
+          "all_56_standard_production": 403000.0,
+          "integration_capex_low": 16000000.0,
+          "integration_capex_high": 24000000.0
+        },
+        {
+          "year": 2029,
+          "new_integrations": 8,
+          "future_pool_production": 234000.0,
+          "growth_vs_prior_year": 103999.99999999999,
+          "existing_21_production": 273000,
+          "all_56_standard_production": 507000.0,
+          "integration_capex_low": 16000000.0,
+          "integration_capex_high": 24000000.0
+        },
+        {
+          "year": 2030,
+          "new_integrations": 8,
+          "future_pool_production": 338000.0,
+          "growth_vs_prior_year": 104000.0,
+          "existing_21_production": 273000,
+          "all_56_standard_production": 611000.0,
+          "integration_capex_low": 16000000.0,
+          "integration_capex_high": 24000000.0
+        },
+        {
+          "year": 2031,
+          "new_integrations": 2,
+          "future_pool_production": 432317.7083333332,
+          "growth_vs_prior_year": 94317.7083333332,
+          "existing_21_production": 273000,
+          "all_56_standard_production": 705317.7083333333,
+          "integration_capex_low": 4000000.0,
+          "integration_capex_high": 6000000.0
+        },
+        {
+          "year": 2032,
+          "new_integrations": 0,
+          "future_pool_production": 455000.00000000006,
+          "growth_vs_prior_year": 22682.29166666686,
+          "existing_21_production": 273000,
+          "all_56_standard_production": 728000.0,
+          "integration_capex_low": 0.0,
+          "integration_capex_high": 0.0
+        },
+        {
+          "year": 2033,
+          "new_integrations": 0,
+          "future_pool_production": 455000.0,
+          "growth_vs_prior_year": -5.820766091346741e-11,
+          "existing_21_production": 273000,
+          "all_56_standard_production": 728000.0,
+          "integration_capex_low": 0.0,
+          "integration_capex_high": 0.0
+        },
+        {
+          "year": 2034,
+          "new_integrations": 0,
+          "future_pool_production": 455000.0,
+          "growth_vs_prior_year": 0.0,
+          "existing_21_production": 273000,
+          "all_56_standard_production": 728000.0,
+          "integration_capex_low": 0.0,
+          "integration_capex_high": 0.0
+        }
+      ]
+    }
+  },
+  "ceilings": {
+    "standard_all_56": 728000,
+    "standard_remaining_35": 455000,
+    "remaining_standard_project_budget": [
+      70000000.0,
+      105000000.0
+    ],
+    "mechanical_all_56_plus_40k": 2968000,
+    "mechanical_full_buildout_increment": 2240000,
+    "mechanical_full_buildout_project_budget": [
+      1680000000.0,
+      1960000000.0
+    ],
+    "company_ADESA_approx_reference": 2000000,
+    "company_network_approx_reference": 3000000,
+    "ADESA_headroom_over_all_standard_using_company_reference": 1272000,
+    "unreconciled_excess_of_mechanical_vs_company_ADESA": 968000
+  }
+}

@@ -132,3 +132,7 @@ Primary-source chronology:
 **Next comparison:** for each integration metro, measure change in distance to the nearest previously operating IRC (including earlier integrations), then distinguish first-local-production sites from added capacity in already-served metros. Include pre-existing delivery hubs when interpreting service changes. Compare customer/population coverage rather than only distance to downtown. No sales uplift or metro-coverage count is inferred from the current map alone.
 
 This strengthens the geography mechanism in the thesis; it does not yet quantify incremental sales or justify a volume-model coefficient. Sources checked November 1, 2026.
+
+## Scheduled remaining ADESA pool
+
+[Remaining integration pipeline and buildout upside](adesa-future-pipeline-2026-11-01.md) applies the approved nine-month/13,000 ramp to all 35 remaining working-roster properties. Orlando's October proxy is included once; 34 future slots are scheduled at six/eight alternatives and seven/year base. Base future-pool production is ~30.5k in 2027, ~115.4k in 2028 and 455k at maturity; all 56 standard integrations total 728k. Full-buildout mechanical upside of 2.968m ADESA-only capacity is explicitly unreconciled with management's ~2m ADESA/~3m company estate reference, and is not a verified ceiling or timed forecast.
