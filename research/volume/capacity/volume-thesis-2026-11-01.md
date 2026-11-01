@@ -25,6 +25,8 @@ Sources: [capacity overview](README.md), [operating timeline](operating-timeline
 
 ## 2. Why believe meaningful production headroom remains?
 
+Geographic follow-up: [ADESA placement versus legacy IRCs](adesa-geographic-advantage-2026-11-01.md) adds six paired-market comparisons and primary-source delivery/development evidence. The thesis is better-distributed local inventory and hiring catchments, not a universal downtown-distance advantage. Kansas City's same-day launch and Chicago's pre-existing same-day service distinguish new coverage from deeper local selection.
+
 ### A. Historical labor-hours recovery exists, but is uneven
 
 The 14 matched original IRCs recorded 13.02m hours in 2022 and 12.68m in 2025. **The aggregate is only about 2.6% below 2022, not “far below.”** Some sites have expanded well above 2022 while others remain below it. Restoring each lagging site to its own 2022 hours without shrinking the growers produces 14.81m hours: **+2.13m / +16.8%** versus 2025.
