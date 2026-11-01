@@ -21,7 +21,14 @@ anchor['wholesale_owned_GP_m']=111119*963/1e6
 anchor['marketplace_GP_residual_m']=154-anchor['wholesale_owned_GP_m']
 rows=[];comparison=[]
 for r in C['annual']:
- y=r['year'];u=r['retail_units'];factor=u/anchor['retail_units'];w=u*anchor['owned_wholesale_units']/anchor['retail_units']
+ if r['year']>2029: continue  # No supplied consensus; do not invent a wholesale forecast.
+ y=r['year'];u=r['retail_units'];factor=u/anchor['retail_units']
+ b=next(z for z in cons if z['year']==y)
+ w=b['owned_wholesale_units']
+ old_w=factor*anchor['owned_wholesale_units']
+ delta_gp=(w-old_w)*anchor['wholesale_GP_per_owned_unit']/1e6
+ delta_revenue=(w-old_w)*anchor['wholesale_ASP']/1e6
+ revised_ebitda=r['adjusted_ebitda_m']+delta_gp
  parts={
  'retail_used':dict(units=u,revenue_m=factor*6144,GAAP_GP_before_incremental_cost_m=factor*773),
  'owned_wholesale':dict(units=w,revenue_m=w*9854/1e6,GAAP_GP_before_incremental_cost_m=w*963/1e6),
@@ -29,28 +36,29 @@ for r in C['annual']:
  'other_financing_and_ancillary':dict(units=None,revenue_m=factor*594,GAAP_GP_before_incremental_cost_m=factor*594)}
  gp=sum(p['GAAP_GP_before_incremental_cost_m'] for p in parts.values());rev=sum(p['revenue_m'] for p in parts.values())
  reconstructed=gp+factor*21-r['incremental_labor_cost_vs_flat_GPU_m']-u*C['assumed_inputs']['incremental_nonlabor_COGS_per_unit']/1e6
- assert abs(reconstructed-r['adjusted_gross_profit_m'])<1e-7
- assert abs(rev-factor*8040)<1e-7
- row=dict(year=y,businesses=parts,retail_plus_owned_wholesale_units=u+w,revenue_m=rev,GAAP_GP_before_incremental_cost_m=gp,nonGAAP_adjustment_m=factor*21,incremental_labor_cost_m=r['incremental_labor_cost_vs_flat_GPU_m'],adjusted_EBITDA_m=r['adjusted_ebitda_m'])
+ assert abs(reconstructed-r['adjusted_gross_profit_m']-delta_gp)<1e-7
+ assert w==b['owned_wholesale_units']
+ assert abs(rev-factor*8040-delta_revenue)<1e-7
+ row=dict(year=y,businesses=parts,retail_plus_owned_wholesale_units=u+w,revenue_m=rev,GAAP_GP_before_incremental_cost_m=gp,nonGAAP_adjustment_m=factor*21,incremental_labor_cost_m=r['incremental_labor_cost_vs_flat_GPU_m'],adjusted_EBITDA_m=revised_ebitda,owned_wholesale_GP_change_m=delta_gp,owned_wholesale_revenue_change_m=delta_revenue,wholesale_unit_source='Supplied Bloomberg consensus')
  rows.append(row)
  if y<=2029:
   b=next(z for z in cons if z['year']==y)
-  metrics={'retail_units':u,'owned_wholesale_units':w,'revenue_m':rev,'adjusted_EBITDA_m':r['adjusted_ebitda_m'],'capex_outflow_m':r['total_capex_m'],'adjusted_SGA_per_retail_unit':r['adjusted_sga_per_unit']}
+  metrics={'retail_units':u,'owned_wholesale_units':w,'revenue_m':rev,'adjusted_EBITDA_m':revised_ebitda,'capex_outflow_m':r['total_capex_m'],'adjusted_SGA_per_retail_unit':r['adjusted_sga_per_unit']}
   comparison.append(dict(year=y,metrics={k:dict(ours=v,consensus=b[k],difference=v-b[k],difference_pct=100*(v/b[k]-1)) for k,v in metrics.items()},
    consensus_wholesale_to_retail_ratio=b['owned_wholesale_units']/b['retail_units'],
-   owned_wholesale_at_consensus_ratio=u*b['owned_wholesale_units']/b['retail_units'],
    marketplace_flat_vs_proportional_GP_change_m=4*anchor['marketplace_GP_residual_m']-parts['wholesale_marketplace']['GAAP_GP_before_incremental_cost_m']))
 output=dict(as_of='2026-11-01 supplied screenshots; capture time visible in filenames, underlying consensus update time unknown',
  source_images=['Screenshot 2026-11-01 124654.png','Screenshot 2026-11-01 124709.png','image (1).png','image-2 (1).png','image-2.png'],
  primary_source='https://www.sec.gov/Archives/edgar/data/1690820/000169082026000067/cvna-20260930.htm',
  consensus=cons,anchor_Q3_2026=anchor,annual=rows,comparison=comparison,
+ wholesale_materiality_2025=dict(unit_share=297643/(596641+297643),revenue_share=4052/20322,gross_profit_share=481/4192,owned_wholesale_GP_share=302/4192,marketplace_GP_share=179/4192,source='User business-breakdown and company-specific screenshots, FY2025 actual columns'),
  limitations=[
  '2025 is actual; 2026 onward estimates. No FY2026 model comparison: existing anchor is Q3 annualized, not FY2026.',
- 'Owned wholesale forecast holds Q3 wholesale/retail ratio constant. This is a newly explicit placeholder, not an independent procurement or trade-in forecast.',
+ 'Owned wholesale units use supplied consensus exactly for 2027–2029. No post-2029 wholesale forecast is supplied or inferred; annual business split stops in 2029. This supersedes the constant-ratio placeholder.',
  'Marketplace growth remains proportional to retail solely to reproduce prior aggregate model. Auction transaction volumes and fee forecasts remain unknown.',
  'Wholesale revenue/GP split uses reported rounded per-owned-wholesale-unit metrics and residuals; approximate, not exact separately reported quarterly balances.',
  'Wholesale GPU displayed in Bloomberg company-specific section is per RETAIL unit and includes marketplace. Never multiply it by wholesale units.',
- 'Category split reconciles to prior model; no wholesale contribution or extra recon labor is added on top. Prior labor assumption is per retail unit, not per total transactions.',
+ 'Replace prior implied owned-wholesale revenue and GP with consensus units times existing Q3 unit economics. Only the difference enters earnings; SG&A and capex are unchanged pending wholesale-specific cost calibration. Revised EBITDA is therefore a mechanical bridge, not a fully recosted forecast. Original cost-layer output remains a historical scenario, not the current wholesale assumption.',
  'Non-GAAP gross profit adjustment is kept unallocated; compare GAAP with GAAP, adjusted with adjusted.',
  'Bloomberg contributor populations differ by metric. Component sums and products of independently averaged inputs need not reproduce headline consensus.',
  'Business-breakdown screenshot has material anomalies: 2025 used margin 43.40 vs 1978/14537=13.61%; 2028 used cost 41349.69m exceeds revenue34307.98m while GP4264m is positive. Do not import those cost or margin rows without checking mappings.',

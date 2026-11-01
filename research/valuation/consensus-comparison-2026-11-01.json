@@ -112,9 +112,9 @@
           "GAAP_GP_before_incremental_cost_m": 3491.8697623938474
         },
         "owned_wholesale": {
-          "units": 501957.40766810084,
-          "revenue_m": 4946.288295161466,
-          "GAAP_GP_before_incremental_cost_m": 483.3849835843811
+          "units": 504779.87,
+          "revenue_m": 4974.10083898,
+          "GAAP_GP_before_incremental_cost_m": 486.10301481
         },
         "wholesale_marketplace": {
           "units": null,
@@ -127,12 +127,15 @@
           "GAAP_GP_before_incremental_cost_m": 2683.273788954651
         }
       },
-      "retail_plus_owned_wholesale_units": 1483949.7858026242,
-      "revenue_m": 36319.05936564881,
-      "GAAP_GP_before_incremental_cost_m": 6870.807126262667,
+      "retail_plus_owned_wholesale_units": 1486772.2481345232,
+      "revenue_m": 36346.87190946735,
+      "GAAP_GP_before_incremental_cost_m": 6873.525157488286,
       "nonGAAP_adjustment_m": 94.86321476102303,
       "incremental_labor_cost_m": 20.224941157666308,
-      "adjusted_EBITDA_m": 3669.0369486957584
+      "adjusted_EBITDA_m": 3671.754979921377,
+      "owned_wholesale_GP_change_m": 2.718031225618882,
+      "owned_wholesale_revenue_change_m": 27.812543818534234,
+      "wholesale_unit_source": "Supplied Bloomberg consensus"
     },
     {
       "year": 2028,
@@ -143,9 +146,9 @@
           "GAAP_GP_before_incremental_cost_m": 4166.949779465871
         },
         "owned_wholesale": {
-          "units": 599000.3784533871,
-          "revenue_m": 5902.549729279676,
-          "GAAP_GP_before_incremental_cost_m": 576.8373644506117
+          "units": 599196.02,
+          "revenue_m": 5904.47758108,
+          "GAAP_GP_before_incremental_cost_m": 577.02576726
         },
         "wholesale_marketplace": {
           "units": null,
@@ -158,12 +161,15 @@
           "GAAP_GP_before_incremental_cost_m": 3202.0286791755852
         }
       },
-      "retail_plus_owned_wholesale_units": 1770840.453238883,
-      "revenue_m": 43340.590202982676,
-      "GAAP_GP_before_incremental_cost_m": 8199.134042131423,
+      "retail_plus_owned_wholesale_units": 1771036.0947854961,
+      "revenue_m": 43342.518054782995,
+      "GAAP_GP_before_incremental_cost_m": 8199.322444940812,
       "nonGAAP_adjustment_m": 113.20303411226817,
       "incremental_labor_cost_m": 51.56853070014828,
-      "adjusted_EBITDA_m": 4478.685558549461
+      "adjusted_EBITDA_m": 4478.87396135885,
+      "owned_wholesale_GP_change_m": 0.1884028093883875,
+      "owned_wholesale_revenue_change_m": 1.9278518003252028,
+      "wholesale_unit_source": "Supplied Bloomberg consensus"
     },
     {
       "year": 2029,
@@ -174,9 +180,9 @@
           "GAAP_GP_before_incremental_cost_m": 4914.282085436079
         },
         "owned_wholesale": {
-          "units": 706429.6391352802,
-          "revenue_m": 6961.157664039051,
-          "GAAP_GP_before_incremental_cost_m": 680.2917424872747
+          "units": 689835.33,
+          "revenue_m": 6797.63734182,
+          "GAAP_GP_before_incremental_cost_m": 664.3114227899999
         },
         "wholesale_marketplace": {
           "units": null,
@@ -189,198 +195,15 @@
           "GAAP_GP_before_incremental_cost_m": 3776.304733181152
         }
       },
-      "retail_plus_owned_wholesale_units": 2088436.380587443,
-      "revenue_m": 51113.619620835794,
-      "GAAP_GP_before_incremental_cost_m": 9669.62878647901,
+      "retail_plus_owned_wholesale_units": 2071842.0714521627,
+      "revenue_m": 50950.09929861675,
+      "GAAP_GP_before_incremental_cost_m": 9653.648466781735,
       "nonGAAP_adjustment_m": 133.50572289024277,
       "incremental_labor_cost_m": 74.8287904341437,
-      "adjusted_EBITDA_m": 5388.234448591243
-    },
-    {
-      "year": 2030,
-      "businesses": {
-        "retail_used": {
-          "units": 1593006.7414521629,
-          "revenue_m": 45023.49941110053,
-          "GAAP_GP_before_incremental_cost_m": 5664.577644007277
-        },
-        "owned_wholesale": {
-          "units": 814284.868336927,
-          "revenue_m": 8023.963092592079,
-          "GAAP_GP_before_incremental_cost_m": 784.1563282084606
-        },
-        "wholesale_marketplace": {
-          "units": null,
-          "revenue_m": 1517.1495755805925,
-          "GAAP_GP_before_incremental_cost_m": 344.3623744786293
-        },
-        "other_financing_and_ancillary": {
-          "units": null,
-          "revenue_m": 4352.857853221633,
-          "GAAP_GP_before_incremental_cost_m": 4352.857853221633
-        }
-      },
-      "retail_plus_owned_wholesale_units": 2407291.6097890898,
-      "revenue_m": 58917.46993249484,
-      "GAAP_GP_before_incremental_cost_m": 11145.954199916,
-      "nonGAAP_adjustment_m": 153.88891400278501,
-      "incremental_labor_cost_m": 101.8047464070657,
-      "adjusted_EBITDA_m": 6297.1370946680745
-    },
-    {
-      "year": 2031,
-      "businesses": {
-        "retail_used": {
-          "units": 1803962.523765088,
-          "revenue_m": 50985.789019539996,
-          "GAAP_GP_before_incremental_cost_m": 6414.715968766995
-        },
-        "owned_wholesale": {
-          "units": 922117.4951273216,
-          "revenue_m": 9086.545796984627,
-          "GAAP_GP_before_incremental_cost_m": 887.9991478076106
-        },
-        "wholesale_marketplace": {
-          "units": null,
-          "revenue_m": 1718.0598839139845,
-          "GAAP_GP_before_incremental_cost_m": 389.96496498684866
-        },
-        "other_financing_and_ancillary": {
-          "units": null,
-          "revenue_m": 4929.290149350058,
-          "GAAP_GP_before_incremental_cost_m": 4929.290149350058
-        }
-      },
-      "retail_plus_owned_wholesale_units": 2726080.0188924097,
-      "revenue_m": 66719.68484978867,
-      "GAAP_GP_before_incremental_cost_m": 12621.970230911513,
-      "nonGAAP_adjustment_m": 174.26783356288084,
-      "incremental_labor_cost_m": 134.11633371751503,
-      "adjusted_EBITDA_m": 7199.755947128846
-    },
-    {
-      "year": 2032,
-      "businesses": {
-        "retail_used": {
-          "units": 1986165.755057604,
-          "revenue_m": 56135.43896346997,
-          "GAAP_GP_before_incremental_cost_m": 7062.613007611049
-        },
-        "owned_wholesale": {
-          "units": 1015252.9040009473,
-          "revenue_m": 10004.302116025334,
-          "GAAP_GP_before_incremental_cost_m": 977.6885465529123
-        },
-        "wholesale_marketplace": {
-          "units": null,
-          "revenue_m": 1891.5868049443775,
-          "GAAP_GP_before_incremental_cost_m": 429.3520785080213
-        },
-        "other_financing_and_ancillary": {
-          "units": null,
-          "revenue_m": 5427.1566966636,
-          "GAAP_GP_before_incremental_cost_m": 5427.1566966636
-        }
-      },
-      "retail_plus_owned_wholesale_units": 3001418.6590585513,
-      "revenue_m": 73458.48458110329,
-      "GAAP_GP_before_incremental_cost_m": 13896.810329335583,
-      "nonGAAP_adjustment_m": 191.86917614467274,
-      "incremental_labor_cost_m": 164.68641128877448,
-      "adjusted_EBITDA_m": 7972.424507980664
-    },
-    {
-      "year": 2033,
-      "businesses": {
-        "retail_used": {
-          "units": 2110631.741452163,
-          "revenue_m": 59653.24847382336,
-          "GAAP_GP_before_incremental_cost_m": 7505.201997113518
-        },
-        "owned_wholesale": {
-          "units": 1078875.2143819625,
-          "revenue_m": 10631.23636251986,
-          "GAAP_GP_before_incremental_cost_m": 1038.95683144983
-        },
-        "wholesale_marketplace": {
-          "units": null,
-          "revenue_m": 2010.125862889975,
-          "GAAP_GP_before_incremental_cost_m": 456.25805542660186
-        },
-        "other_financing_and_ancillary": {
-          "units": null,
-          "revenue_m": 5767.257420809095,
-          "GAAP_GP_before_incremental_cost_m": 5767.257420809095
-        }
-      },
-      "retail_plus_owned_wholesale_units": 3189506.9558341256,
-      "revenue_m": 78061.8681200423,
-      "GAAP_GP_before_incremental_cost_m": 14767.674304799046,
-      "nonGAAP_adjustment_m": 203.89293911951344,
-      "incremental_labor_cost_m": 198.98888834088902,
-      "adjusted_EBITDA_m": 8477.666169863936
-    },
-    {
-      "year": 2034,
-      "businesses": {
-        "retail_used": {
-          "units": 2230631.741452163,
-          "revenue_m": 63044.834829827676,
-          "GAAP_GP_before_incremental_cost_m": 7931.9103716563795
-        },
-        "owned_wholesale": {
-          "units": 1140214.681226501,
-          "revenue_m": 11235.67546880594,
-          "GAAP_GP_before_incremental_cost_m": 1098.0267380211205
-        },
-        "wholesale_marketplace": {
-          "units": null,
-          "revenue_m": 2124.41159962434,
-          "GAAP_GP_before_incremental_cost_m": 482.19861415880507
-        },
-        "other_financing_and_ancillary": {
-          "units": null,
-          "revenue_m": 6095.154929836855,
-          "GAAP_GP_before_incremental_cost_m": 6095.154929836855
-        }
-      },
-      "retail_plus_owned_wholesale_units": 3370846.4226786643,
-      "revenue_m": 82500.07682809481,
-      "GAAP_GP_before_incremental_cost_m": 15607.29065367316,
-      "nonGAAP_adjustment_m": 215.48527529726258,
-      "incremental_labor_cost_m": 239.6591707627844,
-      "adjusted_EBITDA_m": 8955.388422780281
-    },
-    {
-      "year": 2035,
-      "businesses": {
-        "retail_used": {
-          "units": 2350631.741452163,
-          "revenue_m": 66436.421185832,
-          "GAAP_GP_before_incremental_cost_m": 8358.618746199241
-        },
-        "owned_wholesale": {
-          "units": 1201554.1480710395,
-          "revenue_m": 11840.114575092024,
-          "GAAP_GP_before_incremental_cost_m": 1157.096644592411
-        },
-        "wholesale_marketplace": {
-          "units": null,
-          "revenue_m": 2238.697336358706,
-          "GAAP_GP_before_incremental_cost_m": 508.13917289100834
-        },
-        "other_financing_and_ancillary": {
-          "units": null,
-          "revenue_m": 6423.052438864617,
-          "GAAP_GP_before_incremental_cost_m": 6423.052438864617
-        }
-      },
-      "retail_plus_owned_wholesale_units": 3552185.8895232026,
-      "revenue_m": 86938.28553614735,
-      "GAAP_GP_before_incremental_cost_m": 16446.907002547276,
-      "nonGAAP_adjustment_m": 227.07761147501174,
-      "incremental_labor_cost_m": 284.519937171987,
-      "adjusted_EBITDA_m": 9428.07963880399
+      "adjusted_EBITDA_m": 5372.254128893967,
+      "owned_wholesale_GP_change_m": -15.980319697274945,
+      "owned_wholesale_revenue_change_m": -163.52032221905225,
+      "wholesale_unit_source": "Supplied Bloomberg consensus"
     }
   ],
   "comparison": [
@@ -394,22 +217,22 @@
           "difference_pct": -5.594637113252777
         },
         "owned_wholesale_units": {
-          "ours": 501957.40766810084,
+          "ours": 504779.87,
           "consensus": 504779.87,
-          "difference": -2822.4623318991507,
-          "difference_pct": -0.5591471648620172
+          "difference": 0.0,
+          "difference_pct": 0.0
         },
         "revenue_m": {
-          "ours": 36319.05936564881,
+          "ours": 36346.87190946735,
           "consensus": 37393.04,
-          "difference": -1073.9806343511882,
-          "difference_pct": -2.8721404687909513
+          "difference": -1046.1680905326502,
+          "difference_pct": -2.7977615367262176
         },
         "adjusted_EBITDA_m": {
-          "ours": 3669.0369486957584,
+          "ours": 3671.754979921377,
           "consensus": 3884.67,
-          "difference": -215.6330513042417,
-          "difference_pct": -5.550871793594869
+          "difference": -212.915020078623,
+          "difference_pct": -5.480903656645819
         },
         "capex_outflow_m": {
           "ours": 290.4562963846226,
@@ -425,7 +248,6 @@
         }
       },
       "consensus_wholesale_to_retail_ratio": 0.48527797024048763,
-      "owned_wholesale_at_consensus_ratio": 476539.26805275085,
       "marketplace_flat_vs_proportional_GP_change_m": -24.308979329787746
     },
     {
@@ -438,22 +260,22 @@
           "difference_pct": -4.593469907246817
         },
         "owned_wholesale_units": {
-          "ours": 599000.3784533871,
+          "ours": 599196.02,
           "consensus": 599196.02,
-          "difference": -195.6415466129547,
-          "difference_pct": -0.03265067525197729
+          "difference": 0.0,
+          "difference_pct": 0.0
         },
         "revenue_m": {
-          "ours": 43340.590202982676,
+          "ours": 43342.518054782995,
           "consensus": 45267.94,
-          "difference": -1927.3497970173266,
-          "difference_pct": -4.257648563237748
+          "difference": -1925.4219452170073,
+          "difference_pct": -4.253389805714614
         },
         "adjusted_EBITDA_m": {
-          "ours": 4478.685558549461,
+          "ours": 4478.87396135885,
           "consensus": 4825.6,
-          "difference": -346.914441450539,
-          "difference_pct": -7.189042636160037
+          "difference": -346.7260386411508,
+          "difference_pct": -7.18513840022279
         },
         "capex_outflow_m": {
           "ours": 314.2501894187669,
@@ -469,7 +291,6 @@
         }
       },
       "consensus_wholesale_to_retail_ratio": 0.4878414243006011,
-      "owned_wholesale_at_consensus_ratio": 571672.1311358794,
       "marketplace_flat_vs_proportional_GP_change_m": -65.3486070393549
     },
     {
@@ -482,22 +303,22 @@
           "difference_pct": -5.448845519467538
         },
         "owned_wholesale_units": {
-          "ours": 706429.6391352802,
+          "ours": 689835.33,
           "consensus": 689835.33,
-          "difference": 16594.3091352802,
-          "difference_pct": 2.405546427330729
+          "difference": 0.0,
+          "difference_pct": 0.0
         },
         "revenue_m": {
-          "ours": 51113.619620835794,
+          "ours": 50950.09929861675,
           "consensus": 52487.75,
-          "difference": -1374.1303791642058,
-          "difference_pct": -2.618002065556646
+          "difference": -1537.6507013832525,
+          "difference_pct": -2.9295420386342585
         },
         "adjusted_EBITDA_m": {
-          "ours": 5388.234448591243,
+          "ours": 5372.254128893967,
           "consensus": 5791.75,
-          "difference": -403.51555140875735,
-          "difference_pct": -6.967074742672896
+          "difference": -419.4958711060326,
+          "difference_pct": -7.2429899616874405
         },
         "capex_outflow_m": {
           "ours": 341.3565486254156,
@@ -513,17 +334,24 @@
         }
       },
       "consensus_wholesale_to_retail_ratio": 0.4719566475082697,
-      "owned_wholesale_at_consensus_ratio": 652247.2685295909,
       "marketplace_flat_vs_proportional_GP_change_m": -110.78061337450532
     }
   ],
+  "wholesale_materiality_2025": {
+    "unit_share": 0.33282827379221813,
+    "revenue_share": 0.1993898238362366,
+    "gross_profit_share": 0.11474236641221373,
+    "owned_wholesale_GP_share": 0.07204198473282443,
+    "marketplace_GP_share": 0.04270038167938931,
+    "source": "User business-breakdown and company-specific screenshots, FY2025 actual columns"
+  },
   "limitations": [
     "2025 is actual; 2026 onward estimates. No FY2026 model comparison: existing anchor is Q3 annualized, not FY2026.",
-    "Owned wholesale forecast holds Q3 wholesale/retail ratio constant. This is a newly explicit placeholder, not an independent procurement or trade-in forecast.",
+    "Owned wholesale units use supplied consensus exactly for 2027\u20132029. No post-2029 wholesale forecast is supplied or inferred; annual business split stops in 2029. This supersedes the constant-ratio placeholder.",
     "Marketplace growth remains proportional to retail solely to reproduce prior aggregate model. Auction transaction volumes and fee forecasts remain unknown.",
     "Wholesale revenue/GP split uses reported rounded per-owned-wholesale-unit metrics and residuals; approximate, not exact separately reported quarterly balances.",
     "Wholesale GPU displayed in Bloomberg company-specific section is per RETAIL unit and includes marketplace. Never multiply it by wholesale units.",
-    "Category split reconciles to prior model; no wholesale contribution or extra recon labor is added on top. Prior labor assumption is per retail unit, not per total transactions.",
+    "Replace prior implied owned-wholesale revenue and GP with consensus units times existing Q3 unit economics. Only the difference enters earnings; SG&A and capex are unchanged pending wholesale-specific cost calibration. Revised EBITDA is therefore a mechanical bridge, not a fully recosted forecast. Original cost-layer output remains a historical scenario, not the current wholesale assumption.",
     "Non-GAAP gross profit adjustment is kept unallocated; compare GAAP with GAAP, adjusted with adjusted.",
     "Bloomberg contributor populations differ by metric. Component sums and products of independently averaged inputs need not reproduce headline consensus.",
     "Business-breakdown screenshot has material anomalies: 2025 used margin 43.40 vs 1978/14537=13.61%; 2028 used cost 41349.69m exceeds revenue34307.98m while GP4264m is positive. Do not import those cost or margin rows without checking mappings.",
