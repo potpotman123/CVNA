@@ -1,4 +1,6 @@
-# Working ramp for standard ADESA integrations
+# Earlier ramp proposal — superseded
+
+**Current assumptions and sources:** [Peer reconditioning ramp benchmarks](adesa-peer-ramp-evidence-2026-11-01.md). User removed the 90% endpoint; new peer evidence supports a proposed nine-month base. The calculator now implements the replacement assumptions; the text below preserves the superseded proposal.
 
 November 1, 2026. Supersedes the ungrounded 50%/80%/90% annual schedule proposed in chat. This is a benchmark-informed assumption, not a measured ADESA cohort fit. No workbook created.
 
