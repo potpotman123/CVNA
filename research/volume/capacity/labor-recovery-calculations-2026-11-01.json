@@ -1,0 +1,331 @@
+{
+  "as_of": "2026-11-01",
+  "source": "staffing-panel-data.json; original OSHA URLs and retrieval metadata in that file",
+  "status": "Historical calculations and conditional arithmetic only; user stopped workbook/model creation.",
+  "sites": [
+    {
+      "site": "Carvana Bessemer",
+      "establishment_id": "940853",
+      "annual_hours": {
+        "2022": 775173,
+        "2023": 315963,
+        "2024": 341144,
+        "2025": 667812
+      },
+      "annual_average_employees": {
+        "2022": 430,
+        "2023": 164,
+        "2024": 258,
+        "2025": 336
+      },
+      "historical_hours_target": 775173,
+      "additional_hours": 107361,
+      "hours_growth_to_target": 0.16076530520565657,
+      "provisional_bin": "Original IRC below 2022 hours"
+    },
+    {
+      "site": "Carvana Tolleson",
+      "establishment_id": "1010782",
+      "annual_hours": {
+        "2022": 1456463,
+        "2023": 603051,
+        "2024": 624628,
+        "2025": 1225532
+      },
+      "annual_average_employees": {
+        "2022": 796,
+        "2023": 320,
+        "2024": 472,
+        "2025": 572
+      },
+      "historical_hours_target": 1456463,
+      "additional_hours": 230931,
+      "hours_growth_to_target": 0.18843326816435635,
+      "provisional_bin": "Original IRC below 2022 hours"
+    },
+    {
+      "site": "Carvana Haines City",
+      "establishment_id": "1010878",
+      "annual_hours": {
+        "2022": 1295143,
+        "2023": 663009,
+        "2024": 496155,
+        "2025": 896613
+      },
+      "annual_average_employees": {
+        "2022": 716,
+        "2023": 296,
+        "2024": 350,
+        "2025": 486
+      },
+      "historical_hours_target": 1295143,
+      "additional_hours": 398530,
+      "hours_growth_to_target": 0.4444838520074994,
+      "provisional_bin": "Original IRC below 2022 hours"
+    },
+    {
+      "site": "Carvana Winder",
+      "establishment_id": "1010912",
+      "annual_hours": {
+        "2022": 1197662,
+        "2023": 650363,
+        "2024": 553371,
+        "2025": 891782
+      },
+      "annual_average_employees": {
+        "2022": 665,
+        "2023": 371,
+        "2024": 407,
+        "2025": 465
+      },
+      "historical_hours_target": 1197662,
+      "additional_hours": 305880,
+      "hours_growth_to_target": 0.3429986252245505,
+      "provisional_bin": "Original IRC below 2022 hours"
+    },
+    {
+      "site": "Carvana Indianapolis",
+      "establishment_id": "1010981",
+      "annual_hours": {
+        "2022": 1293836,
+        "2023": 843912,
+        "2024": 734132,
+        "2025": 1110342
+      },
+      "annual_average_employees": {
+        "2022": 735,
+        "2023": 467,
+        "2024": 481,
+        "2025": 565
+      },
+      "historical_hours_target": 1293836,
+      "additional_hours": 183494,
+      "hours_growth_to_target": 0.1652589922744523,
+      "provisional_bin": "Original IRC below 2022 hours"
+    },
+    {
+      "site": "Carvana Concord",
+      "establishment_id": "1011012",
+      "annual_hours": {
+        "2022": 1196415,
+        "2023": 671850,
+        "2024": 634031,
+        "2025": 1125230
+      },
+      "annual_average_employees": {
+        "2022": 673,
+        "2023": 394,
+        "2024": 429,
+        "2025": 635
+      },
+      "historical_hours_target": 1196415,
+      "additional_hours": 71185,
+      "hours_growth_to_target": 0.06326262186397447,
+      "provisional_bin": "Original IRC below 2022 hours"
+    },
+    {
+      "site": "Carvana Delanco",
+      "establishment_id": "1011025",
+      "annual_hours": {
+        "2022": 1057436,
+        "2023": 720504,
+        "2024": 569274,
+        "2025": 868453
+      },
+      "annual_average_employees": {
+        "2022": 605,
+        "2023": 388,
+        "2024": 385,
+        "2025": 437
+      },
+      "historical_hours_target": 1057436,
+      "additional_hours": 188983,
+      "hours_growth_to_target": 0.21760878251327354,
+      "provisional_bin": "Original IRC below 2022 hours"
+    },
+    {
+      "site": "Carvana Elyria",
+      "establishment_id": "1011155",
+      "annual_hours": {
+        "2022": 849043,
+        "2023": 457933,
+        "2024": 483726,
+        "2025": 804260
+      },
+      "annual_average_employees": {
+        "2022": 482,
+        "2023": 322,
+        "2024": 325,
+        "2025": 463
+      },
+      "historical_hours_target": 849043,
+      "additional_hours": 44783,
+      "hours_growth_to_target": 0.05568224206102501,
+      "provisional_bin": "Original IRC below 2022 hours"
+    },
+    {
+      "site": "Carvana Heath",
+      "establishment_id": "1011185",
+      "annual_hours": {
+        "2022": 860768,
+        "2023": 432722,
+        "2024": 399106,
+        "2025": 664858
+      },
+      "annual_average_employees": {
+        "2022": 492,
+        "2023": 327,
+        "2024": 260,
+        "2025": 417
+      },
+      "historical_hours_target": 860768,
+      "additional_hours": 195910,
+      "hours_growth_to_target": 0.2946644245838961,
+      "provisional_bin": "Original IRC below 2022 hours"
+    },
+    {
+      "site": "Carvana Oklahoma City",
+      "establishment_id": "1011274",
+      "annual_hours": {
+        "2022": 456000,
+        "2023": 349422,
+        "2024": 461962,
+        "2025": 803337
+      },
+      "annual_average_employees": {
+        "2022": 228,
+        "2023": 228,
+        "2024": 325,
+        "2025": 397
+      },
+      "historical_hours_target": 803337,
+      "additional_hours": 0,
+      "hours_growth_to_target": 0.0,
+      "provisional_bin": "Original IRC at or above 2022 hours"
+    },
+    {
+      "site": "Carvana Blue Mound",
+      "establishment_id": "1012465",
+      "annual_hours": {
+        "2022": 1330387,
+        "2023": 658901,
+        "2024": 617747,
+        "2025": 929556
+      },
+      "annual_average_employees": {
+        "2022": 756,
+        "2023": 400,
+        "2024": 398,
+        "2025": 523
+      },
+      "historical_hours_target": 1330387,
+      "additional_hours": 400831,
+      "hours_growth_to_target": 0.4312069418087776,
+      "provisional_bin": "Original IRC below 2022 hours"
+    },
+    {
+      "site": "Carvana San Antonio",
+      "establishment_id": "1012613",
+      "annual_hours": {
+        "2022": 324079,
+        "2023": 231781,
+        "2024": 343892,
+        "2025": 759059
+      },
+      "annual_average_employees": {
+        "2022": 170,
+        "2023": 131,
+        "2024": 245,
+        "2025": 435
+      },
+      "historical_hours_target": 759059,
+      "additional_hours": 0,
+      "hours_growth_to_target": 0.0,
+      "provisional_bin": "Original IRC at or above 2022 hours"
+    },
+    {
+      "site": "Carvana Chesterfield",
+      "establishment_id": "1012681",
+      "annual_hours": {
+        "2022": 582000,
+        "2023": 442907,
+        "2024": 520954,
+        "2025": 1072621
+      },
+      "annual_average_employees": {
+        "2022": 291,
+        "2023": 306,
+        "2024": 389,
+        "2025": 616
+      },
+      "historical_hours_target": 1072621,
+      "additional_hours": 0,
+      "hours_growth_to_target": 0.0,
+      "provisional_bin": "Original IRC at or above 2022 hours"
+    },
+    {
+      "site": "Carvana Rocklin",
+      "establishment_id": "1012758",
+      "annual_hours": {
+        "2022": 346000,
+        "2023": 367861,
+        "2024": 464826,
+        "2025": 864903
+      },
+      "annual_average_employees": {
+        "2022": 173,
+        "2023": 242,
+        "2024": 324,
+        "2025": 459
+      },
+      "historical_hours_target": 864903,
+      "additional_hours": 0,
+      "hours_growth_to_target": 0.0,
+      "provisional_bin": "Original IRC at or above 2022 hours"
+    }
+  ],
+  "matched_history": {
+    "2022": {
+      "hours": 13020405,
+      "annual_average_employees": 7212
+    },
+    "2023": {
+      "hours": 7410179,
+      "annual_average_employees": 4356
+    },
+    "2024": {
+      "hours": 7244948,
+      "annual_average_employees": 5048
+    },
+    "2025": {
+      "hours": 12684358,
+      "annual_average_employees": 6806
+    }
+  },
+  "recovery": {
+    "baseline_2025_hours": 12684358,
+    "target_hours": 14812246,
+    "additional_hours": 2127888,
+    "growth": 0.1677568545447865,
+    "two_year_cagr_if_recovery_completed": 0.08062799082051653,
+    "three_year_cagr_if_recovery_completed": 0.053054403176415965
+  },
+  "output_translation": {
+    "formula": "additional production = starting production of these same 14 sites * recovery growth",
+    "starting_production_for_14_sites": null,
+    "additional_vehicles": null,
+    "assumption": "Constant labor hours per acceptable completed vehicle; equipment, mix and downstream capacity permit proportional output."
+  },
+  "rejected_companywide_shortcut": {
+    "companywide_2025_retail_sales": 596641,
+    "mechanical_increment": 100090.61745245596,
+    "reason": "Wrong population and metric: 14-site hours growth applied to all-company retail sales. Not a forecast; do not add ADESA contributions to this number."
+  },
+  "limitations": [
+    "2025 annual hours are not current 2026 staffing or an exit run rate.",
+    "Recovery may already have occurred in 2026; no additional two-year horizon from today is established.",
+    "2022 hours are a historical benchmark, not an efficient staffing requirement or physical ceiling.",
+    "Employer-reported establishment scope/address changes and support functions limit comparability.",
+    "Timing of recovery is assumed, not measured; no future productivity improvement credited."
+  ]
+}
