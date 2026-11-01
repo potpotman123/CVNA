@@ -111,3 +111,7 @@ Important counterevidence: Q3 2026 company operating income increased from $552m
 ## Pitch-ready version
 
 “We underwrite further volume growth because a broader, faster-delivered selection can convert more demand, while Carvana still has identifiable ways to expand production within its existing property network. The strongest evidence is uneven historical labor recovery, line and shift ramps, additional ADESA integrations, and the potential maturation of recently hired workers—not empty parking lots. Our initial case gives no credit for future labor-productivity improvement. Profitable absorption and incremental cash returns remain conditions to test, not conclusions already established.”
+
+## Geographic test added November 1
+
+[Facility proximity study and interactive map](geography/README.md): median straight-line distance to assigned city reference points is 12.5 miles for 21 integrated ADESA candidates versus 19.6 miles for 17 located original IRCs. Strict-coordinate results retain the difference. Atlanta supports a central-proximity advantage; Chicago and Phoenix do not. Dallas–Fort Worth reverses depending on the selected downtown, supporting complementary geographic coverage. Use this as evidence of location differences, not a measured delivery, labor or sales uplift. Two facilities remain unmatched; five coordinates are approximate; roster and city-reference limitations are documented.

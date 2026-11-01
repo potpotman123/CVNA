@@ -1,0 +1,30 @@
+{
+  "as_of": "2026-11-01",
+  "classification_cutoff": "2026-09-30",
+  "method": "Straight-line Haversine miles from facility address coordinates to a GeoNames populated-place city reference; not road distance or an exact downtown boundary. Assign cities before calculating distances. No choosing the nearest town to favor a group.",
+  "original_cities": {
+    "Bessemer": "Birmingham,AL", "Tolleson": "Phoenix,AZ", "West Memphis": "Memphis,TN", "Rocklin": "Sacramento,CA", "Haines City": "Orlando,FL", "Winder": "Atlanta,GA", "University Park": "Chicago,IL", "Indianapolis": "Indianapolis,IN", "Concord": "Charlotte,NC", "Delanco": "Philadelphia,PA", "Elyria": "Cleveland,OH", "Heath": "Columbus,OH", "Trenton": "Cincinnati,OH", "Oklahoma City": "Oklahoma City,OK", "Blue Mound": "Dallas,TX", "San Antonio": "San Antonio,TX", "Tooele": "Salt Lake City,UT", "Chesterfield": "Richmond,VA"
+  },
+  "adesa_cities": {
+    "Atlanta":"Atlanta,GA", "Austin":"Austin,TX", "Birmingham":"Birmingham,AL", "Boise":"Boise,ID", "Boston":"Boston,MA", "Brasher's":"Sacramento,CA", "Buffalo":"Buffalo,NY", "Charlotte":"Charlotte,NC", "Chicago":"Chicago,IL", "Cincinnati/Dayton":"Cincinnati,OH", "Cleveland":"Cleveland,OH", "Colorado Springs":"Colorado Springs,CO", "Concord":"Boston,MA", "Dallas":"Dallas,TX", "Des Moines":"Des Moines,IA", "Fargo":"Fargo,ND", "Flint":"Flint,MI", "Golden Gate":"San Francisco,CA", "Houston":"Houston,TX", "Indianapolis":"Indianapolis,IN", "Jacksonville":"Jacksonville,FL", "Kansas City":"Kansas City,MO", "Knoxville":"Knoxville,TN", "Lansing":"Lansing,MI", "Las Vegas":"Las Vegas,NV", "Lexington":"Lexington-Fayette,KY", "Little Rock":"Little Rock,AR", "Long Island":"New York City,NY", "Los Angeles":"Los Angeles,CA", "Memphis":"Memphis,TN", "Mercer":"Youngstown,OH", "Minneapolis":"Minneapolis,MN", "Nashville":"Nashville,TN", "New Jersey":"Newark,NJ", "Northwest":"Eugene,OR", "Ocala":"Ocala,FL", "Orlando":"Orlando,FL", "PA":"York,PA", "Phoenix":"Phoenix,AZ", "Pittsburgh":"Pittsburgh,PA", "Portland":"Portland,OR", "Queen City":"Cincinnati,OH", "Raleigh":"Raleigh,NC", "Reno":"Reno,NV", "Sacramento":"Sacramento,CA", "Salt Lake":"Salt Lake City,UT", "San Antonio":"San Antonio,TX", "San Diego":"San Diego,CA", "Sarasota":"Sarasota,FL", "Seattle":"Seattle,WA", "Shreveport":"Shreveport,LA", "Sioux Falls":"Sioux Falls,SD", "St. Louis":"St. Louis,MO", "Syracuse":"Syracuse,NY", "Tampa":"Tampa,FL", "Tulsa":"Tulsa,OK", "Washington D.C.":"Washington,DC"
+  },
+  "alternatives": {
+    "Carvana Haines City":["Lakeland,FL"],
+    "Carvana Blue Mound":["Fort Worth,TX"],
+    "ADESA Dallas":["Fort Worth,TX"],
+    "Carvana Trenton":["Dayton,OH"],
+    "ADESA Cincinnati/Dayton":["Dayton,OH"],
+    "ADESA Golden Gate":["Oakland,CA","San Jose,CA","Stockton,CA"],
+    "ADESA Long Island":["Brentwood,NY"],
+    "ADESA Los Angeles":["Riverside,CA"],
+    "ADESA Mercer":["Pittsburgh,PA"],
+    "ADESA New Jersey":["New York City,NY","Trenton,NJ"],
+    "ADESA PA":["Harrisburg,PA"],
+    "ADESA Sarasota":["Bradenton,FL"]
+  },
+  "exclude_from_primary_statistics": ["ADESA Queen City"],
+  "exclusion_reason": "57 directory records versus 56 acquired sites remains unresolved; Queen City retained on map but current operation/inclusion not verified. All 57 also shown as sensitivity.",
+  "ambiguity_note": "Alternative points are transparent sensitivities, not matched demand catchments. Long Island, Golden Gate, New Jersey, Mercer, PA and Los Angeles have especially ambiguous city associations. City reference points may not coincide with a central business district. DFW primary uses Dallas for both sites, alternative uses Fort Worth for both.",
+  "address_correction": {"Carvana Delanco":"600 Creek Road, Delanco, NJ 08075"},
+  "delanco_source": "https://www.delancotownship.com/filestorage/5328/6391/6479/6752/2019__Master_Plan_Reexamination_Report.pdf"
+}

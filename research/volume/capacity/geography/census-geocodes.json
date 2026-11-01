@@ -1,0 +1,2087 @@
+[
+  {
+    "name": "ADESA Atlanta",
+    "query": "5055 Oakley Industrial Boulevard, Fairburn, GA 30213-6064",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=5055+Oakley+Industrial+Boulevard%2C+Fairburn%2C+GA+30213-6064&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "R",
+          "tigerLineId": "17429291"
+        },
+        "coordinates": {
+          "x": -84.553948892352,
+          "y": 33.547086976644
+        },
+        "addressComponents": {
+          "zip": "30213",
+          "streetName": "OAKLEY IND",
+          "preType": "",
+          "city": "FAIRBURN",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "5099",
+          "state": "GA",
+          "suffixType": "BLVD",
+          "toAddress": "4901",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "5055 OAKLEY IND BLVD, FAIRBURN, GA, 30213"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Austin",
+    "query": "2108 Ferguson Lane, Austin, TX 78754",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=2108+Ferguson+Lane%2C+Austin%2C+TX+78754&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "L",
+          "tigerLineId": "64022313"
+        },
+        "coordinates": {
+          "x": -97.668392772022,
+          "y": 30.344484803351
+        },
+        "addressComponents": {
+          "zip": "78754",
+          "streetName": "FERGUSON",
+          "preType": "",
+          "city": "AUSTIN",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "2100",
+          "state": "TX",
+          "suffixType": "LN",
+          "toAddress": "2598",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "2108 FERGUSON LN, AUSTIN, TX, 78754"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Birmingham",
+    "query": "804 Sollie Drive, Moody, AL 35004",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=804+Sollie+Drive%2C+Moody%2C+AL+35004&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "R",
+          "tigerLineId": "66861899"
+        },
+        "coordinates": {
+          "x": -86.511147094312,
+          "y": 33.579033575632
+        },
+        "addressComponents": {
+          "zip": "35004",
+          "streetName": "SOLLIE",
+          "preType": "",
+          "city": "MOODY",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "800",
+          "state": "AL",
+          "suffixType": "DR",
+          "toAddress": "898",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "804 SOLLIE DR, MOODY, AL, 35004"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Boise",
+    "query": "7355 South Eisenman Rd, Boise, ID 83716",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=7355+South+Eisenman+Rd%2C+Boise%2C+ID+83716&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "R",
+          "tigerLineId": "657807936"
+        },
+        "coordinates": {
+          "x": -116.163650187571,
+          "y": 43.539506803802
+        },
+        "addressComponents": {
+          "zip": "83716",
+          "streetName": "EISENMAN",
+          "preType": "",
+          "city": "BOISE",
+          "preDirection": "S",
+          "suffixDirection": "",
+          "fromAddress": "7301",
+          "state": "ID",
+          "suffixType": "RD",
+          "toAddress": "7999",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "7355 S EISENMAN RD, BOISE, ID, 83716"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Boston",
+    "query": "63 Western Avenue, Framingham, MA 01702",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=63+Western+Avenue%2C+Framingham%2C+MA+01702&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "R",
+          "tigerLineId": "87103095"
+        },
+        "coordinates": {
+          "x": -71.406363714001,
+          "y": 42.268543651462
+        },
+        "addressComponents": {
+          "zip": "01702",
+          "streetName": "WESTERN",
+          "preType": "",
+          "city": "FRAMINGHAM",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "1",
+          "state": "MA",
+          "suffixType": "AVE",
+          "toAddress": "199",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "63 WESTERN AVE, FRAMINGHAM, MA, 01702"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Brasher's",
+    "query": "6233 Blacktop Rd, Rio Linda, CA 95673",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=6233+Blacktop+Rd%2C+Rio+Linda%2C+CA+95673&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "R",
+          "tigerLineId": "133393416"
+        },
+        "coordinates": {
+          "x": -121.480745374376,
+          "y": 38.67939457228
+        },
+        "addressComponents": {
+          "zip": "95673",
+          "streetName": "BLACKTOP",
+          "preType": "",
+          "city": "RIO LINDA",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "6299",
+          "state": "CA",
+          "suffixType": "RD",
+          "toAddress": "6201",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "6233 BLACKTOP RD, RIO LINDA, CA, 95673"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Buffalo",
+    "query": "12200 Main Street, Akron, NY 14001",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=12200+Main+Street%2C+Akron%2C+NY+14001&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "L",
+          "tigerLineId": "48335449"
+        },
+        "coordinates": {
+          "x": -78.529372442403,
+          "y": 42.996444382437
+        },
+        "addressComponents": {
+          "zip": "14001",
+          "streetName": "MAIN",
+          "preType": "",
+          "city": "AKRON",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "12028",
+          "state": "NY",
+          "suffixType": "RD",
+          "toAddress": "12214",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "12200 MAIN RD, AKRON, NY, 14001"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Charlotte",
+    "query": "11600 Fruehauf Drive, Charlotte, NC 28273-6506",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=11600+Fruehauf+Drive%2C+Charlotte%2C+NC+28273-6506&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "R",
+          "tigerLineId": "70571225"
+        },
+        "coordinates": {
+          "x": -80.958883990214,
+          "y": 35.132486562631
+        },
+        "addressComponents": {
+          "zip": "28273",
+          "streetName": "FRUEHAUF",
+          "preType": "",
+          "city": "CHARLOTTE",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "11600",
+          "state": "NC",
+          "suffixType": "DR",
+          "toAddress": "11698",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "11600 FRUEHAUF DR, CHARLOTTE, NC, 28273"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Chicago",
+    "query": "2785 Beverly Road, Hoffman Estates, IL 60169",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=2785+Beverly+Road%2C+Hoffman+Estates%2C+IL+60169&benchmark=Public_AR_Current&format=json",
+    "matches": [],
+    "error": null
+  },
+  {
+    "name": "ADESA Cincinnati/Dayton",
+    "query": "4400 William C Good Blvd, Franklin, OH 45005",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=4400+William+C+Good+Blvd%2C+Franklin%2C+OH+45005&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "L",
+          "tigerLineId": "159018630"
+        },
+        "coordinates": {
+          "x": -84.290367591091,
+          "y": 39.540716792344
+        },
+        "addressComponents": {
+          "zip": "45005",
+          "streetName": "WILLIAM C GOOD",
+          "preType": "",
+          "city": "FRANKLIN",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "4400",
+          "state": "OH",
+          "suffixType": "BLVD",
+          "toAddress": "5998",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "4400 WILLIAM C GOOD BLVD, FRANKLIN, OH, 45005"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Cleveland",
+    "query": "210 East Twinsburg Road, Northfield, OH 44067",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=210+East+Twinsburg+Road%2C+Northfield%2C+OH+44067&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "R",
+          "tigerLineId": "656529083"
+        },
+        "coordinates": {
+          "x": -81.507357320788,
+          "y": 41.282676066899
+        },
+        "addressComponents": {
+          "zip": "44067",
+          "streetName": "TWINSBURG",
+          "preType": "",
+          "city": "NORTHFIELD",
+          "preDirection": "",
+          "suffixDirection": "E",
+          "fromAddress": "138",
+          "state": "OH",
+          "suffixType": "RD",
+          "toAddress": "246",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "210 TWINSBURG RD E, NORTHFIELD, OH, 44067"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Colorado Springs",
+    "query": "10680 Charter Oak Ranch Rd., Fountain, CO 80817",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=10680+Charter+Oak+Ranch+Rd.%2C+Fountain%2C+CO+80817&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "L",
+          "tigerLineId": "610816494"
+        },
+        "coordinates": {
+          "x": -104.715127267357,
+          "y": 38.67748520621
+        },
+        "addressComponents": {
+          "zip": "80817",
+          "streetName": "CHARTER OAK RANCH",
+          "preType": "",
+          "city": "FOUNTAIN",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "10600",
+          "state": "CO",
+          "suffixType": "RD",
+          "toAddress": "10698",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "10680 CHARTER OAK RANCH RD, FOUNTAIN, CO, 80817"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Concord",
+    "query": "77 Hosmer Street, Acton, MA 01720",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=77+Hosmer+Street%2C+Acton%2C+MA+01720&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "L",
+          "tigerLineId": "87099218"
+        },
+        "coordinates": {
+          "x": -71.426808300112,
+          "y": 42.472166927331
+        },
+        "addressComponents": {
+          "zip": "01720",
+          "streetName": "HOSMER",
+          "preType": "",
+          "city": "ACTON",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "77",
+          "state": "MA",
+          "suffixType": "ST",
+          "toAddress": "53",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "77 HOSMER ST, ACTON, MA, 01720"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Dallas",
+    "query": "3501 Lancaster-Hutchins Rd, Hutchins, TX 75141",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=3501+Lancaster-Hutchins+Rd%2C+Hutchins%2C+TX+75141&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "L",
+          "tigerLineId": "102959501"
+        },
+        "coordinates": {
+          "x": -96.735750288442,
+          "y": 32.618638501762
+        },
+        "addressComponents": {
+          "zip": "75141",
+          "streetName": "LANCASTER HUTCHINS",
+          "preType": "",
+          "city": "HUTCHINS",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "3501",
+          "state": "TX",
+          "suffixType": "RD",
+          "toAddress": "3599",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "3501 LANCASTER HUTCHINS RD, HUTCHINS, TX, 75141"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Des Moines",
+    "query": "1800 SE Gateway Dr, Grimes, IA 50111",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1800+SE+Gateway+Dr%2C+Grimes%2C+IA+50111&benchmark=Public_AR_Current&format=json",
+    "matches": [],
+    "error": null
+  },
+  {
+    "name": "ADESA Fargo",
+    "query": "1650 E. Main Avenue, West Fargo, ND 58078",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1650+E.+Main+Avenue%2C+West+Fargo%2C+ND+58078&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "R",
+          "tigerLineId": "151450359"
+        },
+        "coordinates": {
+          "x": -96.872245008839,
+          "y": 46.876510291911
+        },
+        "addressComponents": {
+          "zip": "58078",
+          "streetName": "MAIN",
+          "preType": "",
+          "city": "WEST FARGO",
+          "preDirection": "",
+          "suffixDirection": "E",
+          "fromAddress": "1698",
+          "state": "ND",
+          "suffixType": "AVE",
+          "toAddress": "1200",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "1650 MAIN AVE E, WEST FARGO, ND, 58078"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Flint",
+    "query": "3711 Western Rd., Flint, MI 48506",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=3711+Western+Rd.%2C+Flint%2C+MI+48506&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "L",
+          "tigerLineId": "69570141"
+        },
+        "coordinates": {
+          "x": -83.655455212857,
+          "y": 43.049339705699
+        },
+        "addressComponents": {
+          "zip": "48506",
+          "streetName": "WESTERN",
+          "preType": "",
+          "city": "FLINT",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "3501",
+          "state": "MI",
+          "suffixType": "RD",
+          "toAddress": "4099",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "3711 WESTERN RD, FLINT, MI, 48506"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Golden Gate",
+    "query": "18501 Stanford Road, Tracy, CA 95377",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=18501+Stanford+Road%2C+Tracy%2C+CA+95377&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "R",
+          "tigerLineId": "133916248"
+        },
+        "coordinates": {
+          "x": -121.535270119782,
+          "y": 37.729237231077
+        },
+        "addressComponents": {
+          "zip": "95377",
+          "streetName": "STANFORD",
+          "preType": "",
+          "city": "TRACY",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "18501",
+          "state": "CA",
+          "suffixType": "RD",
+          "toAddress": "18599",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "18501 STANFORD RD, TRACY, CA, 95377"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Houston",
+    "query": "4526 N. Sam Houston Pkwy., Houston, TX 77086",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=4526+N.+Sam+Houston+Pkwy.%2C+Houston%2C+TX+77086&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "L",
+          "tigerLineId": "638179398"
+        },
+        "coordinates": {
+          "x": -95.492743073941,
+          "y": 29.937667556739
+        },
+        "addressComponents": {
+          "zip": "77086",
+          "streetName": "SAM HOUSTON",
+          "preType": "",
+          "city": "HOUSTON",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "4598",
+          "state": "TX",
+          "suffixType": "PKWY",
+          "toAddress": "4000",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "4526 SAM HOUSTON PKWY, HOUSTON, TX, 77086"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Indianapolis",
+    "query": "2950 East Main Street, Plainfield, IN 46168",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=2950+East+Main+Street%2C+Plainfield%2C+IN+46168&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "R",
+          "tigerLineId": "89205409"
+        },
+        "coordinates": {
+          "x": -86.344876076869,
+          "y": 39.722832297045
+        },
+        "addressComponents": {
+          "zip": "46168",
+          "streetName": "MAIN",
+          "preType": "",
+          "city": "PLAINFIELD",
+          "preDirection": "E",
+          "suffixDirection": "",
+          "fromAddress": "2998",
+          "state": "IN",
+          "suffixType": "ST",
+          "toAddress": "2910",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "2950 E MAIN ST, PLAINFIELD, IN, 46168"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Jacksonville",
+    "query": "11700 New Kings Road, Jacksonville, FL 32219",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=11700+New+Kings+Road%2C+Jacksonville%2C+FL+32219&benchmark=Public_AR_Current&format=json",
+    "matches": [],
+    "error": null
+  },
+  {
+    "name": "ADESA Kansas City",
+    "query": "15511 ADESA Drive, Belton, MO 64012",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=15511+ADESA+Drive%2C+Belton%2C+MO+64012&benchmark=Public_AR_Current&format=json",
+    "matches": [],
+    "error": null
+  },
+  {
+    "name": "ADESA Knoxville",
+    "query": "1011 Adesa Pkwy, Lenoir City, TN 37771",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1011+Adesa+Pkwy%2C+Lenoir+City%2C+TN+37771&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "L",
+          "tigerLineId": "615290721"
+        },
+        "coordinates": {
+          "x": -84.284638867731,
+          "y": 35.823387668937
+        },
+        "addressComponents": {
+          "zip": "37771",
+          "streetName": "ADESSA",
+          "preType": "",
+          "city": "LENOIR CITY",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "1001",
+          "state": "TN",
+          "suffixType": "PKWY",
+          "toAddress": "1099",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "1011 ADESSA PKWY, LENOIR CITY, TN, 37771"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Lansing",
+    "query": "6956 Lansing Road, Dimondale, MI 48821",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=6956+Lansing+Road%2C+Dimondale%2C+MI+48821&benchmark=Public_AR_Current&format=json",
+    "matches": [],
+    "error": null
+  },
+  {
+    "name": "ADESA Las Vegas",
+    "query": "1000 E. Gowan Rd., North Las Vegas, NV 89030",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1000+E.+Gowan+Rd.%2C+North+Las+Vegas%2C+NV+89030&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "L",
+          "tigerLineId": "658283893"
+        },
+        "coordinates": {
+          "x": -115.128501262104,
+          "y": 36.225098617644
+        },
+        "addressComponents": {
+          "zip": "89030",
+          "streetName": "GOWAN",
+          "preType": "",
+          "city": "NORTH LAS VEGAS",
+          "preDirection": "E",
+          "suffixDirection": "",
+          "fromAddress": "500",
+          "state": "NV",
+          "suffixType": "RD",
+          "toAddress": "1298",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "1000 E GOWAN RD, NORTH LAS VEGAS, NV, 89030"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Lexington",
+    "query": "672 Blue Sky Parkway, Lexington, KY 40509",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=672+Blue+Sky+Parkway%2C+Lexington%2C+KY+40509&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "L",
+          "tigerLineId": "31945654"
+        },
+        "coordinates": {
+          "x": -84.377444163091,
+          "y": 37.958624909321
+        },
+        "addressComponents": {
+          "zip": "40509",
+          "streetName": "BLUE SKY",
+          "preType": "",
+          "city": "LEXINGTON",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "698",
+          "state": "KY",
+          "suffixType": "PKWY",
+          "toAddress": "600",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "672 BLUE SKY PKWY, LEXINGTON, KY, 40509"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Little Rock",
+    "query": "8700 Highway 70, North Little Rock, AR 72117",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=8700+Highway+70%2C+North+Little+Rock%2C+AR+72117&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "R",
+          "tigerLineId": "83545326"
+        },
+        "coordinates": {
+          "x": -92.170754372566,
+          "y": 34.768949273413
+        },
+        "addressComponents": {
+          "zip": "72117",
+          "streetName": "70",
+          "preType": "US HWY",
+          "city": "NORTH LITTLE ROCK",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "8700",
+          "state": "AR",
+          "suffixType": "",
+          "toAddress": "8798",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "8700 US HWY 70, NORTH LITTLE ROCK, AR, 72117"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Long Island",
+    "query": "425 Patchogue Yaphank Rd., Yaphank, NY 11980",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=425+Patchogue+Yaphank+Rd.%2C+Yaphank%2C+NY+11980&benchmark=Public_AR_Current&format=json",
+    "matches": [],
+    "error": null
+  },
+  {
+    "name": "ADESA Los Angeles",
+    "query": "11625 Nino Way, Mira Loma, CA 91752",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=11625+Nino+Way%2C+Mira+Loma%2C+CA+91752&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "R",
+          "tigerLineId": "195082588"
+        },
+        "coordinates": {
+          "x": -117.537194068412,
+          "y": 34.007489124902
+        },
+        "addressComponents": {
+          "zip": "91752",
+          "streetName": "NINO",
+          "preType": "",
+          "city": "MIRA LOMA",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "11699",
+          "state": "CA",
+          "suffixType": "WAY",
+          "toAddress": "11601",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "11625 NINO WAY, MIRA LOMA, CA, 91752"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Memphis",
+    "query": "5400 Getwell Rd., Memphis, TN 38118",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=5400+Getwell+Rd.%2C+Memphis%2C+TN+38118&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "L",
+          "tigerLineId": "72964641"
+        },
+        "coordinates": {
+          "x": -89.936715351017,
+          "y": 35.001582305711
+        },
+        "addressComponents": {
+          "zip": "38118",
+          "streetName": "GETWELL",
+          "preType": "",
+          "city": "MEMPHIS",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "5400",
+          "state": "TN",
+          "suffixType": "RD",
+          "toAddress": "5498",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "5400 GETWELL RD, MEMPHIS, TN, 38118"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Mercer",
+    "query": "758 Franklin Rd, Mercer, PA 16137",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=758+Franklin+Rd%2C+Mercer%2C+PA+16137&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "R",
+          "tigerLineId": "605364254"
+        },
+        "coordinates": {
+          "x": -80.179051225137,
+          "y": 41.262649572684
+        },
+        "addressComponents": {
+          "zip": "16137",
+          "streetName": "FRANKLIN",
+          "preType": "",
+          "city": "MERCER",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "742",
+          "state": "PA",
+          "suffixType": "RD",
+          "toAddress": "794",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "758 FRANKLIN RD, MERCER, PA, 16137"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Minneapolis",
+    "query": "18270 Territorial Road, Dayton, MN 55327",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=18270+Territorial+Road%2C+Dayton%2C+MN+55327&benchmark=Public_AR_Current&format=json",
+    "matches": [],
+    "error": null
+  },
+  {
+    "name": "ADESA Nashville",
+    "query": "631 Burnett Road, Old Hickory, TN 37138",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=631+Burnett+Road%2C+Old+Hickory%2C+TN+37138&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "L",
+          "tigerLineId": "97208760"
+        },
+        "coordinates": {
+          "x": -86.667480002496,
+          "y": 36.278477237046
+        },
+        "addressComponents": {
+          "zip": "37138",
+          "streetName": "BURNETT",
+          "preType": "",
+          "city": "OLD HICKORY",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "601",
+          "state": "TN",
+          "suffixType": "RD",
+          "toAddress": "799",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "631 BURNETT RD, OLD HICKORY, TN, 37138"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA New Jersey",
+    "query": "200 North Main Street, Manville, NJ 08835",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=200+North+Main+Street%2C+Manville%2C+NJ+08835&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "R",
+          "tigerLineId": "59939629"
+        },
+        "coordinates": {
+          "x": -74.587617353186,
+          "y": 40.54092865508
+        },
+        "addressComponents": {
+          "zip": "08835",
+          "streetName": "S MAIN",
+          "preType": "",
+          "city": "MANVILLE",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "200",
+          "state": "NJ",
+          "suffixType": "ST",
+          "toAddress": "206",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "200 S MAIN ST, MANVILLE, NJ, 08835"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Northwest",
+    "query": "90485 Auction Way, Eugene, OR 97402",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=90485+Auction+Way%2C+Eugene%2C+OR+97402&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "R",
+          "tigerLineId": "605268725"
+        },
+        "coordinates": {
+          "x": -123.177287077238,
+          "y": 44.120716517969
+        },
+        "addressComponents": {
+          "zip": "97402",
+          "streetName": "AUCTION",
+          "preType": "",
+          "city": "EUGENE",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "90401",
+          "state": "OR",
+          "suffixType": "WAY",
+          "toAddress": "90499",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "90485 AUCTION WAY, EUGENE, OR, 97402"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Ocala",
+    "query": "540 S.W. 38th Avenue, Ocala, FL 34474",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=540+S.W.+38th+Avenue%2C+Ocala%2C+FL+34474&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "L",
+          "tigerLineId": "656872686"
+        },
+        "coordinates": {
+          "x": -82.185468559777,
+          "y": 29.178026060504
+        },
+        "addressComponents": {
+          "zip": "34474",
+          "streetName": "38TH",
+          "preType": "",
+          "city": "OCALA",
+          "preDirection": "SW",
+          "suffixDirection": "",
+          "fromAddress": "598",
+          "state": "FL",
+          "suffixType": "AVE",
+          "toAddress": "500",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "540 SW 38TH AVE, OCALA, FL, 34474"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Orlando",
+    "query": "2851 St. Johns Parkway, Sanford, FL 32772",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=2851+St.+Johns+Parkway%2C+Sanford%2C+FL+32772&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "R",
+          "tigerLineId": "646965851"
+        },
+        "coordinates": {
+          "x": -81.300255179962,
+          "y": 28.804690633904
+        },
+        "addressComponents": {
+          "zip": "32771",
+          "streetName": "SAINT JOHNS",
+          "preType": "",
+          "city": "SANFORD",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "2899",
+          "state": "FL",
+          "suffixType": "PKWY",
+          "toAddress": "2801",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "2851 SAINT JOHNS PKWY, SANFORD, FL, 32771"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA PA",
+    "query": "30 Industrial Rd, York, PA 17406",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=30+Industrial+Rd%2C+York%2C+PA+17406&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "R",
+          "tigerLineId": "88728157"
+        },
+        "coordinates": {
+          "x": -76.764464586653,
+          "y": 40.084881542705
+        },
+        "addressComponents": {
+          "zip": "17406",
+          "streetName": "INDUSTRIAL",
+          "preType": "",
+          "city": "YORK",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "298",
+          "state": "PA",
+          "suffixType": "RD",
+          "toAddress": "2",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "30 INDUSTRIAL RD, YORK, PA, 17406"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Phoenix",
+    "query": "400 N. Beck Avenue, Chandler, AZ 85226",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=400+N.+Beck+Avenue%2C+Chandler%2C+AZ+85226&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "L",
+          "tigerLineId": "244001841"
+        },
+        "coordinates": {
+          "x": -111.957084629847,
+          "y": 33.312755593244
+        },
+        "addressComponents": {
+          "zip": "85226",
+          "streetName": "BECK",
+          "preType": "",
+          "city": "CHANDLER",
+          "preDirection": "N",
+          "suffixDirection": "",
+          "fromAddress": "400",
+          "state": "AZ",
+          "suffixType": "AVE",
+          "toAddress": "606",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "400 N BECK AVE, CHANDLER, AZ, 85226"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Pittsburgh",
+    "query": "378 Hunker-Waltz Mill Road, New Stanton, PA 15672",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=378+Hunker-Waltz+Mill+Road%2C+New+Stanton%2C+PA+15672&benchmark=Public_AR_Current&format=json",
+    "matches": [],
+    "error": null
+  },
+  {
+    "name": "ADESA Portland",
+    "query": "23585 NE Sandy Blvd., Portland, OR 97060",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=23585+NE+Sandy+Blvd.%2C+Portland%2C+OR+97060&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "L",
+          "tigerLineId": "621764950"
+        },
+        "coordinates": {
+          "x": -122.418810342626,
+          "y": 45.542815523359
+        },
+        "addressComponents": {
+          "zip": "97060",
+          "streetName": "SANDY",
+          "preType": "",
+          "city": "TROUTDALE",
+          "preDirection": "NE",
+          "suffixDirection": "",
+          "fromAddress": "23501",
+          "state": "OR",
+          "suffixType": "BLVD",
+          "toAddress": "23599",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "23585 NE SANDY BLVD, TROUTDALE, OR, 97060"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Queen City",
+    "query": "8200 Reading Rd, Cincinnati, OH 45237",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=8200+Reading+Rd%2C+Cincinnati%2C+OH+45237&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "R",
+          "tigerLineId": "655740682"
+        },
+        "coordinates": {
+          "x": -84.448872915486,
+          "y": 39.209278930804
+        },
+        "addressComponents": {
+          "zip": "45237",
+          "streetName": "READING",
+          "preType": "",
+          "city": "CINCINNATI",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "8150",
+          "state": "OH",
+          "suffixType": "RD",
+          "toAddress": "8372",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "8200 READING RD, CINCINNATI, OH, 45237"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Raleigh",
+    "query": "30 Sadisco Rd, Clayton, NC 27520",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=30+Sadisco+Rd%2C+Clayton%2C+NC+27520&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "L",
+          "tigerLineId": "636798791"
+        },
+        "coordinates": {
+          "x": -78.404952788339,
+          "y": 35.591890699757
+        },
+        "addressComponents": {
+          "zip": "27520",
+          "streetName": "SADISCO",
+          "preType": "",
+          "city": "CLAYTON",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "98",
+          "state": "NC",
+          "suffixType": "RD",
+          "toAddress": "8",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "30 SADISCO RD, CLAYTON, NC, 27520"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Reno",
+    "query": "6000 Echo Ave., Reno, NV 89506",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=6000+Echo+Ave.%2C+Reno%2C+NV+89506&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "L",
+          "tigerLineId": "107112470"
+        },
+        "coordinates": {
+          "x": -119.888031011672,
+          "y": 39.65461620579
+        },
+        "addressComponents": {
+          "zip": "89506",
+          "streetName": "ECHO",
+          "preType": "",
+          "city": "RENO",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "6000",
+          "state": "NV",
+          "suffixType": "AVE",
+          "toAddress": "6098",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "6000 ECHO AVE, RENO, NV, 89506"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Sacramento",
+    "query": "8649 Kiefer Blvd., Sacramento, CA 95826",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=8649+Kiefer+Blvd.%2C+Sacramento%2C+CA+95826&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "L",
+          "tigerLineId": "651532782"
+        },
+        "coordinates": {
+          "x": -121.38449534994,
+          "y": 38.547102935594
+        },
+        "addressComponents": {
+          "zip": "95826",
+          "streetName": "KIEFER",
+          "preType": "",
+          "city": "SACRAMENTO",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "8601",
+          "state": "CA",
+          "suffixType": "BLVD",
+          "toAddress": "8799",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "8649 KIEFER BLVD, SACRAMENTO, CA, 95826"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Salt Lake",
+    "query": "780 South 5600 West, Salt Lake City, UT 84104-5300",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=780+South+5600+West%2C+Salt+Lake+City%2C+UT+84104-5300&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "L",
+          "tigerLineId": "639869906"
+        },
+        "coordinates": {
+          "x": -112.025003223517,
+          "y": 40.752588587959
+        },
+        "addressComponents": {
+          "zip": "84104",
+          "streetName": "5600",
+          "preType": "",
+          "city": "SALT LAKE CITY",
+          "preDirection": "S",
+          "suffixDirection": "W",
+          "fromAddress": "798",
+          "state": "UT",
+          "suffixType": "",
+          "toAddress": "710",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "780 S 5600 W, SALT LAKE CITY, UT, 84104"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA San Antonio",
+    "query": "200 S. Callaghan Road, San Antonio, TX 78227",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=200+S.+Callaghan+Road%2C+San+Antonio%2C+TX+78227&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "L",
+          "tigerLineId": "101725235"
+        },
+        "coordinates": {
+          "x": -98.599609179252,
+          "y": 29.434094512579
+        },
+        "addressComponents": {
+          "zip": "78227",
+          "streetName": "CALLAGHAN",
+          "preType": "",
+          "city": "SAN ANTONIO",
+          "preDirection": "S",
+          "suffixDirection": "",
+          "fromAddress": "100",
+          "state": "TX",
+          "suffixType": "RD",
+          "toAddress": "998",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "200 S CALLAGHAN RD, SAN ANTONIO, TX, 78227"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA San Diego",
+    "query": "2175 Cactus Road, San Diego, CA 92154",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=2175+Cactus+Road%2C+San+Diego%2C+CA+92154&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "L",
+          "tigerLineId": "195662306"
+        },
+        "coordinates": {
+          "x": -116.98836173792,
+          "y": 32.558270848837
+        },
+        "addressComponents": {
+          "zip": "92154",
+          "streetName": "CACTUS",
+          "preType": "",
+          "city": "SAN DIEGO",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "2001",
+          "state": "CA",
+          "suffixType": "RD",
+          "toAddress": "2499",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "2175 CACTUS RD, SAN DIEGO, CA, 92154"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Sarasota",
+    "query": "6005 24th Street East, Bradenton, FL 34203",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=6005+24th+Street+East%2C+Bradenton%2C+FL+34203&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "L",
+          "tigerLineId": "642581396"
+        },
+        "coordinates": {
+          "x": -82.533988258922,
+          "y": 27.435540710797
+        },
+        "addressComponents": {
+          "zip": "34203",
+          "streetName": "24TH",
+          "preType": "",
+          "city": "BRADENTON",
+          "preDirection": "",
+          "suffixDirection": "E",
+          "fromAddress": "6001",
+          "state": "FL",
+          "suffixType": "ST",
+          "toAddress": "6199",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "6005 24TH ST E, BRADENTON, FL, 34203"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Seattle",
+    "query": "621 37th Street NW, Auburn, WA 98001",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=621+37th+Street+NW%2C+Auburn%2C+WA+98001&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "R",
+          "tigerLineId": "187038011"
+        },
+        "coordinates": {
+          "x": -122.237948047492,
+          "y": 47.340289409327
+        },
+        "addressComponents": {
+          "zip": "98001",
+          "streetName": "37TH",
+          "preType": "",
+          "city": "AUBURN",
+          "preDirection": "",
+          "suffixDirection": "NW",
+          "fromAddress": "479",
+          "state": "WA",
+          "suffixType": "ST",
+          "toAddress": "699",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "621 37TH ST NW, AUBURN, WA, 98001"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Shreveport",
+    "query": "7666 Greenwood Road, Shreveport, LA 71119",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=7666+Greenwood+Road%2C+Shreveport%2C+LA+71119&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "R",
+          "tigerLineId": "652809056"
+        },
+        "coordinates": {
+          "x": -93.921450102322,
+          "y": 32.445886007873
+        },
+        "addressComponents": {
+          "zip": "71119",
+          "streetName": "GREENWOOD",
+          "preType": "",
+          "city": "SHREVEPORT",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "7600",
+          "state": "LA",
+          "suffixType": "RD",
+          "toAddress": "7770",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "7666 GREENWOOD RD, SHREVEPORT, LA, 71119"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Sioux Falls",
+    "query": "46893 271st Street, Tea, SD 57064",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=46893+271st+Street%2C+Tea%2C+SD+57064&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "L",
+          "tigerLineId": "658146758"
+        },
+        "coordinates": {
+          "x": -96.827220998487,
+          "y": 43.460981738753
+        },
+        "addressComponents": {
+          "zip": "57064",
+          "streetName": "271ST",
+          "preType": "",
+          "city": "TEA",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "46893",
+          "state": "SD",
+          "suffixType": "ST",
+          "toAddress": "46801",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "46893 271ST ST, TEA, SD, 57064"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA St. Louis",
+    "query": "7858 Highway 61-67, Barnhart, MO 63012",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=7858+Highway+61-67%2C+Barnhart%2C+MO+63012&benchmark=Public_AR_Current&format=json",
+    "matches": [],
+    "error": null
+  },
+  {
+    "name": "ADESA Syracuse",
+    "query": "5930 State Rte 31, Cicero, NY 13039",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=5930+State+Rte+31%2C+Cicero%2C+NY+13039&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "R",
+          "tigerLineId": "46611092"
+        },
+        "coordinates": {
+          "x": -76.110339302731,
+          "y": 43.175791879754
+        },
+        "addressComponents": {
+          "zip": "13039",
+          "streetName": "31",
+          "preType": "STATE RTE",
+          "city": "CICERO",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "5900",
+          "state": "NY",
+          "suffixType": "",
+          "toAddress": "5942",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "5930 STATE RTE 31, CICERO, NY, 13039"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Tampa",
+    "query": "3225 North 50th Street, Tampa, FL 33619",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=3225+North+50th+Street%2C+Tampa%2C+FL+33619&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "R",
+          "tigerLineId": "104535268"
+        },
+        "coordinates": {
+          "x": -82.401606014448,
+          "y": 27.972837084378
+        },
+        "addressComponents": {
+          "zip": "33619",
+          "streetName": "50TH",
+          "preType": "",
+          "city": "TAMPA",
+          "preDirection": "N",
+          "suffixDirection": "",
+          "fromAddress": "3201",
+          "state": "FL",
+          "suffixType": "ST",
+          "toAddress": "3299",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "3225 N 50TH ST, TAMPA, FL, 33619"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Tulsa",
+    "query": "16015 E. Admiral Pl., Tulsa, OK 74116",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=16015+E.+Admiral+Pl.%2C+Tulsa%2C+OK+74116&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "L",
+          "tigerLineId": "166456535"
+        },
+        "coordinates": {
+          "x": -95.796728590795,
+          "y": 36.160688100225
+        },
+        "addressComponents": {
+          "zip": "74116",
+          "streetName": "ADMIRAL",
+          "preType": "",
+          "city": "TULSA",
+          "preDirection": "E",
+          "suffixDirection": "",
+          "fromAddress": "15901",
+          "state": "OK",
+          "suffixType": "PL",
+          "toAddress": "16499",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "16015 E ADMIRAL PL, TULSA, OK, 74116"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Washington D.C.",
+    "query": "43375 Old Ox Road, Dulles, VA 20166",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=43375+Old+Ox+Road%2C+Dulles%2C+VA+20166&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "R",
+          "tigerLineId": "62360976"
+        },
+        "coordinates": {
+          "x": -77.500259770098,
+          "y": 38.958546204494
+        },
+        "addressComponents": {
+          "zip": "20166",
+          "streetName": "OX",
+          "preType": "",
+          "city": "DULLES",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "43301",
+          "state": "VA",
+          "suffixType": "RD",
+          "toAddress": "43399",
+          "suffixQualifier": "",
+          "preQualifier": "OLD"
+        },
+        "matchedAddress": "43375 OLD OX RD, DULLES, VA, 20166"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "Carvana Bessemer",
+    "query": "1951 Morgan Road, Bessemer, AL 35022",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1951+Morgan+Road%2C+Bessemer%2C+AL+35022&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "R",
+          "tigerLineId": "652615265"
+        },
+        "coordinates": {
+          "x": -86.941010684859,
+          "y": 33.370792203437
+        },
+        "addressComponents": {
+          "zip": "35022",
+          "streetName": "MORGAN",
+          "preType": "",
+          "city": "BESSEMER",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "1909",
+          "state": "AL",
+          "suffixType": "RD",
+          "toAddress": "1999",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "1951 MORGAN RD, BESSEMER, AL, 35022"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "Carvana Tolleson",
+    "query": "600 S 94th Avenue, Tolleson, AZ 85353",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=600+S+94th+Avenue%2C+Tolleson%2C+AZ+85353&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "L",
+          "tigerLineId": "649121074"
+        },
+        "coordinates": {
+          "x": -112.261640159107,
+          "y": 33.439257336285
+        },
+        "addressComponents": {
+          "zip": "85353",
+          "streetName": "94TH",
+          "preType": "",
+          "city": "TOLLESON",
+          "preDirection": "S",
+          "suffixDirection": "",
+          "fromAddress": "798",
+          "state": "AZ",
+          "suffixType": "AVE",
+          "toAddress": "600",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "600 S 94TH AVE, TOLLESON, AZ, 85353"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "Carvana West Memphis",
+    "query": "1100 Family Dollar Drive, West Memphis, AR 72301",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1100+Family+Dollar+Drive%2C+West+Memphis%2C+AR+72301&benchmark=Public_AR_Current&format=json",
+    "matches": [],
+    "error": null
+  },
+  {
+    "name": "Carvana Rocklin",
+    "query": "3500 Cincinnati Avenue, Rocklin, CA 95765",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=3500+Cincinnati+Avenue%2C+Rocklin%2C+CA+95765&benchmark=Public_AR_Current&format=json",
+    "matches": [],
+    "error": null
+  },
+  {
+    "name": "Carvana Haines City",
+    "query": "3700 Bannon Island Road, Haines City, FL 33844",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=3700+Bannon+Island+Road%2C+Haines+City%2C+FL+33844&benchmark=Public_AR_Current&format=json",
+    "matches": [],
+    "error": null
+  },
+  {
+    "name": "Carvana Winder",
+    "query": "356 Atlanta Highway NW, Winder, GA 30680",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=356+Atlanta+Highway+NW%2C+Winder%2C+GA+30680&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "R",
+          "tigerLineId": "77566740"
+        },
+        "coordinates": {
+          "x": -83.750867054132,
+          "y": 33.993201471397
+        },
+        "addressComponents": {
+          "zip": "30680",
+          "streetName": "ATLANTA",
+          "preType": "",
+          "city": "WINDER",
+          "preDirection": "",
+          "suffixDirection": "NW",
+          "fromAddress": "398",
+          "state": "GA",
+          "suffixType": "HWY",
+          "toAddress": "300",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "356 ATLANTA HWY NW, WINDER, GA, 30680"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "Carvana University Park",
+    "query": "23619 S Cicero Avenue, University Park, IL 60484",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=23619+S+Cicero+Avenue%2C+University+Park%2C+IL+60484&benchmark=Public_AR_Current&format=json",
+    "matches": [],
+    "error": null
+  },
+  {
+    "name": "Carvana Indianapolis",
+    "query": "6508 West F W Marks Drive N, Greenfield, IN 46140",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=6508+West+F+W+Marks+Drive+N%2C+Greenfield%2C+IN+46140&benchmark=Public_AR_Current&format=json",
+    "matches": [],
+    "error": null
+  },
+  {
+    "name": "Carvana Concord",
+    "query": "3035 New Town Way SW, Concord, NC 28027",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=3035+New+Town+Way+SW%2C+Concord%2C+NC+28027&benchmark=Public_AR_Current&format=json",
+    "matches": [],
+    "error": null
+  },
+  {
+    "name": "Carvana Delanco",
+    "query": "600 Creek Road, Delanco, NJ 08075",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=600+Creek+Road%2C+Delanco%2C+NJ+08075&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "L",
+          "tigerLineId": "645420907"
+        },
+        "coordinates": {
+          "x": -74.932994625321,
+          "y": 40.041353657106
+        },
+        "addressComponents": {
+          "zip": "08075",
+          "streetName": "CREEK",
+          "preType": "",
+          "city": "DELANCO",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "600",
+          "state": "NJ",
+          "suffixType": "RD",
+          "toAddress": "898",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "600 CREEK RD, DELANCO, NJ, 08075"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "Carvana Elyria",
+    "query": "6161 Middle Ridge Road, Lorain, OH 44053",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=6161+Middle+Ridge+Road%2C+Lorain%2C+OH+44053&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "L",
+          "tigerLineId": "656469557"
+        },
+        "coordinates": {
+          "x": -82.161623292654,
+          "y": 41.416695519522
+        },
+        "addressComponents": {
+          "zip": "44053",
+          "streetName": "MIDDLE RIDGE",
+          "preType": "",
+          "city": "LORAIN",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "6001",
+          "state": "OH",
+          "suffixType": "RD",
+          "toAddress": "6199",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "6161 MIDDLE RIDGE RD, LORAIN, OH, 44053"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "Carvana Heath",
+    "query": "2183 Hebron Road, Heath, OH 43056",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=2183+Hebron+Road%2C+Heath%2C+OH+43056&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "R",
+          "tigerLineId": "656857481"
+        },
+        "coordinates": {
+          "x": -82.473517996745,
+          "y": 39.994216062968
+        },
+        "addressComponents": {
+          "zip": "43056",
+          "streetName": "HEBRON",
+          "preType": "",
+          "city": "HEATH",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "2101",
+          "state": "OH",
+          "suffixType": "RD",
+          "toAddress": "2199",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "2183 HEBRON RD, HEATH, OH, 43056"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "Carvana Trenton",
+    "query": "5506 Kennel Road, Trenton, OH 45067",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=5506+Kennel+Road%2C+Trenton%2C+OH+45067&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "R",
+          "tigerLineId": "654066990"
+        },
+        "coordinates": {
+          "x": -84.468696182114,
+          "y": 39.462170143599
+        },
+        "addressComponents": {
+          "zip": "45067",
+          "streetName": "KENNEL",
+          "preType": "",
+          "city": "TRENTON",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "5726",
+          "state": "OH",
+          "suffixType": "RD",
+          "toAddress": "5500",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "5506 KENNEL RD, TRENTON, OH, 45067"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "Carvana Oklahoma City",
+    "query": "5500 S Rockwell Avenue, Oklahoma City, OK 73179",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=5500+S+Rockwell+Avenue%2C+Oklahoma+City%2C+OK+73179&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "L",
+          "tigerLineId": "635378460"
+        },
+        "coordinates": {
+          "x": -97.636195679576,
+          "y": 35.41358072551
+        },
+        "addressComponents": {
+          "zip": "73179",
+          "streetName": "ROCKWELL",
+          "preType": "",
+          "city": "OKLAHOMA CITY",
+          "preDirection": "S",
+          "suffixDirection": "",
+          "fromAddress": "5500",
+          "state": "OK",
+          "suffixType": "AVE",
+          "toAddress": "5698",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "5500 S ROCKWELL AVE, OKLAHOMA CITY, OK, 73179"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "Carvana Blue Mound",
+    "query": "1123 Cantrell Sansom Road, Building G, Blue Mound, TX 76131",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1123+Cantrell+Sansom+Road%2C+Building+G%2C+Blue+Mound%2C+TX+76131&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "L",
+          "tigerLineId": "647877616"
+        },
+        "coordinates": {
+          "x": -97.338693206204,
+          "y": 32.847898699195
+        },
+        "addressComponents": {
+          "zip": "76131",
+          "streetName": "CANTRELL SANSOM",
+          "preType": "",
+          "city": "BLUE MOUND",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "1001",
+          "state": "TX",
+          "suffixType": "RD",
+          "toAddress": "1299",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "1123 CANTRELL SANSOM RD, BLUE MOUND, TX, 76131"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "Carvana San Antonio",
+    "query": "11245 Old Corpus Christi Highway, San Antonio, TX 78223",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=11245+Old+Corpus+Christi+Highway%2C+San+Antonio%2C+TX+78223&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "R",
+          "tigerLineId": "654703794"
+        },
+        "coordinates": {
+          "x": -98.392318853206,
+          "y": 29.305722167488
+        },
+        "addressComponents": {
+          "zip": "78223",
+          "streetName": "CORPUS CHRISTI",
+          "preType": "",
+          "city": "SAN ANTONIO",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "11101",
+          "state": "TX",
+          "suffixType": "HWY",
+          "toAddress": "11599",
+          "suffixQualifier": "",
+          "preQualifier": "OLD"
+        },
+        "matchedAddress": "11245 OLD CORPUS CHRISTI HWY, SAN ANTONIO, TX, 78223"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "Carvana Tooele",
+    "query": "299 North Lodestone Way, Tooele, UT 84074",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=299+North+Lodestone+Way%2C+Tooele%2C+UT+84074&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "R",
+          "tigerLineId": "155390345"
+        },
+        "coordinates": {
+          "x": -112.349859540564,
+          "y": 40.526375386736
+        },
+        "addressComponents": {
+          "zip": "84074",
+          "streetName": "LODESTONE",
+          "preType": "",
+          "city": "TOOELE",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "299",
+          "state": "UT",
+          "suffixType": "WAY",
+          "toAddress": "201",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "299 LODESTONE WAY, TOOELE, UT, 84074"
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "Carvana Chesterfield",
+    "query": "15100 Woods Edge Road, Chesterfield, VA 23834",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=15100+Woods+Edge+Road%2C+Chesterfield%2C+VA+23834&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "R",
+          "tigerLineId": "201576007"
+        },
+        "coordinates": {
+          "x": -77.394351026293,
+          "y": 37.319496792792
+        },
+        "addressComponents": {
+          "zip": "23834",
+          "streetName": "WOODS EDGE",
+          "preType": "",
+          "city": "SOUTH CHESTERFIELD",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "15100",
+          "state": "VA",
+          "suffixType": "RD",
+          "toAddress": "15198",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "15100 WOODS EDGE RD, SOUTH CHESTERFIELD, VA, 23834"
+      }
+    ],
+    "error": null
+  }
+]

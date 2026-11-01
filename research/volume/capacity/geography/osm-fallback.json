@@ -1,0 +1,536 @@
+[
+  {
+    "name": "ADESA Chicago",
+    "query": "2785 Beverly Road, Hoffman Estates, IL 60169",
+    "url": "https://nominatim.openstreetmap.org/search?q=2785+Beverly+Road%2C+Hoffman+Estates%2C+IL+60169&format=jsonv2&addressdetails=1&limit=3&countrycodes=us",
+    "matches": [
+      {
+        "place_id": 372113643,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 850012928,
+        "lat": "42.0612041",
+        "lon": "-88.2227062",
+        "category": "highway",
+        "type": "tertiary",
+        "place_rank": 26,
+        "importance": 0.053395392538338256,
+        "addresstype": "tertiary",
+        "name": "Beverly Road",
+        "display_name": "Beverly Road, Hoffman Estates, Hanover Township, Cook County, Illinois, 60179, United States",
+        "address": {
+          "road": "Beverly Road",
+          "village": "Hoffman Estates",
+          "municipality": "Hanover Township",
+          "county": "Cook County",
+          "state": "Illinois",
+          "ISO3166-2-lvl4": "US-IL",
+          "postcode": "60179",
+          "country": "United States",
+          "country_code": "us"
+        },
+        "boundingbox": [
+          "42.0609505",
+          "42.0614578",
+          "-88.2227078",
+          "-88.2227047"
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Des Moines",
+    "query": "1800 SE Gateway Dr, Grimes, IA 50111",
+    "url": "https://nominatim.openstreetmap.org/search?q=1800+SE+Gateway+Dr%2C+Grimes%2C+IA+50111&format=jsonv2&addressdetails=1&limit=3&countrycodes=us",
+    "matches": [
+      {
+        "place_id": 373636156,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1161764103,
+        "lat": "41.6749250",
+        "lon": "-93.7812821",
+        "category": "shop",
+        "type": "auctioneer",
+        "place_rank": 30,
+        "importance": 5.456397344925639e-05,
+        "addresstype": "shop",
+        "name": "ADESA Des Moines",
+        "display_name": "ADESA Des Moines, 1800, Southeast Gateway Drive, Grimes, Webster Township, Polk County, Iowa, 50111, United States",
+        "address": {
+          "shop": "ADESA Des Moines",
+          "house_number": "1800",
+          "road": "Southeast Gateway Drive",
+          "town": "Grimes",
+          "municipality": "Webster Township",
+          "county": "Polk County",
+          "state": "Iowa",
+          "ISO3166-2-lvl4": "US-IA",
+          "postcode": "50111",
+          "country": "United States",
+          "country_code": "us"
+        },
+        "boundingbox": [
+          "41.6731148",
+          "41.6765595",
+          "-93.7848361",
+          "-93.7777633"
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Jacksonville",
+    "query": "11700 New Kings Road, Jacksonville, FL 32219",
+    "url": "https://nominatim.openstreetmap.org/search?q=11700+New+Kings+Road%2C+Jacksonville%2C+FL+32219&format=jsonv2&addressdetails=1&limit=3&countrycodes=us",
+    "matches": [
+      {
+        "place_id": 301132618,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 8681506276,
+        "lat": "30.4456791",
+        "lon": "-81.7710478",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 7.092774853127363e-05,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "11700, New Kings Road, Cary, Jacksonville, Duval County, Florida, 32219, United States",
+        "address": {
+          "house_number": "11700",
+          "road": "New Kings Road",
+          "suburb": "Cary",
+          "city": "Jacksonville",
+          "county": "Duval County",
+          "state": "Florida",
+          "ISO3166-2-lvl4": "US-FL",
+          "postcode": "32219",
+          "country": "United States",
+          "country_code": "us"
+        },
+        "boundingbox": [
+          "30.4456291",
+          "30.4457291",
+          "-81.7710978",
+          "-81.7709978"
+        ]
+      },
+      {
+        "place_id": 410629806,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 683183510,
+        "lat": "30.4846620",
+        "lon": "-81.7854240",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "11700, New Kings Road, Jacksonville, Duval County, Florida, 32219, United States",
+        "address": {
+          "house_number": "11700",
+          "road": "New Kings Road",
+          "city": "Jacksonville",
+          "county": "Duval County",
+          "state": "Florida",
+          "ISO3166-2-lvl4": "US-FL",
+          "postcode": "32219",
+          "country": "United States",
+          "country_code": "us"
+        },
+        "boundingbox": [
+          "30.4846120",
+          "30.4847120",
+          "-81.7854740",
+          "-81.7853740"
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Kansas City",
+    "query": "15511 ADESA Drive, Belton, MO 64012",
+    "url": "https://nominatim.openstreetmap.org/search?q=15511+ADESA+Drive%2C+Belton%2C+MO+64012&format=jsonv2&addressdetails=1&limit=3&countrycodes=us",
+    "matches": [],
+    "error": null
+  },
+  {
+    "name": "ADESA Lansing",
+    "query": "6956 Lansing Road, Dimondale, MI 48821",
+    "url": "https://nominatim.openstreetmap.org/search?q=6956+Lansing+Road%2C+Dimondale%2C+MI+48821&format=jsonv2&addressdetails=1&limit=3&countrycodes=us",
+    "matches": [
+      {
+        "place_id": 372294661,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 604678768,
+        "lat": "42.6680152",
+        "lon": "-84.6637344",
+        "category": "building",
+        "type": "commercial",
+        "place_rank": 30,
+        "importance": 5.413977264052823e-05,
+        "addresstype": "building",
+        "name": "",
+        "display_name": "6956, Lansing Road, Dimondale, Windsor Charter Township, Eaton County, Michigan, 48821, United States",
+        "address": {
+          "house_number": "6956",
+          "road": "Lansing Road",
+          "village": "Dimondale",
+          "municipality": "Windsor Charter Township",
+          "county": "Eaton County",
+          "state": "Michigan",
+          "ISO3166-2-lvl4": "US-MI",
+          "postcode": "48821",
+          "country": "United States",
+          "country_code": "us"
+        },
+        "boundingbox": [
+          "42.6676958",
+          "42.6683269",
+          "-84.6640796",
+          "-84.6633822"
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Long Island",
+    "query": "425 Patchogue Yaphank Rd., Yaphank, NY 11980",
+    "url": "https://nominatim.openstreetmap.org/search?q=425+Patchogue+Yaphank+Rd.%2C+Yaphank%2C+NY+11980&format=jsonv2&addressdetails=1&limit=3&countrycodes=us",
+    "matches": [
+      {
+        "place_id": 358044355,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 368975622,
+        "lat": "40.8168920",
+        "lon": "-72.9465039",
+        "category": "building",
+        "type": "commercial",
+        "place_rank": 30,
+        "importance": 5.302586404206939e-05,
+        "addresstype": "building",
+        "name": "",
+        "display_name": "425, Patchogue-Yaphank Road, Yaphank, Town of Brookhaven, Suffolk County, New York, 11980, United States",
+        "address": {
+          "house_number": "425",
+          "road": "Patchogue-Yaphank Road",
+          "town": "Yaphank",
+          "county": "Suffolk County",
+          "state": "New York",
+          "ISO3166-2-lvl4": "US-NY",
+          "postcode": "11980",
+          "country": "United States",
+          "country_code": "us"
+        },
+        "boundingbox": [
+          "40.8164223",
+          "40.8173663",
+          "-72.9468809",
+          "-72.9458788"
+        ]
+      },
+      {
+        "place_id": 402950861,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 42698292,
+        "lat": "40.8235644",
+        "lon": "-72.9412585",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "425, Patchogue-Yaphank Road, Yaphank, Town of Brookhaven, Suffolk County, New York, 11763, United States",
+        "address": {
+          "house_number": "425",
+          "road": "Patchogue-Yaphank Road",
+          "town": "Yaphank",
+          "county": "Suffolk County",
+          "state": "New York",
+          "ISO3166-2-lvl4": "US-NY",
+          "postcode": "11763",
+          "country": "United States",
+          "country_code": "us"
+        },
+        "boundingbox": [
+          "40.8235144",
+          "40.8236144",
+          "-72.9413085",
+          "-72.9412085"
+        ]
+      },
+      {
+        "place_id": 403036244,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1028831717,
+        "lat": "40.8083505",
+        "lon": "-72.9547340",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "425, Sills Road, North Bellport, Town of Brookhaven, Suffolk County, New York, 11763, United States",
+        "address": {
+          "house_number": "425",
+          "road": "Sills Road",
+          "town": "North Bellport",
+          "county": "Suffolk County",
+          "state": "New York",
+          "ISO3166-2-lvl4": "US-NY",
+          "postcode": "11763",
+          "country": "United States",
+          "country_code": "us"
+        },
+        "boundingbox": [
+          "40.8083005",
+          "40.8084005",
+          "-72.9547840",
+          "-72.9546840"
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Minneapolis",
+    "query": "18270 Territorial Road, Dayton, MN 55327",
+    "url": "https://nominatim.openstreetmap.org/search?q=18270+Territorial+Road%2C+Dayton%2C+MN+55327&format=jsonv2&addressdetails=1&limit=3&countrycodes=us",
+    "matches": [
+      {
+        "place_id": 400962000,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 761605227,
+        "lat": "45.1621078",
+        "lon": "-93.5121672",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "18270, Territorial Road, Dayton, Hennepin County, Minnesota, 55369, United States",
+        "address": {
+          "house_number": "18270",
+          "road": "Territorial Road",
+          "town": "Dayton",
+          "county": "Hennepin County",
+          "state": "Minnesota",
+          "ISO3166-2-lvl4": "US-MN",
+          "postcode": "55369",
+          "country": "United States",
+          "country_code": "us"
+        },
+        "boundingbox": [
+          "45.1620578",
+          "45.1621578",
+          "-93.5122172",
+          "-93.5121172"
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "ADESA Pittsburgh",
+    "query": "378 Hunker-Waltz Mill Road, New Stanton, PA 15672",
+    "url": "https://nominatim.openstreetmap.org/search?q=378+Hunker-Waltz+Mill+Road%2C+New+Stanton%2C+PA+15672&format=jsonv2&addressdetails=1&limit=3&countrycodes=us",
+    "matches": [],
+    "error": null
+  },
+  {
+    "name": "ADESA St. Louis",
+    "query": "7858 Highway 61-67, Barnhart, MO 63012",
+    "url": "https://nominatim.openstreetmap.org/search?q=7858+Highway+61-67%2C+Barnhart%2C+MO+63012&format=jsonv2&addressdetails=1&limit=3&countrycodes=us",
+    "matches": [],
+    "error": null
+  },
+  {
+    "name": "Carvana West Memphis",
+    "query": "1100 Family Dollar Drive, West Memphis, AR 72301",
+    "url": "https://nominatim.openstreetmap.org/search?q=1100+Family+Dollar+Drive%2C+West+Memphis%2C+AR+72301&format=jsonv2&addressdetails=1&limit=3&countrycodes=us",
+    "matches": [],
+    "error": null
+  },
+  {
+    "name": "Carvana Rocklin",
+    "query": "3500 Cincinnati Avenue, Rocklin, CA 95765",
+    "url": "https://nominatim.openstreetmap.org/search?q=3500+Cincinnati+Avenue%2C+Rocklin%2C+CA+95765&format=jsonv2&addressdetails=1&limit=3&countrycodes=us",
+    "matches": [
+      {
+        "place_id": 321941257,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 477151312,
+        "lat": "38.8266657",
+        "lon": "-121.3100239",
+        "category": "building",
+        "type": "retail",
+        "place_rank": 30,
+        "importance": 4.3243305104097314e-05,
+        "addresstype": "building",
+        "name": "K9 Tactical Gear",
+        "display_name": "K9 Tactical Gear, 3500, Cincinnati Avenue, Rocklin, Placer County, California, 95765, United States",
+        "address": {
+          "building": "K9 Tactical Gear",
+          "house_number": "3500",
+          "road": "Cincinnati Avenue",
+          "town": "Rocklin",
+          "county": "Placer County",
+          "state": "California",
+          "ISO3166-2-lvl4": "US-CA",
+          "postcode": "95765",
+          "country": "United States",
+          "country_code": "us"
+        },
+        "boundingbox": [
+          "38.8264732",
+          "38.8268075",
+          "-121.3101429",
+          "-121.3099014"
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "Carvana Haines City",
+    "query": "3700 Bannon Island Road, Haines City, FL 33844",
+    "url": "https://nominatim.openstreetmap.org/search?q=3700+Bannon+Island+Road%2C+Haines+City%2C+FL+33844&format=jsonv2&addressdetails=1&limit=3&countrycodes=us",
+    "matches": [
+      {
+        "place_id": 299005643,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 11269929,
+        "lat": "28.0772553",
+        "lon": "-81.5998361",
+        "category": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.05335933394369417,
+        "addresstype": "residential",
+        "name": "Bannon Island Road",
+        "display_name": "Bannon Island Road, Haines City, Polk County, Florida, 33844, United States",
+        "address": {
+          "road": "Bannon Island Road",
+          "town": "Haines City",
+          "county": "Polk County",
+          "state": "Florida",
+          "ISO3166-2-lvl4": "US-FL",
+          "postcode": "33844",
+          "country": "United States",
+          "country_code": "us"
+        },
+        "boundingbox": [
+          "28.0771460",
+          "28.0783700",
+          "-81.6201400",
+          "-81.5799900"
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "Carvana University Park",
+    "query": "23619 S Cicero Avenue, University Park, IL 60484",
+    "url": "https://nominatim.openstreetmap.org/search?q=23619+S+Cicero+Avenue%2C+University+Park%2C+IL+60484&format=jsonv2&addressdetails=1&limit=3&countrycodes=us",
+    "matches": [
+      {
+        "place_id": 391744760,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 22075074,
+        "lat": "41.4609383",
+        "lon": "-87.7320617",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "23619, South Cicero Avenue, University Park, Will County, Illinois, 60449, United States",
+        "address": {
+          "house_number": "23619",
+          "road": "South Cicero Avenue",
+          "village": "University Park",
+          "county": "Will County",
+          "state": "Illinois",
+          "ISO3166-2-lvl4": "US-IL",
+          "postcode": "60449",
+          "country": "United States",
+          "country_code": "us"
+        },
+        "boundingbox": [
+          "41.4608883",
+          "41.4609883",
+          "-87.7321117",
+          "-87.7320117"
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "name": "Carvana Indianapolis",
+    "query": "6508 West F W Marks Drive N, Greenfield, IN 46140",
+    "url": "https://nominatim.openstreetmap.org/search?q=6508+West+F+W+Marks+Drive+N%2C+Greenfield%2C+IN+46140&format=jsonv2&addressdetails=1&limit=3&countrycodes=us",
+    "matches": [],
+    "error": null
+  },
+  {
+    "name": "Carvana Concord",
+    "query": "3035 New Town Way SW, Concord, NC 28027",
+    "url": "https://nominatim.openstreetmap.org/search?q=3035+New+Town+Way+SW%2C+Concord%2C+NC+28027&format=jsonv2&addressdetails=1&limit=3&countrycodes=us",
+    "matches": [
+      {
+        "place_id": 340885101,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 778189932,
+        "lat": "35.3748631",
+        "lon": "-80.6373517",
+        "category": "highway",
+        "type": "unclassified",
+        "place_rank": 26,
+        "importance": 0.05339330052643622,
+        "addresstype": "unclassified",
+        "name": "New Town Way Southwest",
+        "display_name": "New Town Way Southwest, Concord, Cabarrus County, North Carolina, 28027, United States",
+        "address": {
+          "road": "New Town Way Southwest",
+          "city": "Concord",
+          "county": "Cabarrus County",
+          "state": "North Carolina",
+          "ISO3166-2-lvl4": "US-NC",
+          "postcode": "28027",
+          "country": "United States",
+          "country_code": "us"
+        },
+        "boundingbox": [
+          "35.3729887",
+          "35.3768557",
+          "-80.6381899",
+          "-80.6363463"
+        ]
+      }
+    ],
+    "error": null
+  }
+]

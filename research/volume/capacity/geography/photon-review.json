@@ -1,0 +1,909 @@
+[
+  {
+    "name": "ADESA Chicago",
+    "query": "2785 Beverly Road, Hoffman Estates, IL 60169",
+    "url": "https://photon.komoot.io/api/?q=2785+Beverly+Road%2C+Hoffman+Estates%2C+IL+60169&limit=3",
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_type": "W",
+            "osm_id": 218563537,
+            "osm_key": "amenity",
+            "osm_value": "school",
+            "type": "house",
+            "housenumber": "1100",
+            "name": "Hoffman Estates High School",
+            "street": "West Higgins Road",
+            "city": "Hoffman Estates",
+            "county": "Cook County",
+            "state": "IL",
+            "country": "United States",
+            "postcode": "60169",
+            "countrycode": "US",
+            "extent": [
+              -88.1092997,
+              42.0556936,
+              -88.1043167,
+              42.0514079
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -88.1068134,
+              42.0535868
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_type": "W",
+            "osm_id": 224700501,
+            "osm_key": "tourism",
+            "osm_value": "hotel",
+            "type": "house",
+            "housenumber": "2500",
+            "name": "Red Roof Inn Hoffman Estates",
+            "street": "Hassell Road",
+            "locality": "Barrington Square Industrial Center",
+            "city": "Hoffman Estates",
+            "county": "Cook County",
+            "state": "IL",
+            "country": "United States",
+            "postcode": "60169",
+            "countrycode": "US",
+            "extent": [
+              -88.1422021,
+              42.0635112,
+              -88.141439,
+              42.0627989
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -88.1418205,
+              42.0631551
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_type": "W",
+            "osm_id": 239695313,
+            "osm_key": "shop",
+            "osm_value": "car",
+            "type": "house",
+            "housenumber": "1000",
+            "name": "Mercedes-Benz of Hoffman Estates",
+            "street": "West Higgins Road",
+            "city": "Hoffman Estates",
+            "county": "Cook County",
+            "state": "IL",
+            "country": "United States",
+            "postcode": "60169",
+            "countrycode": "US",
+            "extent": [
+              -88.1053514,
+              42.049433,
+              -88.1044896,
+              42.0486539
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -88.1049154,
+              42.048919
+            ]
+          }
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "name": "ADESA Des Moines",
+    "query": "1800 SE Gateway Dr, Grimes, IA 50111",
+    "url": "https://photon.komoot.io/api/?q=1800+SE+Gateway+Dr%2C+Grimes%2C+IA+50111&limit=3",
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_type": "W",
+            "osm_id": 1161764103,
+            "osm_key": "shop",
+            "osm_value": "auctioneer",
+            "type": "house",
+            "housenumber": "1800",
+            "name": "ADESA Des Moines",
+            "street": "Southeast Gateway Drive",
+            "city": "Grimes",
+            "county": "Polk",
+            "state": "IA",
+            "country": "United States",
+            "postcode": "50111",
+            "countrycode": "US",
+            "extent": [
+              -93.7848361,
+              41.6765595,
+              -93.7777633,
+              41.6731148
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -93.7812821,
+              41.674925
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_type": "W",
+            "osm_id": 1491956480,
+            "osm_key": "highway",
+            "osm_value": "tertiary",
+            "type": "street",
+            "name": "Northeast Gateway Drive",
+            "city": "Grimes",
+            "county": "Polk",
+            "state": "Iowa",
+            "country": "United States",
+            "postcode": "50111",
+            "countrycode": "US",
+            "extent": [
+              -93.7804032,
+              41.6884891,
+              -93.7804016,
+              41.6883588
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -93.7804024,
+              41.688424
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_type": "W",
+            "osm_id": 16003041,
+            "osm_key": "highway",
+            "osm_value": "unclassified",
+            "type": "street",
+            "name": "Southeast Gateway Drive",
+            "locality": "Thomas Square Condominiums",
+            "city": "Grimes",
+            "county": "Polk",
+            "state": "Iowa",
+            "country": "United States",
+            "postcode": "50111",
+            "countrycode": "US",
+            "extent": [
+              -93.7776309,
+              41.6844379,
+              -93.776625,
+              41.6766822
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -93.7774546,
+              41.6808572
+            ]
+          }
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "name": "ADESA Jacksonville",
+    "query": "11700 New Kings Road, Jacksonville, FL 32219",
+    "url": "https://photon.komoot.io/api/?q=11700+New+Kings+Road%2C+Jacksonville%2C+FL+32219&limit=3",
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_type": "N",
+            "osm_id": 8681506276,
+            "osm_key": "place",
+            "osm_value": "house",
+            "type": "house",
+            "housenumber": "11700",
+            "street": "New Kings Road",
+            "district": "Cary",
+            "city": "Jacksonville",
+            "county": "Duval",
+            "state": "FL",
+            "country": "United States",
+            "postcode": "32219",
+            "countrycode": "US"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -81.7710478,
+              30.4456791
+            ]
+          }
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "name": "ADESA Kansas City",
+    "query": "15511 ADESA Drive, Belton, MO 64012",
+    "url": "https://photon.komoot.io/api/?q=15511+ADESA+Drive%2C+Belton%2C+MO+64012&limit=3",
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_type": "W",
+            "osm_id": 667570452,
+            "osm_key": "shop",
+            "osm_value": "car",
+            "type": "house",
+            "housenumber": "15511",
+            "name": "ADESA Kansas City",
+            "street": "Adesa Dr",
+            "city": "Belton",
+            "county": "Jackson County",
+            "state": "MO",
+            "country": "United States",
+            "postcode": "64012",
+            "countrycode": "US",
+            "extent": [
+              -94.539481,
+              38.8412792,
+              -94.5378499,
+              38.839697
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -94.5383903,
+              38.8405516
+            ]
+          }
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "name": "ADESA Lansing",
+    "query": "6956 Lansing Road, Dimondale, MI 48821",
+    "url": "https://photon.komoot.io/api/?q=6956+Lansing+Road%2C+Dimondale%2C+MI+48821&limit=3",
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_type": "W",
+            "osm_id": 604678768,
+            "osm_key": "building",
+            "osm_value": "commercial",
+            "type": "house",
+            "housenumber": "6956",
+            "street": "Lansing Road",
+            "city": "Dimondale",
+            "county": "Eaton",
+            "state": "MI",
+            "country": "United States",
+            "postcode": "48821",
+            "countrycode": "US",
+            "extent": [
+              -84.6640796,
+              42.6683269,
+              -84.6633822,
+              42.6676958
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -84.6637344,
+              42.6680152
+            ]
+          }
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "name": "ADESA Long Island",
+    "query": "425 Patchogue Yaphank Rd., Yaphank, NY 11980",
+    "url": "https://photon.komoot.io/api/?q=425+Patchogue+Yaphank+Rd.%2C+Yaphank%2C+NY+11980&limit=3",
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_type": "W",
+            "osm_id": 368975622,
+            "osm_key": "building",
+            "osm_value": "commercial",
+            "type": "house",
+            "housenumber": "425",
+            "street": "Patchogue Yaphank Road",
+            "district": "Yaphank",
+            "city": "Yaphank",
+            "county": "Suffolk",
+            "state": "NY",
+            "country": "United States",
+            "postcode": "11980",
+            "countrycode": "US",
+            "extent": [
+              -72.9468809,
+              40.8173663,
+              -72.9458788,
+              40.8164223
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -72.9465039,
+              40.816892
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_type": "W",
+            "osm_id": 589101534,
+            "osm_key": "highway",
+            "osm_value": "secondary",
+            "type": "street",
+            "name": "Patchogue-Yaphank Road",
+            "district": "Yaphank",
+            "city": "Brookhaven",
+            "county": "Suffolk",
+            "state": "New York",
+            "country": "United States",
+            "postcode": "11980",
+            "countrycode": "US",
+            "extent": [
+              -72.9381193,
+              40.8301078,
+              -72.9378239,
+              40.8295995
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -72.9379733,
+              40.8298546
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_type": "W",
+            "osm_id": 589101523,
+            "osm_key": "highway",
+            "osm_value": "primary",
+            "type": "street",
+            "name": "Patchogue-Yaphank Road",
+            "district": "Yaphank",
+            "city": "Brookhaven",
+            "county": "Suffolk",
+            "state": "New York",
+            "country": "United States",
+            "postcode": "11980",
+            "countrycode": "US",
+            "extent": [
+              -72.9387355,
+              40.8284048,
+              -72.9385593,
+              40.8281025
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -72.9386474,
+              40.8282537
+            ]
+          }
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "name": "ADESA Minneapolis",
+    "query": "18270 Territorial Road, Dayton, MN 55327",
+    "url": "https://photon.komoot.io/api/?q=18270+Territorial+Road%2C+Dayton%2C+MN+55327&limit=3",
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_type": "W",
+            "osm_id": 761605227,
+            "osm_key": "highway",
+            "osm_value": "tertiary",
+            "type": "street",
+            "name": "Territorial Road",
+            "city": "Dayton",
+            "county": "Hennepin",
+            "state": "Minnesota",
+            "country": "United States",
+            "postcode": "55374",
+            "countrycode": "US",
+            "extent": [
+              -93.5214018,
+              45.1658266,
+              -93.5090537,
+              45.1606995
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -93.5152287,
+              45.1632652
+            ]
+          }
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "name": "ADESA New Jersey",
+    "query": "200 North Main Street, Manville, NJ 08835",
+    "url": "https://photon.komoot.io/api/?q=200+North+Main+Street%2C+Manville%2C+NJ+08835&limit=3",
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_type": "W",
+            "osm_id": 11772149,
+            "osm_key": "highway",
+            "osm_value": "secondary",
+            "type": "street",
+            "name": "North Main Street",
+            "city": "Manville",
+            "county": "Somerset",
+            "state": "New Jersey",
+            "country": "United States",
+            "postcode": "08835",
+            "countrycode": "US",
+            "extent": [
+              -74.5869234,
+              40.5455861,
+              -74.5867632,
+              40.5447299
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -74.5868336,
+              40.5451562
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_type": "W",
+            "osm_id": 207637206,
+            "osm_key": "amenity",
+            "osm_value": "police",
+            "type": "house",
+            "housenumber": "2",
+            "name": "Manville Police Department",
+            "street": "North Main Street",
+            "city": "Manville",
+            "county": "Somerset",
+            "state": "NJ",
+            "country": "United States",
+            "postcode": "08835",
+            "countrycode": "US",
+            "extent": [
+              -74.5866547,
+              40.5453478,
+              -74.5862151,
+              40.5450404
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -74.5864312,
+              40.5451747
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_type": "N",
+            "osm_id": 7168198866,
+            "osm_key": "shop",
+            "osm_value": "clothes",
+            "type": "house",
+            "housenumber": "200",
+            "name": "Villa's Tuxedos",
+            "street": "South Main Street",
+            "district": "Weston",
+            "city": "Manville",
+            "county": "Somerset",
+            "state": "NJ",
+            "country": "United States",
+            "postcode": "08835",
+            "countrycode": "US"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -74.587858,
+              40.5406952
+            ]
+          }
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "name": "ADESA Pittsburgh",
+    "query": "378 Hunker-Waltz Mill Road, New Stanton, PA 15672",
+    "url": "https://photon.komoot.io/api/?q=378+Hunker-Waltz+Mill+Road%2C+New+Stanton%2C+PA+15672&limit=3",
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_type": "W",
+            "osm_id": 12086381,
+            "osm_key": "highway",
+            "osm_value": "tertiary",
+            "type": "street",
+            "name": "Hunker Waltz Mill Road",
+            "city": "Hempfield Township",
+            "county": "Westmoreland",
+            "state": "Pennsylvania",
+            "country": "United States",
+            "postcode": "15679",
+            "countrycode": "US",
+            "extent": [
+              -79.6589962,
+              40.2195478,
+              -79.6395114,
+              40.2131942
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -79.6493095,
+              40.216524
+            ]
+          }
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "name": "ADESA St. Louis",
+    "query": "7858 Highway 61-67, Barnhart, MO 63012",
+    "url": "https://photon.komoot.io/api/?q=7858+Highway+61-67%2C+Barnhart%2C+MO+63012&limit=3",
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "error": null
+  },
+  {
+    "name": "Carvana West Memphis",
+    "query": "1100 Family Dollar Drive, West Memphis, AR 72301",
+    "url": "https://photon.komoot.io/api/?q=1100+Family+Dollar+Drive%2C+West+Memphis%2C+AR+72301&limit=3",
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "error": null
+  },
+  {
+    "name": "Carvana Rocklin",
+    "query": "3500 Cincinnati Avenue, Rocklin, CA 95765",
+    "url": "https://photon.komoot.io/api/?q=3500+Cincinnati+Avenue%2C+Rocklin%2C+CA+95765&limit=3",
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_type": "W",
+            "osm_id": 477151312,
+            "osm_key": "building",
+            "osm_value": "retail",
+            "type": "house",
+            "housenumber": "3500",
+            "name": "K9 Tactical Gear",
+            "street": "Cincinnati Avenue",
+            "city": "Rocklin",
+            "county": "Placer",
+            "state": "CA",
+            "country": "United States",
+            "postcode": "95765",
+            "countrycode": "US",
+            "extent": [
+              -121.3101429,
+              38.8268075,
+              -121.3099014,
+              38.8264732
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.3100239,
+              38.8266657
+            ]
+          }
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "name": "Carvana Haines City",
+    "query": "3700 Bannon Island Road, Haines City, FL 33844",
+    "url": "https://photon.komoot.io/api/?q=3700+Bannon+Island+Road%2C+Haines+City%2C+FL+33844&limit=3",
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_type": "W",
+            "osm_id": 11269929,
+            "osm_key": "highway",
+            "osm_value": "residential",
+            "type": "street",
+            "name": "Bannon Island Road",
+            "city": "Haines City",
+            "county": "Polk",
+            "state": "Florida",
+            "country": "United States",
+            "postcode": "33844",
+            "countrycode": "US",
+            "extent": [
+              -81.62014,
+              28.07837,
+              -81.57999,
+              28.077146
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -81.5998361,
+              28.0772553
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_type": "W",
+            "osm_id": 11287760,
+            "osm_key": "highway",
+            "osm_value": "residential",
+            "type": "street",
+            "name": "Bannon Loop Road",
+            "city": "Haines City",
+            "county": "Polk",
+            "state": "Florida",
+            "country": "United States",
+            "postcode": "33844",
+            "countrycode": "US",
+            "extent": [
+              -81.607676,
+              28.077295,
+              -81.595347,
+              28.073503
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -81.6015091,
+              28.0735829
+            ]
+          }
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "name": "Carvana University Park",
+    "query": "23619 S Cicero Avenue, University Park, IL 60484",
+    "url": "https://photon.komoot.io/api/?q=23619+S+Cicero+Avenue%2C+University+Park%2C+IL+60484&limit=3",
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_type": "W",
+            "osm_id": 913735096,
+            "osm_key": "highway",
+            "osm_value": "primary",
+            "type": "street",
+            "name": "South Cicero Avenue",
+            "city": "University Park",
+            "county": "Will County",
+            "state": "Illinois",
+            "country": "United States",
+            "postcode": "60484",
+            "countrycode": "US",
+            "extent": [
+              -87.7322337,
+              41.4555754,
+              -87.7322155,
+              41.4488435
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -87.7322267,
+              41.4522094
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_type": "W",
+            "osm_id": 22068251,
+            "osm_key": "highway",
+            "osm_value": "residential",
+            "type": "street",
+            "name": "South Kedzie Avenue",
+            "city": "University Park",
+            "county": "Will County",
+            "state": "Illinois",
+            "country": "United States",
+            "postcode": "60484",
+            "countrycode": "US",
+            "extent": [
+              -87.6902375,
+              41.4469715,
+              -87.6901809,
+              41.4449918
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -87.6902092,
+              41.4459817
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_type": "W",
+            "osm_id": 913735097,
+            "osm_key": "highway",
+            "osm_value": "primary",
+            "type": "street",
+            "name": "South Cicero Avenue",
+            "city": "University Park",
+            "county": "Will County",
+            "state": "Illinois",
+            "country": "United States",
+            "postcode": "60471",
+            "countrycode": "US",
+            "extent": [
+              -87.732304,
+              41.4697376,
+              -87.7322552,
+              41.4572379
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -87.7322796,
+              41.4634878
+            ]
+          }
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "name": "Carvana Indianapolis",
+    "query": "6508 West F W Marks Drive N, Greenfield, IN 46140",
+    "url": "https://photon.komoot.io/api/?q=6508+West+F+W+Marks+Drive+N%2C+Greenfield%2C+IN+46140&limit=3",
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "error": null
+  },
+  {
+    "name": "Carvana Concord",
+    "query": "3035 New Town Way SW, Concord, NC 28027",
+    "url": "https://photon.komoot.io/api/?q=3035+New+Town+Way+SW%2C+Concord%2C+NC+28027&limit=3",
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_type": "W",
+            "osm_id": 778189932,
+            "osm_key": "highway",
+            "osm_value": "unclassified",
+            "type": "street",
+            "name": "New Town Way Southwest",
+            "city": "Concord",
+            "county": "Cabarrus",
+            "state": "North Carolina",
+            "country": "United States",
+            "postcode": "28027",
+            "countrycode": "US",
+            "extent": [
+              -80.6381899,
+              35.3768557,
+              -80.6363463,
+              35.3729887
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -80.6373517,
+              35.3748631
+            ]
+          }
+        }
+      ]
+    },
+    "error": null
+  }
+]

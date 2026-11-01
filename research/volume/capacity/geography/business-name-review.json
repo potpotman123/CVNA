@@ -1,0 +1,80 @@
+[
+  {
+    "name": "ADESA St. Louis",
+    "url": "https://photon.komoot.io/api/?q=ADESA+Barnhart&limit=3",
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_type": "N",
+            "osm_id": 4552783883,
+            "osm_key": "amenity",
+            "osm_value": "bar",
+            "type": "house",
+            "housenumber": "65",
+            "name": "Adega Gandarela",
+            "street": "Rua da Bainharia",
+            "locality": "S\u00e9",
+            "district": "Centro Hist\u00f3rico do Porto",
+            "city": "Porto",
+            "county": "Porto",
+            "country": "Portugal",
+            "postcode": "4050-084",
+            "countrycode": "PT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -8.6130595,
+              41.1431911
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Carvana West Memphis",
+    "url": "https://photon.komoot.io/api/?q=Carvana+West+Memphis&limit=3",
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_type": "W",
+            "osm_id": 841477419,
+            "osm_key": "shop",
+            "osm_value": "car",
+            "type": "house",
+            "housenumber": "7201",
+            "name": "Carvana",
+            "street": "Appling Farms Parkway",
+            "district": "Cordova",
+            "city": "Memphis",
+            "county": "Shelby",
+            "state": "TN",
+            "country": "United States",
+            "postcode": "38133",
+            "countrycode": "US",
+            "extent": [
+              -89.823572,
+              35.1820381,
+              -89.8232104,
+              35.1817613
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -89.8233838,
+              35.1819036
+            ]
+          }
+        }
+      ]
+    }
+  }
+]
