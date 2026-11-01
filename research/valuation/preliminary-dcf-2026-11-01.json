@@ -1,0 +1,263 @@
+{
+  "status": "Exploratory scenario, not final DCF; see companion note for assumptions and limitations",
+  "units": "USD millions unless suffix indicates otherwise",
+  "annual": [
+    {
+      "year": 2027,
+      "retail_units": 981992.3781345233,
+      "retail_revenue_m": 27754.266261510737,
+      "total_revenue_m": 36319.05936564881,
+      "adjusted_ebitda_m": 3702.274829267721,
+      "ebitda_margin": 0.10193751969164146,
+      "stock_compensation_m": 112.93239852502741,
+      "depreciation_m": 290.5524749251905,
+      "taxes_m": 824.6974889543758,
+      "recurring_capex_m": 363.19059365648815,
+      "buildout_capex_m": 97.5,
+      "integration_capex_m": 17.5,
+      "incremental_working_capital_m": 472.29998816499784,
+      "unlevered_fcf_m": 1814.1543599668319
+    },
+    {
+      "year": 2028,
+      "retail_units": 1171840.074785496,
+      "retail_revenue_m": 33119.97340884646,
+      "total_revenue_m": 43340.59020298267,
+      "adjusted_ebitda_m": 4567.8233392002585,
+      "ebitda_margin": 0.1053936579499073,
+      "stock_compensation_m": 134.76551680031926,
+      "depreciation_m": 346.72472162386134,
+      "taxes_m": 1021.5832751940195,
+      "recurring_capex_m": 433.4059020298267,
+      "buildout_capex_m": 97.5,
+      "integration_capex_m": 17.5,
+      "incremental_working_capital_m": 797.3603259340858,
+      "unlevered_fcf_m": 2065.7083192420073
+    },
+    {
+      "year": 2029,
+      "retail_units": 1382006.7414521629,
+      "retail_revenue_m": 39059.96006845959,
+      "total_revenue_m": 51113.6196208358,
+      "adjusted_ebitda_m": 5528.128842417251,
+      "ebitda_margin": 0.10815373443370427,
+      "stock_compensation_m": 158.93538439314614,
+      "depreciation_m": 408.90895696668645,
+      "taxes_m": 1240.0711252643546,
+      "recurring_capex_m": 511.136196208358,
+      "buildout_capex_m": 97.5,
+      "integration_capex_m": 17.5,
+      "incremental_working_capital_m": 882.7000000000004,
+      "unlevered_fcf_m": 2620.2861365513927
+    },
+    {
+      "year": 2030,
+      "retail_units": 1593006.7414521629,
+      "retail_revenue_m": 45023.49941110053,
+      "total_revenue_m": 58917.46993249483,
+      "adjusted_ebitda_m": 6491.504263159236,
+      "ebitda_margin": 0.1101796168538284,
+      "stock_compensation_m": 183.20108809855358,
+      "depreciation_m": 471.33975945995866,
+      "taxes_m": 1459.240853900181,
+      "recurring_capex_m": 589.1746993249483,
+      "buildout_capex_m": 97.5,
+      "integration_capex_m": 15,
+      "incremental_working_capital_m": 886.2,
+      "unlevered_fcf_m": 3261.1876218355537
+    },
+    {
+      "year": 2031,
+      "retail_units": 1803962.523765088,
+      "retail_revenue_m": 50985.789019539996,
+      "total_revenue_m": 66719.68484978867,
+      "adjusted_ebitda_m": 7453.796011929088,
+      "ebitda_margin": 0.11171809382359063,
+      "stock_compensation_m": 207.46170662247718,
+      "depreciation_m": 533.7574787983093,
+      "taxes_m": 1678.1442066270754,
+      "recurring_capex_m": 667.1968484978867,
+      "buildout_capex_m": 97.5,
+      "integration_capex_m": 0,
+      "incremental_working_capital_m": 886.0142857142858,
+      "unlevered_fcf_m": 3917.4789644673624
+    },
+    {
+      "year": 2032,
+      "retail_units": 1986165.755057604,
+      "retail_revenue_m": 56135.43896346997,
+      "total_revenue_m": 73458.48458110329,
+      "adjusted_ebitda_m": 8279.931050672594,
+      "ebitda_margin": 0.11271578903225227,
+      "stock_compensation_m": 228.41568588651518,
+      "depreciation_m": 587.6678766488263,
+      "taxes_m": 1865.961872034313,
+      "recurring_capex_m": 734.5848458110329,
+      "buildout_capex_m": 97.5,
+      "integration_capex_m": 0,
+      "incremental_working_capital_m": 765.2535714285672,
+      "unlevered_fcf_m": 4588.215075512166
+    },
+    {
+      "year": 2033,
+      "retail_units": 2110631.741452163,
+      "retail_revenue_m": 59653.24847382336,
+      "total_revenue_m": 78061.86812004229,
+      "adjusted_ebitda_m": 8833.535526588288,
+      "ebitda_margin": 0.11316069855008105,
+      "stock_compensation_m": 242.72968942799218,
+      "depreciation_m": 624.4949449603383,
+      "taxes_m": 1991.5777230499896,
+      "recurring_capex_m": 780.6186812004229,
+      "buildout_capex_m": 97.5,
+      "integration_capex_m": 0,
+      "incremental_working_capital_m": 522.757142857148,
+      "unlevered_fcf_m": 5198.352290052736
+    },
+    {
+      "year": 2034,
+      "retail_units": 2230631.741452163,
+      "retail_revenue_m": 63044.834829827676,
+      "total_revenue_m": 82500.07682809481,
+      "adjusted_ebitda_m": 9365.174706150596,
+      "ebitda_margin": 0.11351716345264484,
+      "stock_compensation_m": 256.5300896395983,
+      "depreciation_m": 660.0006146247584,
+      "taxes_m": 2112.16100047156,
+      "recurring_capex_m": 825.0007682809481,
+      "buildout_capex_m": 97.5,
+      "integration_capex_m": 0,
+      "incremental_working_capital_m": 504.0,
+      "unlevered_fcf_m": 5569.982847758489
+    },
+    {
+      "year": 2035,
+      "retail_units": 2350631.741452163,
+      "retail_revenue_m": 66436.421185832,
+      "total_revenue_m": 86938.28553614735,
+      "adjusted_ebitda_m": 9895.828313992108,
+      "ebitda_margin": 0.11382589676072694,
+      "stock_compensation_m": 270.33048985120445,
+      "depreciation_m": 695.5062842891788,
+      "taxes_m": 2232.497884962931,
+      "recurring_capex_m": 869.3828553614735,
+      "buildout_capex_m": 0,
+      "integration_capex_m": 0,
+      "incremental_working_capital_m": 504.0,
+      "unlevered_fcf_m": 6019.617083816498
+    }
+  ],
+  "valuations": [
+    {
+      "discount_rate": 0.1,
+      "exit_multiple": 15,
+      "enterprise_value_bn": 83.34577534558792,
+      "equity_value_bn": 79.03677534558793,
+      "indicative_value_per_share": 70.83230168438583,
+      "upside": 0.037228022907978,
+      "terminal_fraction": 0.7553107285375837
+    },
+    {
+      "discount_rate": 0.1,
+      "exit_multiple": 20,
+      "enterprise_value_bn": 104.32976144452319,
+      "equity_value_bn": 100.02076144452319,
+      "indicative_value_per_share": 89.6380288588778,
+      "upside": 0.31260841790712846,
+      "terminal_fraction": 0.8045254128216671
+    },
+    {
+      "discount_rate": 0.1,
+      "exit_multiple": 26.096666666666668,
+      "enterprise_value_bn": 129.91623516115826,
+      "equity_value_bn": 125.60723516115826,
+      "indicative_value_per_share": 112.56847886030836,
+      "upside": 0.6483889128760925,
+      "terminal_fraction": 0.8430233371257715
+    },
+    {
+      "discount_rate": 0.12,
+      "exit_multiple": 15,
+      "enterprise_value_bn": 72.05142856047064,
+      "equity_value_bn": 67.74242856047064,
+      "indicative_value_per_share": 60.71037331226431,
+      "upside": -0.11099175117492599,
+      "terminal_fraction": 0.7429141170727412
+    },
+    {
+      "discount_rate": 0.12,
+      "exit_multiple": 20,
+      "enterprise_value_bn": 89.89410303808123,
+      "equity_value_bn": 85.58510303808123,
+      "indicative_value_per_share": 76.70087515053238,
+      "upside": 0.12316408186458294,
+      "terminal_fraction": 0.7939419327673589
+    },
+    {
+      "discount_rate": 0.12,
+      "exit_multiple": 26.096666666666668,
+      "enterprise_value_bn": 111.65027078444773,
+      "equity_value_bn": 107.34127078444773,
+      "indicative_value_per_share": 96.19862705866058,
+      "upside": 0.40867809428409085,
+      "terminal_fraction": 0.8340944003315475
+    },
+    {
+      "discount_rate": 0.14,
+      "exit_multiple": 15,
+      "enterprise_value_bn": 62.53213790480816,
+      "equity_value_bn": 58.223137904808155,
+      "indicative_value_per_share": 52.17923999369224,
+      "upside": -0.2359168253962185,
+      "terminal_fraction": 0.7299556459144656
+    },
+    {
+      "discount_rate": 0.14,
+      "exit_multiple": 20,
+      "enterprise_value_bn": 77.74736694304706,
+      "equity_value_bn": 73.43836694304706,
+      "indicative_value_per_share": 65.81504040079638,
+      "upside": -0.03624190363455304,
+      "terminal_fraction": 0.7828035668081023
+    },
+    {
+      "discount_rate": 0.14,
+      "exit_multiple": 26.096666666666668,
+      "enterprise_value_bn": 96.29980288367301,
+      "equity_value_bn": 91.99080288367301,
+      "indicative_value_per_share": 82.44162636385866,
+      "upside": 0.20722838430017076,
+      "terminal_fraction": 0.8246470887329879
+    }
+  ],
+  "operating_sensitivities": {
+    "no_fixed_cost_leverage": {
+      "discount_rate": 0.12,
+      "exit_multiple": 26.096666666666668,
+      "enterprise_value_bn": 97.41937093191908,
+      "equity_value_bn": 93.11037093191908,
+      "indicative_value_per_share": 83.4449767839994,
+      "upside": 0.22192087837164132,
+      "terminal_fraction": 0.8356463549335122
+    },
+    "gross_profit_500_lower_per_unit": {
+      "discount_rate": 0.12,
+      "exit_multiple": 26.096666666666668,
+      "enterprise_value_bn": 97.38711970291072,
+      "equity_value_bn": 93.07811970291073,
+      "indicative_value_per_share": 83.41607341878968,
+      "upside": 0.22149763389646626,
+      "terminal_fraction": 0.8426812270910508
+    }
+  },
+  "market_inputs": {
+    "date": "2026-10-30",
+    "price": 68.29,
+    "equity_value_bn": 76.2,
+    "enterprise_value_bn": 78.29,
+    "adjusted_ebitda_2026_guidance_upper_bn": 3,
+    "net_debt_bn": 2.179,
+    "tra_liability_bn": 2.13,
+    "implied_economic_shares_bn": 1.1158295504466247
+  }
+}

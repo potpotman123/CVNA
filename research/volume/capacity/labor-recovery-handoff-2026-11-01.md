@@ -80,3 +80,7 @@ The user's subsequent instruction to finish the bins authorizes the [combined vo
 ## Revised volume assumptions — latest user instruction
 
 The combined volume build now removes the unsupported 5% annual labor growth completely, retaining only conditional historical labor recovery. It schedules three full-buildout starts annually in every year 2027–2035, including 2028–2029. Revised 2035 production is 2,350,632; eventual fully ramped output from these same projects is 2,500,632 with other bins unchanged. These supersede the earlier combined-scenario totals above. No additional sales absorption or profitability evidence is implied.
+
+## Preliminary valuation saved at user's request
+
+[Valuation and model-readiness handoff](../../valuation/preliminary-dcf-2026-11-01.md) now preserves the scratch 2035 DCF, reproducible calculations, market/source inputs, rejected scenarios and volume gaps. The conditional $96.20/share result depends on a 26.1x exit multiple and 12% discount rate; it is not a validated long recommendation. The seven-item volume audit identifies demand absorption, baseline allocation, labor recovery, project pace, ramps/nameplate, property overlap and repair-mix risks.
