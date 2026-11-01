@@ -80,3 +80,5 @@ These sensitivities overlap and should not be added indiscriminately. The model 
 Next evidence priorities are actual project spending-to-complete, direct production labor hours and loaded pay, paid versus productive hours during ramp, delivery cost per vehicle, and the split of fleet/software/maintenance capex. This pass establishes the accounting and executable schedule without treating missing unit economics as observed facts.
 
 Validation: the model retains all nine volume forecasts exactly; reconciles the $742m adjusted SG&A anchor; allocates each project's full low/mid/high budget exactly once across calendar years; checks the earnings identity; and confirms that removing labor inflation and ramp penalties produces no extra labor deduction. The old DCF remains a preserved preliminary comparison, not the current cost schedule.
+
+Consensus and business split: [November 1 comparison](consensus-comparison-2026-11-01.md) compares the supplied estimates and explicitly separates retail, owned wholesale, marketplace, and other economics while preserving this model’s aggregate results.
