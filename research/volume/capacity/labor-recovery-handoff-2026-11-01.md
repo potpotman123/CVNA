@@ -72,3 +72,7 @@ No further data search or workbook construction is authorized by the stop instru
 ## November 1 continuation — user authorized ADESA cohort calculation
 
 The earlier stop on further calculation was superseded by the user's instruction to apply the accepted nine-month ramp and move to the next bin. [ADESA cohort bridge](adesa-cohort-build-2026-11-01.md) now supplies per-site proxy start dates and 2026–2028 output. The five Q3 ramping sites add approximately 49,407 modeled vehicles in 2027 over 2026; the 16 Q3 mature sites add 6,475 from calendar carryover. No new workbook has been created. Further mature-site expansion is kept separate from these standard integration ramps.
+
+## Completed combined volume scenario
+
+The user's subsequent instruction to finish the bins authorizes the [combined volume build](volume-bridge-2026-11-01.md). It now includes original-site residual output allocations, remaining standard integrations and assumed 2030+ major buildouts. Half-completed historical recovery and 5% later original-site hours growth are explicitly assumed, not observed. Production reaches roughly 1.49 million in 2030 and 2.21 million in 2035 under the specified schedule; sales absorption and profitability are still unproven. Costs are deferred, with project budgets and unknown remaining-spend fields retained for the next phase. This supersedes the earlier statement that no segmented calculation was authorized.
