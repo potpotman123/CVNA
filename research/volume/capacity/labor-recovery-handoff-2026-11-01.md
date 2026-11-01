@@ -76,3 +76,7 @@ The earlier stop on further calculation was superseded by the user's instruction
 ## Completed combined volume scenario
 
 The user's subsequent instruction to finish the bins authorizes the [combined volume build](volume-bridge-2026-11-01.md). It now includes original-site residual output allocations, remaining standard integrations and assumed 2030+ major buildouts. Half-completed historical recovery and 5% later original-site hours growth are explicitly assumed, not observed. Production reaches roughly 1.49 million in 2030 and 2.21 million in 2035 under the specified schedule; sales absorption and profitability are still unproven. Costs are deferred, with project budgets and unknown remaining-spend fields retained for the next phase. This supersedes the earlier statement that no segmented calculation was authorized.
+
+## Revised volume assumptions — latest user instruction
+
+The combined volume build now removes the unsupported 5% annual labor growth completely, retaining only conditional historical labor recovery. It schedules three full-buildout starts annually in every year 2027–2035, including 2028–2029. Revised 2035 production is 2,350,632; eventual fully ramped output from these same projects is 2,500,632 with other bins unchanged. These supersede the earlier combined-scenario totals above. No additional sales absorption or profitability evidence is implied.
