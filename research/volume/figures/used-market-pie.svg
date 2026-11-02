@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750"><rect width="1200" height="750" fill="white"/>
+<text x="60" y="74" font-family="Arial,sans-serif" font-size="36" fill="#173449" font-weight="700">U.S. used-car market</text>
+<text x="60" y="114" font-family="Arial,sans-serif" font-size="20" fill="#526371" font-weight="400">Illustrative annual transaction mix | approximately 38.9 million sales</text>
+<path d="M 310 380 L 310.0 160.0 A 220 220 0 0 1 337.6839834112931 161.7487753471169 Z" fill="#2D5873" stroke="white" stroke-width="2"/>
+<path d="M 310 380 L 337.6839834112931 161.7487753471169 A 220 220 0 0 1 358.5679916306429 165.42798367688812 Z" fill="#06A9CD" stroke="white" stroke-width="2"/>
+<path d="M 310 380 L 358.5679916306429 165.42798367688812 A 220 220 0 0 1 276.75329750987567 597.4733472716442 Z" fill="#9DB3C1" stroke="white" stroke-width="2"/>
+<path d="M 310 380 L 276.75329750987567 597.4733472716442 A 220 220 0 0 1 309.99999999999994 160.0 Z" fill="#DCE4E9" stroke="white" stroke-width="2"/>
+<rect x="600" y="220" width="18" height="18" fill="#2D5873"/>
+<text x="640" y="238" font-family="Arial,sans-serif" font-size="22" fill="#173449" font-weight="700">CarMax</text>
+<text x="640" y="271" font-family="Arial,sans-serif" font-size="21" fill="#526371" font-weight="400">0.78 million vehicles | 2.0%</text>
+<rect x="600" y="312" width="18" height="18" fill="#06A9CD"/>
+<text x="640" y="330" font-family="Arial,sans-serif" font-size="22" fill="#173449" font-weight="700">Carvana</text>
+<text x="640" y="363" font-family="Arial,sans-serif" font-size="21" fill="#526371" font-weight="400">0.60 million vehicles | 1.5%</text>
+<rect x="600" y="404" width="18" height="18" fill="#9DB3C1"/>
+<text x="640" y="422" font-family="Arial,sans-serif" font-size="22" fill="#173449" font-weight="700">Other dealers</text>
+<text x="640" y="455" font-family="Arial,sans-serif" font-size="21" fill="#526371" font-weight="400">19.00 million vehicles | 48.9%</text>
+<rect x="600" y="496" width="18" height="18" fill="#DCE4E9"/>
+<text x="640" y="514" font-family="Arial,sans-serif" font-size="22" fill="#173449" font-weight="700">Private-party / non-dealer estimate</text>
+<text x="640" y="547" font-family="Arial,sans-serif" font-size="21" fill="#526371" font-weight="400">18.50 million vehicles | 47.6%</text>
+<text x="60" y="662" font-family="Arial,sans-serif" font-size="17" fill="#526371" font-weight="700">Approximation, not a Cox-published market-share breakdown.</text>
+<text x="60" y="695" font-family="Arial,sans-serif" font-size="15" fill="#677580" font-weight="400">Company volumes: Carvana CY2025; CarMax FY ended February 2026. Other dealers (19.0m) and</text>
+<text x="60" y="719" font-family="Arial,sans-serif" font-size="15" fill="#677580" font-weight="400">private-party / non-dealer (18.5m) are rounded estimates; the latter’s composition is unverified.</text>
+</svg>
