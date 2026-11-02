@@ -1,0 +1,53 @@
+{
+  "source": "https://www.sec.gov/Archives/edgar/data/1690820/000169082024000093/cvna-20231231.htm",
+  "units": "USD millions except retail units",
+  "annual": [
+    {
+      "year": 2021,
+      "retail_units": 425237,
+      "adjusted_GP": 1953,
+      "adjusted_SGA": 1889,
+      "adjusted_EBITDA": 64
+    },
+    {
+      "year": 2022,
+      "retail_units": 412296,
+      "adjusted_GP": 1376,
+      "adjusted_SGA": 2417,
+      "adjusted_EBITDA": -1041
+    },
+    {
+      "year": 2023,
+      "retail_units": 312847,
+      "adjusted_GP": 1872,
+      "adjusted_SGA": 1533,
+      "adjusted_EBITDA": 339
+    }
+  ],
+  "mechanisms_2022": [
+    "Expanded expense base in anticipation of growth, plus ADESA consolidation.",
+    "Faster vehicle depreciation and higher reconditioning/inbound transport expense hurt vehicle margins.",
+    "Rapidly rising benchmark rates and fewer loan sales hurt other gross profit.",
+    "Full-year retail decline3% conceals Q4 decline23%.",
+    "Interest expense is excluded from adjusted EBITDA; debt exacerbated liquidity pressure but does not explain this operating earnings decline directly."
+  ],
+  "actions_2023": [
+    "Lower headcount, advertising and office footprint.",
+    "Reduced inventory and faster turns; lower reconditioning and inbound costs.",
+    "Debt exchange relieved near-term cash demands, separate from operating recovery."
+  ],
+  "additional_sources": [
+    "https://www.sec.gov/Archives/edgar/data/1690820/000169082023000052/cvna-20221231.htm",
+    "https://investors.carvana.com/~/media/Files/C/Carvana-IR/documents/cvna-shareholder-letter-q4-22.pdf"
+  ],
+  "bridge_2021_to_2022": {
+    "GP_effect": -577,
+    "SGA_effect": -528,
+    "total": -1105
+  },
+  "bridge_2022_to_2023": {
+    "GP_effect": 496,
+    "SGA_effect": 884,
+    "total": 1380
+  }
+}
