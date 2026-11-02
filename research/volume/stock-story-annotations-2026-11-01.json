@@ -1,0 +1,82 @@
+{
+  "purpose": "Dated candidate annotations for supplied five-year share-price chart; not an exhaustive event study",
+  "events": [
+    {
+      "date": "2022-02-24",
+      "event": "ADESA acquisition announced",
+      "numbers": "$2.2bn cash; closed May9,2022; Q2 financing included $3.275bn debt at10.25%",
+      "source": "https://www.sec.gov/Archives/edgar/data/1690820/000169082023000052/cvna-20221231.htm"
+    },
+    {
+      "date": "2022-12-07",
+      "event": "Creditor cooperation increases restructuring fears",
+      "numbers": "shares fell nearly43%",
+      "source": "https://finance.yahoo.com/news/carvana-stock-tanks-december-7-154119414.html"
+    },
+    {
+      "date": "2023-06-08",
+      "event": "Q2 outlook raised",
+      "numbers": "Adjusted EBITDA above$50m; total GPU above$6000",
+      "source": "https://investors.carvana.com/tools/viewpdf.aspx?page=%7BDE79394D-E400-41D6-A644-3DC84E94EA2B%7D"
+    },
+    {
+      "date": "2023-07-19",
+      "event": "Debt exchange announced",
+      "numbers": "Over$1.2bn debt reduction; required cash interest reduced over$430m/year for first2years",
+      "source": "https://investors.carvana.com/tools/viewpdf.aspx?page=%7B6FF3D152-E549-47A6-A0EA-8F096265A1C8%7D"
+    },
+    {
+      "date": "2024-05-01",
+      "event": "Q1 profitable growth",
+      "numbers": "Retail units+16%; adjusted EBITDA$235m",
+      "source": "https://www.carvana.com/press/carvana-announces-record-first-quarter-2024-results/"
+    },
+    {
+      "date": "2024-10-30",
+      "event": "Q3 growth accelerates",
+      "numbers": "108651 retail units,+34%; adjusted EBITDA$429m",
+      "source": "https://investors.carvana.com/~/media/Files/C/Carvana-IR/documents/cvna-shareholder-letter-q3-2024.pdf"
+    },
+    {
+      "date": "2025-01-02",
+      "event": "Hindenburg allegations; company rejected",
+      "source": "https://www.investing.com/news/stock-market-news/hindenburg-research-short-on-usedcar-retailer-carvana-3794249"
+    },
+    {
+      "date": "2025-10-29",
+      "event": "Q3 strong units but margin compression",
+      "numbers": "Adjusted EBITDA$637m; margin11.3% vs11.7%",
+      "source": "https://investors.carvana.com/~/media/Files/C/Carvana-IR/documents/cvna-shareholder-letter-q3-2025-vf.pdf"
+    },
+    {
+      "date": "2025-12-05",
+      "event": "S&P500 addition announced; effectiveDec22",
+      "source": "https://www.spglobal.com/spdji/en/documents/indexnews/announcements/20251205-1480992/1480992_december2025rebalance.pdf"
+    },
+    {
+      "date": "2026-01-28",
+      "event": "Gotham allegations; company rejected",
+      "numbers": "approximately14% one-day share decline",
+      "source": "https://www.investing.com/news/stock-market-news/carvana-stock-rises-as-analysts-defend-company-following-short-report-4473696"
+    },
+    {
+      "date": "2026-04-29",
+      "event": "Q1 record units",
+      "numbers": "187393,+40%; adjusted EBITDA$672m,10.4%margin",
+      "source": "https://www.sec.gov/Archives/edgar/data/1690820/000169082026000034/ex99_2q12026.htm"
+    },
+    {
+      "date": "2026-10-28",
+      "event": "Q3 records; earnings growth trails sales",
+      "numbers": "217385 units,+39%; EBITDA$800m,+25.6%; margin10.0% vs11.3%",
+      "source": "https://investors.carvana.com/~/media/Files/C/Carvana-IR/documents/cvna-earnings-release-q3-2026.pdf"
+    }
+  ],
+  "limitations": [
+    "Use publication dates for point labels; annual results cannot be placed earlier as then-known information.",
+    "After-close announcements usually map to next trading day price reactions.",
+    "Allegations are not findings; do not attribute the entire2026 drawdown to Gotham.",
+    "Price chart must be adjusted for May2026 five-for-one split. No exact historical trough or peak date verified in this pass.",
+    "Annual2023 volume fell24.1%; label it profitability recovery, not volume growth."
+  ]
+}
