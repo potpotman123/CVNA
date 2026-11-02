@@ -1,0 +1,106 @@
+{
+  "status": "Indexed constructive case; plausible but unvalidated 15% annual effective-hours assumption, not promoted into base financial model",
+  "base_index": "Q3 2026 original-site proxy = 100",
+  "method": "Uses fast_15pct scenario, zero productivity improvement, 1m original-site output cap, calendar-average output, unchanged ADESA projects and consensus wholesale",
+  "calibration": {
+    "matched_original_IRC_average_employees_2023": 4356,
+    "2024": 5048,
+    "2025": 6806,
+    "growth_2024_pct": 15.886134067952252,
+    "growth_2025_pct": 34.82567353407291,
+    "source": "staffing-test-results-2026-10-30.md; OSHA source records in staffing-panel-data.json",
+    "limitation": "Historical annual average headcount is not effective hours. Rebuilding from layoffs and site maturation do not independently validate continued 15% productive-hours growth."
+  },
+  "annual": [
+    {
+      "year": 2027,
+      "effective_hours_and_original_output_index": 113.09972965413549,
+      "original_IRC_units": 733693.2327441425,
+      "total_retail_units": 1045012.9821887007,
+      "consensus_retail_units": 1040187.07,
+      "vs_consensus_pct": 0.46394656575579063,
+      "original_FTE_equivalents_proxy": 8887.06799396001,
+      "additional_original_FTE_equivalents_vs_anchor": 1029.3409939600106
+    },
+    {
+      "year": 2028,
+      "effective_hours_and_original_output_index": 130.06468910225578,
+      "original_IRC_units": 843747.2176557638,
+      "total_retail_units": 1322955.5509890972,
+      "consensus_retail_units": 1228259.82,
+      "vs_consensus_pct": 7.709747518167376,
+      "original_FTE_equivalents_proxy": 10220.128193054012,
+      "additional_original_FTE_equivalents_vs_anchor": 2362.401193054012
+    },
+    {
+      "year": 2029,
+      "effective_hours_and_original_output_index": 148.73656511901189,
+      "original_IRC_units": 964874.2010537359,
+      "total_retail_units": 1654249.2010537358,
+      "consensus_retail_units": 1461649.78,
+      "vs_consensus_pct": 13.176851506366717,
+      "original_FTE_equivalents_proxy": 11687.31323622918,
+      "additional_original_FTE_equivalents_vs_anchor": 3829.58623622918
+    },
+    {
+      "year": 2030,
+      "effective_hours_and_original_output_index": 154.1512509678227,
+      "original_IRC_units": 1000000.0,
+      "total_retail_units": 1900375.0,
+      "consensus_retail_units": null,
+      "vs_consensus_pct": null,
+      "original_FTE_equivalents_proxy": 12112.784468136368,
+      "additional_original_FTE_equivalents_vs_anchor": 4255.057468136368
+    },
+    {
+      "year": 2031,
+      "effective_hours_and_original_output_index": 154.1512509678227,
+      "original_IRC_units": 1000000.0,
+      "total_retail_units": 2111330.7823129254,
+      "consensus_retail_units": null,
+      "vs_consensus_pct": null,
+      "original_FTE_equivalents_proxy": 12112.784468136368,
+      "additional_original_FTE_equivalents_vs_anchor": 4255.057468136368
+    },
+    {
+      "year": 2032,
+      "effective_hours_and_original_output_index": 154.1512509678227,
+      "original_IRC_units": 1000000.0,
+      "total_retail_units": 2293534.0136054414,
+      "consensus_retail_units": null,
+      "vs_consensus_pct": null,
+      "original_FTE_equivalents_proxy": 12112.784468136368,
+      "additional_original_FTE_equivalents_vs_anchor": 4255.057468136368
+    },
+    {
+      "year": 2033,
+      "effective_hours_and_original_output_index": 154.1512509678227,
+      "original_IRC_units": 1000000.0,
+      "total_retail_units": 2418000.0,
+      "consensus_retail_units": null,
+      "vs_consensus_pct": null,
+      "original_FTE_equivalents_proxy": 12112.784468136368,
+      "additional_original_FTE_equivalents_vs_anchor": 4255.057468136368
+    },
+    {
+      "year": 2034,
+      "effective_hours_and_original_output_index": 154.1512509678227,
+      "original_IRC_units": 1000000.0,
+      "total_retail_units": 2538000.0,
+      "consensus_retail_units": null,
+      "vs_consensus_pct": null,
+      "original_FTE_equivalents_proxy": 12112.784468136368,
+      "additional_original_FTE_equivalents_vs_anchor": 4255.057468136368
+    },
+    {
+      "year": 2035,
+      "effective_hours_and_original_output_index": 154.1512509678227,
+      "original_IRC_units": 1000000.0,
+      "total_retail_units": 2658000.0,
+      "consensus_retail_units": null,
+      "vs_consensus_pct": null,
+      "original_FTE_equivalents_proxy": 12112.784468136368,
+      "additional_original_FTE_equivalents_vs_anchor": 4255.057468136368
+    }
+  ]
+}
