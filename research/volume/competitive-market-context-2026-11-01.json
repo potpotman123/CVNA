@@ -1,0 +1,29 @@
+{
+  "question": "Quantify fragmentation for investment memo",
+  "sources": {
+    "carmax": "https://www.sec.gov/Archives/edgar/data/1170010/000117001026000021/kmx-20260228.htm",
+    "carvana": "https://www.sec.gov/Archives/edgar/data/1690820/000169082026000009/cvna-20251231.htm",
+    "NADA": "https://www.nada.org/media/4695/download?inline="
+  },
+  "observed": {
+    "US_total_used_sales_calendar_2025_approx": 39000000,
+    "CarMax_retail_units_FY_ending_Feb_2026": 780684,
+    "Carvana_retail_units_calendar_2025": 596641,
+    "franchised_dealerships_2025": 16990,
+    "franchised_owners_with_1_to_5_dealerships_pct": 90.5,
+    "CarMax_online_retail_share_FY2026_pct": 13,
+    "CarMax_reported_share_0_to_10_year_vehicles_calendar2025_pct": 3.6
+  },
+  "derived": {
+    "CarMax_broad_market_share_approx_pct": 2.001753846153846,
+    "Carvana_broad_market_share_approx_pct": 1.529848717948718,
+    "combined_approx_pct": 3.531602564102564
+  },
+  "limitations": [
+    "Broad market includes private-party transactions; it is not dealer-only sales or wholesale transactions.",
+    "CarMax fiscal year ends February 2026 versus calendar2025 denominator; derived share is approximate scale comparison.",
+    "NADA count is franchised locations, not independent used-only dealers or distinct corporate owners; owner share is not sales share.",
+    "Top-five U.S. concentration not established. Rankings can exclude used-only specialists and consolidated company units can include non-U.S. activity.",
+    "CarMax is omnichannel, not pure e-commerce; other chains also offer digital channels. Fragmentation does not prove profitable share capture."
+  ]
+}
